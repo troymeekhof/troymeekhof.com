@@ -6,3 +6,4 @@
 - 2026-09-24 · towing-seadoos-1000.webp stand-in (a copy of the 16x9 crop) to fix a broken lightbox link · bc1fdd1 · the true 4:3 file is in the Project at publish-queue/towing-seadoos-1000.webp.b64
 - 2026-09-24 · Published v8 marketing page · 85a2442
 - 2026-10-05 · Removed "no associates / only videographer / every wedding filmed by me" claims (weddings FAQ + JSON-LD FAQPage, weddings lede/bullets/sidebar, home card, Kayla & Phil, Olivia & Erik sidebar, llms.txt); FAQ now says Troy regularly hires second shooters and associates · why: Troy: "this is not true. I hire second shooters and associates all the time"
+- 2026-10-05 · Removed the cheap-breakfast persona everywhere (Local "Breakfast" section + meta/OG/JSON-LD descriptions + closing line, Adventure bullet, Now page line) · why: Troy: "whatever the breakfast line/section is has got to go"
