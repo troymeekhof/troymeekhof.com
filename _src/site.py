@@ -62,7 +62,7 @@ def main_words(text):
 
 
 def git(*args, check=True):
-    r = subprocess.run(["git", "-C", str(ROOT), *args], capture_output=True, text=True)
+    r = subprocess.run(["git", "-C", str(ROOT), *args], capture_output=True, text=True, errors="replace")
     if check and r.returncode:
         sys.exit("git %s failed: %s" % (" ".join(args), r.stderr.strip()))
     return r.stdout
