@@ -410,8 +410,9 @@ def both(fn, *a, **k):
 
 
 # ---------------------------------------------------------------- render
-MAP = ('<div class="map" id="tars2-map" role="img" aria-label="Map of every logged drive, drawn start to end on a 5 km grid"><span>Loading the drive map…</span></div>'
-       '<p class="mnote">Every logged drive since June 2024, drawn as a soft arc from where it started to where it ended, on a 5 km grid; the busiest routes are amber and the dots are Supercharger stops (tap one). Zoom stays at state level on purpose.</p>')
+MAP = ('<div class="map" id="tars2-map" role="img" aria-label="Map of everyday driving and every road trip since June 2024"><span>Loading the drive map…</span></div>'
+       '<p class="mnote">Faint lines are everyday driving, drawn start to end on a 5 km grid. Amber routes are road trips: hover or tap one for the name, dates and miles. Zoom stays at state level on purpose.</p>'
+       '<ol class="trips" id="tars2-trips" aria-label="Road trips, biggest first"></ol>')
 POWERED = '<a class="powered" href="https://www.autonimator.com" rel="noopener"><span class="pw-dot" aria-hidden="true"></span>Powered by <b>Autonimator</b></a>'
 
 
