@@ -92,6 +92,8 @@ def ingest(args):
             day = local_day(dr["started_at"])
             if day > today or (day == today and not args.include_today):
                 continue
+            if d.get("csv_cutoff") and day.isoformat() <= d["csv_cutoff"]:
+                continue
             seen.add(did)
             d["drive_ids"].append(did)
             k = day.isoformat()
@@ -120,6 +122,8 @@ def ingest(args):
             if kwh < 0.5:
                 continue
             k = local_day(c["started_at"]).isoformat()
+            if d.get("csv_cutoff") and k <= d["csv_cutoff"]:
+                continue
             key = c["started_at"][:16]
             byday = d["home_charging"]["kwh_by_day"].setdefault(k, {})
             byday[key] = round(kwh, 2)
@@ -130,6 +134,8 @@ def ingest(args):
         for inv in (raw["invoices"] if isinstance(raw, dict) else raw):
             sid = str(inv.get("session_id"))
             if not sid:
+                continue
+            if d.get("csv_cutoff") and local_day(inv["started_at"]).isoformat() <= d["csv_cutoff"]:
                 continue
             d["supercharging"]["sessions"][sid] = {
                 "date": local_day(inv["started_at"]).isoformat(),
@@ -165,10 +171,25 @@ def import_history(args):
     and a Supercharger ledger. Only totals and 'City, ST' site names are kept."""
     import csv
     d = load_json(DATA) if os.path.exists(DATA) else empty()
-    hist = d.setdefault("history", {"days": {}, "supercharging": {}, "odometer_miles": None, "through": None, "since": None})
     f = lambda r, k: float(r[k]) if r.get(k) not in (None, "") else None
+    if args.target == "current":
+        # The export is the complete record for the current truck up to its last
+        # row. It replaces anything the nightly feed stored on or before that day,
+        # so nothing is counted twice; the feed takes over from the next day.
+        hist = {"days": d["days"], "supercharging": d["supercharging"]["sessions"], "odometer_miles": None, "through": None, "since": None}
+    else:
+        hist = d.setdefault("history", {"days": {}, "supercharging": {}, "odometer_miles": None, "through": None, "since": None})
     if args.drives:
         rows = list(csv.DictReader(open(args.drives, encoding="utf-8")))
+        if args.target == "current":
+            last = max(r["Started At (EDT)"][:10] for r in rows)
+            for k in [k for k in hist["days"] if k <= last]:
+                del hist["days"][k]
+            for k in [k for k, v in hist["supercharging"].items() if v["date"] <= last]:
+                del hist["supercharging"][k]
+            d["home_charging"]["kwh_by_day"] = {k: v for k, v in d["home_charging"]["kwh_by_day"].items() if k > last}
+            d["csv_cutoff"] = last
+            d["drive_ids"] = []
         for r in rows:
             miles = f(r, "Distance (mi)") or 0
             if miles < 0.3:
@@ -189,12 +210,20 @@ def import_history(args):
                 hist["odometer_miles"] = round(odo, 1)
         ks = sorted(hist["days"])
         hist["since"], hist["through"] = ks[0], ks[-1]
+        if args.target == "current":
+            d["tracking_since"] = ks[0]
+            d["config"]["odometer_baseline_miles"] = hist["odometer_miles"]
+            d["config"]["odometer_baseline_date"] = (date.fromisoformat(ks[-1]) + timedelta(days=1)).isoformat()
+            d["config"]["odometer_note"] = f"odometer {hist['odometer_miles']} from the complete export through {ks[-1]}; tracked drives after that are added"
     if args.charges:
         for i, r in enumerate(csv.DictReader(open(args.charges, encoding="utf-8"))):
-            if r.get("Supercharger") != "true":
-                continue
             kwh = f(r, "Energy Added (kWh)") or 0
             if kwh < 0.5:
+                continue
+            if r.get("Supercharger") != "true":
+                if args.target == "current":
+                    k = r["Started At (EDT)"][:10]
+                    d["home_charging"]["kwh_by_day"].setdefault(k, {})[r["Started At (EDT)"].replace(" ", "T")] = round(kwh, 2)
                 continue
             site = site_from_address(r.get("Location"))
             key = "h-" + r["Started At (EDT)"].replace(" ", "T")
@@ -375,7 +404,7 @@ def render(args):
     if cfg.get("odometer_baseline_miles") and cfg.get("odometer_baseline_date") and tracked:
         since = summarize(days, date.fromisoformat(cfg["odometer_baseline_date"]), today)
         odo = cfg["odometer_baseline_miles"] + since["miles"]
-    sc_before = cfg.get("supercharging_before_ledger_kwh") or 0
+    sc_before = 0
 
     hist = d.get("history") or {"days": {}, "supercharging": {}}
     sc = list(d["supercharging"]["sessions"].values()) + list(hist.get("supercharging", {}).values())
@@ -533,6 +562,7 @@ def main():
     i.set_defaults(fn=ingest)
     hh = sub.add_parser("import-history", help="fold an earlier drive/charge CSV export into lifetime totals")
     hh.add_argument("--drives"); hh.add_argument("--charges")
+    hh.add_argument("--target", choices=["history", "current"], default="history", help="'current' = the complete export of the truck the nightly feed tracks")
     hh.set_defaults(fn=import_history)
     r = sub.add_parser("render")
     r.set_defaults(fn=render)
