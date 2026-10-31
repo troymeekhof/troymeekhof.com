@@ -464,6 +464,10 @@ def render(args):
             home_week += sum(sess.values())
     cur = d.get("current") or {}
 
+    def lead(val, label, sub=""):
+        s = f'<p class="lead-sub">{sub}</p>' if sub else ""
+        return f'<div class="lead"><b>{val}</b><div><p class="lead-label">{label}</p>{s}</div></div>'
+
     def stat(val, label, word=False):
         cls = ' class="word"' if word else ""
         return f'<div class="stat" role="listitem"><b{cls}>{val}</b><span>{label}</span></div>'
@@ -501,25 +505,20 @@ def render(args):
     # --- lifetime (tracked drives + imported history + odometer seed)
     life_miles = (hist_odo + (odo if odo else tracked["miles"])) if tracked else hist_odo
     h.append('<section class="sec" id="lifetime" aria-labelledby="life-h"><div class="sec-head"><div><p class="label">Lifetime</p><h2 id="life-h">Since 2024, <em>every mile logged.</em></h2></div></div>')
-    h.append('<div class="stats" role="list">')
-    h.append(stat(fmt_n(life_miles), 'Cybertruck miles, lifetime'))
-    h.append(stat(fmt_n(lifetime["drives"]) if lifetime else "—", f'Drives logged since {mdy(date.fromisoformat(life_since))}' if life_since else 'Drives logged'))
+    h.append(lead(fmt_n(life_miles), 'Cybertruck miles, lifetime', f'{fmt_n(lifetime["drives"])} drives and {fmt_n(lifetime["minutes"] / 60)} hours behind the wheel since {mdy(date.fromisoformat(life_since))}' if lifetime and life_since else ''))
+    h.append('<div class="stats sm" role="list">')
+    h.append(stat(fmt_n(sc_kwh + sc_before), f'kWh Supercharged over {len(sc)} sessions'))
+    h.append(stat(f'{len(sites)}', f'Supercharger sites in {len(regions)} states and provinces'))
     h.append(stat(fmt_n(lifetime["wh_per_mile"]) if lifetime else "—", 'Wh per mile, lifetime average'))
-    h.append(stat(fmt_n(lifetime["minutes"] / 60) if lifetime else "—", 'Hours behind the wheel'))
-    h.append('</div><div class="stats" role="list">')
-    h.append(stat(fmt_n(sc_kwh + sc_before), 'kWh Supercharged, lifetime'))
-    h.append(stat(f'{len(sc)}', 'Supercharger sessions'))
-    h.append(stat(f'{len(sites)}', f'Supercharger sites in {len(regions)} states and provinces, {len(countries)} countries'))
-    h.append(stat(fmt_n(biggest["kwh"]) if biggest else "—", f'Biggest single session, kWh ({esc(biggest["site"])})' if biggest else 'Biggest single session'))
-    h.append('</div><div class="stats" role="list">')
+    h.append(stat(fmt_n(biggest["kwh"]) if biggest else "—", f'kWh in one session ({esc(biggest["site"])})' if biggest else 'Biggest single session'))
     co = cfg.get("coldest_override")
     if co:
         h.append(stat(f'{co["temp_f"]}°F', f'Coldest drive on record ({mdy(date.fromisoformat(co["date"]))}, <a href="{esc(co["source"])}" rel="noopener">on the dash</a>)'))
     else:
         h.append(stat(f'{lifetime["min_temp_f"]}°F' if lifetime and lifetime["min_temp_f"] is not None else "—", 'Coldest drive on record, average outside temp'))
-    h.append(stat(f'{lifetime["max_temp_f"]}°F' if lifetime and lifetime["max_temp_f"] is not None else "—", 'Hottest drive on record, average outside temp'))
-    h.append(stat(fmt_n(lifetime["longest"]) if lifetime else "—", 'Longest single drive, miles'))
-    h.append(stat(fmt_n(lifetime["best_day"][1]) if lifetime else "—", f'Biggest day, miles ({mdy(date.fromisoformat(lifetime["best_day"][0]))})' if lifetime and lifetime["best_day"][0] else 'Biggest day, miles'))
+    h.append(stat(f'{lifetime["max_temp_f"]}°F' if lifetime and lifetime["max_temp_f"] is not None else "—", 'Hottest drive on record'))
+    h.append(stat(fmt_n(lifetime["longest"]) if lifetime else "—", 'Miles in one drive, the longest'))
+    h.append(stat(fmt_n(lifetime["best_day"][1]) if lifetime else "—", f'Miles in one day ({mdy(date.fromisoformat(lifetime["best_day"][0]))})' if lifetime and lifetime["best_day"][0] else 'Biggest day, miles'))
     h.append('</div>')
     h.append('<div class="grid2 charts">')
     h.append(f'<figure class="card"><figcaption><p class="tag">By month</p><h3>Supercharged kWh</h3></figcaption>{both(svg_bars, month_bars, "Supercharged kWh by month", " kWh")}</figure>')
@@ -545,16 +544,12 @@ def render(args):
 
     # --- this week
     h.append(f'<section class="sec" id="week" aria-labelledby="week-h"><div class="sec-head"><div><p class="label">This week</p><h2 id="week-h">{week_label}, <em>in the truck.</em></h2></div></div>')
-    h.append('<div class="stats" role="list">')
-    h.append(stat(fmt_n(this_week["miles"]), f'Miles driven{delta(this_week["miles"], last_week["miles"])}'))
-    h.append(stat(fmt_n(this_week["wh_per_mile"]), f'Wh per mile, measured{delta(this_week["wh_per_mile"], last_week["wh_per_mile"])}'))
-    h.append(stat(fmt_n(this_week["drives"]), f'Drives over {this_week["days_driven"]} day{"s" if this_week["days_driven"] != 1 else ""}'))
-    h.append(stat(fmt_n(this_week["longest"]), 'Longest single drive, miles'))
-    h.append('</div><div class="stats" role="list">')
-    h.append(stat(f'{len(sc_week)}', f'Supercharger stop{"s" if len(sc_week) != 1 else ""}, {fmt_n(sum(s["kwh"] for s in sc_week))} kWh added'))
-    h.append(stat(fmt_n(home_week), 'kWh added charging at home'))
-    h.append(stat(fmt_n(this_week["kwh"]), 'kWh used driving'))
-    h.append(stat(f'{this_week["min_temp_f"]}°F' if this_week["min_temp_f"] is not None else "—", 'Coldest drive this week, outside temp'))
+    h.append(lead(fmt_n(this_week["miles"]), f'Miles this week{delta(this_week["miles"], last_week["miles"])}', f'{this_week["drives"]} drives over {this_week["days_driven"]} day{"s" if this_week["days_driven"] != 1 else ""} at {fmt_n(this_week["wh_per_mile"])} Wh per mile'))
+    h.append('<div class="stats sm" role="list">')
+    h.append(stat(fmt_n(this_week["longest"]), 'Miles in the longest drive'))
+    h.append(stat(f'{len(sc_week)}', f'Supercharger stop{"s" if len(sc_week) != 1 else ""}, {fmt_n(sum(s["kwh"] for s in sc_week))} kWh'))
+    h.append(stat(fmt_n(home_week), 'kWh added at home'))
+    h.append(stat(f'{this_week["min_temp_f"]}°F' if this_week["min_temp_f"] is not None else "—", 'Coldest drive this week'))
     h.append('</div>')
     h.append('<div class="grid2 charts">')
     h.append(f'<figure class="card"><figcaption><p class="tag">Daily miles</p><h3>Last two weeks</h3></figcaption>{both(svg_bars, daily_miles, "Miles driven per day, last two weeks", " mi")}</figure>')
@@ -587,16 +582,12 @@ def render(args):
     recent = summarize(life_days, date.fromisoformat(fsd_last) - timedelta(days=89), date.fromisoformat(fsd_last)) if fsd_last else None
     best_fsd_month = max(fsd_all, key=lambda m: fsd_months[m][0], default=None)
     h.append('<section class="sec" id="fsd" aria-labelledby="fsd-h"><div class="sec-head"><div><p class="label">Full Self-Driving (Supervised)</p><h2 id="fsd-h">How much the truck <em>drives itself.</em></h2></div></div>')
-    h.append('<div class="stats" role="list">')
-    h.append(stat(fmt_n(lifetime["fsd_miles"]) if lifetime else "—", f'Miles driven on FSD (logged since {mdy(date.fromisoformat(fsd_since))})' if fsd_since else 'Miles driven on FSD'))
-    h.append(stat(f'{lifetime["fsd_share"]}%' if lifetime and lifetime["fsd_share"] is not None else "—", 'Share of logged miles driven on FSD'))
-    h.append(stat(f'{recent["fsd_share"]}%' if recent and recent["fsd_share"] is not None else "—", 'FSD share, last 90 days'))
-    h.append(stat(fmt_n(fsd_months[best_fsd_month][0]) if best_fsd_month else "—", f'Biggest FSD month, miles ({datetime.strptime(best_fsd_month, "%Y-%m").strftime("%B %Y")})' if best_fsd_month else 'Biggest FSD month'))
-    h.append('</div><div class="stats" role="list">')
+    h.append(lead(f'{lifetime["fsd_share"]}%' if lifetime and lifetime["fsd_share"] is not None else "—", 'Of logged miles driven on FSD', f'{fmt_n(lifetime["fsd_miles"])} miles on FSD since {mdy(date.fromisoformat(fsd_since))}' if lifetime and fsd_since else ''))
+    h.append('<div class="stats sm" role="list">')
+    h.append(stat(f'{recent["fsd_share"]}%' if recent and recent["fsd_share"] is not None else "—", 'On FSD, last 90 days'))
+    h.append(stat(fmt_n(fsd_months[best_fsd_month][0]) if best_fsd_month else "—", f'FSD miles in {datetime.strptime(best_fsd_month, "%Y-%m").strftime("%B %Y")}, the most' if best_fsd_month else 'Biggest FSD month'))
     h.append(stat(esc(cfg.get("fsd_version") or "—"), 'FSD (Supervised) version', word=True))
     h.append(stat(esc(cur.get("software") or "—"), 'Tesla software', word=True))
-    h.append(stat(fmt_n(lifetime["fsd_base_miles"]) if lifetime else "—", 'Miles where the truck logged FSD use'))
-    h.append(stat(f'{round(100 * fsd_months[fsd_m[-1]][0] / fsd_months[fsd_m[-1]][1])}%' if fsd_m else "—", f'FSD share in {datetime.strptime(fsd_m[-1], "%Y-%m").strftime("%B")}' if fsd_m else 'Latest month'))
     h.append('</div>')
     h.append('<div class="grid2 charts">')
     h.append(f'<figure class="card"><figcaption><p class="tag">FSD share</p><h3>Percent of miles on FSD, by month</h3></figcaption>{both(svg_bars, fsd_bars, "Percent of miles driven on FSD by month", "%")}</figure>')
