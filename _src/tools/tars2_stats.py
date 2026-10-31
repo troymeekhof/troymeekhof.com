@@ -442,7 +442,7 @@ def render(args):
 
     # --- lifetime (tracked drives + imported history + odometer seed)
     life_miles = (hist_odo + (odo if odo else tracked["miles"])) if tracked else hist_odo
-    h.append('<section class="sec" id="lifetime" aria-labelledby="life-h"><div class="sec-head"><div><p class="label">Lifetime</p><h2 id="life-h">Since 2024, <em>in Cybertrucks.</em></h2></div></div>')
+    h.append('<section class="sec" id="lifetime" aria-labelledby="life-h"><div class="sec-head"><div><p class="label">Lifetime</p><h2 id="life-h">Since 2024, <em>every mile logged.</em></h2></div></div>')
     h.append('<div class="stats" role="list">')
     h.append(stat(fmt_n(life_miles), 'Cybertruck miles, lifetime'))
     h.append(stat(fmt_n(lifetime["drives"]) if lifetime else "—", f'Drives logged since {mdy(date.fromisoformat(life_since))}' if life_since else 'Drives logged'))
