@@ -440,6 +440,34 @@ def render(args):
     h = []
     h.append(f'<div class="stamp"><p class="label">Updated {asof.strftime("%A, %b %-d, %Y at %-I:%M %p")} ET · straight from the truck</p></div>')
 
+    # --- lifetime (tracked drives + imported history + odometer seed)
+    life_miles = (hist_odo + (odo if odo else tracked["miles"])) if tracked else hist_odo
+    h.append('<section class="sec" id="lifetime" aria-labelledby="life-h"><div class="sec-head"><div><p class="label">Lifetime</p><h2 id="life-h">Since 2024, <em>in Cybertrucks.</em></h2></div></div>')
+    h.append('<div class="stats" role="list">')
+    h.append(stat(fmt_n(life_miles), 'Cybertruck miles, lifetime'))
+    h.append(stat(fmt_n(lifetime["drives"]) if lifetime else "—", f'Drives logged since {mdy(date.fromisoformat(life_since))}' if life_since else 'Drives logged'))
+    h.append(stat(fmt_n(lifetime["wh_per_mile"]) if lifetime else "—", 'Lifetime Wh per mile, measured drives'))
+    h.append(stat(fmt_n(lifetime["minutes"] / 60) if lifetime else "—", 'Hours behind the wheel'))
+    h.append('</div><div class="stats" role="list">')
+    h.append(stat(fmt_n(sc_kwh + sc_before), 'kWh Supercharged, lifetime'))
+    h.append(stat(f'{len(sc)}', 'Supercharger sessions'))
+    h.append(stat(f'{len(sites)}', f'Supercharger sites in {len(regions)} states and provinces, {len(countries)} countries'))
+    h.append(stat(fmt_n(biggest["kwh"]) if biggest else "—", f'Biggest single session, kWh ({esc(biggest["site"])})' if biggest else 'Biggest single session'))
+    h.append('</div>')
+    h.append('<div class="grid2 charts">')
+    h.append(f'<figure class="card"><figcaption><p class="tag">By month</p><h3>Supercharged kWh</h3></figcaption>{svg_bars(month_bars, "Supercharged kWh by month", " kWh")}</figure>')
+    h.append(f'<figure class="card"><figcaption><p class="tag">Top sites</p><h3>Where the kWh came from</h3></figcaption>{svg_hbars(site_bars, "Top Supercharger sites by kWh", " kWh")}</figure>')
+    h.append('</div>')
+    h.append('<p class="chips" aria-label="States and provinces with a Supercharger stop">' + "".join(f'<span>{esc(r)}</span>' for r in regions) + '</p>')
+    h.append('<div class="tablewrap"><table id="months-t"><thead><tr><th>Month</th><th>Sessions</th><th>kWh</th><th>Sites</th></tr></thead><tbody>')
+    for m in reversed(months):
+        if not by_month[m][0]:
+            continue
+        h.append(f'<tr><td>{datetime.strptime(m, "%Y-%m").strftime("%B %Y")}</td><td>{by_month[m][0]}</td><td>{fmt_n(by_month[m][1])}</td><td>{len(by_month[m][2])}</td></tr>')
+    h.append('</tbody></table></div>')
+    h.append(f'<details class="mnote"><summary>All {len(sites)} Supercharger sites</summary><p>{esc(", ".join(sites))}.</p></details>')
+    h.append('</section>')
+
     # --- this week
     h.append(f'<section class="sec" id="week" aria-labelledby="week-h"><div class="sec-head"><div><p class="label">This week</p><h2 id="week-h">{week_label}, <em>in the truck.</em></h2></div></div>')
     h.append('<div class="stats" role="list">')
@@ -472,41 +500,13 @@ def render(args):
         h.append(stat(cur.get("software") or "—", 'Tesla software', word=True))
         h.append('</div></div></section>')
 
-    # --- lifetime (tracked drives + imported history + odometer seed)
-    life_miles = (hist_odo + (odo if odo else tracked["miles"])) if tracked else hist_odo
-    h.append('<section class="sec" id="lifetime" aria-labelledby="life-h"><div class="sec-head"><div><p class="label">Lifetime</p><h2 id="life-h">Cybertruck miles, <em>and the kilowatt-hours behind them.</em></h2></div></div>')
-    h.append('<div class="stats" role="list">')
-    h.append(stat(fmt_n(life_miles), 'Cybertruck miles, lifetime'))
-    h.append(stat(fmt_n(lifetime["drives"]) if lifetime else "—", f'Drives logged since {mdy(date.fromisoformat(life_since))}' if life_since else 'Drives logged'))
-    h.append(stat(fmt_n(lifetime["wh_per_mile"]) if lifetime else "—", 'Lifetime Wh per mile, measured drives'))
-    h.append(stat(fmt_n(lifetime["minutes"] / 60) if lifetime else "—", 'Hours behind the wheel'))
-    h.append('</div><div class="stats" role="list">')
-    h.append(stat(fmt_n(sc_kwh + sc_before), 'kWh Supercharged, lifetime'))
-    h.append(stat(f'{len(sc)}', 'Supercharger sessions'))
-    h.append(stat(f'{len(sites)}', f'Supercharger sites in {len(regions)} states and provinces, {len(countries)} countries'))
-    h.append(stat(fmt_n(biggest["kwh"]) if biggest else "—", f'Biggest single session, kWh ({esc(biggest["site"])})' if biggest else 'Biggest single session'))
-    h.append('</div>')
-    h.append('<div class="grid2 charts">')
-    h.append(f'<figure class="card"><figcaption><p class="tag">By month</p><h3>Supercharged kWh</h3></figcaption>{svg_bars(month_bars, "Supercharged kWh by month", " kWh")}</figure>')
-    h.append(f'<figure class="card"><figcaption><p class="tag">Top sites</p><h3>Where the kWh came from</h3></figcaption>{svg_hbars(site_bars, "Top Supercharger sites by kWh", " kWh")}</figure>')
-    h.append('</div>')
-    h.append('<p class="chips" aria-label="States and provinces with a Supercharger stop">' + "".join(f'<span>{esc(r)}</span>' for r in regions) + '</p>')
-    h.append('<div class="tablewrap"><table id="months-t"><thead><tr><th>Month</th><th>Sessions</th><th>kWh</th><th>Sites</th></tr></thead><tbody>')
-    for m in reversed(months):
-        if not by_month[m][0]:
-            continue
-        h.append(f'<tr><td>{datetime.strptime(m, "%Y-%m").strftime("%B %Y")}</td><td>{by_month[m][0]}</td><td>{fmt_n(by_month[m][1])}</td><td>{len(by_month[m][2])}</td></tr>')
-    h.append('</tbody></table></div>')
-    h.append(f'<details class="mnote"><summary>All {len(sites)} Supercharger sites</summary><p>{esc(", ".join(sites))}.</p></details>')
-    h.append('</section>')
-
     html = "\n".join(h)
     page = open(PAGE, encoding="utf-8").read()
     pre, rest = page.split(START, 1)
     _, post = rest.split(END, 1)
     new = pre + START + "\n" + html + "\n" + END + post
 
-    desc = (f"TARS2, Troy's Cybertruck, by the numbers: {fmt_n(this_week['miles'])} miles this week at {fmt_n(this_week['wh_per_mile'])} Wh/mi, "
+    desc = (f"Cybertruck life, by the numbers: {fmt_n(this_week['miles'])} miles this week at {fmt_n(this_week['wh_per_mile'])} Wh/mi, "
             f"{fmt_n(sc_kwh + sc_before)} kWh of free Supercharging across {len(sites)} sites. Updated weekly from the truck's own data via Autonimator.")
     for pat in (r'(<meta name="description" content=")[^"]*(")', r'(<meta property="og:description" content=")[^"]*(")', r'(<meta name="twitter:description" content=")[^"]*(")'):
         new = re.sub(pat, lambda m: m.group(1) + desc.replace('"', "&quot;") + m.group(2), new, count=1)
