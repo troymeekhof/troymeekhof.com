@@ -1,5 +1,11 @@
 {
  "config": {
+  "coldest_override": {
+   "date": "2026-01-23",
+   "note": "dash reading; the trip log only keeps per-drive averages (-3\u00b0F that morning)",
+   "source": "https://x.com/cybrtrkguy/status/2015053584132341790",
+   "temp_f": -17
+  },
   "fsd_version": "v14.3.13",
   "odometer_baseline_date": "2026-11-01",
   "odometer_baseline_miles": 41465.2,

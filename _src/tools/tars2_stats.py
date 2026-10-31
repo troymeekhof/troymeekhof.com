@@ -511,7 +511,11 @@ def render(args):
     h.append(stat(f'{len(sites)}', f'Supercharger sites in {len(regions)} states and provinces, {len(countries)} countries'))
     h.append(stat(fmt_n(biggest["kwh"]) if biggest else "—", f'Biggest single session, kWh ({esc(biggest["site"])})' if biggest else 'Biggest single session'))
     h.append('</div><div class="stats" role="list">')
-    h.append(stat(f'{lifetime["min_temp_f"]}°F' if lifetime and lifetime["min_temp_f"] is not None else "—", 'Coldest drive on record, average outside temp'))
+    co = cfg.get("coldest_override")
+    if co:
+        h.append(stat(f'{co["temp_f"]}°F', f'Coldest drive on record ({mdy(date.fromisoformat(co["date"]))}, <a href="{esc(co["source"])}" rel="noopener">on the dash</a>)'))
+    else:
+        h.append(stat(f'{lifetime["min_temp_f"]}°F' if lifetime and lifetime["min_temp_f"] is not None else "—", 'Coldest drive on record, average outside temp'))
     h.append(stat(f'{lifetime["max_temp_f"]}°F' if lifetime and lifetime["max_temp_f"] is not None else "—", 'Hottest drive on record, average outside temp'))
     h.append(stat(fmt_n(lifetime["longest"]) if lifetime else "—", 'Longest single drive, miles'))
     h.append(stat(fmt_n(lifetime["best_day"][1]) if lifetime else "—", f'Biggest day, miles ({mdy(date.fromisoformat(lifetime["best_day"][0]))})' if lifetime and lifetime["best_day"][0] else 'Biggest day, miles'))
