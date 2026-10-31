@@ -286,17 +286,17 @@ def esc(t):
     return str(t).replace("&", "&amp;").replace("<", "&lt;").replace('"', "&quot;")
 
 
-def svg_bars(series, title, unit="", height=220, highlight=None):
+def svg_bars(series, title, unit="", height=220, highlight=None, narrow=False):
     """Vertical bars. series = [(label, value, tooltip)]. Single hue, thin marks,
     rounded data-ends, direct labels on the max only, native <title> tooltips."""
     n = len(series)
     if not n:
         return ""
-    W, H, pad_l, pad_b, pad_t = 720, height, 24, 34, 26
+    W, H, pad_l, pad_b, pad_t = (360, 240, 12, 30, 24) if narrow else (720, height, 24, 34, 26)
     vmax = max((v for _, v, _ in series if v is not None), default=0) or 1
-    gap = 3
-    bw = (W - pad_l - 24) / n - gap
-    out = [f'<svg class="chart" viewBox="0 0 {W} {H}" role="img" aria-label="{esc(title)}"><title>{esc(title)}</title>']
+    gap = 2 if narrow else 3
+    bw = (W - pad_l - (12 if narrow else 24)) / n - gap
+    out = [f'<svg class="chart {"narrow" if narrow else "wide"}" viewBox="0 0 {W} {H}" role="img" aria-label="{esc(title)}"><title>{esc(title)}</title>']
     for i, (lab, v, tip) in enumerate(series):
         x = pad_l + i * (bw + gap)
         if v:
@@ -308,29 +308,29 @@ def svg_bars(series, title, unit="", height=220, highlight=None):
                 out.append(f'<text x="{x + bw/2:.1f}" y="{y - 8:.1f}" text-anchor="middle" class="val">{fmt_n(v)}{unit}</text>')
         else:
             out.append(f'<rect x="{x:.1f}" y="{H - pad_b - 2}" width="{bw:.1f}" height="2" fill="var(--line)"><title>{esc(tip)}</title></rect>')
-        step = max(1, n // 8)
-        if i % step == 0 or n <= 8:
+        step = max(1, -(-n // (4 if narrow else 7)))
+        if i % step == 0 or n <= (4 if narrow else 7):
             out.append(f'<text x="{x + bw/2:.1f}" y="{H - 10}" text-anchor="middle" class="ax">{esc(lab)}</text>')
     out.append(f'<line x1="{pad_l}" y1="{H - pad_b}" x2="{W}" y2="{H - pad_b}" class="base"/>')
     out.append("</svg>")
     return "".join(out)
 
 
-def svg_line(series, title, unit="", height=220):
+def svg_line(series, title, unit="", height=220, narrow=False):
     """Single 2px line with 8px markers; series = [(label, value, tooltip)]; None = gap."""
     n = len(series)
     if n < 2:
         return ""
-    W, H, pad_l, pad_b, pad_t = 720, height, 28, 34, 26
+    W, H, pad_l, pad_b, pad_t = (360, 240, 20, 30, 24) if narrow else (720, height, 28, 34, 26)
     vals = [v for _, v, _ in series if v is not None]
     if not vals:
         return ""
     vmin, vmax = min(vals), max(vals)
     span = (vmax - vmin) or 1
     lo, hi = vmin - span * 0.25, vmax + span * 0.25
-    def X(i): return pad_l + i * (W - pad_l - 28) / (n - 1)
+    def X(i): return pad_l + i * (W - pad_l - (20 if narrow else 28)) / (n - 1)
     def Y(v): return H - pad_b - (H - pad_b - pad_t) * (v - lo) / (hi - lo)
-    out = [f'<svg class="chart" viewBox="0 0 {W} {H}" role="img" aria-label="{esc(title)}"><title>{esc(title)}</title>']
+    out = [f'<svg class="chart {"narrow" if narrow else "wide"}" viewBox="0 0 {W} {H}" role="img" aria-label="{esc(title)}"><title>{esc(title)}</title>']
     path, pen = [], False
     for i, (_, v, _) in enumerate(series):
         if v is None:
@@ -342,26 +342,25 @@ def svg_line(series, title, unit="", height=220):
             out.append(f'<circle cx="{X(i):.1f}" cy="{Y(v):.1f}" r="5" fill="var(--primary)" stroke="var(--surface)" stroke-width="2"><title>{esc(tip)}</title></circle>')
             if v == vmax or v == vmin:
                 out.append(f'<text x="{X(i):.1f}" y="{Y(v) - 12 if v == vmax else Y(v) + 20:.1f}" text-anchor="middle" class="val">{fmt_n(v)}{unit}</text>')
-        step = max(1, n // 8)
-        if i % step == 0 or n <= 8:
+        step = max(1, -(-n // (4 if narrow else 7)))
+        if i % step == 0 or n <= (4 if narrow else 7):
             out.append(f'<text x="{X(i):.1f}" y="{H - 10}" text-anchor="middle" class="ax">{esc(lab)}</text>')
     out.append(f'<line x1="{pad_l}" y1="{H - pad_b}" x2="{W}" y2="{H - pad_b}" class="base"/></svg>')
     return "".join(out)
 
 
-def svg_hbars(series, title, unit=""):
+def svg_hbars(series, title, unit="", narrow=False):
     """Horizontal bars for ranked categories: [(label, value, tooltip)]."""
     n = len(series)
     if not n:
         return ""
-    W, row, pad_t = 720, 34, 4
+    W, row, pad_t, lab_w = (360, 30, 4, 118) if narrow else (720, 34, 4, 200)
     H = pad_t + n * row
     vmax = max(v for _, v, _ in series) or 1
-    lab_w = 200
-    out = [f'<svg class="chart" viewBox="0 0 {W} {H}" role="img" aria-label="{esc(title)}"><title>{esc(title)}</title>']
+    out = [f'<svg class="chart hbars {"narrow" if narrow else "wide"}" viewBox="0 0 {W} {H}" role="img" aria-label="{esc(title)}"><title>{esc(title)}</title>']
     for i, (lab, v, tip) in enumerate(series):
         y = pad_t + i * row
-        w = max(4, (W - lab_w - 70) * v / vmax)
+        w = max(4, (W - lab_w - (62 if narrow else 70)) * v / vmax)
         out.append(f'<text x="{lab_w - 12}" y="{y + 21}" text-anchor="end" class="lab">{esc(lab)}</text>')
         out.append(f'<rect x="{lab_w}" y="{y + 8}" width="{w:.1f}" height="18" rx="4" fill="var(--primary)"><title>{esc(tip)}</title></rect>')
         out.append(f'<text x="{lab_w + w + 10:.1f}" y="{y + 21}" class="val">{fmt_n(v)}{unit}</text>')
@@ -381,6 +380,10 @@ def svg_gauge(pct, label):
             f'<path d="M{x0:.1f},{y0:.1f} A{r},{r} 0 1 1 {cx + r},{cy}" fill="none" stroke="var(--line)" stroke-width="12" stroke-linecap="round"/>'
             f'<path d="M{x0:.1f},{y0:.1f} A{r},{r} 0 {big} 1 {x1:.1f},{y1:.1f}" fill="none" stroke="var(--primary)" stroke-width="12" stroke-linecap="round"/>'
             f'<text x="{cx}" y="{cy - 4}" text-anchor="middle" class="big">{pct}%</text></svg>')
+
+
+def both(fn, *a, **k):
+    return fn(*a, **k) + fn(*a, narrow=True, **k)
 
 
 # ---------------------------------------------------------------- render
@@ -462,7 +465,7 @@ def render(args):
             months.append(f"{y:04d}-{mo:02d}"); mo += 1
             if mo == 13: y, mo = y + 1, 1
         for m in months: by_month.setdefault(m, [0, 0.0, set()])
-    month_bars = [(datetime.strptime(m, "%Y-%m").strftime("%b '%y" if m[5:] == "01" or m == months[0] else "%b"), round(by_month[m][1]), f'{datetime.strptime(m, "%Y-%m").strftime("%B %Y")}: {fmt_n(by_month[m][1])} kWh across {by_month[m][0]} sessions at {len(by_month[m][2])} sites') for m in months]
+    month_bars = [(datetime.strptime(m, "%Y-%m").strftime("%b '%y"), round(by_month[m][1]), f'{datetime.strptime(m, "%Y-%m").strftime("%B %Y")}: {fmt_n(by_month[m][1])} kWh across {by_month[m][0]} sessions at {len(by_month[m][2])} sites') for m in months]
     top_sites = sorted(by_site.items(), key=lambda kv: -kv[1][1])[:8]
     site_bars = [(k, round(v[1]), f'{k}: {fmt_n(v[1])} kWh over {v[0]} session{"s" if v[0] != 1 else ""}') for k, v in top_sites]
 
@@ -484,16 +487,18 @@ def render(args):
     h.append(stat(fmt_n(biggest["kwh"]) if biggest else "—", f'Biggest single session, kWh ({esc(biggest["site"])})' if biggest else 'Biggest single session'))
     h.append('</div>')
     h.append('<div class="grid2 charts">')
-    h.append(f'<figure class="card"><figcaption><p class="tag">By month</p><h3>Supercharged kWh</h3></figcaption>{svg_bars(month_bars, "Supercharged kWh by month", " kWh")}</figure>')
-    h.append(f'<figure class="card"><figcaption><p class="tag">Top sites</p><h3>Where the kWh came from</h3></figcaption>{svg_hbars(site_bars, "Top Supercharger sites by kWh", " kWh")}</figure>')
+    h.append(f'<figure class="card"><figcaption><p class="tag">By month</p><h3>Supercharged kWh</h3></figcaption>{both(svg_bars, month_bars, "Supercharged kWh by month", " kWh")}</figure>')
+    h.append(f'<figure class="card"><figcaption><p class="tag">Top sites</p><h3>Where the kWh came from</h3></figcaption>{both(svg_hbars, site_bars, "Top Supercharger sites by kWh", " kWh")}</figure>')
     h.append('</div>')
     h.append('<p class="chips" aria-label="States and provinces with a Supercharger stop">' + "".join(f'<span>{esc(r)}</span>' for r in regions) + '</p>')
+    def mrow(m):
+        return f'<tr><td>{datetime.strptime(m, "%Y-%m").strftime("%B %Y")}</td><td>{by_month[m][0]}</td><td>{fmt_n(by_month[m][1])}</td><td>{len(by_month[m][2])}</td></tr>'
+    used = [m for m in reversed(months) if by_month[m][0]]
     h.append('<div class="tablewrap"><table id="months-t"><thead><tr><th>Month</th><th>Sessions</th><th>kWh</th><th>Sites</th></tr></thead><tbody>')
-    for m in reversed(months):
-        if not by_month[m][0]:
-            continue
-        h.append(f'<tr><td>{datetime.strptime(m, "%Y-%m").strftime("%B %Y")}</td><td>{by_month[m][0]}</td><td>{fmt_n(by_month[m][1])}</td><td>{len(by_month[m][2])}</td></tr>')
+    h.extend(mrow(m) for m in used[:12])
     h.append('</tbody></table></div>')
+    if len(used) > 12:
+        h.append('<details class="mnote"><summary>Earlier months</summary><div class="tablewrap"><table id="months-t2" class="months"><tbody>' + "".join(mrow(m) for m in used[12:]) + '</tbody></table></div></details>')
     h.append(f'<details class="mnote"><summary>All {len(sites)} Supercharger sites</summary><p>{esc(", ".join(sites))}.</p></details>')
     h.append('</section>')
 
@@ -511,8 +516,8 @@ def render(args):
     h.append(stat(f'{this_week["avg_temp_f"]}°F' if this_week["avg_temp_f"] is not None else "—", 'Average outside temp while driving'))
     h.append('</div>')
     h.append('<div class="grid2 charts">')
-    h.append(f'<figure class="card"><figcaption><p class="tag">Daily miles</p><h3>Last two weeks</h3></figcaption>{svg_bars(daily_miles, "Miles driven per day, last two weeks", " mi")}</figure>')
-    h.append(f'<figure class="card"><figcaption><p class="tag">Efficiency</p><h3>Wh per mile, by day</h3></figcaption>{svg_line(daily_eff, "Watt-hours per mile by day, last two weeks")}</figure>')
+    h.append(f'<figure class="card"><figcaption><p class="tag">Daily miles</p><h3>Last two weeks</h3></figcaption>{both(svg_bars, daily_miles, "Miles driven per day, last two weeks", " mi")}</figure>')
+    h.append(f'<figure class="card"><figcaption><p class="tag">Efficiency</p><h3>Wh per mile, by day</h3></figcaption>{both(svg_line, daily_eff, "Watt-hours per mile by day, last two weeks")}</figure>')
     h.append('</div>')
     if last_week["drives"]:
         h.append(f'<p class="mnote">Last week ({md(ws - timedelta(days=7))}–{md(ws - timedelta(days=1))}): {fmt_n(last_week["miles"])} miles, {fmt_n(last_week["wh_per_mile"])} Wh/mi, {last_week["drives"]} drives.</p>')
