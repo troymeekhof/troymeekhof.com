@@ -21,9 +21,9 @@
       fetch('/cybertruck/stats/drives-map.json').then(function (r) { return r.json(); })
     ]).then(function (r) {
       var data = r[2], L = window.L;
-      var map = L.map(el, { scrollWheelZoom: false, worldCopyJump: true });
+      var map = L.map(el, { scrollWheelZoom: false, worldCopyJump: true, minZoom: 3, maxZoom: 7, zoomSnap: 1 });
       L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
-        maxZoom: 12, minZoom: 3, className: 'tars2-tiles',
+        maxZoom: 7, minZoom: 3, className: 'tars2-tiles',
         attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
       }).addTo(map);
       var color = getComputedStyle(document.documentElement).getPropertyValue('--primary').trim() || '#9fd0e3';
@@ -31,8 +31,14 @@
       var lines = [], max = 1;
       data.segments.forEach(function (s) { if (s[4] > max) max = s[4]; });
       data.segments.forEach(function (s) {
-        var w = 1 + 3 * Math.log(s[4]) / Math.log(max || 2);
-        lines.push(L.polyline([[s[0], s[1]], [s[2], s[3]]], { color: s[4] > 4 ? amber : color, weight: w, opacity: s[4] > 4 ? .8 : .45, interactive: false }));
+        var hot = s[4] > 4, w = 1.5 + 3 * Math.log(s[4]) / Math.log(max || 2);
+        var pts = [[s[0], s[1]], [s[2], s[3]]];
+        lines.push(L.polyline(pts, { color: hot ? amber : color, weight: w + 6, opacity: .12, interactive: false }));
+        lines.push(L.polyline(pts, { color: hot ? amber : color, weight: w, opacity: hot ? .9 : .7, interactive: false }));
+      });
+      (data.sites || []).forEach(function (p) {
+        lines.push(L.circleMarker([p[0], p[1]], { radius: 3 + Math.min(4, Math.sqrt(p[2])), color: amber, weight: 1, fillColor: amber, fillOpacity: .85, opacity: .9 })
+          .bindTooltip(p[4] + ': ' + p[2] + ' Supercharger stop' + (p[2] === 1 ? '' : 's') + ', ' + p[3].toLocaleString() + ' kWh', { direction: 'top', opacity: .95 }));
       });
       var group = L.featureGroup(lines).addTo(map);
       map.fitBounds(group.getBounds(), { padding: [20, 20] });
@@ -40,7 +46,7 @@
       btn.onAdd = function () {
         var d = L.DomUtil.create('div', 'leaflet-bar tars2-home');
         d.innerHTML = '<a href="#" title="Zoom to West Michigan" role="button" aria-label="Zoom to West Michigan">MI</a><a href="#" title="Show every drive" role="button" aria-label="Show every drive">All</a>';
-        d.children[0].onclick = function (e) { e.preventDefault(); map.setView([42.95, -85.6], 9); };
+        d.children[0].onclick = function (e) { e.preventDefault(); map.setView([43.6, -85.2], 6); };
         d.children[1].onclick = function (e) { e.preventDefault(); map.fitBounds(group.getBounds(), { padding: [20, 20] }); };
         return d;
       };
