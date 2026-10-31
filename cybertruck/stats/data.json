@@ -1,5 +1,6 @@
 {
  "config": {
+  "fsd_version": "v14.3.13",
   "odometer_baseline_date": "2026-11-01",
   "odometer_baseline_miles": 41465.2,
   "odometer_note": "odometer 41465.2 from the complete export through 2026-10-31; tracked drives after that are added",
@@ -2226,6 +2227,8 @@
   },
   "2025-12-16": {
    "drives": 5,
+   "fsd_base_miles": 39.59,
+   "fsd_miles": 30.07,
    "kwh": 24.18,
    "longest": 14.91,
    "measured_miles": 39.59,
@@ -2238,6 +2241,8 @@
   },
   "2025-12-17": {
    "drives": 4,
+   "fsd_base_miles": 22.01,
+   "fsd_miles": 18.74,
    "kwh": 10.32,
    "longest": 7.06,
    "measured_miles": 22.01,
@@ -2250,6 +2255,8 @@
   },
   "2025-12-18": {
    "drives": 7,
+   "fsd_base_miles": 54.67,
+   "fsd_miles": 50.97,
    "kwh": 28.12,
    "longest": 12.4,
    "measured_miles": 54.67,
@@ -2262,6 +2269,8 @@
   },
   "2025-12-19": {
    "drives": 9,
+   "fsd_base_miles": 68.95,
+   "fsd_miles": 38.32,
    "kwh": 45.2,
    "longest": 22.81,
    "measured_miles": 68.95,
@@ -2274,6 +2283,8 @@
   },
   "2025-12-20": {
    "drives": 7,
+   "fsd_base_miles": 36.1,
+   "fsd_miles": 34.36,
    "kwh": 20.82,
    "longest": 11.97,
    "measured_miles": 36.1,
@@ -2286,6 +2297,8 @@
   },
   "2025-12-22": {
    "drives": 3,
+   "fsd_base_miles": 21.06,
+   "fsd_miles": 0.0,
    "kwh": 11.76,
    "longest": 10.23,
    "measured_miles": 21.06,
@@ -2298,6 +2311,8 @@
   },
   "2025-12-23": {
    "drives": 6,
+   "fsd_base_miles": 36.58,
+   "fsd_miles": 36.27,
    "kwh": 18.64,
    "longest": 13.14,
    "measured_miles": 36.58,
@@ -2310,6 +2325,8 @@
   },
   "2025-12-24": {
    "drives": 3,
+   "fsd_base_miles": 24.02,
+   "fsd_miles": 23.49,
    "kwh": 14.66,
    "longest": 11.85,
    "measured_miles": 24.02,
@@ -2322,6 +2339,8 @@
   },
   "2025-12-25": {
    "drives": 2,
+   "fsd_base_miles": 37.15,
+   "fsd_miles": 36.94,
    "kwh": 24.64,
    "longest": 18.93,
    "measured_miles": 37.15,
@@ -2334,6 +2353,8 @@
   },
   "2025-12-26": {
    "drives": 7,
+   "fsd_base_miles": 43.78,
+   "fsd_miles": 43.3,
    "kwh": 24.34,
    "longest": 13.3,
    "measured_miles": 43.78,
@@ -2346,6 +2367,8 @@
   },
   "2025-12-27": {
    "drives": 4,
+   "fsd_base_miles": 134.6,
+   "fsd_miles": 132.68,
    "kwh": 87.46,
    "longest": 58.79,
    "measured_miles": 134.6,
@@ -2358,6 +2381,8 @@
   },
   "2025-12-28": {
    "drives": 5,
+   "fsd_base_miles": 171.78,
+   "fsd_miles": 152.32,
    "kwh": 100.84,
    "longest": 74.69,
    "measured_miles": 171.78,
@@ -2370,6 +2395,8 @@
   },
   "2025-12-29": {
    "drives": 7,
+   "fsd_base_miles": 50.58,
+   "fsd_miles": 17.48,
    "kwh": 29.34,
    "longest": 15.42,
    "measured_miles": 50.58,
@@ -2382,6 +2409,8 @@
   },
   "2025-12-30": {
    "drives": 6,
+   "fsd_base_miles": 40.02,
+   "fsd_miles": 35.41,
    "kwh": 24.06,
    "longest": 9.99,
    "measured_miles": 40.02,
@@ -2394,6 +2423,8 @@
   },
   "2025-12-31": {
    "drives": 4,
+   "fsd_base_miles": 28.67,
+   "fsd_miles": 14.26,
    "kwh": 15.32,
    "longest": 7.45,
    "measured_miles": 28.67,
@@ -2406,6 +2437,8 @@
   },
   "2026-01-01": {
    "drives": 7,
+   "fsd_base_miles": 39.57,
+   "fsd_miles": 21.17,
    "kwh": 23.9,
    "longest": 9.77,
    "measured_miles": 39.57,
@@ -2418,6 +2451,8 @@
   },
   "2026-01-02": {
    "drives": 5,
+   "fsd_base_miles": 18.52,
+   "fsd_miles": 1.18,
    "kwh": 10.62,
    "longest": 8.34,
    "measured_miles": 18.52,
@@ -2430,6 +2465,8 @@
   },
   "2026-01-03": {
    "drives": 4,
+   "fsd_base_miles": 233.37,
+   "fsd_miles": 105.15,
    "kwh": 164.2,
    "longest": 102.25,
    "measured_miles": 233.37,
@@ -2442,6 +2479,8 @@
   },
   "2026-01-04": {
    "drives": 5,
+   "fsd_base_miles": 73.45,
+   "fsd_miles": 57.0,
    "kwh": 45.36,
    "longest": 24.1,
    "measured_miles": 73.45,
@@ -2454,6 +2493,8 @@
   },
   "2026-01-05": {
    "drives": 3,
+   "fsd_base_miles": 16.04,
+   "fsd_miles": 14.63,
    "kwh": 7.34,
    "longest": 8.26,
    "measured_miles": 16.04,
@@ -2466,6 +2507,8 @@
   },
   "2026-01-06": {
    "drives": 4,
+   "fsd_base_miles": 20.3,
+   "fsd_miles": 17.2,
    "kwh": 10.38,
    "longest": 7.45,
    "measured_miles": 20.3,
@@ -2478,6 +2521,8 @@
   },
   "2026-01-07": {
    "drives": 3,
+   "fsd_base_miles": 16.4,
+   "fsd_miles": 9.72,
    "kwh": 8.48,
    "longest": 8.6,
    "measured_miles": 16.4,
@@ -2490,6 +2535,8 @@
   },
   "2026-01-08": {
    "drives": 8,
+   "fsd_base_miles": 75.66,
+   "fsd_miles": 74.5,
    "kwh": 44.08,
    "longest": 17.28,
    "measured_miles": 75.66,
@@ -2502,6 +2549,8 @@
   },
   "2026-01-09": {
    "drives": 5,
+   "fsd_base_miles": 20.3,
+   "fsd_miles": 18.92,
    "kwh": 9.22,
    "longest": 8.29,
    "measured_miles": 20.3,
@@ -2514,6 +2563,8 @@
   },
   "2026-01-10": {
    "drives": 6,
+   "fsd_base_miles": 79.98,
+   "fsd_miles": 44.05,
    "kwh": 45.92,
    "longest": 29.73,
    "measured_miles": 79.98,
@@ -2526,6 +2577,8 @@
   },
   "2026-01-11": {
    "drives": 2,
+   "fsd_base_miles": 1.73,
+   "fsd_miles": 0.0,
    "kwh": 0.94,
    "longest": 0.98,
    "measured_miles": 1.73,
@@ -2538,6 +2591,8 @@
   },
   "2026-01-12": {
    "drives": 5,
+   "fsd_base_miles": 43.89,
+   "fsd_miles": 31.1,
    "kwh": 24.66,
    "longest": 14.74,
    "measured_miles": 43.89,
@@ -2550,6 +2605,8 @@
   },
   "2026-01-13": {
    "drives": 6,
+   "fsd_base_miles": 41.61,
+   "fsd_miles": 39.93,
    "kwh": 23.68,
    "longest": 12.09,
    "measured_miles": 41.61,
@@ -2562,6 +2619,8 @@
   },
   "2026-01-14": {
    "drives": 7,
+   "fsd_base_miles": 42.99,
+   "fsd_miles": 15.81,
    "kwh": 23.0,
    "longest": 11.87,
    "measured_miles": 42.99,
@@ -2574,6 +2633,8 @@
   },
   "2026-01-15": {
    "drives": 4,
+   "fsd_base_miles": 17.14,
+   "fsd_miles": 16.41,
    "kwh": 9.14,
    "longest": 8.3,
    "measured_miles": 17.14,
@@ -2586,6 +2647,8 @@
   },
   "2026-01-16": {
    "drives": 9,
+   "fsd_base_miles": 327.2,
+   "fsd_miles": 21.31,
    "kwh": 158.2,
    "longest": 152.25,
    "measured_miles": 327.2,
@@ -2598,6 +2661,8 @@
   },
   "2026-01-18": {
    "drives": 6,
+   "fsd_base_miles": 311.98,
+   "fsd_miles": 90.65,
    "kwh": 207.98,
    "longest": 133.71,
    "measured_miles": 311.98,
@@ -2610,6 +2675,8 @@
   },
   "2026-01-19": {
    "drives": 9,
+   "fsd_base_miles": 62.02,
+   "fsd_miles": 0.0,
    "kwh": 40.32,
    "longest": 10.03,
    "measured_miles": 62.02,
@@ -2622,6 +2689,8 @@
   },
   "2026-01-20": {
    "drives": 10,
+   "fsd_base_miles": 67.29,
+   "fsd_miles": 0.0,
    "kwh": 43.38,
    "longest": 14.08,
    "measured_miles": 67.29,
@@ -2634,6 +2703,8 @@
   },
   "2026-01-21": {
    "drives": 4,
+   "fsd_base_miles": 55.62,
+   "fsd_miles": 0.0,
    "kwh": 32.16,
    "longest": 21.3,
    "measured_miles": 55.62,
@@ -2646,6 +2717,8 @@
   },
   "2026-01-22": {
    "drives": 5,
+   "fsd_base_miles": 47.3,
+   "fsd_miles": 0.0,
    "kwh": 27.3,
    "longest": 16.14,
    "measured_miles": 47.3,
@@ -2658,6 +2731,8 @@
   },
   "2026-01-23": {
    "drives": 5,
+   "fsd_base_miles": 41.56,
+   "fsd_miles": 0.0,
    "kwh": 26.22,
    "longest": 18.95,
    "measured_miles": 41.56,
@@ -2670,6 +2745,8 @@
   },
   "2026-01-24": {
    "drives": 6,
+   "fsd_base_miles": 27.25,
+   "fsd_miles": 0.0,
    "kwh": 19.1,
    "longest": 11.94,
    "measured_miles": 27.25,
@@ -2682,6 +2759,8 @@
   },
   "2026-01-26": {
    "drives": 3,
+   "fsd_base_miles": 16.29,
+   "fsd_miles": 0.0,
    "kwh": 8.98,
    "longest": 8.1,
    "measured_miles": 16.29,
@@ -2694,6 +2773,8 @@
   },
   "2026-01-27": {
    "drives": 6,
+   "fsd_base_miles": 27.12,
+   "fsd_miles": 6.02,
    "kwh": 18.98,
    "longest": 9.88,
    "measured_miles": 27.12,
@@ -2706,6 +2787,8 @@
   },
   "2026-01-28": {
    "drives": 3,
+   "fsd_base_miles": 16.47,
+   "fsd_miles": 0.0,
    "kwh": 12.36,
    "longest": 7.87,
    "measured_miles": 16.47,
@@ -2718,6 +2801,8 @@
   },
   "2026-01-29": {
    "drives": 2,
+   "fsd_base_miles": 17.21,
+   "fsd_miles": 2.01,
    "kwh": 13.26,
    "longest": 10.02,
    "measured_miles": 17.21,
@@ -2730,6 +2815,8 @@
   },
   "2026-01-30": {
    "drives": 5,
+   "fsd_base_miles": 20.99,
+   "fsd_miles": 12.8,
    "kwh": 15.1,
    "longest": 6.92,
    "measured_miles": 20.99,
@@ -2742,6 +2829,8 @@
   },
   "2026-01-31": {
    "drives": 6,
+   "fsd_base_miles": 268.68,
+   "fsd_miles": 239.46,
    "kwh": 215.72,
    "longest": 108.52,
    "measured_miles": 268.68,
@@ -2754,6 +2843,8 @@
   },
   "2026-02-01": {
    "drives": 6,
+   "fsd_base_miles": 98.28,
+   "fsd_miles": 45.88,
    "kwh": 65.98,
    "longest": 42.29,
    "measured_miles": 98.28,
@@ -2766,6 +2857,8 @@
   },
   "2026-02-02": {
    "drives": 5,
+   "fsd_base_miles": 14.37,
+   "fsd_miles": 0.0,
    "kwh": 10.24,
    "longest": 6.12,
    "measured_miles": 14.37,
@@ -2778,6 +2871,8 @@
   },
   "2026-02-03": {
    "drives": 7,
+   "fsd_base_miles": 38.23,
+   "fsd_miles": 16.28,
    "kwh": 20.9,
    "longest": 9.32,
    "measured_miles": 38.23,
@@ -2790,6 +2885,8 @@
   },
   "2026-02-04": {
    "drives": 5,
+   "fsd_base_miles": 20.19,
+   "fsd_miles": 0.0,
    "kwh": 12.34,
    "longest": 9.72,
    "measured_miles": 20.19,
@@ -2802,6 +2899,8 @@
   },
   "2026-02-05": {
    "drives": 6,
+   "fsd_base_miles": 26.12,
+   "fsd_miles": 0.0,
    "kwh": 15.6,
    "longest": 9.15,
    "measured_miles": 26.12,
@@ -2814,6 +2913,8 @@
   },
   "2026-02-06": {
    "drives": 6,
+   "fsd_base_miles": 39.11,
+   "fsd_miles": 8.05,
    "kwh": 23.6,
    "longest": 11.86,
    "measured_miles": 39.11,
@@ -2826,6 +2927,8 @@
   },
   "2026-02-07": {
    "drives": 6,
+   "fsd_base_miles": 98.64,
+   "fsd_miles": 63.92,
    "kwh": 66.64,
    "longest": 42.27,
    "measured_miles": 98.64,
@@ -2838,6 +2941,8 @@
   },
   "2026-02-08": {
    "drives": 2,
+   "fsd_base_miles": 22.8,
+   "fsd_miles": 9.9,
    "kwh": 14.82,
    "longest": 11.86,
    "measured_miles": 22.8,
@@ -2850,6 +2955,8 @@
   },
   "2026-02-09": {
    "drives": 8,
+   "fsd_base_miles": 39.86,
+   "fsd_miles": 15.68,
    "kwh": 22.26,
    "longest": 10.17,
    "measured_miles": 39.86,
@@ -2862,6 +2969,8 @@
   },
   "2026-02-10": {
    "drives": 6,
+   "fsd_base_miles": 37.59,
+   "fsd_miles": 8.42,
    "kwh": 18.74,
    "longest": 10.16,
    "measured_miles": 37.59,
@@ -2874,6 +2983,8 @@
   },
   "2026-02-11": {
    "drives": 6,
+   "fsd_base_miles": 31.35,
+   "fsd_miles": 1.0,
    "kwh": 17.82,
    "longest": 9.67,
    "measured_miles": 31.35,
@@ -2886,6 +2997,8 @@
   },
   "2026-02-12": {
    "drives": 6,
+   "fsd_base_miles": 54.8,
+   "fsd_miles": 28.93,
    "kwh": 35.64,
    "longest": 14.95,
    "measured_miles": 54.8,
@@ -2898,6 +3011,8 @@
   },
   "2026-02-13": {
    "drives": 5,
+   "fsd_base_miles": 22.59,
+   "fsd_miles": 16.27,
    "kwh": 14.86,
    "longest": 10.17,
    "measured_miles": 22.59,
@@ -2910,6 +3025,8 @@
   },
   "2026-02-14": {
    "drives": 2,
+   "fsd_base_miles": 12.57,
+   "fsd_miles": 10.89,
    "kwh": 6.82,
    "longest": 6.86,
    "measured_miles": 12.57,
@@ -2922,6 +3039,8 @@
   },
   "2026-02-15": {
    "drives": 2,
+   "fsd_base_miles": 22.71,
+   "fsd_miles": 13.19,
    "kwh": 12.88,
    "longest": 11.8,
    "measured_miles": 22.71,
@@ -2934,6 +3053,8 @@
   },
   "2026-02-16": {
    "drives": 5,
+   "fsd_base_miles": 22.46,
+   "fsd_miles": 10.16,
    "kwh": 11.86,
    "longest": 10.07,
    "measured_miles": 22.46,
@@ -2946,6 +3067,8 @@
   },
   "2026-02-17": {
    "drives": 2,
+   "fsd_base_miles": 5.97,
+   "fsd_miles": 2.49,
    "kwh": 2.8,
    "longest": 3.01,
    "measured_miles": 5.97,
@@ -2958,6 +3081,8 @@
   },
   "2026-02-18": {
    "drives": 5,
+   "fsd_base_miles": 20.98,
+   "fsd_miles": 17.05,
    "kwh": 8.88,
    "longest": 10.15,
    "measured_miles": 20.98,
@@ -2970,6 +3095,8 @@
   },
   "2026-02-19": {
    "drives": 4,
+   "fsd_base_miles": 36.11,
+   "fsd_miles": 32.78,
    "kwh": 19.06,
    "longest": 10.13,
    "measured_miles": 36.11,
@@ -2982,6 +3109,8 @@
   },
   "2026-02-20": {
    "drives": 5,
+   "fsd_base_miles": 22.6,
+   "fsd_miles": 16.29,
    "kwh": 11.9,
    "longest": 10.2,
    "measured_miles": 22.6,
@@ -2994,6 +3123,8 @@
   },
   "2026-02-21": {
    "drives": 6,
+   "fsd_base_miles": 27.51,
+   "fsd_miles": 11.48,
    "kwh": 16.4,
    "longest": 11.85,
    "measured_miles": 27.51,
@@ -3006,6 +3137,8 @@
   },
   "2026-02-23": {
    "drives": 6,
+   "fsd_base_miles": 23.65,
+   "fsd_miles": 7.58,
    "kwh": 14.64,
    "longest": 10.5,
    "measured_miles": 23.65,
@@ -3018,6 +3151,8 @@
   },
   "2026-02-24": {
    "drives": 4,
+   "fsd_base_miles": 32.24,
+   "fsd_miles": 24.79,
    "kwh": 22.04,
    "longest": 12.07,
    "measured_miles": 32.24,
@@ -3030,6 +3165,8 @@
   },
   "2026-02-25": {
    "drives": 5,
+   "fsd_base_miles": 19.65,
+   "fsd_miles": 6.05,
    "kwh": 10.44,
    "longest": 9.68,
    "measured_miles": 19.65,
@@ -3042,6 +3179,8 @@
   },
   "2026-02-26": {
    "drives": 5,
+   "fsd_base_miles": 23.01,
+   "fsd_miles": 10.51,
    "kwh": 13.86,
    "longest": 10.62,
    "measured_miles": 23.01,
@@ -3054,6 +3193,8 @@
   },
   "2026-02-27": {
    "drives": 3,
+   "fsd_base_miles": 28.28,
+   "fsd_miles": 11.02,
    "kwh": 21.32,
    "longest": 14.11,
    "measured_miles": 28.28,
@@ -3066,6 +3207,8 @@
   },
   "2026-02-28": {
    "drives": 5,
+   "fsd_base_miles": 38.42,
+   "fsd_miles": 22.21,
    "kwh": 18.06,
    "longest": 12.97,
    "measured_miles": 38.42,
@@ -3078,6 +3221,8 @@
   },
   "2026-03-02": {
    "drives": 8,
+   "fsd_base_miles": 41.75,
+   "fsd_miles": 36.72,
    "kwh": 27.08,
    "longest": 10.74,
    "measured_miles": 41.75,
@@ -3090,6 +3235,8 @@
   },
   "2026-03-03": {
    "drives": 5,
+   "fsd_base_miles": 35.64,
+   "fsd_miles": 7.36,
    "kwh": 18.24,
    "longest": 11.83,
    "measured_miles": 35.64,
@@ -3102,6 +3249,8 @@
   },
   "2026-03-04": {
    "drives": 9,
+   "fsd_base_miles": 36.91,
+   "fsd_miles": 1.82,
    "kwh": 19.06,
    "longest": 10.14,
    "measured_miles": 36.91,
@@ -3114,6 +3263,8 @@
   },
   "2026-03-05": {
    "drives": 5,
+   "fsd_base_miles": 54.85,
+   "fsd_miles": 44.09,
    "kwh": 35.38,
    "longest": 15.28,
    "measured_miles": 54.85,
@@ -3126,6 +3277,8 @@
   },
   "2026-03-06": {
    "drives": 2,
+   "fsd_base_miles": 17.05,
+   "fsd_miles": 9.61,
    "kwh": 8.38,
    "longest": 10.16,
    "measured_miles": 17.05,
@@ -3138,6 +3291,8 @@
   },
   "2026-03-08": {
    "drives": 4,
+   "fsd_base_miles": 34.52,
+   "fsd_miles": 26.37,
    "kwh": 20.34,
    "longest": 13.6,
    "measured_miles": 34.52,
@@ -3150,6 +3305,8 @@
   },
   "2026-03-09": {
    "drives": 7,
+   "fsd_base_miles": 24.93,
+   "fsd_miles": 9.65,
    "kwh": 11.68,
    "longest": 10.13,
    "measured_miles": 24.93,
@@ -3162,6 +3319,8 @@
   },
   "2026-03-10": {
    "drives": 4,
+   "fsd_base_miles": 23.47,
+   "fsd_miles": 2.03,
    "kwh": 12.26,
    "longest": 9.83,
    "measured_miles": 23.47,
@@ -3174,6 +3333,8 @@
   },
   "2026-03-11": {
    "drives": 5,
+   "fsd_base_miles": 22.59,
+   "fsd_miles": 16.11,
    "kwh": 10.76,
    "longest": 10.2,
    "measured_miles": 22.59,
@@ -3186,6 +3347,8 @@
   },
   "2026-03-12": {
    "drives": 4,
+   "fsd_base_miles": 31.71,
+   "fsd_miles": 14.52,
    "kwh": 16.42,
    "longest": 10.18,
    "measured_miles": 31.71,
@@ -3198,6 +3361,8 @@
   },
   "2026-03-13": {
    "drives": 7,
+   "fsd_base_miles": 45.29,
+   "fsd_miles": 19.62,
    "kwh": 25.88,
    "longest": 11.83,
    "measured_miles": 45.29,
@@ -3210,6 +3375,8 @@
   },
   "2026-03-15": {
    "drives": 4,
+   "fsd_base_miles": 21.73,
+   "fsd_miles": 9.61,
    "kwh": 10.2,
    "longest": 6.67,
    "measured_miles": 21.73,
@@ -3222,6 +3389,8 @@
   },
   "2026-03-16": {
    "drives": 7,
+   "fsd_base_miles": 32.16,
+   "fsd_miles": 14.96,
    "kwh": 17.36,
    "longest": 9.71,
    "measured_miles": 32.16,
@@ -3234,6 +3403,8 @@
   },
   "2026-03-17": {
    "drives": 9,
+   "fsd_base_miles": 40.99,
+   "fsd_miles": 0.0,
    "kwh": 22.96,
    "longest": 12.64,
    "measured_miles": 40.99,
@@ -3246,6 +3417,8 @@
   },
   "2026-03-18": {
    "drives": 8,
+   "fsd_base_miles": 59.39,
+   "fsd_miles": 36.79,
    "kwh": 38.3,
    "longest": 13.89,
    "measured_miles": 59.39,
@@ -3258,6 +3431,8 @@
   },
   "2026-03-19": {
    "drives": 7,
+   "fsd_base_miles": 125.49,
+   "fsd_miles": 107.41,
    "kwh": 75.08,
    "longest": 55.68,
    "measured_miles": 125.49,
@@ -3270,6 +3445,8 @@
   },
   "2026-03-20": {
    "drives": 3,
+   "fsd_base_miles": 41.65,
+   "fsd_miles": 17.71,
    "kwh": 24.64,
    "longest": 21.67,
    "measured_miles": 41.65,
@@ -3282,6 +3459,8 @@
   },
   "2026-03-21": {
    "drives": 6,
+   "fsd_base_miles": 32.33,
+   "fsd_miles": 26.41,
    "kwh": 16.74,
    "longest": 10.88,
    "measured_miles": 32.33,
@@ -3294,6 +3473,8 @@
   },
   "2026-03-22": {
    "drives": 2,
+   "fsd_base_miles": 22.76,
+   "fsd_miles": 22.62,
    "kwh": 12.22,
    "longest": 11.81,
    "measured_miles": 22.76,
@@ -3306,6 +3487,8 @@
   },
   "2026-03-23": {
    "drives": 2,
+   "fsd_base_miles": 1.84,
+   "fsd_miles": 0.0,
    "kwh": 0.96,
    "longest": 0.94,
    "measured_miles": 1.84,
@@ -3318,6 +3501,8 @@
   },
   "2026-03-24": {
    "drives": 7,
+   "fsd_base_miles": 43.25,
+   "fsd_miles": 15.31,
    "kwh": 22.04,
    "longest": 15.95,
    "measured_miles": 43.25,
@@ -3330,6 +3515,8 @@
   },
   "2026-03-25": {
    "drives": 6,
+   "fsd_base_miles": 31.05,
+   "fsd_miles": 9.73,
    "kwh": 16.08,
    "longest": 11.98,
    "measured_miles": 31.05,
@@ -3342,6 +3529,8 @@
   },
   "2026-03-26": {
    "drives": 8,
+   "fsd_base_miles": 52.39,
+   "fsd_miles": 37.08,
    "kwh": 27.86,
    "longest": 11.85,
    "measured_miles": 52.39,
@@ -3354,6 +3543,8 @@
   },
   "2026-03-27": {
    "drives": 8,
+   "fsd_base_miles": 49.41,
+   "fsd_miles": 37.88,
    "kwh": 27.1,
    "longest": 11.82,
    "measured_miles": 49.41,
@@ -3366,6 +3557,8 @@
   },
   "2026-03-28": {
    "drives": 5,
+   "fsd_base_miles": 27.93,
+   "fsd_miles": 13.71,
    "kwh": 16.4,
    "longest": 11.83,
    "measured_miles": 27.93,
@@ -3378,6 +3571,8 @@
   },
   "2026-03-29": {
    "drives": 4,
+   "fsd_base_miles": 158.19,
+   "fsd_miles": 144.59,
    "kwh": 97.36,
    "longest": 69.77,
    "measured_miles": 158.19,
@@ -3390,6 +3585,8 @@
   },
   "2026-03-30": {
    "drives": 5,
+   "fsd_base_miles": 39.83,
+   "fsd_miles": 10.08,
    "kwh": 20.12,
    "longest": 11.81,
    "measured_miles": 39.83,
@@ -3402,6 +3599,8 @@
   },
   "2026-03-31": {
    "drives": 5,
+   "fsd_base_miles": 32.31,
+   "fsd_miles": 19.83,
    "kwh": 13.94,
    "longest": 11.96,
    "measured_miles": 32.31,
@@ -3414,6 +3613,8 @@
   },
   "2026-04-01": {
    "drives": 5,
+   "fsd_base_miles": 21.1,
+   "fsd_miles": 8.43,
    "kwh": 10.06,
    "longest": 10.15,
    "measured_miles": 21.1,
@@ -3426,6 +3627,8 @@
   },
   "2026-04-02": {
    "drives": 5,
+   "fsd_base_miles": 40.49,
+   "fsd_miles": 15.1,
    "kwh": 21.62,
    "longest": 13.19,
    "measured_miles": 40.49,
@@ -3438,6 +3641,8 @@
   },
   "2026-04-03": {
    "drives": 9,
+   "fsd_base_miles": 53.22,
+   "fsd_miles": 30.17,
    "kwh": 27.44,
    "longest": 10.83,
    "measured_miles": 53.22,
@@ -3450,6 +3655,8 @@
   },
   "2026-04-04": {
    "drives": 11,
+   "fsd_base_miles": 260.26,
+   "fsd_miles": 191.85,
    "kwh": 166.3,
    "longest": 91.0,
    "measured_miles": 260.26,
@@ -3462,6 +3669,8 @@
   },
   "2026-04-06": {
    "drives": 2,
+   "fsd_base_miles": 17.47,
+   "fsd_miles": 9.72,
    "kwh": 8.32,
    "longest": 10.11,
    "measured_miles": 17.47,
@@ -3474,6 +3683,8 @@
   },
   "2026-04-07": {
    "drives": 10,
+   "fsd_base_miles": 67.56,
+   "fsd_miles": 45.92,
    "kwh": 33.24,
    "longest": 12.9,
    "measured_miles": 67.56,
@@ -3486,6 +3697,8 @@
   },
   "2026-04-08": {
    "drives": 8,
+   "fsd_base_miles": 44.58,
+   "fsd_miles": 17.57,
    "kwh": 23.86,
    "longest": 12.27,
    "measured_miles": 44.58,
@@ -3498,6 +3711,8 @@
   },
   "2026-04-09": {
    "drives": 7,
+   "fsd_base_miles": 342.47,
+   "fsd_miles": 335.78,
    "kwh": 187.84,
    "longest": 112.8,
    "measured_miles": 342.47,
@@ -3510,6 +3725,8 @@
   },
   "2026-04-10": {
    "drives": 3,
+   "fsd_base_miles": 40.02,
+   "fsd_miles": 39.41,
    "kwh": 25.1,
    "longest": 19.85,
    "measured_miles": 40.02,
@@ -3522,6 +3739,8 @@
   },
   "2026-04-13": {
    "drives": 5,
+   "fsd_base_miles": 19.98,
+   "fsd_miles": 16.07,
    "kwh": 8.68,
    "longest": 10.07,
    "measured_miles": 19.98,
@@ -3534,6 +3753,8 @@
   },
   "2026-04-14": {
    "drives": 8,
+   "fsd_base_miles": 126.21,
+   "fsd_miles": 90.79,
    "kwh": 65.18,
    "longest": 45.66,
    "measured_miles": 126.21,
@@ -3546,6 +3767,8 @@
   },
   "2026-04-15": {
    "drives": 6,
+   "fsd_base_miles": 32.46,
+   "fsd_miles": 22.7,
    "kwh": 14.74,
    "longest": 11.68,
    "measured_miles": 32.46,
@@ -3558,6 +3781,8 @@
   },
   "2026-04-16": {
    "drives": 6,
+   "fsd_base_miles": 58.07,
+   "fsd_miles": 46.93,
    "kwh": 29.72,
    "longest": 17.4,
    "measured_miles": 58.07,
@@ -3570,6 +3795,8 @@
   },
   "2026-04-17": {
    "drives": 9,
+   "fsd_base_miles": 26.2,
+   "fsd_miles": 14.39,
    "kwh": 12.6,
    "longest": 10.13,
    "measured_miles": 26.2,
@@ -3582,6 +3809,8 @@
   },
   "2026-04-18": {
    "drives": 11,
+   "fsd_base_miles": 109.04,
+   "fsd_miles": 67.03,
    "kwh": 54.58,
    "longest": 38.89,
    "measured_miles": 109.04,
@@ -3594,6 +3823,8 @@
   },
   "2026-04-20": {
    "drives": 5,
+   "fsd_base_miles": 20.26,
+   "fsd_miles": 12.32,
    "kwh": 10.12,
    "longest": 10.17,
    "measured_miles": 20.26,
@@ -3606,6 +3837,8 @@
   },
   "2026-04-21": {
    "drives": 5,
+   "fsd_base_miles": 28.83,
+   "fsd_miles": 10.11,
    "kwh": 13.4,
    "longest": 11.83,
    "measured_miles": 28.83,
@@ -3618,6 +3851,8 @@
   },
   "2026-04-22": {
    "drives": 10,
+   "fsd_base_miles": 92.5,
+   "fsd_miles": 49.57,
    "kwh": 44.8,
    "longest": 25.3,
    "measured_miles": 92.5,
@@ -3630,6 +3865,8 @@
   },
   "2026-04-23": {
    "drives": 7,
+   "fsd_base_miles": 128.14,
+   "fsd_miles": 111.03,
    "kwh": 63.3,
    "longest": 56.53,
    "measured_miles": 128.14,
@@ -3642,6 +3879,8 @@
   },
   "2026-04-24": {
    "drives": 5,
+   "fsd_base_miles": 32.8,
+   "fsd_miles": 18.14,
    "kwh": 15.92,
    "longest": 10.13,
    "measured_miles": 32.8,
@@ -3654,6 +3893,8 @@
   },
   "2026-04-25": {
    "drives": 7,
+   "fsd_base_miles": 45.71,
+   "fsd_miles": 33.13,
    "kwh": 27.86,
    "longest": 14.24,
    "measured_miles": 45.71,
@@ -3666,6 +3907,8 @@
   },
   "2026-04-27": {
    "drives": 6,
+   "fsd_base_miles": 29.01,
+   "fsd_miles": 18.74,
    "kwh": 13.82,
    "longest": 10.16,
    "measured_miles": 29.01,
@@ -3678,6 +3921,8 @@
   },
   "2026-04-28": {
    "drives": 5,
+   "fsd_base_miles": 29.16,
+   "fsd_miles": 23.8,
    "kwh": 13.48,
    "longest": 11.81,
    "measured_miles": 29.16,
@@ -3690,6 +3935,8 @@
   },
   "2026-04-29": {
    "drives": 5,
+   "fsd_base_miles": 24.33,
+   "fsd_miles": 20.72,
    "kwh": 12.08,
    "longest": 11.92,
    "measured_miles": 24.33,
@@ -3702,6 +3949,8 @@
   },
   "2026-04-30": {
    "drives": 9,
+   "fsd_base_miles": 34.68,
+   "fsd_miles": 27.31,
    "kwh": 16.7,
    "longest": 10.09,
    "measured_miles": 34.68,
@@ -3714,6 +3963,8 @@
   },
   "2026-05-01": {
    "drives": 4,
+   "fsd_base_miles": 32.86,
+   "fsd_miles": 18.21,
    "kwh": 15.02,
    "longest": 10.19,
    "measured_miles": 32.86,
@@ -3726,6 +3977,8 @@
   },
   "2026-05-02": {
    "drives": 5,
+   "fsd_base_miles": 87.36,
+   "fsd_miles": 81.8,
    "kwh": 46.16,
    "longest": 38.42,
    "measured_miles": 87.36,
@@ -3738,6 +3991,8 @@
   },
   "2026-05-03": {
    "drives": 2,
+   "fsd_base_miles": 1.8,
+   "fsd_miles": 0.0,
    "kwh": 0.78,
    "longest": 0.91,
    "measured_miles": 1.8,
@@ -3750,6 +4005,8 @@
   },
   "2026-05-04": {
    "drives": 5,
+   "fsd_base_miles": 22.49,
+   "fsd_miles": 17.64,
    "kwh": 11.04,
    "longest": 10.08,
    "measured_miles": 22.49,
@@ -3762,6 +4019,8 @@
   },
   "2026-05-05": {
    "drives": 8,
+   "fsd_base_miles": 182.37,
+   "fsd_miles": 170.3,
    "kwh": 101.82,
    "longest": 52.98,
    "measured_miles": 182.37,
@@ -3774,6 +4033,8 @@
   },
   "2026-05-06": {
    "drives": 3,
+   "fsd_base_miles": 21.17,
+   "fsd_miles": 19.63,
    "kwh": 9.64,
    "longest": 10.88,
    "measured_miles": 21.17,
@@ -3786,6 +4047,8 @@
   },
   "2026-05-07": {
    "drives": 8,
+   "fsd_base_miles": 104.35,
+   "fsd_miles": 95.17,
    "kwh": 61.8,
    "longest": 42.17,
    "measured_miles": 104.35,
@@ -3798,6 +4061,8 @@
   },
   "2026-05-08": {
    "drives": 10,
+   "fsd_base_miles": 53.53,
+   "fsd_miles": 33.53,
    "kwh": 24.88,
    "longest": 10.14,
    "measured_miles": 53.53,
@@ -3810,6 +4075,8 @@
   },
   "2026-05-09": {
    "drives": 8,
+   "fsd_base_miles": 60.99,
+   "fsd_miles": 35.5,
    "kwh": 29.92,
    "longest": 16.6,
    "measured_miles": 60.99,
@@ -3822,6 +4089,8 @@
   },
   "2026-05-10": {
    "drives": 2,
+   "fsd_base_miles": 22.68,
+   "fsd_miles": 19.29,
    "kwh": 11.82,
    "longest": 11.83,
    "measured_miles": 22.68,
@@ -3834,6 +4103,8 @@
   },
   "2026-05-11": {
    "drives": 6,
+   "fsd_base_miles": 23.27,
+   "fsd_miles": 19.67,
    "kwh": 11.66,
    "longest": 10.06,
    "measured_miles": 23.27,
@@ -3846,6 +4117,8 @@
   },
   "2026-05-12": {
    "drives": 6,
+   "fsd_base_miles": 43.48,
+   "fsd_miles": 12.09,
    "kwh": 21.96,
    "longest": 15.11,
    "measured_miles": 43.48,
@@ -3858,6 +4131,8 @@
   },
   "2026-05-13": {
    "drives": 6,
+   "fsd_base_miles": 40.85,
+   "fsd_miles": 28.67,
    "kwh": 21.16,
    "longest": 11.9,
    "measured_miles": 40.85,
@@ -3870,6 +4145,8 @@
   },
   "2026-05-14": {
    "drives": 8,
+   "fsd_base_miles": 79.62,
+   "fsd_miles": 47.19,
    "kwh": 43.7,
    "longest": 22.32,
    "measured_miles": 79.62,
@@ -3882,6 +4159,8 @@
   },
   "2026-05-15": {
    "drives": 4,
+   "fsd_base_miles": 85.14,
+   "fsd_miles": 59.24,
    "kwh": 48.92,
    "longest": 35.29,
    "measured_miles": 85.14,
@@ -3894,6 +4173,8 @@
   },
   "2026-05-16": {
    "drives": 6,
+   "fsd_base_miles": 113.81,
+   "fsd_miles": 101.64,
    "kwh": 62.26,
    "longest": 33.21,
    "measured_miles": 113.81,
@@ -3906,6 +4187,8 @@
   },
   "2026-05-17": {
    "drives": 2,
+   "fsd_base_miles": 75.04,
+   "fsd_miles": 68.79,
    "kwh": 36.28,
    "longest": 37.66,
    "measured_miles": 75.04,
@@ -3918,6 +4201,8 @@
   },
   "2026-05-18": {
    "drives": 7,
+   "fsd_base_miles": 45.67,
+   "fsd_miles": 29.42,
    "kwh": 25.06,
    "longest": 12.53,
    "measured_miles": 45.67,
@@ -3930,6 +4215,8 @@
   },
   "2026-05-19": {
    "drives": 11,
+   "fsd_base_miles": 341.13,
+   "fsd_miles": 281.72,
    "kwh": 183.66,
    "longest": 76.22,
    "measured_miles": 341.13,
@@ -3942,6 +4229,8 @@
   },
   "2026-05-20": {
    "drives": 6,
+   "fsd_base_miles": 25.86,
+   "fsd_miles": 19.27,
    "kwh": 12.34,
    "longest": 10.91,
    "measured_miles": 25.86,
@@ -3954,6 +4243,8 @@
   },
   "2026-05-21": {
    "drives": 3,
+   "fsd_base_miles": 20.62,
+   "fsd_miles": 19.65,
    "kwh": 9.64,
    "longest": 10.05,
    "measured_miles": 20.62,
@@ -3966,6 +4257,8 @@
   },
   "2026-05-22": {
    "drives": 7,
+   "fsd_base_miles": 60.04,
+   "fsd_miles": 41.86,
    "kwh": 28.9,
    "longest": 30.23,
    "measured_miles": 60.04,
@@ -3978,6 +4271,8 @@
   },
   "2026-05-23": {
    "drives": 7,
+   "fsd_base_miles": 82.27,
+   "fsd_miles": 73.1,
    "kwh": 40.72,
    "longest": 37.51,
    "measured_miles": 82.27,
@@ -3990,6 +4285,8 @@
   },
   "2026-05-24": {
    "drives": 2,
+   "fsd_base_miles": 4.31,
+   "fsd_miles": 0.0,
    "kwh": 2.04,
    "longest": 2.21,
    "measured_miles": 4.31,
@@ -4002,6 +4299,8 @@
   },
   "2026-05-25": {
    "drives": 1,
+   "fsd_base_miles": 37.39,
+   "fsd_miles": 0.0,
    "kwh": 17.66,
    "longest": 37.39,
    "measured_miles": 37.39,
@@ -4014,6 +4313,8 @@
   },
   "2026-05-26": {
    "drives": 3,
+   "fsd_base_miles": 6.14,
+   "fsd_miles": 0.0,
    "kwh": 2.4,
    "longest": 3.02,
    "measured_miles": 6.14,
@@ -4026,6 +4327,8 @@
   },
   "2026-05-27": {
    "drives": 7,
+   "fsd_base_miles": 173.28,
+   "fsd_miles": 165.95,
    "kwh": 86.88,
    "longest": 56.76,
    "measured_miles": 173.28,
@@ -4038,6 +4341,8 @@
   },
   "2026-05-28": {
    "drives": 9,
+   "fsd_base_miles": 44.49,
+   "fsd_miles": 13.84,
    "kwh": 20.66,
    "longest": 11.8,
    "measured_miles": 44.49,
@@ -4050,6 +4355,8 @@
   },
   "2026-05-29": {
    "drives": 5,
+   "fsd_base_miles": 86.83,
+   "fsd_miles": 31.39,
    "kwh": 69.88,
    "longest": 49.77,
    "measured_miles": 86.83,
@@ -4062,6 +4369,8 @@
   },
   "2026-05-30": {
    "drives": 5,
+   "fsd_base_miles": 34.95,
+   "fsd_miles": 1.73,
    "kwh": 16.2,
    "longest": 9.87,
    "measured_miles": 34.95,
@@ -4074,6 +4383,8 @@
   },
   "2026-05-31": {
    "drives": 3,
+   "fsd_base_miles": 85.0,
+   "fsd_miles": 22.1,
    "kwh": 71.02,
    "longest": 52.68,
    "measured_miles": 85.0,
@@ -4086,6 +4397,8 @@
   },
   "2026-06-01": {
    "drives": 5,
+   "fsd_base_miles": 33.08,
+   "fsd_miles": 14.42,
    "kwh": 16.5,
    "longest": 10.2,
    "measured_miles": 33.08,
@@ -4098,6 +4411,8 @@
   },
   "2026-06-02": {
    "drives": 10,
+   "fsd_base_miles": 105.44,
+   "fsd_miles": 92.08,
    "kwh": 54.72,
    "longest": 31.61,
    "measured_miles": 105.44,
@@ -4110,6 +4425,8 @@
   },
   "2026-06-03": {
    "drives": 5,
+   "fsd_base_miles": 25.42,
+   "fsd_miles": 18.55,
    "kwh": 11.84,
    "longest": 11.73,
    "measured_miles": 25.42,
@@ -4122,6 +4439,8 @@
   },
   "2026-06-04": {
    "drives": 8,
+   "fsd_base_miles": 37.49,
+   "fsd_miles": 15.69,
    "kwh": 16.88,
    "longest": 9.95,
    "measured_miles": 37.49,
@@ -4134,6 +4453,8 @@
   },
   "2026-06-05": {
    "drives": 6,
+   "fsd_base_miles": 110.31,
+   "fsd_miles": 86.98,
    "kwh": 57.26,
    "longest": 37.21,
    "measured_miles": 110.31,
@@ -4146,6 +4467,8 @@
   },
   "2026-06-06": {
    "drives": 5,
+   "fsd_base_miles": 85.27,
+   "fsd_miles": 70.16,
    "kwh": 43.42,
    "longest": 35.63,
    "measured_miles": 85.27,
@@ -4158,6 +4481,8 @@
   },
   "2026-06-07": {
    "drives": 3,
+   "fsd_base_miles": 74.57,
+   "fsd_miles": 70.04,
    "kwh": 32.24,
    "longest": 36.82,
    "measured_miles": 74.57,
@@ -4170,6 +4495,8 @@
   },
   "2026-06-08": {
    "drives": 5,
+   "fsd_base_miles": 22.18,
+   "fsd_miles": 14.4,
    "kwh": 9.52,
    "longest": 10.02,
    "measured_miles": 22.18,
@@ -4182,6 +4509,8 @@
   },
   "2026-06-09": {
    "drives": 6,
+   "fsd_base_miles": 29.63,
+   "fsd_miles": 3.03,
    "kwh": 12.96,
    "longest": 11.62,
    "measured_miles": 29.63,
@@ -4194,6 +4523,8 @@
   },
   "2026-06-10": {
    "drives": 3,
+   "fsd_base_miles": 23.53,
+   "fsd_miles": 20.83,
    "kwh": 10.44,
    "longest": 11.73,
    "measured_miles": 23.53,
@@ -4206,6 +4537,8 @@
   },
   "2026-06-11": {
    "drives": 7,
+   "fsd_base_miles": 103.88,
+   "fsd_miles": 74.38,
    "kwh": 46.64,
    "longest": 34.72,
    "measured_miles": 103.88,
@@ -4218,6 +4551,8 @@
   },
   "2026-06-12": {
    "drives": 2,
+   "fsd_base_miles": 5.65,
+   "fsd_miles": 1.86,
    "kwh": 2.26,
    "longest": 2.83,
    "measured_miles": 5.65,
@@ -4230,6 +4565,8 @@
   },
   "2026-06-13": {
    "drives": 6,
+   "fsd_base_miles": 79.62,
+   "fsd_miles": 32.84,
    "kwh": 38.86,
    "longest": 20.81,
    "measured_miles": 79.62,
@@ -4242,6 +4579,8 @@
   },
   "2026-06-14": {
    "drives": 9,
+   "fsd_base_miles": 141.02,
+   "fsd_miles": 19.32,
    "kwh": 102.48,
    "longest": 20.84,
    "measured_miles": 141.02,
@@ -4254,6 +4593,8 @@
   },
   "2026-06-15": {
    "drives": 8,
+   "fsd_base_miles": 105.51,
+   "fsd_miles": 58.64,
    "kwh": 60.88,
    "longest": 23.62,
    "measured_miles": 105.51,
@@ -4266,6 +4607,8 @@
   },
   "2026-06-16": {
    "drives": 2,
+   "fsd_base_miles": 25.36,
+   "fsd_miles": 12.89,
    "kwh": 9.72,
    "longest": 12.76,
    "measured_miles": 25.36,
@@ -4278,6 +4621,8 @@
   },
   "2026-06-17": {
    "drives": 7,
+   "fsd_base_miles": 100.83,
+   "fsd_miles": 26.71,
    "kwh": 54.86,
    "longest": 21.44,
    "measured_miles": 100.83,
@@ -4290,6 +4635,8 @@
   },
   "2026-06-18": {
    "drives": 3,
+   "fsd_base_miles": 23.62,
+   "fsd_miles": 20.75,
    "kwh": 11.96,
    "longest": 10.79,
    "measured_miles": 23.62,
@@ -4302,6 +4649,8 @@
   },
   "2026-06-19": {
    "drives": 6,
+   "fsd_base_miles": 92.53,
+   "fsd_miles": 13.43,
    "kwh": 62.62,
    "longest": 20.92,
    "measured_miles": 92.53,
@@ -4314,6 +4663,8 @@
   },
   "2026-06-20": {
    "drives": 5,
+   "fsd_base_miles": 63.73,
+   "fsd_miles": 0.0,
    "kwh": 44.38,
    "longest": 20.89,
    "measured_miles": 63.73,
@@ -4326,6 +4677,8 @@
   },
   "2026-06-22": {
    "drives": 3,
+   "fsd_base_miles": 40.92,
+   "fsd_miles": 40.66,
    "kwh": 15.62,
    "longest": 21.69,
    "measured_miles": 40.92,
@@ -4338,6 +4691,8 @@
   },
   "2026-06-23": {
    "drives": 5,
+   "fsd_base_miles": 83.61,
+   "fsd_miles": 80.98,
    "kwh": 38.2,
    "longest": 22.93,
    "measured_miles": 83.61,
@@ -4350,6 +4705,8 @@
   },
   "2026-06-24": {
    "drives": 5,
+   "fsd_base_miles": 58.95,
+   "fsd_miles": 45.05,
    "kwh": 26.56,
    "longest": 18.74,
    "measured_miles": 58.95,
@@ -4362,6 +4719,8 @@
   },
   "2026-06-25": {
    "drives": 8,
+   "fsd_base_miles": 99.36,
+   "fsd_miles": 43.84,
    "kwh": 46.48,
    "longest": 23.25,
    "measured_miles": 99.36,
@@ -4374,6 +4733,8 @@
   },
   "2026-06-26": {
    "drives": 11,
+   "fsd_base_miles": 191.22,
+   "fsd_miles": 182.27,
    "kwh": 88.02,
    "longest": 45.39,
    "measured_miles": 191.22,
@@ -4386,6 +4747,8 @@
   },
   "2026-06-27": {
    "drives": 5,
+   "fsd_base_miles": 172.91,
+   "fsd_miles": 161.98,
    "kwh": 86.28,
    "longest": 64.21,
    "measured_miles": 172.91,
@@ -4398,6 +4761,8 @@
   },
   "2026-06-28": {
    "drives": 9,
+   "fsd_base_miles": 179.36,
+   "fsd_miles": 96.16,
    "kwh": 93.54,
    "longest": 42.77,
    "measured_miles": 179.36,
@@ -4410,6 +4775,8 @@
   },
   "2026-06-29": {
    "drives": 3,
+   "fsd_base_miles": 41.9,
+   "fsd_miles": 26.89,
    "kwh": 16.16,
    "longest": 21.66,
    "measured_miles": 41.9,
@@ -4422,6 +4789,8 @@
   },
   "2026-06-30": {
    "drives": 9,
+   "fsd_base_miles": 101.78,
+   "fsd_miles": 44.35,
    "kwh": 44.98,
    "longest": 22.9,
    "measured_miles": 101.78,
@@ -4434,6 +4803,8 @@
   },
   "2026-07-01": {
    "drives": 5,
+   "fsd_base_miles": 50.52,
+   "fsd_miles": 36.57,
    "kwh": 22.28,
    "longest": 18.73,
    "measured_miles": 50.52,
@@ -4446,6 +4817,8 @@
   },
   "2026-07-02": {
    "drives": 9,
+   "fsd_base_miles": 189.85,
+   "fsd_miles": 160.67,
    "kwh": 94.78,
    "longest": 68.46,
    "measured_miles": 189.85,
@@ -4458,6 +4831,8 @@
   },
   "2026-07-03": {
    "drives": 10,
+   "fsd_base_miles": 739.69,
+   "fsd_miles": 728.12,
    "kwh": 375.1,
    "longest": 191.51,
    "measured_miles": 739.69,
@@ -4470,6 +4845,8 @@
   },
   "2026-07-04": {
    "drives": 8,
+   "fsd_base_miles": 565.37,
+   "fsd_miles": 560.46,
    "kwh": 264.92,
    "longest": 219.99,
    "measured_miles": 565.37,
@@ -4482,6 +4859,8 @@
   },
   "2026-07-05": {
    "drives": 7,
+   "fsd_base_miles": 661.56,
+   "fsd_miles": 655.5,
    "kwh": 413.66,
    "longest": 152.23,
    "measured_miles": 661.56,
@@ -4494,6 +4873,8 @@
   },
   "2026-07-06": {
    "drives": 9,
+   "fsd_base_miles": 102.98,
+   "fsd_miles": 40.84,
    "kwh": 55.6,
    "longest": 43.13,
    "measured_miles": 102.98,
@@ -4506,6 +4887,8 @@
   },
   "2026-07-07": {
    "drives": 11,
+   "fsd_base_miles": 86.3,
+   "fsd_miles": 0.0,
    "kwh": 44.76,
    "longest": 33.25,
    "measured_miles": 86.3,
@@ -4518,6 +4901,8 @@
   },
   "2026-07-08": {
    "drives": 9,
+   "fsd_base_miles": 210.19,
+   "fsd_miles": 175.04,
    "kwh": 84.52,
    "longest": 97.9,
    "measured_miles": 210.19,
@@ -4530,6 +4915,8 @@
   },
   "2026-07-09": {
    "drives": 9,
+   "fsd_base_miles": 67.01,
+   "fsd_miles": 23.15,
    "kwh": 22.96,
    "longest": 28.98,
    "measured_miles": 67.01,
@@ -4542,6 +4929,8 @@
   },
   "2026-07-10": {
    "drives": 12,
+   "fsd_base_miles": 252.9,
+   "fsd_miles": 44.42,
    "kwh": 107.96,
    "longest": 122.56,
    "measured_miles": 252.9,
@@ -4554,6 +4943,8 @@
   },
   "2026-07-11": {
    "drives": 8,
+   "fsd_base_miles": 132.09,
+   "fsd_miles": 72.34,
    "kwh": 56.18,
    "longest": 58.1,
    "measured_miles": 132.09,
@@ -4566,6 +4957,8 @@
   },
   "2026-07-12": {
    "drives": 11,
+   "fsd_base_miles": 92.96,
+   "fsd_miles": 70.32,
    "kwh": 34.96,
    "longest": 19.18,
    "measured_miles": 92.96,
@@ -4578,6 +4971,8 @@
   },
   "2026-07-13": {
    "drives": 19,
+   "fsd_base_miles": 196.35,
+   "fsd_miles": 162.31,
    "kwh": 81.9,
    "longest": 47.71,
    "measured_miles": 196.35,
@@ -4590,6 +4985,8 @@
   },
   "2026-07-14": {
    "drives": 8,
+   "fsd_base_miles": 283.7,
+   "fsd_miles": 0.0,
    "kwh": 151.26,
    "longest": 190.33,
    "measured_miles": 283.7,
@@ -4602,6 +4999,8 @@
   },
   "2026-07-15": {
    "drives": 11,
+   "fsd_base_miles": 228.8,
+   "fsd_miles": 205.43,
    "kwh": 117.68,
    "longest": 166.56,
    "measured_miles": 228.8,
@@ -4614,6 +5013,8 @@
   },
   "2026-07-16": {
    "drives": 11,
+   "fsd_base_miles": 118.67,
+   "fsd_miles": 81.91,
    "kwh": 62.54,
    "longest": 66.35,
    "measured_miles": 118.67,
@@ -4626,6 +5027,8 @@
   },
   "2026-07-17": {
    "drives": 10,
+   "fsd_base_miles": 552.31,
+   "fsd_miles": 456.75,
    "kwh": 259.64,
    "longest": 135.79,
    "measured_miles": 552.31,
@@ -4638,6 +5041,8 @@
   },
   "2026-07-18": {
    "drives": 9,
+   "fsd_base_miles": 842.43,
+   "fsd_miles": 747.17,
    "kwh": 491.74,
    "longest": 172.09,
    "measured_miles": 842.43,
@@ -4650,6 +5055,8 @@
   },
   "2026-07-19": {
    "drives": 7,
+   "fsd_base_miles": 654.71,
+   "fsd_miles": 579.09,
    "kwh": 370.82,
    "longest": 172.27,
    "measured_miles": 654.71,
@@ -4662,6 +5069,8 @@
   },
   "2026-07-20": {
    "drives": 3,
+   "fsd_base_miles": 42.53,
+   "fsd_miles": 28.71,
    "kwh": 22.2,
    "longest": 21.7,
    "measured_miles": 42.53,
@@ -4674,6 +5083,8 @@
   },
   "2026-07-21": {
    "drives": 11,
+   "fsd_base_miles": 101.96,
+   "fsd_miles": 63.89,
    "kwh": 48.0,
    "longest": 20.92,
    "measured_miles": 101.96,
@@ -4686,6 +5097,8 @@
   },
   "2026-07-22": {
    "drives": 5,
+   "fsd_base_miles": 57.58,
+   "fsd_miles": 56.9,
    "kwh": 26.3,
    "longest": 21.76,
    "measured_miles": 57.58,
@@ -4698,6 +5111,8 @@
   },
   "2026-07-23": {
    "drives": 8,
+   "fsd_base_miles": 388.96,
+   "fsd_miles": 382.1,
    "kwh": 210.68,
    "longest": 106.82,
    "measured_miles": 388.96,
@@ -4710,6 +5125,8 @@
   },
   "2026-07-24": {
    "drives": 5,
+   "fsd_base_miles": 93.22,
+   "fsd_miles": 89.89,
    "kwh": 40.68,
    "longest": 42.78,
    "measured_miles": 93.22,
@@ -4722,6 +5139,8 @@
   },
   "2026-07-25": {
    "drives": 5,
+   "fsd_base_miles": 105.17,
+   "fsd_miles": 102.32,
    "kwh": 52.08,
    "longest": 63.64,
    "measured_miles": 105.17,
@@ -4734,6 +5153,8 @@
   },
   "2026-07-26": {
    "drives": 6,
+   "fsd_base_miles": 231.32,
+   "fsd_miles": 224.16,
    "kwh": 120.1,
    "longest": 100.13,
    "measured_miles": 231.32,
@@ -4746,6 +5167,8 @@
   },
   "2026-07-27": {
    "drives": 3,
+   "fsd_base_miles": 42.05,
+   "fsd_miles": 39.18,
    "kwh": 18.04,
    "longest": 21.78,
    "measured_miles": 42.05,
@@ -4758,6 +5181,8 @@
   },
   "2026-07-28": {
    "drives": 6,
+   "fsd_base_miles": 137.4,
+   "fsd_miles": 136.3,
    "kwh": 61.5,
    "longest": 42.26,
    "measured_miles": 137.4,
@@ -4770,6 +5195,8 @@
   },
   "2026-07-29": {
    "drives": 7,
+   "fsd_base_miles": 124.48,
+   "fsd_miles": 112.55,
    "kwh": 57.18,
    "longest": 45.22,
    "measured_miles": 124.48,
@@ -4782,6 +5209,8 @@
   },
   "2026-07-30": {
    "drives": 5,
+   "fsd_base_miles": 60.63,
+   "fsd_miles": 46.1,
    "kwh": 25.7,
    "longest": 21.48,
    "measured_miles": 60.63,
@@ -4794,6 +5223,8 @@
   },
   "2026-07-31": {
    "drives": 2,
+   "fsd_base_miles": 54.52,
+   "fsd_miles": 54.07,
    "kwh": 24.88,
    "longest": 41.85,
    "measured_miles": 54.52,
@@ -4806,6 +5237,8 @@
   },
   "2026-08-01": {
    "drives": 5,
+   "fsd_base_miles": 92.23,
+   "fsd_miles": 80.33,
    "kwh": 44.16,
    "longest": 38.4,
    "measured_miles": 92.23,
@@ -4818,6 +5251,8 @@
   },
   "2026-08-02": {
    "drives": 8,
+   "fsd_base_miles": 284.24,
+   "fsd_miles": 221.01,
    "kwh": 159.08,
    "longest": 109.56,
    "measured_miles": 284.24,
@@ -4830,6 +5265,8 @@
   },
   "2026-08-03": {
    "drives": 10,
+   "fsd_base_miles": 109.18,
+   "fsd_miles": 74.89,
    "kwh": 48.12,
    "longest": 16.32,
    "measured_miles": 109.18,
@@ -4842,6 +5279,8 @@
   },
   "2026-08-04": {
    "drives": 3,
+   "fsd_base_miles": 42.09,
+   "fsd_miles": 34.25,
    "kwh": 19.44,
    "longest": 21.24,
    "measured_miles": 42.09,
@@ -4854,6 +5293,8 @@
   },
   "2026-08-05": {
    "drives": 4,
+   "fsd_base_miles": 49.85,
+   "fsd_miles": 44.35,
    "kwh": 22.96,
    "longest": 18.62,
    "measured_miles": 49.85,
@@ -4866,6 +5307,8 @@
   },
   "2026-08-06": {
    "drives": 5,
+   "fsd_base_miles": 45.69,
+   "fsd_miles": 12.88,
    "kwh": 22.02,
    "longest": 21.73,
    "measured_miles": 45.69,
@@ -4878,6 +5321,8 @@
   },
   "2026-08-07": {
    "drives": 5,
+   "fsd_base_miles": 82.74,
+   "fsd_miles": 0.0,
    "kwh": 49.36,
    "longest": 40.74,
    "measured_miles": 82.74,
@@ -4890,6 +5335,8 @@
   },
   "2026-08-08": {
    "drives": 6,
+   "fsd_base_miles": 229.75,
+   "fsd_miles": 221.96,
    "kwh": 117.56,
    "longest": 67.82,
    "measured_miles": 229.75,
@@ -4902,6 +5349,8 @@
   },
   "2026-08-10": {
    "drives": 3,
+   "fsd_base_miles": 45.16,
+   "fsd_miles": 27.54,
    "kwh": 21.16,
    "longest": 21.32,
    "measured_miles": 45.16,
@@ -4914,6 +5363,8 @@
   },
   "2026-08-11": {
    "drives": 3,
+   "fsd_base_miles": 47.01,
+   "fsd_miles": 22.13,
    "kwh": 21.14,
    "longest": 22.96,
    "measured_miles": 47.01,
@@ -4926,6 +5377,8 @@
   },
   "2026-08-12": {
    "drives": 2,
+   "fsd_base_miles": 42.95,
+   "fsd_miles": 17.13,
    "kwh": 18.18,
    "longest": 21.67,
    "measured_miles": 42.95,
@@ -4938,6 +5391,8 @@
   },
   "2026-08-13": {
    "drives": 6,
+   "fsd_base_miles": 91.76,
+   "fsd_miles": 58.18,
    "kwh": 41.2,
    "longest": 32.34,
    "measured_miles": 91.76,
@@ -4950,6 +5405,8 @@
   },
   "2026-08-14": {
    "drives": 8,
+   "fsd_base_miles": 117.19,
+   "fsd_miles": 42.0,
    "kwh": 65.58,
    "longest": 37.52,
    "measured_miles": 117.19,
@@ -4962,6 +5419,8 @@
   },
   "2026-08-15": {
    "drives": 6,
+   "fsd_base_miles": 219.37,
+   "fsd_miles": 216.33,
    "kwh": 115.72,
    "longest": 91.1,
    "measured_miles": 219.37,
@@ -4974,6 +5433,8 @@
   },
   "2026-08-17": {
    "drives": 3,
+   "fsd_base_miles": 41.57,
+   "fsd_miles": 35.52,
    "kwh": 17.84,
    "longest": 21.29,
    "measured_miles": 41.57,
@@ -4986,6 +5447,8 @@
   },
   "2026-08-18": {
    "drives": 5,
+   "fsd_base_miles": 98.33,
+   "fsd_miles": 86.46,
    "kwh": 43.4,
    "longest": 25.16,
    "measured_miles": 98.33,
@@ -4998,6 +5461,8 @@
   },
   "2026-08-19": {
    "drives": 3,
+   "fsd_base_miles": 52.87,
+   "fsd_miles": 28.28,
    "kwh": 25.6,
    "longest": 24.3,
    "measured_miles": 52.87,
@@ -5010,6 +5475,8 @@
   },
   "2026-08-20": {
    "drives": 3,
+   "fsd_base_miles": 43.68,
+   "fsd_miles": 26.33,
    "kwh": 20.4,
    "longest": 21.65,
    "measured_miles": 43.68,
@@ -5022,6 +5489,8 @@
   },
   "2026-08-21": {
    "drives": 6,
+   "fsd_base_miles": 61.12,
+   "fsd_miles": 56.3,
    "kwh": 27.6,
    "longest": 27.27,
    "measured_miles": 61.12,
@@ -5034,6 +5503,8 @@
   },
   "2026-08-23": {
    "drives": 3,
+   "fsd_base_miles": 47.4,
+   "fsd_miles": 0.0,
    "kwh": 33.7,
    "longest": 43.09,
    "measured_miles": 47.4,
@@ -5046,6 +5517,8 @@
   },
   "2026-08-24": {
    "drives": 3,
+   "fsd_base_miles": 34.5,
+   "fsd_miles": 32.83,
    "kwh": 16.44,
    "longest": 21.68,
    "measured_miles": 34.5,
@@ -5058,6 +5531,8 @@
   },
   "2026-08-25": {
    "drives": 4,
+   "fsd_base_miles": 59.66,
+   "fsd_miles": 51.24,
    "kwh": 28.38,
    "longest": 23.4,
    "measured_miles": 59.66,
@@ -5070,6 +5545,8 @@
   },
   "2026-08-26": {
    "drives": 8,
+   "fsd_base_miles": 358.04,
+   "fsd_miles": 355.82,
    "kwh": 185.12,
    "longest": 169.58,
    "measured_miles": 358.04,
@@ -5082,6 +5559,8 @@
   },
   "2026-08-27": {
    "drives": 5,
+   "fsd_base_miles": 49.58,
+   "fsd_miles": 41.06,
    "kwh": 23.1,
    "longest": 22.19,
    "measured_miles": 49.58,
@@ -5094,6 +5573,8 @@
   },
   "2026-08-28": {
    "drives": 5,
+   "fsd_base_miles": 25.56,
+   "fsd_miles": 22.54,
    "kwh": 10.44,
    "longest": 10.9,
    "measured_miles": 25.56,
@@ -5106,6 +5587,8 @@
   },
   "2026-08-29": {
    "drives": 6,
+   "fsd_base_miles": 339.63,
+   "fsd_miles": 335.97,
    "kwh": 173.38,
    "longest": 187.16,
    "measured_miles": 339.63,
@@ -5118,6 +5601,8 @@
   },
   "2026-08-30": {
    "drives": 1,
+   "fsd_base_miles": 117.45,
+   "fsd_miles": 117.33,
    "kwh": 70.4,
    "longest": 117.45,
    "measured_miles": 117.45,
@@ -5130,6 +5615,8 @@
   },
   "2026-08-31": {
    "drives": 4,
+   "fsd_base_miles": 38.3,
+   "fsd_miles": 37.13,
    "kwh": 15.34,
    "longest": 13.54,
    "measured_miles": 38.3,
@@ -5142,6 +5629,8 @@
   },
   "2026-09-01": {
    "drives": 10,
+   "fsd_base_miles": 61.13,
+   "fsd_miles": 29.26,
    "kwh": 29.34,
    "longest": 19.78,
    "measured_miles": 61.13,
@@ -5154,6 +5643,8 @@
   },
   "2026-09-02": {
    "drives": 6,
+   "fsd_base_miles": 84.06,
+   "fsd_miles": 67.46,
    "kwh": 38.36,
    "longest": 18.79,
    "measured_miles": 84.06,
@@ -5166,6 +5657,8 @@
   },
   "2026-09-03": {
    "drives": 3,
+   "fsd_base_miles": 42.72,
+   "fsd_miles": 42.31,
    "kwh": 19.74,
    "longest": 21.66,
    "measured_miles": 42.72,
@@ -5178,6 +5671,8 @@
   },
   "2026-09-04": {
    "drives": 5,
+   "fsd_base_miles": 102.05,
+   "fsd_miles": 51.66,
    "kwh": 52.06,
    "longest": 40.3,
    "measured_miles": 102.05,
@@ -5190,6 +5685,8 @@
   },
   "2026-09-05": {
    "drives": 2,
+   "fsd_base_miles": 44.71,
+   "fsd_miles": 0.0,
    "kwh": 31.32,
    "longest": 36.53,
    "measured_miles": 44.71,
@@ -5202,6 +5699,8 @@
   },
   "2026-09-06": {
    "drives": 2,
+   "fsd_base_miles": 4.34,
+   "fsd_miles": 0.0,
    "kwh": 2.9,
    "longest": 2.2,
    "measured_miles": 4.34,
@@ -5214,6 +5713,8 @@
   },
   "2026-09-07": {
    "drives": 2,
+   "fsd_base_miles": 44.99,
+   "fsd_miles": 0.0,
    "kwh": 29.12,
    "longest": 36.79,
    "measured_miles": 44.99,
@@ -5226,6 +5727,8 @@
   },
   "2026-09-08": {
    "drives": 4,
+   "fsd_base_miles": 53.43,
+   "fsd_miles": 40.17,
    "kwh": 23.38,
    "longest": 23.17,
    "measured_miles": 53.43,
@@ -5238,6 +5741,8 @@
   },
   "2026-09-09": {
    "drives": 5,
+   "fsd_base_miles": 56.05,
+   "fsd_miles": 53.96,
    "kwh": 25.88,
    "longest": 19.11,
    "measured_miles": 56.05,
@@ -5250,6 +5755,8 @@
   },
   "2026-09-10": {
    "drives": 9,
+   "fsd_base_miles": 168.17,
+   "fsd_miles": 164.54,
    "kwh": 76.54,
    "longest": 41.84,
    "measured_miles": 168.17,
@@ -5262,6 +5769,8 @@
   },
   "2026-09-11": {
    "drives": 2,
+   "fsd_base_miles": 21.18,
+   "fsd_miles": 20.43,
    "kwh": 8.02,
    "longest": 10.8,
    "measured_miles": 21.18,
@@ -5274,6 +5783,8 @@
   },
   "2026-09-12": {
    "drives": 3,
+   "fsd_base_miles": 127.94,
+   "fsd_miles": 127.01,
    "kwh": 64.32,
    "longest": 67.41,
    "measured_miles": 127.94,
@@ -5286,6 +5797,8 @@
   },
   "2026-09-14": {
    "drives": 3,
+   "fsd_base_miles": 41.51,
+   "fsd_miles": 32.34,
    "kwh": 18.22,
    "longest": 21.66,
    "measured_miles": 41.51,
@@ -5298,6 +5811,8 @@
   },
   "2026-09-15": {
    "drives": 7,
+   "fsd_base_miles": 85.73,
+   "fsd_miles": 83.94,
    "kwh": 40.98,
    "longest": 23.57,
    "measured_miles": 85.73,
@@ -5310,6 +5825,8 @@
   },
   "2026-09-16": {
    "drives": 5,
+   "fsd_base_miles": 86.1,
+   "fsd_miles": 79.7,
    "kwh": 40.9,
    "longest": 37.59,
    "measured_miles": 86.1,
@@ -5322,6 +5839,8 @@
   },
   "2026-09-17": {
    "drives": 5,
+   "fsd_base_miles": 59.49,
+   "fsd_miles": 56.66,
    "kwh": 29.96,
    "longest": 17.61,
    "measured_miles": 59.49,
@@ -5334,6 +5853,8 @@
   },
   "2026-09-18": {
    "drives": 7,
+   "fsd_base_miles": 112.66,
+   "fsd_miles": 111.72,
    "kwh": 56.08,
    "longest": 41.96,
    "measured_miles": 112.66,
@@ -5346,6 +5867,8 @@
   },
   "2026-09-19": {
    "drives": 7,
+   "fsd_base_miles": 111.13,
+   "fsd_miles": 108.08,
    "kwh": 53.42,
    "longest": 35.25,
    "measured_miles": 111.13,
@@ -5358,6 +5881,8 @@
   },
   "2026-09-21": {
    "drives": 5,
+   "fsd_base_miles": 61.09,
+   "fsd_miles": 50.23,
    "kwh": 33.02,
    "longest": 21.75,
    "measured_miles": 61.09,
@@ -5370,6 +5895,8 @@
   },
   "2026-09-22": {
    "drives": 6,
+   "fsd_base_miles": 82.73,
+   "fsd_miles": 73.66,
    "kwh": 41.6,
    "longest": 36.34,
    "measured_miles": 82.73,
@@ -5382,6 +5909,8 @@
   },
   "2026-09-23": {
    "drives": 8,
+   "fsd_base_miles": 216.35,
+   "fsd_miles": 215.76,
    "kwh": 99.86,
    "longest": 185.49,
    "measured_miles": 216.35,
@@ -5394,6 +5923,8 @@
   },
   "2026-09-24": {
    "drives": 4,
+   "fsd_base_miles": 28.97,
+   "fsd_miles": 28.63,
    "kwh": 11.04,
    "longest": 10.51,
    "measured_miles": 28.97,
@@ -5406,6 +5937,8 @@
   },
   "2026-09-25": {
    "drives": 5,
+   "fsd_base_miles": 221.77,
+   "fsd_miles": 221.75,
    "kwh": 110.38,
    "longest": 144.83,
    "measured_miles": 221.77,
@@ -5418,6 +5951,8 @@
   },
   "2026-09-26": {
    "drives": 5,
+   "fsd_base_miles": 126.94,
+   "fsd_miles": 126.37,
    "kwh": 74.82,
    "longest": 61.76,
    "measured_miles": 126.94,
@@ -5430,6 +5965,8 @@
   },
   "2026-09-28": {
    "drives": 3,
+   "fsd_base_miles": 42.02,
+   "fsd_miles": 40.91,
    "kwh": 17.92,
    "longest": 21.69,
    "measured_miles": 42.02,
@@ -5442,6 +5979,8 @@
   },
   "2026-09-29": {
    "drives": 4,
+   "fsd_base_miles": 45.97,
+   "fsd_miles": 38.16,
    "kwh": 20.88,
    "longest": 15.35,
    "measured_miles": 45.97,
@@ -5454,6 +5993,8 @@
   },
   "2026-09-30": {
    "drives": 4,
+   "fsd_base_miles": 55.37,
+   "fsd_miles": 54.45,
    "kwh": 25.4,
    "longest": 19.22,
    "measured_miles": 55.37,
@@ -5466,6 +6007,8 @@
   },
   "2026-10-01": {
    "drives": 7,
+   "fsd_base_miles": 310.22,
+   "fsd_miles": 302.13,
    "kwh": 161.44,
    "longest": 138.19,
    "measured_miles": 310.22,
@@ -5478,6 +6021,8 @@
   },
   "2026-10-03": {
    "drives": 5,
+   "fsd_base_miles": 43.96,
+   "fsd_miles": 12.09,
    "kwh": 24.88,
    "longest": 20.79,
    "measured_miles": 43.96,
@@ -5490,6 +6035,8 @@
   },
   "2026-10-05": {
    "drives": 3,
+   "fsd_base_miles": 42.06,
+   "fsd_miles": 21.4,
    "kwh": 20.52,
    "longest": 21.73,
    "measured_miles": 42.06,
@@ -5502,6 +6049,8 @@
   },
   "2026-10-06": {
    "drives": 4,
+   "fsd_base_miles": 86.92,
+   "fsd_miles": 63.01,
    "kwh": 44.66,
    "longest": 26.22,
    "measured_miles": 86.92,
@@ -5514,6 +6063,8 @@
   },
   "2026-10-07": {
    "drives": 6,
+   "fsd_base_miles": 55.64,
+   "fsd_miles": 51.55,
    "kwh": 26.14,
    "longest": 18.74,
    "measured_miles": 55.64,
@@ -5526,6 +6077,8 @@
   },
   "2026-10-08": {
    "drives": 2,
+   "fsd_base_miles": 21.26,
+   "fsd_miles": 20.98,
    "kwh": 8.82,
    "longest": 10.86,
    "measured_miles": 21.26,
@@ -5538,6 +6091,8 @@
   },
   "2026-10-09": {
    "drives": 8,
+   "fsd_base_miles": 109.85,
+   "fsd_miles": 104.11,
    "kwh": 55.6,
    "longest": 31.77,
    "measured_miles": 109.85,
@@ -5550,6 +6105,8 @@
   },
   "2026-10-10": {
    "drives": 3,
+   "fsd_base_miles": 234.7,
+   "fsd_miles": 0.0,
    "kwh": 180.06,
    "longest": 117.25,
    "measured_miles": 234.7,
@@ -5562,6 +6119,8 @@
   },
   "2026-10-12": {
    "drives": 5,
+   "fsd_base_miles": 54.77,
+   "fsd_miles": 35.59,
    "kwh": 24.36,
    "longest": 21.78,
    "measured_miles": 54.77,
@@ -5574,6 +6133,8 @@
   },
   "2026-10-13": {
    "drives": 9,
+   "fsd_base_miles": 693.63,
+   "fsd_miles": 662.91,
    "kwh": 387.84,
    "longest": 169.97,
    "measured_miles": 693.63,
@@ -5586,6 +6147,8 @@
   },
   "2026-10-14": {
    "drives": 4,
+   "fsd_base_miles": 34.54,
+   "fsd_miles": 26.62,
    "kwh": 18.4,
    "longest": 14.41,
    "measured_miles": 34.54,
@@ -5598,6 +6161,8 @@
   },
   "2026-10-15": {
    "drives": 6,
+   "fsd_base_miles": 666.97,
+   "fsd_miles": 500.01,
    "kwh": 375.6,
    "longest": 188.64,
    "measured_miles": 666.97,
@@ -5610,6 +6175,8 @@
   },
   "2026-10-16": {
    "drives": 3,
+   "fsd_base_miles": 24.76,
+   "fsd_miles": 23.04,
    "kwh": 15.64,
    "longest": 12.08,
    "measured_miles": 24.76,
@@ -5622,6 +6189,8 @@
   },
   "2026-10-17": {
    "drives": 7,
+   "fsd_base_miles": 309.17,
+   "fsd_miles": 298.64,
    "kwh": 190.08,
    "longest": 120.91,
    "measured_miles": 309.17,
@@ -5634,6 +6203,8 @@
   },
   "2026-10-19": {
    "drives": 4,
+   "fsd_base_miles": 48.27,
+   "fsd_miles": 44.62,
    "kwh": 21.96,
    "longest": 19.0,
    "measured_miles": 48.27,
@@ -5646,6 +6217,8 @@
   },
   "2026-10-20": {
    "drives": 5,
+   "fsd_base_miles": 60.9,
+   "fsd_miles": 51.8,
    "kwh": 27.76,
    "longest": 18.96,
    "measured_miles": 60.9,
@@ -5658,6 +6231,8 @@
   },
   "2026-10-21": {
    "drives": 3,
+   "fsd_base_miles": 49.98,
+   "fsd_miles": 48.44,
    "kwh": 23.18,
    "longest": 21.74,
    "measured_miles": 49.98,
@@ -5670,6 +6245,8 @@
   },
   "2026-10-22": {
    "drives": 3,
+   "fsd_base_miles": 42.07,
+   "fsd_miles": 41.2,
    "kwh": 17.46,
    "longest": 21.73,
    "measured_miles": 42.07,
@@ -5682,6 +6259,8 @@
   },
   "2026-10-23": {
    "drives": 8,
+   "fsd_base_miles": 97.94,
+   "fsd_miles": 95.74,
    "kwh": 39.38,
    "longest": 24.12,
    "measured_miles": 97.94,
@@ -5694,6 +6273,8 @@
   },
   "2026-10-24": {
    "drives": 3,
+   "fsd_base_miles": 111.51,
+   "fsd_miles": 110.19,
    "kwh": 52.3,
    "longest": 55.23,
    "measured_miles": 111.51,
@@ -5706,6 +6287,8 @@
   },
   "2026-10-26": {
    "drives": 4,
+   "fsd_base_miles": 51.41,
+   "fsd_miles": 45.34,
    "kwh": 23.34,
    "longest": 18.09,
    "measured_miles": 51.41,
@@ -5718,6 +6301,8 @@
   },
   "2026-10-27": {
    "drives": 8,
+   "fsd_base_miles": 105.71,
+   "fsd_miles": 69.45,
    "kwh": 54.68,
    "longest": 23.42,
    "measured_miles": 105.71,
@@ -5730,6 +6315,8 @@
   },
   "2026-10-28": {
    "drives": 4,
+   "fsd_base_miles": 48.37,
+   "fsd_miles": 33.26,
    "kwh": 23.64,
    "longest": 18.73,
    "measured_miles": 48.37,
@@ -5742,6 +6329,8 @@
   },
   "2026-10-29": {
    "drives": 4,
+   "fsd_base_miles": 41.5,
+   "fsd_miles": 19.2,
    "kwh": 20.42,
    "longest": 11.97,
    "measured_miles": 41.5,
@@ -5754,6 +6343,8 @@
   },
   "2026-10-30": {
    "drives": 4,
+   "fsd_base_miles": 64.04,
+   "fsd_miles": 60.13,
    "kwh": 30.84,
    "longest": 21.73,
    "measured_miles": 64.04,
@@ -6807,6 +7398,8 @@
    },
    "2024-09-24": {
     "drives": 5,
+    "fsd_base_miles": 10.03,
+    "fsd_miles": 0.66,
     "kwh": 13.67,
     "longest": 12.64,
     "measured_miles": 28.5,
@@ -6831,6 +7424,8 @@
    },
    "2024-09-26": {
     "drives": 4,
+    "fsd_base_miles": 19.03,
+    "fsd_miles": 6.38,
     "kwh": 17.7,
     "longest": 19.03,
     "measured_miles": 39.06,
@@ -6843,6 +7438,8 @@
    },
    "2024-09-27": {
     "drives": 9,
+    "fsd_base_miles": 75.23,
+    "fsd_miles": 30.06,
     "kwh": 65.76,
     "longest": 31.83,
     "measured_miles": 134.66,
@@ -6855,6 +7452,8 @@
    },
    "2024-09-28": {
     "drives": 5,
+    "fsd_base_miles": 206.79,
+    "fsd_miles": 146.67,
     "kwh": 128.06,
     "longest": 106.12,
     "measured_miles": 222.86,
@@ -6891,6 +7490,8 @@
    },
    "2024-10-01": {
     "drives": 4,
+    "fsd_base_miles": 38.17,
+    "fsd_miles": 35.46,
     "kwh": 15.23,
     "longest": 14.56,
     "measured_miles": 38.17,
@@ -6903,6 +7504,8 @@
    },
    "2024-10-02": {
     "drives": 7,
+    "fsd_base_miles": 334.8,
+    "fsd_miles": 308.24,
     "kwh": 151.78,
     "longest": 120.08,
     "measured_miles": 334.8,
@@ -6915,6 +7518,8 @@
    },
    "2024-10-03": {
     "drives": 3,
+    "fsd_base_miles": 316.26,
+    "fsd_miles": 310.88,
     "kwh": 143.49,
     "longest": 182.59,
     "measured_miles": 316.26,
@@ -6927,6 +7532,8 @@
    },
    "2024-10-04": {
     "drives": 6,
+    "fsd_base_miles": 130.1,
+    "fsd_miles": 122.8,
     "kwh": 68.45,
     "longest": 43.97,
     "measured_miles": 130.1,
@@ -6939,6 +7546,8 @@
    },
    "2024-10-05": {
     "drives": 14,
+    "fsd_base_miles": 50.47,
+    "fsd_miles": 28.03,
     "kwh": 41.55,
     "longest": 14.08,
     "measured_miles": 49.92,
@@ -6951,6 +7560,8 @@
    },
    "2024-10-06": {
     "drives": 13,
+    "fsd_base_miles": 115.43,
+    "fsd_miles": 86.73,
     "kwh": 111.08,
     "longest": 48.26,
     "measured_miles": 115.43,
@@ -6963,6 +7574,8 @@
    },
    "2024-10-07": {
     "drives": 2,
+    "fsd_base_miles": 20.35,
+    "fsd_miles": 18.3,
     "kwh": 9.36,
     "longest": 10.32,
     "measured_miles": 20.35,
@@ -6975,6 +7588,8 @@
    },
    "2024-10-08": {
     "drives": 3,
+    "fsd_base_miles": 24.04,
+    "fsd_miles": 22.56,
     "kwh": 10.7,
     "longest": 12.64,
     "measured_miles": 24.04,
@@ -6987,6 +7602,8 @@
    },
    "2024-10-09": {
     "drives": 2,
+    "fsd_base_miles": 20.35,
+    "fsd_miles": 19.06,
     "kwh": 9.95,
     "longest": 10.33,
     "measured_miles": 20.35,
@@ -6999,6 +7616,8 @@
    },
    "2024-10-10": {
     "drives": 4,
+    "fsd_base_miles": 6.58,
+    "fsd_miles": 4.42,
     "kwh": 2.58,
     "longest": 1.74,
     "measured_miles": 6.58,
@@ -7011,6 +7630,8 @@
    },
    "2024-10-11": {
     "drives": 2,
+    "fsd_base_miles": 3.49,
+    "fsd_miles": 2.76,
     "kwh": 1.5,
     "longest": 1.92,
     "measured_miles": 3.49,
@@ -7023,6 +7644,8 @@
    },
    "2024-10-12": {
     "drives": 2,
+    "fsd_base_miles": 63.55,
+    "fsd_miles": 58.35,
     "kwh": 29.64,
     "longest": 31.82,
     "measured_miles": 63.55,
@@ -7035,6 +7658,8 @@
    },
    "2024-10-13": {
     "drives": 3,
+    "fsd_base_miles": 45.0,
+    "fsd_miles": 42.8,
     "kwh": 19.41,
     "longest": 20.84,
     "measured_miles": 45.0,
@@ -7047,6 +7672,8 @@
    },
    "2024-10-14": {
     "drives": 7,
+    "fsd_base_miles": 48.63,
+    "fsd_miles": 30.69,
     "kwh": 21.97,
     "longest": 12.49,
     "measured_miles": 48.63,
@@ -7059,6 +7686,8 @@
    },
    "2024-10-15": {
     "drives": 10,
+    "fsd_base_miles": 46.76,
+    "fsd_miles": 39.47,
     "kwh": 22.75,
     "longest": 12.64,
     "measured_miles": 46.14,
@@ -7071,6 +7700,8 @@
    },
    "2024-10-16": {
     "drives": 5,
+    "fsd_base_miles": 70.87,
+    "fsd_miles": 58.61,
     "kwh": 26.83,
     "longest": 31.26,
     "measured_miles": 70.87,
@@ -7083,6 +7714,8 @@
    },
    "2024-10-17": {
     "drives": 5,
+    "fsd_base_miles": 424.91,
+    "fsd_miles": 417.8,
     "kwh": 208.39,
     "longest": 166.74,
     "measured_miles": 424.91,
@@ -7095,6 +7728,8 @@
    },
    "2024-10-18": {
     "drives": 3,
+    "fsd_base_miles": 316.27,
+    "fsd_miles": 308.42,
     "kwh": 153.76,
     "longest": 169.53,
     "measured_miles": 316.27,
@@ -7107,6 +7742,8 @@
    },
    "2024-10-20": {
     "drives": 9,
+    "fsd_base_miles": 751.46,
+    "fsd_miles": 723.57,
     "kwh": 384.97,
     "longest": 162.33,
     "measured_miles": 751.46,
@@ -7119,6 +7756,8 @@
    },
    "2024-10-21": {
     "drives": 2,
+    "fsd_base_miles": 11.1,
+    "fsd_miles": 9.71,
     "kwh": 3.57,
     "longest": 5.55,
     "measured_miles": 11.1,
@@ -7131,6 +7770,8 @@
    },
    "2024-10-22": {
     "drives": 4,
+    "fsd_base_miles": 12.75,
+    "fsd_miles": 9.85,
     "kwh": 4.38,
     "longest": 5.55,
     "measured_miles": 12.75,
@@ -7143,6 +7784,8 @@
    },
    "2024-10-23": {
     "drives": 7,
+    "fsd_base_miles": 47.39,
+    "fsd_miles": 37.15,
     "kwh": 19.94,
     "longest": 13.22,
     "measured_miles": 47.39,
@@ -7155,6 +7798,8 @@
    },
    "2024-10-24": {
     "drives": 2,
+    "fsd_base_miles": 11.28,
+    "fsd_miles": 9.66,
     "kwh": 4.52,
     "longest": 5.72,
     "measured_miles": 11.28,
@@ -7167,6 +7812,8 @@
    },
    "2024-10-25": {
     "drives": 7,
+    "fsd_base_miles": 29.23,
+    "fsd_miles": 6.45,
     "kwh": 12.73,
     "longest": 5.99,
     "measured_miles": 29.23,
@@ -7179,6 +7826,8 @@
    },
    "2024-10-26": {
     "drives": 8,
+    "fsd_base_miles": 46.07,
+    "fsd_miles": 17.96,
     "kwh": 17.04,
     "longest": 15.3,
     "measured_miles": 46.07,
@@ -7191,6 +7840,8 @@
    },
    "2024-10-27": {
     "drives": 2,
+    "fsd_base_miles": 11.86,
+    "fsd_miles": 8.72,
     "kwh": 4.41,
     "longest": 5.99,
     "measured_miles": 11.86,
@@ -7203,6 +7854,8 @@
    },
    "2024-10-28": {
     "drives": 5,
+    "fsd_base_miles": 32.89,
+    "fsd_miles": 13.17,
     "kwh": 13.82,
     "longest": 10.33,
     "measured_miles": 32.89,
@@ -7215,6 +7868,8 @@
    },
    "2024-10-29": {
     "drives": 2,
+    "fsd_base_miles": 67.02,
+    "fsd_miles": 59.71,
     "kwh": 28.82,
     "longest": 34.66,
     "measured_miles": 67.02,
@@ -7227,6 +7882,8 @@
    },
    "2024-10-30": {
     "drives": 6,
+    "fsd_base_miles": 44.11,
+    "fsd_miles": 27.57,
     "kwh": 19.02,
     "longest": 11.61,
     "measured_miles": 44.11,
@@ -7239,6 +7896,8 @@
    },
    "2024-10-31": {
     "drives": 7,
+    "fsd_base_miles": 116.17,
+    "fsd_miles": 42.93,
     "kwh": 58.71,
     "longest": 50.91,
     "measured_miles": 116.17,
@@ -7251,6 +7910,8 @@
    },
    "2024-11-01": {
     "drives": 4,
+    "fsd_base_miles": 18.32,
+    "fsd_miles": 10.68,
     "kwh": 8.72,
     "longest": 7.04,
     "measured_miles": 18.32,
@@ -7263,6 +7924,8 @@
    },
    "2024-11-02": {
     "drives": 4,
+    "fsd_base_miles": 101.23,
+    "fsd_miles": 36.66,
     "kwh": 49.58,
     "longest": 41.78,
     "measured_miles": 101.23,
@@ -7275,6 +7938,8 @@
    },
    "2024-11-03": {
     "drives": 2,
+    "fsd_base_miles": 10.84,
+    "fsd_miles": 9.66,
     "kwh": 4.71,
     "longest": 5.51,
     "measured_miles": 10.84,
@@ -7287,6 +7952,8 @@
    },
    "2024-11-04": {
     "drives": 2,
+    "fsd_base_miles": 18.75,
+    "fsd_miles": 3.77,
     "kwh": 7.08,
     "longest": 10.32,
     "measured_miles": 18.75,
@@ -7299,6 +7966,8 @@
    },
    "2024-11-05": {
     "drives": 5,
+    "fsd_base_miles": 28.41,
+    "fsd_miles": 8.8,
     "kwh": 12.36,
     "longest": 12.63,
     "measured_miles": 28.41,
@@ -7311,6 +7980,8 @@
    },
    "2024-11-06": {
     "drives": 4,
+    "fsd_base_miles": 29.22,
+    "fsd_miles": 11.46,
     "kwh": 12.3,
     "longest": 10.32,
     "measured_miles": 29.22,
@@ -7323,6 +7994,8 @@
    },
    "2024-11-07": {
     "drives": 6,
+    "fsd_base_miles": 41.41,
+    "fsd_miles": 21.64,
     "kwh": 18.51,
     "longest": 10.32,
     "measured_miles": 41.41,
@@ -7335,6 +8008,8 @@
    },
    "2024-11-08": {
     "drives": 4,
+    "fsd_base_miles": 22.98,
+    "fsd_miles": 11.7,
     "kwh": 8.96,
     "longest": 5.99,
     "measured_miles": 22.98,
@@ -7347,6 +8022,8 @@
    },
    "2024-11-09": {
     "drives": 10,
+    "fsd_base_miles": 54.95,
+    "fsd_miles": 17.07,
     "kwh": 21.82,
     "longest": 14.79,
     "measured_miles": 54.95,
@@ -7359,6 +8036,8 @@
    },
    "2024-11-10": {
     "drives": 6,
+    "fsd_base_miles": 44.05,
+    "fsd_miles": 32.47,
     "kwh": 20.94,
     "longest": 14.12,
     "measured_miles": 44.05,
@@ -7371,6 +8050,8 @@
    },
    "2024-11-11": {
     "drives": 7,
+    "fsd_base_miles": 25.06,
+    "fsd_miles": 8.37,
     "kwh": 9.61,
     "longest": 6.96,
     "measured_miles": 25.06,
@@ -7383,6 +8064,8 @@
    },
    "2024-11-12": {
     "drives": 4,
+    "fsd_base_miles": 26.8,
+    "fsd_miles": 0.92,
     "kwh": 12.15,
     "longest": 10.04,
     "measured_miles": 26.8,
@@ -7395,6 +8078,8 @@
    },
    "2024-11-13": {
     "drives": 10,
+    "fsd_base_miles": 52.55,
+    "fsd_miles": 27.77,
     "kwh": 25.95,
     "longest": 11.75,
     "measured_miles": 52.55,
@@ -7407,6 +8092,8 @@
    },
    "2024-11-14": {
     "drives": 5,
+    "fsd_base_miles": 49.4,
+    "fsd_miles": 22.27,
     "kwh": 22.79,
     "longest": 22.3,
     "measured_miles": 49.4,
@@ -13523,6 +14210,6 @@
   }
  },
  "tracking_since": "2025-06-03",
- "updated": "2026-10-31T18:14:23+00:00",
+ "updated": "2026-10-31T18:16:17+00:00",
  "vehicle": "TARS2"
 }

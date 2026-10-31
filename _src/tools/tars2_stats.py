@@ -212,6 +212,10 @@ def import_history(args):
                 row["temp_c_sum"] = round(row["temp_c_sum"] + c, 1); row["temp_n"] += 1
                 row["temp_min_c"] = round(min(row.get("temp_min_c", 99), c), 1)
                 row["temp_max_c"] = round(max(row.get("temp_max_c", -99), c), 1)
+            ap = f(r, "Autopilot Distance (mi)")
+            if ap is not None:
+                row["fsd_miles"] = round(row.get("fsd_miles", 0) + ap, 2)
+                row["fsd_base_miles"] = round(row.get("fsd_base_miles", 0) + miles, 2)
             odo = f(r, "Ending Odometer (mi)")
             if odo and odo > (hist["odometer_miles"] or 0):
                 hist["odometer_miles"] = round(odo, 1)
@@ -258,6 +262,8 @@ def summarize(days, start, end):
                 out["temp_max_c"] = r["temp_max_c"] if out["temp_max_c"] is None else max(out["temp_max_c"], r["temp_max_c"])
             if r["miles"] > out["best_day"][1]:
                 out["best_day"] = (cur.isoformat(), r["miles"])
+            out["fsd_miles"] = out.get("fsd_miles", 0) + r.get("fsd_miles", 0)
+            out["fsd_base_miles"] = out.get("fsd_base_miles", 0) + r.get("fsd_base_miles", 0)
             out["miles"] += r["miles"]; out["drives"] += r["drives"]; out["kwh"] += r["kwh"]
             out["measured_miles"] += r["measured_miles"]; out["minutes"] += r["minutes"]
             out["longest"] = max(out["longest"], r["longest"])
@@ -266,6 +272,8 @@ def summarize(days, start, end):
         cur += timedelta(days=1)
     out["wh_per_mile"] = round(out["kwh"] * 1000 / out["measured_miles"]) if out["measured_miles"] else None
     out["avg_temp_f"] = round((out["temp_sum"] / out["temp_n"]) * 9 / 5 + 32) if out["temp_n"] else None
+    out.setdefault("fsd_miles", 0); out.setdefault("fsd_base_miles", 0)
+    out["fsd_share"] = round(100 * out["fsd_miles"] / out["fsd_base_miles"]) if out["fsd_base_miles"] else None
     out["min_temp_f"] = round(out["temp_min_c"] * 9 / 5 + 32) if out["temp_min_c"] is not None else None
     out["max_temp_f"] = round(out["temp_max_c"] * 9 / 5 + 32) if out["temp_max_c"] is not None else None
     out["start"], out["end"] = start, end
@@ -487,7 +495,7 @@ def render(args):
     site_bars = [(k, round(v[1]), f'{k}: {fmt_n(v[1])} kWh over {v[0]} session{"s" if v[0] != 1 else ""}') for k, v in top_sites]
 
     h = []
-    h.append(f'<div class="stamp"><p class="label">Updated {asof.strftime("%A, %b %-d, %Y at %-I:%M %p")} ET · straight from the truck</p></div>')
+    h.append(f'<div class="stamp"><p class="label">Updated {asof.strftime("%A, %b %-d, %Y at %-I:%M %p")} ET · refreshed every Sunday night from the truck</p></div>')
 
     # --- lifetime (tracked drives + imported history + odometer seed)
     life_miles = (hist_odo + (odo if odo else tracked["miles"])) if tracked else hist_odo
@@ -495,7 +503,7 @@ def render(args):
     h.append('<div class="stats" role="list">')
     h.append(stat(fmt_n(life_miles), 'Cybertruck miles, lifetime'))
     h.append(stat(fmt_n(lifetime["drives"]) if lifetime else "—", f'Drives logged since {mdy(date.fromisoformat(life_since))}' if life_since else 'Drives logged'))
-    h.append(stat(fmt_n(lifetime["wh_per_mile"]) if lifetime else "—", 'Lifetime Wh per mile, measured drives'))
+    h.append(stat(fmt_n(lifetime["wh_per_mile"]) if lifetime else "—", 'Wh per mile, lifetime average'))
     h.append(stat(fmt_n(lifetime["minutes"] / 60) if lifetime else "—", 'Hours behind the wheel'))
     h.append('</div><div class="stats" role="list">')
     h.append(stat(fmt_n(sc_kwh + sc_before), 'kWh Supercharged, lifetime'))
@@ -533,9 +541,9 @@ def render(args):
     h.append(stat(fmt_n(this_week["drives"]), f'Drives over {this_week["days_driven"]} day{"s" if this_week["days_driven"] != 1 else ""}'))
     h.append(stat(fmt_n(this_week["longest"]), 'Longest single drive, miles'))
     h.append('</div><div class="stats" role="list">')
-    h.append(stat(fmt_n(this_week["kwh"]), 'kWh used on measured drives'))
-    h.append(stat(fmt_n(sum(s["kwh"] for s in sc_week)), f'kWh Supercharged across {len(sc_week)} stop{"s" if len(sc_week) != 1 else ""}'))
-    h.append(stat(fmt_n(home_week), 'kWh added at home'))
+    h.append(stat(f'{len(sc_week)}', f'Supercharger stop{"s" if len(sc_week) != 1 else ""}, {fmt_n(sum(s["kwh"] for s in sc_week))} kWh added'))
+    h.append(stat(fmt_n(home_week), 'kWh added charging at home'))
+    h.append(stat(fmt_n(this_week["kwh"]), 'kWh used driving'))
     h.append(stat(f'{this_week["min_temp_f"]}°F' if this_week["min_temp_f"] is not None else "—", 'Coldest drive this week, outside temp'))
     h.append('</div>')
     h.append('<div class="grid2 charts">')
@@ -546,16 +554,46 @@ def render(args):
         h.append(f'<p class="mnote">Last week ({md(ws - timedelta(days=7))}–{md(ws - timedelta(days=1))}): {fmt_n(last_week["miles"])} miles, {fmt_n(last_week["wh_per_mile"])} Wh/mi, {last_week["drives"]} drives.</p>')
     h.append('</section>')
 
-    # --- right now
-    if cur:
-        h.append('<section class="sec" id="now" aria-labelledby="now-h"><div class="sec-head"><div><p class="label">Right now</p><h2 id="now-h">Where the truck <em>sits.</em></h2></div></div>')
-        h.append('<div class="now">')
-        h.append(f'<div class="card gcard">{svg_gauge(cur.get("battery_percent") or 0, f"Battery at {cur.get('battery_percent')}%")}<p class="tag">Battery · {"plugged in" if cur.get("plugged_in") else "unplugged"}{", charging" if cur.get("charging_state") == "Charging" else ""}</p></div>')
-        h.append('<div class="stats" role="list">')
-        h.append(stat(fmt_n(cur.get("range_miles")), 'Estimated range, miles'))
-        h.append(stat(f'{cur.get("outside_temp_f", "—")}°F', 'Outside temperature'))
-        h.append(stat(cur.get("software") or "—", 'Tesla software', word=True))
-        h.append('</div></div></section>')
+    # --- FSD
+    fsd_months = {}
+    for k, r in life_days.items():
+        if r.get("fsd_base_miles"):
+            fsd_months.setdefault(k[:7], [0, 0])
+            fsd_months[k[:7]][0] += r.get("fsd_miles", 0); fsd_months[k[:7]][1] += r["fsd_base_miles"]
+    fsd_all = sorted(m for m in fsd_months if fsd_months[m][1] >= 50)
+    # chart only the unbroken recent run of months (the log has an early gap)
+    fsd_m = []
+    for m in reversed(fsd_all):
+        if fsd_m:
+            y, mo = int(fsd_m[0][:4]), int(fsd_m[0][5:])
+            prev = f"{y - 1 if mo == 1 else y:04d}-{12 if mo == 1 else mo - 1:02d}"
+            if m != prev:
+                break
+        fsd_m.insert(0, m)
+    fsd_bars = [(datetime.strptime(m, "%Y-%m").strftime("%b '%y"), round(100 * fsd_months[m][0] / fsd_months[m][1]), f'{datetime.strptime(m, "%Y-%m").strftime("%B %Y")}: {fmt_n(fsd_months[m][0])} of {fmt_n(fsd_months[m][1])} miles on FSD ({round(100 * fsd_months[m][0] / fsd_months[m][1])}%)') for m in fsd_m]
+    fsd_days = {k: r for k, r in life_days.items() if r.get("fsd_base_miles")}
+    fsd_since = min(fsd_days) if fsd_days else None
+    fsd_last = max(fsd_days) if fsd_days else None
+    recent = summarize(life_days, date.fromisoformat(fsd_last) - timedelta(days=89), date.fromisoformat(fsd_last)) if fsd_last else None
+    best_fsd_month = max(fsd_all, key=lambda m: fsd_months[m][0], default=None)
+    h.append('<section class="sec" id="fsd" aria-labelledby="fsd-h"><div class="sec-head"><div><p class="label">Full Self-Driving (Supervised)</p><h2 id="fsd-h">How much the truck <em>drives itself.</em></h2></div></div>')
+    h.append('<div class="stats" role="list">')
+    h.append(stat(fmt_n(lifetime["fsd_miles"]) if lifetime else "—", f'Miles driven on FSD (logged since {mdy(date.fromisoformat(fsd_since))})' if fsd_since else 'Miles driven on FSD'))
+    h.append(stat(f'{lifetime["fsd_share"]}%' if lifetime and lifetime["fsd_share"] is not None else "—", 'Share of logged miles driven on FSD'))
+    h.append(stat(f'{recent["fsd_share"]}%' if recent and recent["fsd_share"] is not None else "—", 'FSD share, last 90 days'))
+    h.append(stat(fmt_n(fsd_months[best_fsd_month][0]) if best_fsd_month else "—", f'Biggest FSD month, miles ({datetime.strptime(best_fsd_month, "%Y-%m").strftime("%B %Y")})' if best_fsd_month else 'Biggest FSD month'))
+    h.append('</div><div class="stats" role="list">')
+    h.append(stat(esc(cfg.get("fsd_version") or "—"), 'FSD (Supervised) version', word=True))
+    h.append(stat(esc(cur.get("software") or "—"), 'Tesla software', word=True))
+    h.append(stat(fmt_n(lifetime["fsd_base_miles"]) if lifetime else "—", 'Miles where the truck logged FSD use'))
+    h.append(stat(f'{round(100 * fsd_months[fsd_m[-1]][0] / fsd_months[fsd_m[-1]][1])}%' if fsd_m else "—", f'FSD share in {datetime.strptime(fsd_m[-1], "%Y-%m").strftime("%B")}' if fsd_m else 'Latest month'))
+    h.append('</div>')
+    h.append('<div class="grid2 charts">')
+    h.append(f'<figure class="card"><figcaption><p class="tag">FSD share</p><h3>Percent of miles on FSD, by month</h3></figcaption>{both(svg_bars, fsd_bars, "Percent of miles driven on FSD by month", "%")}</figure>')
+    h.append(f'<figure class="card"><figcaption><p class="tag">FSD miles</p><h3>Miles on FSD, by month</h3></figcaption>{both(svg_bars, [(l, round(fsd_months[m][0]), tip) for (l, _, tip), m in zip(fsd_bars, fsd_m)], "Miles driven on FSD by month", " mi")}</figure>')
+    h.append('</div>')
+    h.append(f'<p class="mnote">FSD distance comes from the truck\'s own trip log; the charts cover the months with a continuous record. Through {mdy(date.fromisoformat(fsd_last)) if fsd_last else "—"}.</p>')
+    h.append('</section>')
 
     # --- compact strip for other pages (between tars2-mini markers)
     mini = []
