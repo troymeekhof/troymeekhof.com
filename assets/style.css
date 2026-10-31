@@ -496,3 +496,15 @@ a.lb{display:block;cursor:zoom-in;border-radius:var(--radius)}
 }
 @media (prefers-reduced-motion:reduce){*,*::before,*::after{transition:none!important;animation:none!important}}
 [hidden]{display:none!important}
+
+/* Live stats strip + drive map (stats page and the Cybertruck/Adventure pages) */
+.tars2-mini .stats{margin-bottom:24px}
+.map-fig{margin:0}
+.map{height:min(70vh,560px);min-height:320px;border:1px solid var(--line);border-radius:var(--radius);background:var(--surface);overflow:hidden;margin-top:8px}
+.map:not(.is-ready){display:grid;place-items:center;color:var(--muted);font-size:15px}
+.map .mnote{margin:0;padding:24px}
+.tars2-home a{font:600 12px/26px var(--sans)}
+.leaflet-container{font-family:var(--sans);background:#101316}
+.tars2-tiles{filter:invert(1) hue-rotate(180deg) brightness(.72) contrast(.9) saturate(.4)}
+.leaflet-control-attribution{background:rgba(16,19,22,.8)!important;color:#9aa5ad!important}
+.leaflet-control-attribution a{color:#9fd0e3!important}

@@ -24,6 +24,8 @@
    "miles": 4.72,
    "minutes": 15,
    "temp_c_sum": 31.6,
+   "temp_max_c": 31.6,
+   "temp_min_c": 31.6,
    "temp_n": 1
   },
   "2025-06-04": {
@@ -34,6 +36,8 @@
    "miles": 20.35,
    "minutes": 42,
    "temp_c_sum": 40.1,
+   "temp_max_c": 20.2,
+   "temp_min_c": 19.9,
    "temp_n": 2
   },
   "2025-06-05": {
@@ -44,6 +48,8 @@
    "miles": 65.41,
    "minutes": 107,
    "temp_c_sum": 154.2,
+   "temp_max_c": 26.8,
+   "temp_min_c": 15.4,
    "temp_n": 7
   },
   "2025-06-06": {
@@ -54,6 +60,8 @@
    "miles": 246.28,
    "minutes": 335,
    "temp_c_sum": 160.2,
+   "temp_max_c": 25.4,
+   "temp_min_c": 18.9,
    "temp_n": 7
   },
   "2025-06-07": {
@@ -64,6 +72,8 @@
    "miles": 144.09,
    "minutes": 160,
    "temp_c_sum": 93.9,
+   "temp_max_c": 22.9,
+   "temp_min_c": 15.6,
    "temp_n": 5
   },
   "2025-06-08": {
@@ -74,6 +84,8 @@
    "miles": 36.86,
    "minutes": 51,
    "temp_c_sum": 27.0,
+   "temp_max_c": 27.0,
+   "temp_min_c": 27.0,
    "temp_n": 1
   },
   "2025-06-09": {
@@ -84,6 +96,8 @@
    "miles": 20.34,
    "minutes": 40,
    "temp_c_sum": 36.8,
+   "temp_max_c": 18.6,
+   "temp_min_c": 18.2,
    "temp_n": 2
   },
   "2025-06-10": {
@@ -94,6 +108,8 @@
    "miles": 25.47,
    "minutes": 65,
    "temp_c_sum": 157.2,
+   "temp_max_c": 21.5,
+   "temp_min_c": 15.0,
    "temp_n": 8
   },
   "2025-06-11": {
@@ -104,6 +120,8 @@
    "miles": 52.15,
    "minutes": 90,
    "temp_c_sum": 185.2,
+   "temp_max_c": 30.4,
+   "temp_min_c": 21.7,
    "temp_n": 7
   },
   "2025-06-12": {
@@ -114,6 +132,8 @@
    "miles": 119.96,
    "minutes": 141,
    "temp_c_sum": 77.1,
+   "temp_max_c": 27.4,
+   "temp_min_c": 24.8,
    "temp_n": 3
   },
   "2025-06-13": {
@@ -124,6 +144,8 @@
    "miles": 47.64,
    "minutes": 71,
    "temp_c_sum": 123.0,
+   "temp_max_c": 26.3,
+   "temp_min_c": 22.1,
    "temp_n": 5
   },
   "2025-06-14": {
@@ -134,6 +156,8 @@
    "miles": 11.57,
    "minutes": 22,
    "temp_c_sum": 28.0,
+   "temp_max_c": 15.0,
+   "temp_min_c": 13.0,
    "temp_n": 2
   },
   "2025-06-15": {
@@ -144,6 +168,8 @@
    "miles": 37.11,
    "minutes": 49,
    "temp_c_sum": 54.1,
+   "temp_max_c": 27.5,
+   "temp_min_c": 26.6,
    "temp_n": 2
   },
   "2025-06-16": {
@@ -154,6 +180,8 @@
    "miles": 153.01,
    "minutes": 212,
    "temp_c_sum": 294.6,
+   "temp_max_c": 31.2,
+   "temp_min_c": 23.8,
    "temp_n": 10
   },
   "2025-06-17": {
@@ -164,6 +192,8 @@
    "miles": 44.2,
    "minutes": 105,
    "temp_c_sum": 245.9,
+   "temp_max_c": 33.0,
+   "temp_min_c": 23.2,
    "temp_n": 8
   },
   "2025-06-18": {
@@ -174,6 +204,8 @@
    "miles": 36.41,
    "minutes": 69,
    "temp_c_sum": 96.5,
+   "temp_max_c": 26.5,
+   "temp_min_c": 22.4,
    "temp_n": 4
   },
   "2025-06-19": {
@@ -184,6 +216,8 @@
    "miles": 156.78,
    "minutes": 193,
    "temp_c_sum": 148.1,
+   "temp_max_c": 27.0,
+   "temp_min_c": 21.6,
    "temp_n": 6
   },
   "2025-06-20": {
@@ -194,6 +228,8 @@
    "miles": 181.4,
    "minutes": 187,
    "temp_c_sum": 78.2,
+   "temp_max_c": 27.0,
+   "temp_min_c": 24.9,
    "temp_n": 3
   },
   "2025-06-21": {
@@ -204,6 +240,8 @@
    "miles": 47.3,
    "minutes": 67,
    "temp_c_sum": 116.2,
+   "temp_max_c": 34.0,
+   "temp_min_c": 26.0,
    "temp_n": 4
   },
   "2025-06-22": {
@@ -214,6 +252,8 @@
    "miles": 126.85,
    "minutes": 224,
    "temp_c_sum": 470.4,
+   "temp_max_c": 36.0,
+   "temp_min_c": 27.0,
    "temp_n": 15
   },
   "2025-06-23": {
@@ -224,6 +264,8 @@
    "miles": 51.99,
    "minutes": 68,
    "temp_c_sum": 101.9,
+   "temp_max_c": 37.2,
+   "temp_min_c": 29.6,
    "temp_n": 3
   },
   "2025-06-24": {
@@ -234,6 +276,8 @@
    "miles": 211.04,
    "minutes": 227,
    "temp_c_sum": 122.1,
+   "temp_max_c": 35.0,
+   "temp_min_c": 25.9,
    "temp_n": 4
   },
   "2025-06-25": {
@@ -244,6 +288,8 @@
    "miles": 52.07,
    "minutes": 66,
    "temp_c_sum": 76.8,
+   "temp_max_c": 26.2,
+   "temp_min_c": 24.7,
    "temp_n": 3
   },
   "2025-06-26": {
@@ -254,6 +300,8 @@
    "miles": 11.07,
    "minutes": 29,
    "temp_c_sum": 57.8,
+   "temp_max_c": 34.5,
+   "temp_min_c": 23.3,
    "temp_n": 2
   },
   "2025-06-27": {
@@ -264,6 +312,8 @@
    "miles": 11.83,
    "minutes": 23,
    "temp_c_sum": 58.5,
+   "temp_max_c": 31.3,
+   "temp_min_c": 27.2,
    "temp_n": 2
   },
   "2025-06-28": {
@@ -274,6 +324,8 @@
    "miles": 14.11,
    "minutes": 30,
    "temp_c_sum": 115.7,
+   "temp_max_c": 33.0,
+   "temp_min_c": 23.7,
    "temp_n": 4
   },
   "2025-06-29": {
@@ -284,6 +336,8 @@
    "miles": 15.3,
    "minutes": 27,
    "temp_c_sum": 87.3,
+   "temp_max_c": 34.0,
+   "temp_min_c": 20.5,
    "temp_n": 3
   },
   "2025-06-30": {
@@ -294,6 +348,8 @@
    "miles": 29.73,
    "minutes": 70,
    "temp_c_sum": 174.4,
+   "temp_max_c": 31.4,
+   "temp_min_c": 27.5,
    "temp_n": 6
   },
   "2025-07-01": {
@@ -304,6 +360,8 @@
    "miles": 44.72,
    "minutes": 80,
    "temp_c_sum": 192.8,
+   "temp_max_c": 30.5,
+   "temp_min_c": 24.0,
    "temp_n": 7
   },
   "2025-07-02": {
@@ -314,6 +372,8 @@
    "miles": 302.84,
    "minutes": 329,
    "temp_c_sum": 238.6,
+   "temp_max_c": 31.5,
+   "temp_min_c": 25.3,
    "temp_n": 8
   },
   "2025-07-03": {
@@ -324,6 +384,8 @@
    "miles": 76.71,
    "minutes": 105,
    "temp_c_sum": 125.5,
+   "temp_max_c": 29.5,
+   "temp_min_c": 20.3,
    "temp_n": 5
   },
   "2025-07-04": {
@@ -334,6 +396,8 @@
    "miles": 18.53,
    "minutes": 39,
    "temp_c_sum": 114.2,
+   "temp_max_c": 31.1,
+   "temp_min_c": 24.7,
    "temp_n": 4
   },
   "2025-07-05": {
@@ -344,6 +408,8 @@
    "miles": 48.26,
    "minutes": 67,
    "temp_c_sum": 121.3,
+   "temp_max_c": 31.8,
+   "temp_min_c": 28.0,
    "temp_n": 4
   },
   "2025-07-06": {
@@ -354,6 +420,8 @@
    "miles": 36.82,
    "minutes": 49,
    "temp_c_sum": 28.8,
+   "temp_max_c": 28.8,
+   "temp_min_c": 28.8,
    "temp_n": 1
   },
   "2025-07-07": {
@@ -364,6 +432,8 @@
    "miles": 20.31,
    "minutes": 32,
    "temp_c_sum": 50.5,
+   "temp_max_c": 29.2,
+   "temp_min_c": 21.3,
    "temp_n": 2
   },
   "2025-07-08": {
@@ -374,6 +444,8 @@
    "miles": 28.13,
    "minutes": 57,
    "temp_c_sum": 130.9,
+   "temp_max_c": 29.7,
+   "temp_min_c": 20.4,
    "temp_n": 5
   },
   "2025-07-09": {
@@ -384,6 +456,8 @@
    "miles": 167.53,
    "minutes": 225,
    "temp_c_sum": 287.8,
+   "temp_max_c": 31.9,
+   "temp_min_c": 24.5,
    "temp_n": 10
   },
   "2025-07-10": {
@@ -394,6 +468,8 @@
    "miles": 16.73,
    "minutes": 33,
    "temp_c_sum": 89.2,
+   "temp_max_c": 30.8,
+   "temp_min_c": 27.7,
    "temp_n": 3
   },
   "2025-07-11": {
@@ -404,6 +480,8 @@
    "miles": 201.57,
    "minutes": 185,
    "temp_c_sum": 60.1,
+   "temp_max_c": 31.0,
+   "temp_min_c": 29.1,
    "temp_n": 2
   },
   "2025-07-12": {
@@ -414,6 +492,8 @@
    "miles": 10.58,
    "minutes": 24,
    "temp_c_sum": 101.8,
+   "temp_max_c": 28.1,
+   "temp_min_c": 24.0,
    "temp_n": 4
   },
   "2025-07-13": {
@@ -424,6 +504,8 @@
    "miles": 233.63,
    "minutes": 287,
    "temp_c_sum": 161.2,
+   "temp_max_c": 28.0,
+   "temp_min_c": 26.0,
    "temp_n": 6
   },
   "2025-07-14": {
@@ -434,6 +516,8 @@
    "miles": 16.6,
    "minutes": 47,
    "temp_c_sum": 113.8,
+   "temp_max_c": 32.2,
+   "temp_min_c": 19.5,
    "temp_n": 4
   },
   "2025-07-15": {
@@ -444,6 +528,8 @@
    "miles": 49.19,
    "minutes": 77,
    "temp_c_sum": 170.5,
+   "temp_max_c": 34.5,
+   "temp_min_c": 22.1,
    "temp_n": 6
   },
   "2025-07-16": {
@@ -454,6 +540,8 @@
    "miles": 46.73,
    "minutes": 69,
    "temp_c_sum": 145.1,
+   "temp_max_c": 31.7,
+   "temp_min_c": 26.3,
    "temp_n": 5
   },
   "2025-07-17": {
@@ -464,6 +552,8 @@
    "miles": 10.44,
    "minutes": 20,
    "temp_c_sum": 37.3,
+   "temp_max_c": 18.8,
+   "temp_min_c": 18.5,
    "temp_n": 2
   },
   "2025-07-21": {
@@ -474,6 +564,8 @@
    "miles": 30.13,
    "minutes": 74,
    "temp_c_sum": 114.0,
+   "temp_max_c": 29.6,
+   "temp_min_c": 26.2,
    "temp_n": 4
   },
   "2025-07-22": {
@@ -484,6 +576,8 @@
    "miles": 37.76,
    "minutes": 70,
    "temp_c_sum": 131.6,
+   "temp_max_c": 30.4,
+   "temp_min_c": 20.2,
    "temp_n": 5
   },
   "2025-07-23": {
@@ -494,6 +588,8 @@
    "miles": 15.42,
    "minutes": 52,
    "temp_c_sum": 126.2,
+   "temp_max_c": 36.0,
+   "temp_min_c": 21.7,
    "temp_n": 4
   },
   "2025-07-24": {
@@ -504,6 +600,8 @@
    "miles": 1.5,
    "minutes": 6,
    "temp_c_sum": 67.1,
+   "temp_max_c": 34.6,
+   "temp_min_c": 32.5,
    "temp_n": 2
   },
   "2025-07-25": {
@@ -514,6 +612,8 @@
    "miles": 23.44,
    "minutes": 44,
    "temp_c_sum": 82.9,
+   "temp_max_c": 28.5,
+   "temp_min_c": 25.9,
    "temp_n": 3
   },
   "2025-07-26": {
@@ -524,6 +624,8 @@
    "miles": 120.43,
    "minutes": 175,
    "temp_c_sum": 135.3,
+   "temp_max_c": 28.9,
+   "temp_min_c": 24.3,
    "temp_n": 5
   },
   "2025-07-27": {
@@ -534,6 +636,8 @@
    "miles": 48.01,
    "minutes": 72,
    "temp_c_sum": 102.8,
+   "temp_max_c": 35.5,
+   "temp_min_c": 32.7,
    "temp_n": 3
   },
   "2025-07-28": {
@@ -544,6 +648,8 @@
    "miles": 20.52,
    "minutes": 33,
    "temp_c_sum": 58.0,
+   "temp_max_c": 29.7,
+   "temp_min_c": 28.3,
    "temp_n": 2
   },
   "2025-07-29": {
@@ -554,6 +660,8 @@
    "miles": 41.91,
    "minutes": 86,
    "temp_c_sum": 151.8,
+   "temp_max_c": 34.4,
+   "temp_min_c": 24.1,
    "temp_n": 5
   },
   "2025-07-30": {
@@ -564,6 +672,8 @@
    "miles": 23.4,
    "minutes": 54,
    "temp_c_sum": 46.2,
+   "temp_max_c": 25.3,
+   "temp_min_c": 20.9,
    "temp_n": 2
   },
   "2025-07-31": {
@@ -574,6 +684,8 @@
    "miles": 14.27,
    "minutes": 33,
    "temp_c_sum": 37.5,
+   "temp_max_c": 19.0,
+   "temp_min_c": 18.5,
    "temp_n": 2
   },
   "2025-08-01": {
@@ -584,6 +696,8 @@
    "miles": 32.84,
    "minutes": 51,
    "temp_c_sum": 81.3,
+   "temp_max_c": 27.4,
+   "temp_min_c": 26.6,
    "temp_n": 3
   },
   "2025-08-02": {
@@ -594,6 +708,8 @@
    "miles": 10.9,
    "minutes": 21,
    "temp_c_sum": 56.6,
+   "temp_max_c": 28.3,
+   "temp_min_c": 28.3,
    "temp_n": 2
   },
   "2025-08-03": {
@@ -604,6 +720,8 @@
    "miles": 11.44,
    "minutes": 39,
    "temp_c_sum": 140.2,
+   "temp_max_c": 30.3,
+   "temp_min_c": 26.3,
    "temp_n": 5
   },
   "2025-08-04": {
@@ -614,6 +732,8 @@
    "miles": 88.23,
    "minutes": 136,
    "temp_c_sum": 192.6,
+   "temp_max_c": 30.0,
+   "temp_min_c": 21.0,
    "temp_n": 7
   },
   "2025-08-05": {
@@ -624,6 +744,8 @@
    "miles": 26.23,
    "minutes": 53,
    "temp_c_sum": 135.3,
+   "temp_max_c": 30.3,
+   "temp_min_c": 20.8,
    "temp_n": 5
   },
   "2025-08-06": {
@@ -634,6 +756,8 @@
    "miles": 20.37,
    "minutes": 34,
    "temp_c_sum": 53.3,
+   "temp_max_c": 32.2,
+   "temp_min_c": 21.1,
    "temp_n": 2
   },
   "2025-08-07": {
@@ -644,6 +768,8 @@
    "miles": 62.2,
    "minutes": 136,
    "temp_c_sum": 246.1,
+   "temp_max_c": 33.4,
+   "temp_min_c": 23.8,
    "temp_n": 8
   },
   "2025-08-08": {
@@ -654,6 +780,8 @@
    "miles": 5.9,
    "minutes": 21,
    "temp_c_sum": 68.0,
+   "temp_max_c": 34.7,
+   "temp_min_c": 33.3,
    "temp_n": 2
   },
   "2025-08-09": {
@@ -664,6 +792,8 @@
    "miles": 40.81,
    "minutes": 73,
    "temp_c_sum": 196.4,
+   "temp_max_c": 35.7,
+   "temp_min_c": 29.7,
    "temp_n": 6
   },
   "2025-08-10": {
@@ -674,6 +804,8 @@
    "miles": 1.37,
    "minutes": 5,
    "temp_c_sum": 27.5,
+   "temp_max_c": 27.5,
+   "temp_min_c": 27.5,
    "temp_n": 1
   },
   "2025-08-11": {
@@ -684,6 +816,8 @@
    "miles": 2.76,
    "minutes": 11,
    "temp_c_sum": 59.0,
+   "temp_max_c": 29.5,
+   "temp_min_c": 29.5,
    "temp_n": 2
   },
   "2025-08-12": {
@@ -694,6 +828,8 @@
    "miles": 4.79,
    "minutes": 23,
    "temp_c_sum": 107.4,
+   "temp_max_c": 29.5,
+   "temp_min_c": 23.5,
    "temp_n": 4
   },
   "2025-08-13": {
@@ -704,6 +840,8 @@
    "miles": 10.81,
    "minutes": 28,
    "temp_c_sum": 60.1,
+   "temp_max_c": 30.2,
+   "temp_min_c": 29.9,
    "temp_n": 2
   },
   "2025-08-14": {
@@ -714,6 +852,8 @@
    "miles": 10.1,
    "minutes": 26,
    "temp_c_sum": 48.6,
+   "temp_max_c": 25.6,
+   "temp_min_c": 23.0,
    "temp_n": 2
   },
   "2025-08-15": {
@@ -724,6 +864,8 @@
    "miles": 97.25,
    "minutes": 129,
    "temp_c_sum": 89.0,
+   "temp_max_c": 30.0,
+   "temp_min_c": 29.4,
    "temp_n": 3
   },
   "2025-08-17": {
@@ -734,6 +876,8 @@
    "miles": 24.87,
    "minutes": 47,
    "temp_c_sum": 88.9,
+   "temp_max_c": 30.2,
+   "temp_min_c": 29.0,
    "temp_n": 3
   },
   "2025-08-19": {
@@ -744,6 +888,8 @@
    "miles": 13.34,
    "minutes": 44,
    "temp_c_sum": 103.4,
+   "temp_max_c": 26.5,
+   "temp_min_c": 25.1,
    "temp_n": 4
   },
   "2025-08-20": {
@@ -754,6 +900,8 @@
    "miles": 41.3,
    "minutes": 66,
    "temp_c_sum": 69.8,
+   "temp_max_c": 24.4,
+   "temp_min_c": 21.8,
    "temp_n": 3
   },
   "2025-08-21": {
@@ -764,6 +912,8 @@
    "miles": 13.71,
    "minutes": 20,
    "temp_c_sum": 50.5,
+   "temp_max_c": 25.5,
+   "temp_min_c": 25.0,
    "temp_n": 2
   },
   "2025-08-22": {
@@ -774,6 +924,8 @@
    "miles": 74.91,
    "minutes": 107,
    "temp_c_sum": 93.7,
+   "temp_max_c": 26.9,
+   "temp_min_c": 18.5,
    "temp_n": 4
   },
   "2025-08-23": {
@@ -784,6 +936,8 @@
    "miles": 23.81,
    "minutes": 38,
    "temp_c_sum": 74.3,
+   "temp_max_c": 25.7,
+   "temp_min_c": 23.1,
    "temp_n": 3
   },
   "2025-08-24": {
@@ -794,6 +948,8 @@
    "miles": 36.96,
    "minutes": 50,
    "temp_c_sum": 20.2,
+   "temp_max_c": 20.2,
+   "temp_min_c": 20.2,
    "temp_n": 1
   },
   "2025-08-25": {
@@ -804,6 +960,8 @@
    "miles": 20.34,
    "minutes": 33,
    "temp_c_sum": 38.1,
+   "temp_max_c": 21.9,
+   "temp_min_c": 16.2,
    "temp_n": 2
   },
   "2025-08-26": {
@@ -814,6 +972,8 @@
    "miles": 53.26,
    "minutes": 107,
    "temp_c_sum": 187.6,
+   "temp_max_c": 23.6,
+   "temp_min_c": 14.1,
    "temp_n": 9
   },
   "2025-08-27": {
@@ -824,6 +984,8 @@
    "miles": 36.46,
    "minutes": 73,
    "temp_c_sum": 122.6,
+   "temp_max_c": 25.5,
+   "temp_min_c": 24.0,
    "temp_n": 5
   },
   "2025-08-28": {
@@ -834,6 +996,8 @@
    "miles": 52.32,
    "minutes": 83,
    "temp_c_sum": 105.1,
+   "temp_max_c": 23.8,
+   "temp_min_c": 17.3,
    "temp_n": 5
   },
   "2025-08-29": {
@@ -844,6 +1008,8 @@
    "miles": 325.82,
    "minutes": 380,
    "temp_c_sum": 125.3,
+   "temp_max_c": 21.1,
+   "temp_min_c": 12.4,
    "temp_n": 7
   },
   "2025-08-30": {
@@ -854,6 +1020,8 @@
    "miles": 4.3,
    "minutes": 15,
    "temp_c_sum": 33.5,
+   "temp_max_c": 17.5,
+   "temp_min_c": 16.0,
    "temp_n": 2
   },
   "2025-08-31": {
@@ -864,6 +1032,8 @@
    "miles": 16.55,
    "minutes": 29,
    "temp_c_sum": 70.0,
+   "temp_max_c": 22.6,
+   "temp_min_c": 13.4,
    "temp_n": 4
   },
   "2025-09-01": {
@@ -874,6 +1044,8 @@
    "miles": 45.66,
    "minutes": 80,
    "temp_c_sum": 104.8,
+   "temp_max_c": 24.7,
+   "temp_min_c": 16.8,
    "temp_n": 5
   },
   "2025-09-02": {
@@ -884,6 +1056,8 @@
    "miles": 25.86,
    "minutes": 43,
    "temp_c_sum": 63.2,
+   "temp_max_c": 27.1,
+   "temp_min_c": 17.1,
    "temp_n": 3
   },
   "2025-09-03": {
@@ -894,6 +1068,8 @@
    "miles": 44.76,
    "minutes": 71,
    "temp_c_sum": 99.1,
+   "temp_max_c": 20.9,
+   "temp_min_c": 18.3,
    "temp_n": 5
   },
   "2025-09-04": {
@@ -904,6 +1080,8 @@
    "miles": 78.53,
    "minutes": 116,
    "temp_c_sum": 100.0,
+   "temp_max_c": 18.5,
+   "temp_min_c": 12.0,
    "temp_n": 7
   },
   "2025-09-05": {
@@ -914,6 +1092,8 @@
    "miles": 423.02,
    "minutes": 453,
    "temp_c_sum": 146.5,
+   "temp_max_c": 17.0,
+   "temp_min_c": 8.3,
    "temp_n": 13
   },
   "2025-09-06": {
@@ -924,6 +1104,8 @@
    "miles": 13.49,
    "minutes": 24,
    "temp_c_sum": 19.2,
+   "temp_max_c": 10.5,
+   "temp_min_c": 8.7,
    "temp_n": 2
   },
   "2025-09-07": {
@@ -934,6 +1116,8 @@
    "miles": 415.02,
    "minutes": 406,
    "temp_c_sum": 82.1,
+   "temp_max_c": 19.0,
+   "temp_min_c": 7.9,
    "temp_n": 6
   },
   "2025-09-08": {
@@ -944,6 +1128,8 @@
    "miles": 18.7,
    "minutes": 35,
    "temp_c_sum": 55.7,
+   "temp_max_c": 22.0,
+   "temp_min_c": 11.7,
    "temp_n": 3
   },
   "2025-09-09": {
@@ -954,6 +1140,8 @@
    "miles": 20.32,
    "minutes": 43,
    "temp_c_sum": 37.2,
+   "temp_max_c": 25.2,
+   "temp_min_c": 12.0,
    "temp_n": 2
   },
   "2025-09-10": {
@@ -964,6 +1152,8 @@
    "miles": 54.73,
    "minutes": 104,
    "temp_c_sum": 263.4,
+   "temp_max_c": 30.5,
+   "temp_min_c": 17.1,
    "temp_n": 10
   },
   "2025-09-11": {
@@ -974,6 +1164,8 @@
    "miles": 15.63,
    "minutes": 45,
    "temp_c_sum": 51.7,
+   "temp_max_c": 28.9,
+   "temp_min_c": 22.8,
    "temp_n": 2
   },
   "2025-09-12": {
@@ -984,6 +1176,8 @@
    "miles": 77.5,
    "minutes": 121,
    "temp_c_sum": 218.2,
+   "temp_max_c": 29.5,
+   "temp_min_c": 23.5,
    "temp_n": 8
   },
   "2025-09-13": {
@@ -994,6 +1188,8 @@
    "miles": 31.02,
    "minutes": 53,
    "temp_c_sum": 86.5,
+   "temp_max_c": 24.1,
+   "temp_min_c": 18.7,
    "temp_n": 4
   },
   "2025-09-14": {
@@ -1004,6 +1200,8 @@
    "miles": 36.8,
    "minutes": 47,
    "temp_c_sum": 57.2,
+   "temp_max_c": 29.0,
+   "temp_min_c": 28.2,
    "temp_n": 2
   },
   "2025-09-15": {
@@ -1014,6 +1212,8 @@
    "miles": 146.37,
    "minutes": 172,
    "temp_c_sum": 183.5,
+   "temp_max_c": 30.7,
+   "temp_min_c": 19.6,
    "temp_n": 7
   },
   "2025-09-16": {
@@ -1024,6 +1224,8 @@
    "miles": 134.63,
    "minutes": 199,
    "temp_c_sum": 221.3,
+   "temp_max_c": 29.0,
+   "temp_min_c": 18.7,
    "temp_n": 9
   },
   "2025-09-17": {
@@ -1034,6 +1236,8 @@
    "miles": 20.73,
    "minutes": 43,
    "temp_c_sum": 78.2,
+   "temp_max_c": 30.3,
+   "temp_min_c": 17.9,
    "temp_n": 3
   },
   "2025-09-18": {
@@ -1044,6 +1248,8 @@
    "miles": 29.53,
    "minutes": 71,
    "temp_c_sum": 160.7,
+   "temp_max_c": 29.7,
+   "temp_min_c": 23.5,
    "temp_n": 6
   },
   "2025-09-19": {
@@ -1054,6 +1260,8 @@
    "miles": 57.64,
    "minutes": 65,
    "temp_c_sum": 47.0,
+   "temp_max_c": 26.0,
+   "temp_min_c": 21.0,
    "temp_n": 2
   },
   "2025-09-20": {
@@ -1064,6 +1272,8 @@
    "miles": 15.2,
    "minutes": 41,
    "temp_c_sum": 118.3,
+   "temp_max_c": 31.3,
+   "temp_min_c": 28.0,
    "temp_n": 4
   },
   "2025-09-22": {
@@ -1074,6 +1284,8 @@
    "miles": 20.26,
    "minutes": 35,
    "temp_c_sum": 47.2,
+   "temp_max_c": 26.9,
+   "temp_min_c": 20.3,
    "temp_n": 2
   },
   "2025-09-23": {
@@ -1084,6 +1296,8 @@
    "miles": 57.37,
    "minutes": 99,
    "temp_c_sum": 162.5,
+   "temp_max_c": 26.0,
+   "temp_min_c": 20.0,
    "temp_n": 7
   },
   "2025-09-24": {
@@ -1094,6 +1308,8 @@
    "miles": 19.28,
    "minutes": 44,
    "temp_c_sum": 57.7,
+   "temp_max_c": 23.0,
+   "temp_min_c": 17.0,
    "temp_n": 3
   },
   "2025-09-25": {
@@ -1104,6 +1320,8 @@
    "miles": 37.28,
    "minutes": 56,
    "temp_c_sum": 39.9,
+   "temp_max_c": 20.4,
+   "temp_min_c": 19.5,
    "temp_n": 2
   },
   "2025-09-26": {
@@ -1114,6 +1332,8 @@
    "miles": 60.73,
    "minutes": 94,
    "temp_c_sum": 161.8,
+   "temp_max_c": 25.8,
+   "temp_min_c": 19.0,
    "temp_n": 7
   },
   "2025-09-27": {
@@ -1124,6 +1344,8 @@
    "miles": 296.6,
    "minutes": 303,
    "temp_c_sum": 98.8,
+   "temp_max_c": 24.6,
+   "temp_min_c": 15.6,
    "temp_n": 5
   },
   "2025-09-28": {
@@ -1134,6 +1356,8 @@
    "miles": 35.64,
    "minutes": 38,
    "temp_c_sum": 43.5,
+   "temp_max_c": 25.5,
+   "temp_min_c": 18.0,
    "temp_n": 2
   },
   "2025-09-29": {
@@ -1144,6 +1368,8 @@
    "miles": 49.8,
    "minutes": 88,
    "temp_c_sum": 155.9,
+   "temp_max_c": 30.6,
+   "temp_min_c": 16.6,
    "temp_n": 6
   },
   "2025-09-30": {
@@ -1154,6 +1380,8 @@
    "miles": 73.59,
    "minutes": 135,
    "temp_c_sum": 215.4,
+   "temp_max_c": 28.3,
+   "temp_min_c": 16.6,
    "temp_n": 9
   },
   "2025-10-01": {
@@ -1164,6 +1392,8 @@
    "miles": 37.68,
    "minutes": 64,
    "temp_c_sum": 112.2,
+   "temp_max_c": 22.1,
+   "temp_min_c": 16.5,
    "temp_n": 6
   },
   "2025-10-02": {
@@ -1174,6 +1404,8 @@
    "miles": 19.77,
    "minutes": 34,
    "temp_c_sum": 73.9,
+   "temp_max_c": 26.8,
+   "temp_min_c": 21.6,
    "temp_n": 3
   },
   "2025-10-03": {
@@ -1184,6 +1416,8 @@
    "miles": 236.59,
    "minutes": 231,
    "temp_c_sum": 98.0,
+   "temp_max_c": 30.6,
+   "temp_min_c": 20.2,
    "temp_n": 4
   },
   "2025-10-04": {
@@ -1194,6 +1428,8 @@
    "miles": 127.92,
    "minutes": 237,
    "temp_c_sum": 210.0,
+   "temp_max_c": 31.4,
+   "temp_min_c": 19.7,
    "temp_n": 8
   },
   "2025-10-05": {
@@ -1204,6 +1440,8 @@
    "miles": 23.34,
    "minutes": 34,
    "temp_c_sum": 51.6,
+   "temp_max_c": 29.7,
+   "temp_min_c": 21.9,
    "temp_n": 2
   },
   "2025-10-06": {
@@ -1214,6 +1452,8 @@
    "miles": 20.27,
    "minutes": 28,
    "temp_c_sum": 49.6,
+   "temp_max_c": 27.6,
+   "temp_min_c": 22.0,
    "temp_n": 2
   },
   "2025-10-07": {
@@ -1224,6 +1464,8 @@
    "miles": 41.89,
    "minutes": 83,
    "temp_c_sum": 85.2,
+   "temp_max_c": 19.1,
+   "temp_min_c": 14.6,
    "temp_n": 5
   },
   "2025-10-10": {
@@ -1234,6 +1476,8 @@
    "miles": 165.89,
    "minutes": 225,
    "temp_c_sum": 88.1,
+   "temp_max_c": 19.1,
+   "temp_min_c": 10.8,
    "temp_n": 6
   },
   "2025-10-11": {
@@ -1244,6 +1488,8 @@
    "miles": 14.72,
    "minutes": 36,
    "temp_c_sum": 43.1,
+   "temp_max_c": 15.0,
+   "temp_min_c": 13.1,
    "temp_n": 3
   },
   "2025-10-12": {
@@ -1254,6 +1500,8 @@
    "miles": 678.1,
    "minutes": 583,
    "temp_c_sum": 174.4,
+   "temp_max_c": 26.0,
+   "temp_min_c": 10.1,
    "temp_n": 8
   },
   "2025-10-13": {
@@ -1264,6 +1512,8 @@
    "miles": 195.19,
    "minutes": 184,
    "temp_c_sum": 30.1,
+   "temp_max_c": 15.8,
+   "temp_min_c": 14.3,
    "temp_n": 2
   },
   "2025-10-14": {
@@ -1274,6 +1524,8 @@
    "miles": 68.17,
    "minutes": 69,
    "temp_c_sum": 83.1,
+   "temp_max_c": 25.0,
+   "temp_min_c": 17.5,
    "temp_n": 4
   },
   "2025-10-15": {
@@ -1284,6 +1536,8 @@
    "miles": 7.13,
    "minutes": 10,
    "temp_c_sum": 44.0,
+   "temp_max_c": 24.0,
+   "temp_min_c": 20.0,
    "temp_n": 2
   },
   "2025-10-16": {
@@ -1294,6 +1548,8 @@
    "miles": 36.78,
    "minutes": 49,
    "temp_c_sum": 197.1,
+   "temp_max_c": 29.3,
+   "temp_min_c": 26.5,
    "temp_n": 7
   },
   "2025-10-17": {
@@ -1304,6 +1560,8 @@
    "miles": 24.41,
    "minutes": 28,
    "temp_c_sum": 47.0,
+   "temp_max_c": 24.1,
+   "temp_min_c": 22.8,
    "temp_n": 2
   },
   "2025-10-18": {
@@ -1314,6 +1572,8 @@
    "miles": 67.65,
    "minutes": 99,
    "temp_c_sum": 132.4,
+   "temp_max_c": 23.2,
+   "temp_min_c": 21.0,
    "temp_n": 6
   },
   "2025-10-19": {
@@ -1324,6 +1584,8 @@
    "miles": 881.07,
    "minutes": 758,
    "temp_c_sum": 61.7,
+   "temp_max_c": 17.0,
+   "temp_min_c": 4.2,
    "temp_n": 5
   },
   "2025-10-21": {
@@ -1334,6 +1596,8 @@
    "miles": 25.73,
    "minutes": 56,
    "temp_c_sum": 30.7,
+   "temp_max_c": 11.2,
+   "temp_min_c": 8.8,
    "temp_n": 3
   },
   "2025-10-22": {
@@ -1344,6 +1608,8 @@
    "miles": 22.42,
    "minutes": 45,
    "temp_c_sum": 36.4,
+   "temp_max_c": 10.5,
+   "temp_min_c": 7.5,
    "temp_n": 4
   },
   "2025-10-23": {
@@ -1354,6 +1620,8 @@
    "miles": 6.53,
    "minutes": 25,
    "temp_c_sum": 40.5,
+   "temp_max_c": 11.5,
+   "temp_min_c": 9.2,
    "temp_n": 4
   },
   "2025-10-24": {
@@ -1364,6 +1632,8 @@
    "miles": 33.12,
    "minutes": 50,
    "temp_c_sum": 17.7,
+   "temp_max_c": 10.1,
+   "temp_min_c": 7.6,
    "temp_n": 2
   },
   "2025-10-25": {
@@ -1374,6 +1644,8 @@
    "miles": 186.15,
    "minutes": 194,
    "temp_c_sum": 34.3,
+   "temp_max_c": 11.2,
+   "temp_min_c": 6.1,
    "temp_n": 4
   },
   "2025-10-26": {
@@ -1384,6 +1656,8 @@
    "miles": 22.33,
    "minutes": 37,
    "temp_c_sum": 26.2,
+   "temp_max_c": 15.9,
+   "temp_min_c": 10.3,
    "temp_n": 2
   },
   "2025-10-27": {
@@ -1394,6 +1668,8 @@
    "miles": 20.8,
    "minutes": 47,
    "temp_c_sum": 20.2,
+   "temp_max_c": 13.0,
+   "temp_min_c": 3.0,
    "temp_n": 3
   },
   "2025-10-28": {
@@ -1404,6 +1680,8 @@
    "miles": 652.4,
    "minutes": 572,
    "temp_c_sum": 59.1,
+   "temp_max_c": 14.5,
+   "temp_min_c": 4.7,
    "temp_n": 6
   },
   "2025-10-29": {
@@ -1414,6 +1692,8 @@
    "miles": 120.92,
    "minutes": 170,
    "temp_c_sum": 63.1,
+   "temp_max_c": 14.1,
+   "temp_min_c": 8.6,
    "temp_n": 5
   },
   "2025-10-30": {
@@ -1424,6 +1704,8 @@
    "miles": 33.83,
    "minutes": 135,
    "temp_c_sum": 31.9,
+   "temp_max_c": 17.8,
+   "temp_min_c": 14.1,
    "temp_n": 2
   },
   "2025-10-31": {
@@ -1434,6 +1716,8 @@
    "miles": 744.8,
    "minutes": 648,
    "temp_c_sum": 73.1,
+   "temp_max_c": 12.4,
+   "temp_min_c": 9.1,
    "temp_n": 7
   },
   "2025-11-01": {
@@ -1444,6 +1728,8 @@
    "miles": 108.32,
    "minutes": 139,
    "temp_c_sum": 43.1,
+   "temp_max_c": 9.1,
+   "temp_min_c": 4.0,
    "temp_n": 6
   },
   "2025-11-02": {
@@ -1454,6 +1740,8 @@
    "miles": 10.82,
    "minutes": 20,
    "temp_c_sum": 24.1,
+   "temp_max_c": 13.0,
+   "temp_min_c": 11.1,
    "temp_n": 2
   },
   "2025-11-03": {
@@ -1464,6 +1752,8 @@
    "miles": 26.02,
    "minutes": 69,
    "temp_c_sum": 69.0,
+   "temp_max_c": 14.0,
+   "temp_min_c": 8.0,
    "temp_n": 6
   },
   "2025-11-04": {
@@ -1474,6 +1764,8 @@
    "miles": 26.48,
    "minutes": 59,
    "temp_c_sum": 41.6,
+   "temp_max_c": 13.5,
+   "temp_min_c": 5.1,
    "temp_n": 4
   },
   "2025-11-05": {
@@ -1484,6 +1776,8 @@
    "miles": 82.58,
    "minutes": 115,
    "temp_c_sum": 76.5,
+   "temp_max_c": 14.1,
+   "temp_min_c": 11.2,
    "temp_n": 6
   },
   "2025-11-06": {
@@ -1494,6 +1788,8 @@
    "miles": 31.49,
    "minutes": 65,
    "temp_c_sum": 52.7,
+   "temp_max_c": 12.6,
+   "temp_min_c": 3.0,
    "temp_n": 6
   },
   "2025-11-07": {
@@ -1504,6 +1800,8 @@
    "miles": 132.42,
    "minutes": 199,
    "temp_c_sum": 94.3,
+   "temp_max_c": 12.6,
+   "temp_min_c": 8.2,
    "temp_n": 9
   },
   "2025-11-11": {
@@ -1514,6 +1812,8 @@
    "miles": 44.03,
    "minutes": 103,
    "temp_c_sum": 17.5,
+   "temp_max_c": 2.5,
+   "temp_min_c": 0.6,
    "temp_n": 10
   },
   "2025-11-12": {
@@ -1524,6 +1824,8 @@
    "miles": 42.86,
    "minutes": 81,
    "temp_c_sum": 43.0,
+   "temp_max_c": 9.5,
+   "temp_min_c": 7.5,
    "temp_n": 5
   },
   "2025-11-13": {
@@ -1534,6 +1836,8 @@
    "miles": 70.94,
    "minutes": 133,
    "temp_c_sum": 63.2,
+   "temp_max_c": 11.0,
+   "temp_min_c": 3.9,
    "temp_n": 8
   },
   "2025-11-14": {
@@ -1544,6 +1848,8 @@
    "miles": 212.77,
    "minutes": 241,
    "temp_c_sum": 124.9,
+   "temp_max_c": 17.4,
+   "temp_min_c": 5.5,
    "temp_n": 10
   },
   "2025-11-15": {
@@ -1554,6 +1860,8 @@
    "miles": 274.46,
    "minutes": 276,
    "temp_c_sum": 120.7,
+   "temp_max_c": 18.2,
+   "temp_min_c": 15.7,
    "temp_n": 7
   },
   "2025-11-16": {
@@ -1564,6 +1872,8 @@
    "miles": 73.87,
    "minutes": 97,
    "temp_c_sum": 12.8,
+   "temp_max_c": 7.1,
+   "temp_min_c": 5.7,
    "temp_n": 2
   },
   "2025-11-17": {
@@ -1574,6 +1884,8 @@
    "miles": 25.58,
    "minutes": 51,
    "temp_c_sum": 29.5,
+   "temp_max_c": 8.5,
+   "temp_min_c": 0.5,
    "temp_n": 6
   },
   "2025-11-18": {
@@ -1584,6 +1896,8 @@
    "miles": 69.54,
    "minutes": 109,
    "temp_c_sum": 15.5,
+   "temp_max_c": 3.3,
+   "temp_min_c": 2.2,
    "temp_n": 6
   },
   "2025-11-19": {
@@ -1594,6 +1908,8 @@
    "miles": 20.96,
    "minutes": 44,
    "temp_c_sum": 5.7,
+   "temp_max_c": 6.0,
+   "temp_min_c": -0.3,
    "temp_n": 3
   },
   "2025-11-20": {
@@ -1604,6 +1920,8 @@
    "miles": 18.24,
    "minutes": 46,
    "temp_c_sum": 25.0,
+   "temp_max_c": 8.0,
+   "temp_min_c": 5.0,
    "temp_n": 4
   },
   "2025-11-21": {
@@ -1614,6 +1932,8 @@
    "miles": 21.58,
    "minutes": 52,
    "temp_c_sum": 22.4,
+   "temp_max_c": 9.0,
+   "temp_min_c": 6.5,
    "temp_n": 3
   },
   "2025-11-22": {
@@ -1624,6 +1944,8 @@
    "miles": 100.67,
    "minutes": 141,
    "temp_c_sum": 70.5,
+   "temp_max_c": 9.2,
+   "temp_min_c": 7.0,
    "temp_n": 9
   },
   "2025-11-23": {
@@ -1634,6 +1956,8 @@
    "miles": 23.72,
    "minutes": 35,
    "temp_c_sum": 20.7,
+   "temp_max_c": 10.5,
+   "temp_min_c": 10.2,
    "temp_n": 2
   },
   "2025-11-24": {
@@ -1644,6 +1968,8 @@
    "miles": 26.58,
    "minutes": 84,
    "temp_c_sum": 62.0,
+   "temp_max_c": 11.0,
+   "temp_min_c": 1.0,
    "temp_n": 7
   },
   "2025-11-25": {
@@ -1654,6 +1980,8 @@
    "miles": 25.77,
    "minutes": 50,
    "temp_c_sum": 30.8,
+   "temp_max_c": 8.5,
+   "temp_min_c": 6.5,
    "temp_n": 4
   },
   "2025-11-26": {
@@ -1664,6 +1992,8 @@
    "miles": 29.0,
    "minutes": 68,
    "temp_c_sum": 5.5,
+   "temp_max_c": 3.0,
+   "temp_min_c": 0.0,
    "temp_n": 4
   },
   "2025-11-27": {
@@ -1674,6 +2004,8 @@
    "miles": 21.24,
    "minutes": 43,
    "temp_c_sum": -2.5,
+   "temp_max_c": -0.5,
+   "temp_min_c": -1.5,
    "temp_n": 3
   },
   "2025-11-28": {
@@ -1684,6 +2016,8 @@
    "miles": 11.11,
    "minutes": 20,
    "temp_c_sum": -2.0,
+   "temp_max_c": -1.0,
+   "temp_min_c": -1.0,
    "temp_n": 2
   },
   "2025-11-29": {
@@ -1694,6 +2028,8 @@
    "miles": 99.34,
    "minutes": 117,
    "temp_c_sum": -5.2,
+   "temp_max_c": -2.3,
+   "temp_min_c": -2.9,
    "temp_n": 2
   },
   "2025-11-30": {
@@ -1704,6 +2040,8 @@
    "miles": 45.22,
    "minutes": 122,
    "temp_c_sum": -6.7,
+   "temp_max_c": -1.1,
+   "temp_min_c": -2.5,
    "temp_n": 4
   },
   "2025-12-01": {
@@ -1714,6 +2052,8 @@
    "miles": 52.07,
    "minutes": 94,
    "temp_c_sum": -12.0,
+   "temp_max_c": -1.0,
+   "temp_min_c": -3.0,
    "temp_n": 5
   },
   "2025-12-02": {
@@ -1724,6 +2064,8 @@
    "miles": 29.45,
    "minutes": 73,
    "temp_c_sum": -9.1,
+   "temp_max_c": 0.9,
+   "temp_min_c": -4.5,
    "temp_n": 6
   },
   "2025-12-03": {
@@ -1734,6 +2076,8 @@
    "miles": 21.06,
    "minutes": 41,
    "temp_c_sum": -13.4,
+   "temp_max_c": -3.4,
+   "temp_min_c": -5.0,
    "temp_n": 3
   },
   "2025-12-04": {
@@ -1744,6 +2088,8 @@
    "miles": 110.56,
    "minutes": 160,
    "temp_c_sum": -36.6,
+   "temp_max_c": -5.2,
+   "temp_min_c": -8.2,
    "temp_n": 6
   },
   "2025-12-05": {
@@ -1754,6 +2100,8 @@
    "miles": 32.55,
    "minutes": 89,
    "temp_c_sum": -27.8,
+   "temp_max_c": -2.0,
+   "temp_min_c": -9.0,
    "temp_n": 8
   },
   "2025-12-06": {
@@ -1764,6 +2112,8 @@
    "miles": 47.91,
    "minutes": 86,
    "temp_c_sum": 0.5,
+   "temp_max_c": 0.9,
+   "temp_min_c": -0.4,
    "temp_n": 3
   },
   "2025-12-07": {
@@ -1774,6 +2124,8 @@
    "miles": 75.86,
    "minutes": 108,
    "temp_c_sum": -7.2,
+   "temp_max_c": -2.6,
+   "temp_min_c": -4.6,
    "temp_n": 2
   },
   "2025-12-08": {
@@ -1784,6 +2136,8 @@
    "miles": 35.56,
    "minutes": 63,
    "temp_c_sum": -38.2,
+   "temp_max_c": -5.0,
+   "temp_min_c": -11.2,
    "temp_n": 5
   },
   "2025-12-09": {
@@ -1794,6 +2148,8 @@
    "miles": 28.0,
    "minutes": 75,
    "temp_c_sum": -3.3,
+   "temp_max_c": 1.4,
+   "temp_min_c": -5.0,
    "temp_n": 8
   },
   "2025-12-10": {
@@ -1804,6 +2160,8 @@
    "miles": 70.22,
    "minutes": 166,
    "temp_c_sum": -5.3,
+   "temp_max_c": 1.0,
+   "temp_min_c": -3.0,
    "temp_n": 12
   },
   "2025-12-11": {
@@ -1814,6 +2172,8 @@
    "miles": 77.89,
    "minutes": 158,
    "temp_c_sum": -32.3,
+   "temp_max_c": -1.7,
+   "temp_min_c": -3.5,
    "temp_n": 12
   },
   "2025-12-12": {
@@ -1824,6 +2184,8 @@
    "miles": 28.29,
    "minutes": 52,
    "temp_c_sum": -5.8,
+   "temp_max_c": -1.3,
+   "temp_min_c": -1.5,
    "temp_n": 4
   },
   "2025-12-13": {
@@ -1834,6 +2196,8 @@
    "miles": 20.71,
    "minutes": 35,
    "temp_c_sum": -30.0,
+   "temp_max_c": -10.0,
+   "temp_min_c": -10.0,
    "temp_n": 3
   },
   "2025-12-14": {
@@ -1844,6 +2208,8 @@
    "miles": 313.44,
    "minutes": 321,
    "temp_c_sum": -74.6,
+   "temp_max_c": -5.8,
+   "temp_min_c": -15.0,
    "temp_n": 8
   },
   "2025-12-15": {
@@ -1854,6 +2220,8 @@
    "miles": 21.58,
    "minutes": 34,
    "temp_c_sum": -36.6,
+   "temp_max_c": -7.2,
+   "temp_min_c": -10.8,
    "temp_n": 4
   },
   "2025-12-16": {
@@ -1864,6 +2232,8 @@
    "miles": 39.59,
    "minutes": 68,
    "temp_c_sum": -11.0,
+   "temp_max_c": 3.4,
+   "temp_min_c": -5.0,
    "temp_n": 5
   },
   "2025-12-17": {
@@ -1874,6 +2244,8 @@
    "miles": 22.01,
    "minutes": 58,
    "temp_c_sum": 17.9,
+   "temp_max_c": 4.8,
+   "temp_min_c": 4.1,
    "temp_n": 4
   },
   "2025-12-18": {
@@ -1884,6 +2256,8 @@
    "miles": 54.67,
    "minutes": 119,
    "temp_c_sum": 44.7,
+   "temp_max_c": 9.0,
+   "temp_min_c": 5.0,
    "temp_n": 7
   },
   "2025-12-19": {
@@ -1894,6 +2268,8 @@
    "miles": 68.95,
    "minutes": 154,
    "temp_c_sum": -54.0,
+   "temp_max_c": -4.5,
+   "temp_min_c": -6.5,
    "temp_n": 9
   },
   "2025-12-20": {
@@ -1904,6 +2280,8 @@
    "miles": 36.1,
    "minutes": 79,
    "temp_c_sum": 29.7,
+   "temp_max_c": 4.5,
+   "temp_min_c": 3.5,
    "temp_n": 7
   },
   "2025-12-22": {
@@ -1914,6 +2292,8 @@
    "miles": 21.06,
    "minutes": 44,
    "temp_c_sum": 5.2,
+   "temp_max_c": 4.7,
+   "temp_min_c": -0.0,
    "temp_n": 3
   },
   "2025-12-23": {
@@ -1924,6 +2304,8 @@
    "miles": 36.58,
    "minutes": 82,
    "temp_c_sum": 36.3,
+   "temp_max_c": 9.0,
+   "temp_min_c": 3.8,
    "temp_n": 6
   },
   "2025-12-24": {
@@ -1934,6 +2316,8 @@
    "miles": 24.02,
    "minutes": 42,
    "temp_c_sum": 10.5,
+   "temp_max_c": 4.0,
+   "temp_min_c": 2.7,
    "temp_n": 3
   },
   "2025-12-25": {
@@ -1944,6 +2328,8 @@
    "miles": 37.15,
    "minutes": 43,
    "temp_c_sum": 7.5,
+   "temp_max_c": 3.9,
+   "temp_min_c": 3.6,
    "temp_n": 2
   },
   "2025-12-26": {
@@ -1954,6 +2340,8 @@
    "miles": 43.78,
    "minutes": 87,
    "temp_c_sum": 15.8,
+   "temp_max_c": 3.0,
+   "temp_min_c": 0.5,
    "temp_n": 7
   },
   "2025-12-27": {
@@ -1964,6 +2352,8 @@
    "miles": 134.6,
    "minutes": 144,
    "temp_c_sum": 7.9,
+   "temp_max_c": 2.5,
+   "temp_min_c": 1.5,
    "temp_n": 4
   },
   "2025-12-28": {
@@ -1974,6 +2364,8 @@
    "miles": 171.78,
    "minutes": 202,
    "temp_c_sum": 24.0,
+   "temp_max_c": 7.1,
+   "temp_min_c": 1.4,
    "temp_n": 5
   },
   "2025-12-29": {
@@ -1984,6 +2376,8 @@
    "miles": 50.58,
    "minutes": 107,
    "temp_c_sum": -21.6,
+   "temp_max_c": -1.5,
+   "temp_min_c": -4.5,
    "temp_n": 7
   },
   "2025-12-30": {
@@ -1994,6 +2388,8 @@
    "miles": 40.02,
    "minutes": 86,
    "temp_c_sum": -28.1,
+   "temp_max_c": -4.0,
+   "temp_min_c": -5.5,
    "temp_n": 6
   },
   "2025-12-31": {
@@ -2004,6 +2400,8 @@
    "miles": 28.67,
    "minutes": 64,
    "temp_c_sum": -13.6,
+   "temp_max_c": -3.0,
+   "temp_min_c": -3.7,
    "temp_n": 4
   },
   "2026-01-01": {
@@ -2014,6 +2412,8 @@
    "miles": 39.57,
    "minutes": 81,
    "temp_c_sum": -47.3,
+   "temp_max_c": -6.0,
+   "temp_min_c": -8.0,
    "temp_n": 7
   },
   "2026-01-02": {
@@ -2024,6 +2424,8 @@
    "miles": 18.52,
    "minutes": 45,
    "temp_c_sum": -29.0,
+   "temp_max_c": -5.0,
+   "temp_min_c": -7.0,
    "temp_n": 5
   },
   "2026-01-03": {
@@ -2034,6 +2436,8 @@
    "miles": 233.37,
    "minutes": 228,
    "temp_c_sum": -25.7,
+   "temp_max_c": -4.0,
+   "temp_min_c": -8.3,
    "temp_n": 4
   },
   "2026-01-04": {
@@ -2044,6 +2448,8 @@
    "miles": 73.45,
    "minutes": 97,
    "temp_c_sum": -2.4,
+   "temp_max_c": 0.0,
+   "temp_min_c": -1.0,
    "temp_n": 5
   },
   "2026-01-05": {
@@ -2054,6 +2460,8 @@
    "miles": 16.04,
    "minutes": 36,
    "temp_c_sum": 1.8,
+   "temp_max_c": 3.0,
+   "temp_min_c": -0.8,
    "temp_n": 3
   },
   "2026-01-06": {
@@ -2064,6 +2472,8 @@
    "miles": 20.3,
    "minutes": 58,
    "temp_c_sum": 8.0,
+   "temp_max_c": 2.5,
+   "temp_min_c": 1.0,
    "temp_n": 4
   },
   "2026-01-07": {
@@ -2074,6 +2484,8 @@
    "miles": 16.4,
    "minutes": 35,
    "temp_c_sum": 10.0,
+   "temp_max_c": 4.0,
+   "temp_min_c": 3.0,
    "temp_n": 3
   },
   "2026-01-08": {
@@ -2084,6 +2496,8 @@
    "miles": 75.66,
    "minutes": 132,
    "temp_c_sum": 65.7,
+   "temp_max_c": 12.5,
+   "temp_min_c": 2.5,
    "temp_n": 8
   },
   "2026-01-09": {
@@ -2094,6 +2508,8 @@
    "miles": 20.3,
    "minutes": 51,
    "temp_c_sum": 33.7,
+   "temp_max_c": 8.5,
+   "temp_min_c": 5.4,
    "temp_n": 5
   },
   "2026-01-10": {
@@ -2104,6 +2520,8 @@
    "miles": 79.98,
    "minutes": 131,
    "temp_c_sum": 8.3,
+   "temp_max_c": 2.0,
+   "temp_min_c": 1.0,
    "temp_n": 6
   },
   "2026-01-11": {
@@ -2114,6 +2532,8 @@
    "miles": 1.73,
    "minutes": 8,
    "temp_c_sum": -3.0,
+   "temp_max_c": 0.5,
+   "temp_min_c": -3.5,
    "temp_n": 2
   },
   "2026-01-12": {
@@ -2124,6 +2544,8 @@
    "miles": 43.89,
    "minutes": 73,
    "temp_c_sum": 7.7,
+   "temp_max_c": 2.5,
+   "temp_min_c": 0.2,
    "temp_n": 5
   },
   "2026-01-13": {
@@ -2134,6 +2556,8 @@
    "miles": 41.61,
    "minutes": 92,
    "temp_c_sum": 39.2,
+   "temp_max_c": 9.2,
+   "temp_min_c": 2.0,
    "temp_n": 6
   },
   "2026-01-14": {
@@ -2144,6 +2568,8 @@
    "miles": 42.99,
    "minutes": 93,
    "temp_c_sum": -37.5,
+   "temp_max_c": -2.5,
+   "temp_min_c": -6.5,
    "temp_n": 7
   },
   "2026-01-15": {
@@ -2154,6 +2580,8 @@
    "miles": 17.14,
    "minutes": 43,
    "temp_c_sum": -25.1,
+   "temp_max_c": -3.0,
+   "temp_min_c": -9.0,
    "temp_n": 4
   },
   "2026-01-16": {
@@ -2164,6 +2592,8 @@
    "miles": 327.2,
    "minutes": 463,
    "temp_c_sum": -36.9,
+   "temp_max_c": -2.0,
+   "temp_min_c": -5.0,
    "temp_n": 9
   },
   "2026-01-18": {
@@ -2174,6 +2604,8 @@
    "miles": 311.98,
    "minutes": 340,
    "temp_c_sum": -47.2,
+   "temp_max_c": -5.4,
+   "temp_min_c": -9.5,
    "temp_n": 6
   },
   "2026-01-19": {
@@ -2184,6 +2616,8 @@
    "miles": 62.02,
    "minutes": 159,
    "temp_c_sum": -100.3,
+   "temp_max_c": -10.5,
+   "temp_min_c": -12.0,
    "temp_n": 9
   },
   "2026-01-20": {
@@ -2194,6 +2628,8 @@
    "miles": 67.29,
    "minutes": 158,
    "temp_c_sum": -96.9,
+   "temp_max_c": -8.5,
+   "temp_min_c": -12.3,
    "temp_n": 10
   },
   "2026-01-21": {
@@ -2204,6 +2640,8 @@
    "miles": 55.62,
    "minutes": 155,
    "temp_c_sum": -18.7,
+   "temp_max_c": -3.0,
+   "temp_min_c": -6.0,
    "temp_n": 4
   },
   "2026-01-22": {
@@ -2214,6 +2652,8 @@
    "miles": 47.3,
    "minutes": 121,
    "temp_c_sum": -37.0,
+   "temp_max_c": -7.0,
+   "temp_min_c": -8.0,
    "temp_n": 5
   },
   "2026-01-23": {
@@ -2224,6 +2664,8 @@
    "miles": 41.56,
    "minutes": 68,
    "temp_c_sum": -93.9,
+   "temp_max_c": -16.7,
+   "temp_min_c": -19.6,
    "temp_n": 5
   },
   "2026-01-24": {
@@ -2234,6 +2676,8 @@
    "miles": 27.25,
    "minutes": 52,
    "temp_c_sum": -86.7,
+   "temp_max_c": -13.5,
+   "temp_min_c": -16.0,
    "temp_n": 6
   },
   "2026-01-26": {
@@ -2244,6 +2688,8 @@
    "miles": 16.29,
    "minutes": 60,
    "temp_c_sum": -33.6,
+   "temp_max_c": -9.9,
+   "temp_min_c": -11.9,
    "temp_n": 3
   },
   "2026-01-27": {
@@ -2254,6 +2700,8 @@
    "miles": 27.12,
    "minutes": 97,
    "temp_c_sum": -55.6,
+   "temp_max_c": -7.5,
+   "temp_min_c": -11.3,
    "temp_n": 6
   },
   "2026-01-28": {
@@ -2264,6 +2712,8 @@
    "miles": 16.47,
    "minutes": 68,
    "temp_c_sum": -27.7,
+   "temp_max_c": -8.7,
+   "temp_min_c": -9.5,
    "temp_n": 3
   },
   "2026-01-29": {
@@ -2274,6 +2724,8 @@
    "miles": 17.21,
    "minutes": 53,
    "temp_c_sum": -20.7,
+   "temp_max_c": -10.2,
+   "temp_min_c": -10.5,
    "temp_n": 2
   },
   "2026-01-30": {
@@ -2284,6 +2736,8 @@
    "miles": 20.99,
    "minutes": 68,
    "temp_c_sum": -55.2,
+   "temp_max_c": -9.0,
+   "temp_min_c": -16.6,
    "temp_n": 5
   },
   "2026-01-31": {
@@ -2294,6 +2748,8 @@
    "miles": 268.68,
    "minutes": 268,
    "temp_c_sum": -70.7,
+   "temp_max_c": -10.8,
+   "temp_min_c": -13.3,
    "temp_n": 6
   },
   "2026-02-01": {
@@ -2304,6 +2760,8 @@
    "miles": 98.28,
    "minutes": 121,
    "temp_c_sum": -16.7,
+   "temp_max_c": -1.7,
+   "temp_min_c": -3.9,
    "temp_n": 6
   },
   "2026-02-02": {
@@ -2314,6 +2772,8 @@
    "miles": 14.37,
    "minutes": 44,
    "temp_c_sum": -27.0,
+   "temp_max_c": -2.0,
+   "temp_min_c": -7.0,
    "temp_n": 5
   },
   "2026-02-03": {
@@ -2324,6 +2784,8 @@
    "miles": 38.23,
    "minutes": 114,
    "temp_c_sum": -29.9,
+   "temp_max_c": -4.0,
+   "temp_min_c": -5.0,
    "temp_n": 7
   },
   "2026-02-04": {
@@ -2334,6 +2796,8 @@
    "miles": 20.19,
    "minutes": 51,
    "temp_c_sum": -27.0,
+   "temp_max_c": -3.5,
+   "temp_min_c": -7.5,
    "temp_n": 5
   },
   "2026-02-05": {
@@ -2344,6 +2808,8 @@
    "miles": 26.12,
    "minutes": 81,
    "temp_c_sum": -22.7,
+   "temp_max_c": -3.2,
+   "temp_min_c": -4.5,
    "temp_n": 6
   },
   "2026-02-06": {
@@ -2354,6 +2820,8 @@
    "miles": 39.11,
    "minutes": 95,
    "temp_c_sum": -19.1,
+   "temp_max_c": -1.0,
+   "temp_min_c": -7.0,
    "temp_n": 6
   },
   "2026-02-07": {
@@ -2364,6 +2832,8 @@
    "miles": 98.64,
    "minutes": 129,
    "temp_c_sum": -34.3,
+   "temp_max_c": -4.4,
+   "temp_min_c": -6.5,
    "temp_n": 6
   },
   "2026-02-08": {
@@ -2374,6 +2844,8 @@
    "miles": 22.8,
    "minutes": 39,
    "temp_c_sum": -10.1,
+   "temp_max_c": -3.9,
+   "temp_min_c": -6.2,
    "temp_n": 2
   },
   "2026-02-09": {
@@ -2384,6 +2856,8 @@
    "miles": 39.86,
    "minutes": 89,
    "temp_c_sum": -24.1,
+   "temp_max_c": 1.6,
+   "temp_min_c": -8.1,
    "temp_n": 8
   },
   "2026-02-10": {
@@ -2394,6 +2868,8 @@
    "miles": 37.59,
    "minutes": 97,
    "temp_c_sum": 19.3,
+   "temp_max_c": 5.8,
+   "temp_min_c": -0.9,
    "temp_n": 6
   },
   "2026-02-11": {
@@ -2404,6 +2880,8 @@
    "miles": 31.35,
    "minutes": 72,
    "temp_c_sum": -4.8,
+   "temp_max_c": -0.5,
+   "temp_min_c": -1.8,
    "temp_n": 6
   },
   "2026-02-12": {
@@ -2414,6 +2892,8 @@
    "miles": 54.8,
    "minutes": 103,
    "temp_c_sum": -19.2,
+   "temp_max_c": -0.9,
+   "temp_min_c": -6.6,
    "temp_n": 6
   },
   "2026-02-13": {
@@ -2424,6 +2904,8 @@
    "miles": 22.59,
    "minutes": 46,
    "temp_c_sum": 2.4,
+   "temp_max_c": 6.5,
+   "temp_min_c": -6.8,
    "temp_n": 5
   },
   "2026-02-14": {
@@ -2434,6 +2916,8 @@
    "miles": 12.57,
    "minutes": 25,
    "temp_c_sum": 15.1,
+   "temp_max_c": 8.3,
+   "temp_min_c": 6.8,
    "temp_n": 2
   },
   "2026-02-15": {
@@ -2444,6 +2928,8 @@
    "miles": 22.71,
    "minutes": 38,
    "temp_c_sum": 17.1,
+   "temp_max_c": 9.5,
+   "temp_min_c": 7.6,
    "temp_n": 2
   },
   "2026-02-16": {
@@ -2454,6 +2940,8 @@
    "miles": 22.46,
    "minutes": 42,
    "temp_c_sum": 41.5,
+   "temp_max_c": 13.0,
+   "temp_min_c": 1.9,
    "temp_n": 5
   },
   "2026-02-17": {
@@ -2464,6 +2952,8 @@
    "miles": 5.97,
    "minutes": 22,
    "temp_c_sum": 10.4,
+   "temp_max_c": 6.0,
+   "temp_min_c": 4.4,
    "temp_n": 2
   },
   "2026-02-18": {
@@ -2474,6 +2964,8 @@
    "miles": 20.98,
    "minutes": 55,
    "temp_c_sum": 55.7,
+   "temp_max_c": 14.0,
+   "temp_min_c": 7.3,
    "temp_n": 5
   },
   "2026-02-19": {
@@ -2484,6 +2976,8 @@
    "miles": 36.11,
    "minutes": 70,
    "temp_c_sum": 35.7,
+   "temp_max_c": 13.8,
+   "temp_min_c": 4.8,
    "temp_n": 4
   },
   "2026-02-20": {
@@ -2494,6 +2988,8 @@
    "miles": 22.6,
    "minutes": 44,
    "temp_c_sum": 12.2,
+   "temp_max_c": 4.0,
+   "temp_min_c": 1.0,
    "temp_n": 5
   },
   "2026-02-21": {
@@ -2504,6 +3000,8 @@
    "miles": 27.51,
    "minutes": 56,
    "temp_c_sum": 3.4,
+   "temp_max_c": 0.9,
+   "temp_min_c": 0.5,
    "temp_n": 6
   },
   "2026-02-23": {
@@ -2514,6 +3012,8 @@
    "miles": 23.65,
    "minutes": 48,
    "temp_c_sum": -14.3,
+   "temp_max_c": -0.8,
+   "temp_min_c": -4.4,
    "temp_n": 6
   },
   "2026-02-24": {
@@ -2524,6 +3024,8 @@
    "miles": 32.24,
    "minutes": 54,
    "temp_c_sum": -17.0,
+   "temp_max_c": -2.3,
+   "temp_min_c": -6.6,
    "temp_n": 4
   },
   "2026-02-25": {
@@ -2534,6 +3036,8 @@
    "miles": 19.65,
    "minutes": 46,
    "temp_c_sum": -11.7,
+   "temp_max_c": -0.9,
+   "temp_min_c": -4.0,
    "temp_n": 5
   },
   "2026-02-26": {
@@ -2544,6 +3048,8 @@
    "miles": 23.01,
    "minutes": 52,
    "temp_c_sum": -11.9,
+   "temp_max_c": 2.0,
+   "temp_min_c": -7.4,
    "temp_n": 5
   },
   "2026-02-27": {
@@ -2554,6 +3060,8 @@
    "miles": 28.28,
    "minutes": 49,
    "temp_c_sum": 6.3,
+   "temp_max_c": 4.0,
+   "temp_min_c": 0.3,
    "temp_n": 3
   },
   "2026-02-28": {
@@ -2564,6 +3072,8 @@
    "miles": 38.42,
    "minutes": 71,
    "temp_c_sum": 10.3,
+   "temp_max_c": 2.8,
+   "temp_min_c": 1.5,
    "temp_n": 5
   },
   "2026-03-02": {
@@ -2574,6 +3084,8 @@
    "miles": 41.75,
    "minutes": 92,
    "temp_c_sum": 7.6,
+   "temp_max_c": 4.4,
+   "temp_min_c": -6.1,
    "temp_n": 8
   },
   "2026-03-03": {
@@ -2584,6 +3096,8 @@
    "miles": 35.64,
    "minutes": 79,
    "temp_c_sum": 17.5,
+   "temp_max_c": 6.7,
+   "temp_min_c": -1.8,
    "temp_n": 5
   },
   "2026-03-04": {
@@ -2594,6 +3108,8 @@
    "miles": 36.91,
    "minutes": 87,
    "temp_c_sum": 89.4,
+   "temp_max_c": 13.5,
+   "temp_min_c": 1.5,
    "temp_n": 9
   },
   "2026-03-05": {
@@ -2604,6 +3120,8 @@
    "miles": 54.85,
    "minutes": 99,
    "temp_c_sum": 32.1,
+   "temp_max_c": 7.2,
+   "temp_min_c": 5.5,
    "temp_n": 5
   },
   "2026-03-06": {
@@ -2614,6 +3132,8 @@
    "miles": 17.05,
    "minutes": 38,
    "temp_c_sum": 13.9,
+   "temp_max_c": 7.4,
+   "temp_min_c": 6.5,
    "temp_n": 2
   },
   "2026-03-08": {
@@ -2624,6 +3144,8 @@
    "miles": 34.52,
    "minutes": 51,
    "temp_c_sum": 33.6,
+   "temp_max_c": 13.0,
+   "temp_min_c": 6.0,
    "temp_n": 4
   },
   "2026-03-09": {
@@ -2634,6 +3156,8 @@
    "miles": 24.93,
    "minutes": 58,
    "temp_c_sum": 120.6,
+   "temp_max_c": 22.0,
+   "temp_min_c": 11.3,
    "temp_n": 7
   },
   "2026-03-10": {
@@ -2644,6 +3168,8 @@
    "miles": 23.47,
    "minutes": 46,
    "temp_c_sum": 29.0,
+   "temp_max_c": 8.7,
+   "temp_min_c": 5.5,
    "temp_n": 4
   },
   "2026-03-11": {
@@ -2654,6 +3180,8 @@
    "miles": 22.59,
    "minutes": 46,
    "temp_c_sum": 15.5,
+   "temp_max_c": 3.5,
+   "temp_min_c": 1.5,
    "temp_n": 5
   },
   "2026-03-12": {
@@ -2664,6 +3192,8 @@
    "miles": 31.71,
    "minutes": 72,
    "temp_c_sum": 8.3,
+   "temp_max_c": 6.0,
+   "temp_min_c": -0.7,
    "temp_n": 4
   },
   "2026-03-13": {
@@ -2674,6 +3204,8 @@
    "miles": 45.29,
    "minutes": 85,
    "temp_c_sum": 24.8,
+   "temp_max_c": 5.7,
+   "temp_min_c": 1.1,
    "temp_n": 7
   },
   "2026-03-15": {
@@ -2684,6 +3216,8 @@
    "miles": 21.73,
    "minutes": 52,
    "temp_c_sum": 23.3,
+   "temp_max_c": 6.5,
+   "temp_min_c": 4.9,
    "temp_n": 4
   },
   "2026-03-16": {
@@ -2694,6 +3228,8 @@
    "miles": 32.16,
    "minutes": 74,
    "temp_c_sum": -13.8,
+   "temp_max_c": 1.0,
+   "temp_min_c": -5.0,
    "temp_n": 7
   },
   "2026-03-17": {
@@ -2704,6 +3240,8 @@
    "miles": 40.99,
    "minutes": 121,
    "temp_c_sum": -49.3,
+   "temp_max_c": -4.3,
+   "temp_min_c": -7.5,
    "temp_n": 9
   },
   "2026-03-18": {
@@ -2714,6 +3252,8 @@
    "miles": 59.39,
    "minutes": 116,
    "temp_c_sum": -16.4,
+   "temp_max_c": 1.0,
+   "temp_min_c": -4.6,
    "temp_n": 8
   },
   "2026-03-19": {
@@ -2724,6 +3264,8 @@
    "miles": 125.49,
    "minutes": 140,
    "temp_c_sum": 64.9,
+   "temp_max_c": 13.0,
+   "temp_min_c": 2.0,
    "temp_n": 7
   },
   "2026-03-20": {
@@ -2734,6 +3276,8 @@
    "miles": 41.65,
    "minutes": 56,
    "temp_c_sum": 50.6,
+   "temp_max_c": 17.8,
+   "temp_min_c": 15.6,
    "temp_n": 3
   },
   "2026-03-21": {
@@ -2744,6 +3288,8 @@
    "miles": 32.33,
    "minutes": 71,
    "temp_c_sum": 54.8,
+   "temp_max_c": 18.5,
+   "temp_min_c": 4.0,
    "temp_n": 6
   },
   "2026-03-22": {
@@ -2754,6 +3300,8 @@
    "miles": 22.76,
    "minutes": 36,
    "temp_c_sum": 14.2,
+   "temp_max_c": 8.0,
+   "temp_min_c": 6.2,
    "temp_n": 2
   },
   "2026-03-23": {
@@ -2764,6 +3312,8 @@
    "miles": 1.84,
    "minutes": 7,
    "temp_c_sum": 5.0,
+   "temp_max_c": 5.0,
+   "temp_min_c": 0.0,
    "temp_n": 2
   },
   "2026-03-24": {
@@ -2774,6 +3324,8 @@
    "miles": 43.25,
    "minutes": 91,
    "temp_c_sum": 50.0,
+   "temp_max_c": 10.0,
+   "temp_min_c": 0.7,
    "temp_n": 7
   },
   "2026-03-25": {
@@ -2784,6 +3336,8 @@
    "miles": 31.05,
    "minutes": 53,
    "temp_c_sum": 84.1,
+   "temp_max_c": 18.5,
+   "temp_min_c": 4.8,
    "temp_n": 6
   },
   "2026-03-26": {
@@ -2794,6 +3348,8 @@
    "miles": 52.39,
    "minutes": 110,
    "temp_c_sum": 97.1,
+   "temp_max_c": 15.4,
+   "temp_min_c": 10.0,
    "temp_n": 8
   },
   "2026-03-27": {
@@ -2804,6 +3360,8 @@
    "miles": 49.41,
    "minutes": 103,
    "temp_c_sum": 20.4,
+   "temp_max_c": 4.7,
+   "temp_min_c": -0.2,
    "temp_n": 8
   },
   "2026-03-28": {
@@ -2814,6 +3372,8 @@
    "miles": 27.93,
    "minutes": 55,
    "temp_c_sum": 13.0,
+   "temp_max_c": 6.0,
+   "temp_min_c": -1.0,
    "temp_n": 5
   },
   "2026-03-29": {
@@ -2824,6 +3384,8 @@
    "miles": 158.19,
    "minutes": 168,
    "temp_c_sum": 46.6,
+   "temp_max_c": 16.8,
+   "temp_min_c": 1.4,
    "temp_n": 4
   },
   "2026-03-30": {
@@ -2834,6 +3396,8 @@
    "miles": 39.83,
    "minutes": 76,
    "temp_c_sum": 95.3,
+   "temp_max_c": 24.9,
+   "temp_min_c": 9.5,
    "temp_n": 5
   },
   "2026-03-31": {
@@ -2844,6 +3408,8 @@
    "miles": 32.31,
    "minutes": 86,
    "temp_c_sum": 84.3,
+   "temp_max_c": 23.9,
+   "temp_min_c": 12.1,
    "temp_n": 5
   },
   "2026-04-01": {
@@ -2854,6 +3420,8 @@
    "miles": 21.1,
    "minutes": 52,
    "temp_c_sum": 22.5,
+   "temp_max_c": 5.1,
+   "temp_min_c": 4.0,
    "temp_n": 5
   },
   "2026-04-02": {
@@ -2864,6 +3432,8 @@
    "miles": 40.49,
    "minutes": 72,
    "temp_c_sum": 60.5,
+   "temp_max_c": 16.5,
+   "temp_min_c": 8.3,
    "temp_n": 5
   },
   "2026-04-03": {
@@ -2874,6 +3444,8 @@
    "miles": 53.22,
    "minutes": 108,
    "temp_c_sum": 100.5,
+   "temp_max_c": 15.6,
+   "temp_min_c": 7.9,
    "temp_n": 9
   },
   "2026-04-04": {
@@ -2884,6 +3456,8 @@
    "miles": 260.26,
    "minutes": 263,
    "temp_c_sum": 80.9,
+   "temp_max_c": 9.5,
+   "temp_min_c": 4.8,
    "temp_n": 11
   },
   "2026-04-06": {
@@ -2894,6 +3468,8 @@
    "miles": 17.47,
    "minutes": 35,
    "temp_c_sum": 8.7,
+   "temp_max_c": 5.0,
+   "temp_min_c": 3.7,
    "temp_n": 2
   },
   "2026-04-07": {
@@ -2904,6 +3480,8 @@
    "miles": 67.56,
    "minutes": 131,
    "temp_c_sum": 42.4,
+   "temp_max_c": 6.4,
+   "temp_min_c": 0.8,
    "temp_n": 10
   },
   "2026-04-08": {
@@ -2914,6 +3492,8 @@
    "miles": 44.58,
    "minutes": 84,
    "temp_c_sum": 61.9,
+   "temp_max_c": 17.0,
+   "temp_min_c": 0.7,
    "temp_n": 8
   },
   "2026-04-09": {
@@ -2924,6 +3504,8 @@
    "miles": 342.47,
    "minutes": 333,
    "temp_c_sum": 117.5,
+   "temp_max_c": 20.6,
+   "temp_min_c": 11.4,
    "temp_n": 7
   },
   "2026-04-10": {
@@ -2934,6 +3516,8 @@
    "miles": 40.02,
    "minutes": 51,
    "temp_c_sum": 19.5,
+   "temp_max_c": 6.9,
+   "temp_min_c": 6.1,
    "temp_n": 3
   },
   "2026-04-13": {
@@ -2944,6 +3528,8 @@
    "miles": 19.98,
    "minutes": 53,
    "temp_c_sum": 106.6,
+   "temp_max_c": 25.0,
+   "temp_min_c": 16.6,
    "temp_n": 5
   },
   "2026-04-14": {
@@ -2954,6 +3540,8 @@
    "miles": 126.21,
    "minutes": 201,
    "temp_c_sum": 178.5,
+   "temp_max_c": 27.7,
+   "temp_min_c": 16.7,
    "temp_n": 8
   },
   "2026-04-15": {
@@ -2964,6 +3552,8 @@
    "miles": 32.46,
    "minutes": 83,
    "temp_c_sum": 118.0,
+   "temp_max_c": 22.5,
+   "temp_min_c": 18.0,
    "temp_n": 6
   },
   "2026-04-16": {
@@ -2974,6 +3564,8 @@
    "miles": 58.07,
    "minutes": 111,
    "temp_c_sum": 95.9,
+   "temp_max_c": 17.4,
+   "temp_min_c": 15.0,
    "temp_n": 6
   },
   "2026-04-17": {
@@ -2984,6 +3576,8 @@
    "miles": 26.2,
    "minutes": 74,
    "temp_c_sum": 197.2,
+   "temp_max_c": 28.0,
+   "temp_min_c": 11.9,
    "temp_n": 9
   },
   "2026-04-18": {
@@ -2994,6 +3588,8 @@
    "miles": 109.04,
    "minutes": 175,
    "temp_c_sum": 100.9,
+   "temp_max_c": 10.3,
+   "temp_min_c": 8.0,
    "temp_n": 11
   },
   "2026-04-20": {
@@ -3004,6 +3600,8 @@
    "miles": 20.26,
    "minutes": 52,
    "temp_c_sum": 40.2,
+   "temp_max_c": 14.1,
+   "temp_min_c": 1.4,
    "temp_n": 5
   },
   "2026-04-21": {
@@ -3014,6 +3612,8 @@
    "miles": 28.83,
    "minutes": 64,
    "temp_c_sum": 83.1,
+   "temp_max_c": 20.7,
+   "temp_min_c": 8.3,
    "temp_n": 5
   },
   "2026-04-22": {
@@ -3024,6 +3624,8 @@
    "miles": 92.5,
    "minutes": 160,
    "temp_c_sum": 206.7,
+   "temp_max_c": 26.5,
+   "temp_min_c": 13.7,
    "temp_n": 10
   },
   "2026-04-23": {
@@ -3034,6 +3636,8 @@
    "miles": 128.14,
    "minutes": 165,
    "temp_c_sum": 163.8,
+   "temp_max_c": 28.1,
+   "temp_min_c": 15.7,
    "temp_n": 7
   },
   "2026-04-24": {
@@ -3044,6 +3648,8 @@
    "miles": 32.8,
    "minutes": 63,
    "temp_c_sum": 108.6,
+   "temp_max_c": 24.5,
+   "temp_min_c": 19.5,
    "temp_n": 5
   },
   "2026-04-25": {
@@ -3054,6 +3660,8 @@
    "miles": 45.71,
    "minutes": 67,
    "temp_c_sum": 129.0,
+   "temp_max_c": 22.2,
+   "temp_min_c": 14.0,
    "temp_n": 7
   },
   "2026-04-27": {
@@ -3064,6 +3672,8 @@
    "miles": 29.01,
    "minutes": 79,
    "temp_c_sum": 94.3,
+   "temp_max_c": 19.5,
+   "temp_min_c": 12.5,
    "temp_n": 6
   },
   "2026-04-28": {
@@ -3074,6 +3684,8 @@
    "miles": 29.16,
    "minutes": 75,
    "temp_c_sum": 78.2,
+   "temp_max_c": 17.6,
+   "temp_min_c": 13.0,
    "temp_n": 5
   },
   "2026-04-29": {
@@ -3084,6 +3696,8 @@
    "miles": 24.33,
    "minutes": 46,
    "temp_c_sum": 58.2,
+   "temp_max_c": 13.1,
+   "temp_min_c": 9.5,
    "temp_n": 5
   },
   "2026-04-30": {
@@ -3094,6 +3708,8 @@
    "miles": 34.68,
    "minutes": 80,
    "temp_c_sum": 84.5,
+   "temp_max_c": 14.0,
+   "temp_min_c": 6.2,
    "temp_n": 9
   },
   "2026-05-01": {
@@ -3104,6 +3720,8 @@
    "miles": 32.86,
    "minutes": 73,
    "temp_c_sum": 26.2,
+   "temp_max_c": 8.2,
+   "temp_min_c": 5.2,
    "temp_n": 4
   },
   "2026-05-02": {
@@ -3114,6 +3732,8 @@
    "miles": 87.36,
    "minutes": 129,
    "temp_c_sum": 44.6,
+   "temp_max_c": 10.8,
+   "temp_min_c": 7.6,
    "temp_n": 5
   },
   "2026-05-03": {
@@ -3124,6 +3744,8 @@
    "miles": 1.8,
    "minutes": 7,
    "temp_c_sum": 25.0,
+   "temp_max_c": 12.5,
+   "temp_min_c": 12.5,
    "temp_n": 2
   },
   "2026-05-04": {
@@ -3134,6 +3756,8 @@
    "miles": 22.49,
    "minutes": 48,
    "temp_c_sum": 106.0,
+   "temp_max_c": 27.0,
+   "temp_min_c": 13.2,
    "temp_n": 5
   },
   "2026-05-05": {
@@ -3144,6 +3768,8 @@
    "miles": 182.37,
    "minutes": 212,
    "temp_c_sum": 101.1,
+   "temp_max_c": 14.0,
+   "temp_min_c": 10.8,
    "temp_n": 8
   },
   "2026-05-06": {
@@ -3154,6 +3780,8 @@
    "miles": 21.17,
    "minutes": 41,
    "temp_c_sum": 31.1,
+   "temp_max_c": 16.0,
+   "temp_min_c": 7.5,
    "temp_n": 3
   },
   "2026-05-07": {
@@ -3164,6 +3792,8 @@
    "miles": 104.35,
    "minutes": 136,
    "temp_c_sum": 88.7,
+   "temp_max_c": 15.9,
+   "temp_min_c": 7.4,
    "temp_n": 8
   },
   "2026-05-08": {
@@ -3174,6 +3804,8 @@
    "miles": 53.53,
    "minutes": 107,
    "temp_c_sum": 169.9,
+   "temp_max_c": 22.2,
+   "temp_min_c": 8.7,
    "temp_n": 10
   },
   "2026-05-09": {
@@ -3184,6 +3816,8 @@
    "miles": 60.99,
    "minutes": 111,
    "temp_c_sum": 139.9,
+   "temp_max_c": 18.9,
+   "temp_min_c": 15.0,
    "temp_n": 8
   },
   "2026-05-10": {
@@ -3194,6 +3828,8 @@
    "miles": 22.68,
    "minutes": 34,
    "temp_c_sum": 31.1,
+   "temp_max_c": 17.1,
+   "temp_min_c": 14.0,
    "temp_n": 2
   },
   "2026-05-11": {
@@ -3204,6 +3840,8 @@
    "miles": 23.27,
    "minutes": 46,
    "temp_c_sum": 85.0,
+   "temp_max_c": 18.0,
+   "temp_min_c": 8.6,
    "temp_n": 6
   },
   "2026-05-12": {
@@ -3214,6 +3852,8 @@
    "miles": 43.48,
    "minutes": 84,
    "temp_c_sum": 78.4,
+   "temp_max_c": 17.5,
+   "temp_min_c": 6.2,
    "temp_n": 6
   },
   "2026-05-13": {
@@ -3224,6 +3864,8 @@
    "miles": 40.85,
    "minutes": 72,
    "temp_c_sum": 50.0,
+   "temp_max_c": 9.0,
+   "temp_min_c": 8.0,
    "temp_n": 6
   },
   "2026-05-14": {
@@ -3234,6 +3876,8 @@
    "miles": 79.62,
    "minutes": 116,
    "temp_c_sum": 138.4,
+   "temp_max_c": 22.8,
+   "temp_min_c": 9.2,
    "temp_n": 8
   },
   "2026-05-15": {
@@ -3244,6 +3888,8 @@
    "miles": 85.14,
    "minutes": 105,
    "temp_c_sum": 61.0,
+   "temp_max_c": 19.1,
+   "temp_min_c": 11.6,
    "temp_n": 4
   },
   "2026-05-16": {
@@ -3254,6 +3900,8 @@
    "miles": 113.81,
    "minutes": 141,
    "temp_c_sum": 119.4,
+   "temp_max_c": 26.8,
+   "temp_min_c": 17.3,
    "temp_n": 6
   },
   "2026-05-17": {
@@ -3264,6 +3912,8 @@
    "miles": 75.04,
    "minutes": 94,
    "temp_c_sum": 50.9,
+   "temp_max_c": 28.9,
+   "temp_min_c": 22.0,
    "temp_n": 2
   },
   "2026-05-18": {
@@ -3274,6 +3924,8 @@
    "miles": 45.67,
    "minutes": 89,
    "temp_c_sum": 188.4,
+   "temp_max_c": 30.0,
+   "temp_min_c": 25.1,
    "temp_n": 7
   },
   "2026-05-19": {
@@ -3284,6 +3936,8 @@
    "miles": 341.13,
    "minutes": 383,
    "temp_c_sum": 244.3,
+   "temp_max_c": 27.8,
+   "temp_min_c": 18.6,
    "temp_n": 11
   },
   "2026-05-20": {
@@ -3294,6 +3948,8 @@
    "miles": 25.86,
    "minutes": 61,
    "temp_c_sum": 105.1,
+   "temp_max_c": 20.3,
+   "temp_min_c": 14.0,
    "temp_n": 6
   },
   "2026-05-21": {
@@ -3304,6 +3960,8 @@
    "miles": 20.62,
    "minutes": 39,
    "temp_c_sum": 39.9,
+   "temp_max_c": 18.5,
+   "temp_min_c": 10.5,
    "temp_n": 3
   },
   "2026-05-22": {
@@ -3314,6 +3972,8 @@
    "miles": 60.04,
    "minutes": 113,
    "temp_c_sum": 104.4,
+   "temp_max_c": 23.3,
+   "temp_min_c": 10.4,
    "temp_n": 7
   },
   "2026-05-23": {
@@ -3324,6 +3984,8 @@
    "miles": 82.27,
    "minutes": 126,
    "temp_c_sum": 106.3,
+   "temp_max_c": 16.0,
+   "temp_min_c": 14.0,
    "temp_n": 7
   },
   "2026-05-24": {
@@ -3334,6 +3996,8 @@
    "miles": 4.31,
    "minutes": 14,
    "temp_c_sum": 31.0,
+   "temp_max_c": 16.0,
+   "temp_min_c": 15.0,
    "temp_n": 2
   },
   "2026-05-25": {
@@ -3344,6 +4008,8 @@
    "miles": 37.39,
    "minutes": 50,
    "temp_c_sum": 27.8,
+   "temp_max_c": 27.8,
+   "temp_min_c": 27.8,
    "temp_n": 1
   },
   "2026-05-26": {
@@ -3354,6 +4020,8 @@
    "miles": 6.14,
    "minutes": 22,
    "temp_c_sum": 75.0,
+   "temp_max_c": 32.4,
+   "temp_min_c": 19.0,
    "temp_n": 3
   },
   "2026-05-27": {
@@ -3364,6 +4032,8 @@
    "miles": 173.28,
    "minutes": 229,
    "temp_c_sum": 189.4,
+   "temp_max_c": 31.8,
+   "temp_min_c": 20.6,
    "temp_n": 7
   },
   "2026-05-28": {
@@ -3374,6 +4044,8 @@
    "miles": 44.49,
    "minutes": 98,
    "temp_c_sum": 213.2,
+   "temp_max_c": 27.2,
+   "temp_min_c": 17.9,
    "temp_n": 9
   },
   "2026-05-29": {
@@ -3384,6 +4056,8 @@
    "miles": 86.83,
    "minutes": 104,
    "temp_c_sum": 123.4,
+   "temp_max_c": 26.2,
+   "temp_min_c": 23.5,
    "temp_n": 5
   },
   "2026-05-30": {
@@ -3394,6 +4068,8 @@
    "miles": 34.95,
    "minutes": 65,
    "temp_c_sum": 121.1,
+   "temp_max_c": 25.2,
+   "temp_min_c": 23.1,
    "temp_n": 5
   },
   "2026-05-31": {
@@ -3404,6 +4080,8 @@
    "miles": 85.0,
    "minutes": 92,
    "temp_c_sum": 67.3,
+   "temp_max_c": 23.0,
+   "temp_min_c": 22.0,
    "temp_n": 3
   },
   "2026-06-01": {
@@ -3414,6 +4092,8 @@
    "miles": 33.08,
    "minutes": 62,
    "temp_c_sum": 111.9,
+   "temp_max_c": 26.0,
+   "temp_min_c": 17.4,
    "temp_n": 5
   },
   "2026-06-02": {
@@ -3424,6 +4104,8 @@
    "miles": 105.44,
    "minutes": 156,
    "temp_c_sum": 228.3,
+   "temp_max_c": 28.8,
+   "temp_min_c": 15.5,
    "temp_n": 10
   },
   "2026-06-03": {
@@ -3434,6 +4116,8 @@
    "miles": 25.42,
    "minutes": 45,
    "temp_c_sum": 128.4,
+   "temp_max_c": 31.1,
+   "temp_min_c": 18.5,
    "temp_n": 5
   },
   "2026-06-04": {
@@ -3444,6 +4128,8 @@
    "miles": 37.49,
    "minutes": 87,
    "temp_c_sum": 221.4,
+   "temp_max_c": 31.5,
+   "temp_min_c": 20.6,
    "temp_n": 8
   },
   "2026-06-05": {
@@ -3454,6 +4140,8 @@
    "miles": 110.31,
    "minutes": 146,
    "temp_c_sum": 125.9,
+   "temp_max_c": 22.0,
+   "temp_min_c": 19.5,
    "temp_n": 6
   },
   "2026-06-06": {
@@ -3464,6 +4152,8 @@
    "miles": 85.27,
    "minutes": 98,
    "temp_c_sum": 108.9,
+   "temp_max_c": 28.4,
+   "temp_min_c": 17.0,
    "temp_n": 5
   },
   "2026-06-07": {
@@ -3474,6 +4164,8 @@
    "miles": 74.57,
    "minutes": 103,
    "temp_c_sum": 67.3,
+   "temp_max_c": 27.3,
+   "temp_min_c": 19.5,
    "temp_n": 3
   },
   "2026-06-08": {
@@ -3484,6 +4176,8 @@
    "miles": 22.18,
    "minutes": 43,
    "temp_c_sum": 135.9,
+   "temp_max_c": 32.5,
+   "temp_min_c": 21.7,
    "temp_n": 5
   },
   "2026-06-09": {
@@ -3494,6 +4188,8 @@
    "miles": 29.63,
    "minutes": 75,
    "temp_c_sum": 153.3,
+   "temp_max_c": 28.8,
+   "temp_min_c": 23.0,
    "temp_n": 6
   },
   "2026-06-10": {
@@ -3504,6 +4200,8 @@
    "miles": 23.53,
    "minutes": 42,
    "temp_c_sum": 81.5,
+   "temp_max_c": 34.5,
+   "temp_min_c": 23.4,
    "temp_n": 3
   },
   "2026-06-11": {
@@ -3514,6 +4212,8 @@
    "miles": 103.88,
    "minutes": 153,
    "temp_c_sum": 181.1,
+   "temp_max_c": 30.5,
+   "temp_min_c": 21.5,
    "temp_n": 7
   },
   "2026-06-12": {
@@ -3524,6 +4224,8 @@
    "miles": 5.65,
    "minutes": 20,
    "temp_c_sum": 37.1,
+   "temp_max_c": 20.0,
+   "temp_min_c": 17.1,
    "temp_n": 2
   },
   "2026-06-13": {
@@ -3534,6 +4236,8 @@
    "miles": 79.62,
    "minutes": 110,
    "temp_c_sum": 154.4,
+   "temp_max_c": 27.7,
+   "temp_min_c": 24.2,
    "temp_n": 6
   },
   "2026-06-14": {
@@ -3544,6 +4248,8 @@
    "miles": 141.02,
    "minutes": 209,
    "temp_c_sum": 163.2,
+   "temp_max_c": 21.8,
+   "temp_min_c": 15.6,
    "temp_n": 9
   },
   "2026-06-15": {
@@ -3554,6 +4260,8 @@
    "miles": 105.51,
    "minutes": 152,
    "temp_c_sum": 163.0,
+   "temp_max_c": 23.4,
+   "temp_min_c": 13.8,
    "temp_n": 8
   },
   "2026-06-16": {
@@ -3564,6 +4272,8 @@
    "miles": 25.36,
    "minutes": 44,
    "temp_c_sum": 43.4,
+   "temp_max_c": 22.7,
+   "temp_min_c": 20.7,
    "temp_n": 2
   },
   "2026-06-17": {
@@ -3574,6 +4284,8 @@
    "miles": 100.83,
    "minutes": 169,
    "temp_c_sum": 122.6,
+   "temp_max_c": 19.0,
+   "temp_min_c": 16.4,
    "temp_n": 7
   },
   "2026-06-18": {
@@ -3584,6 +4296,8 @@
    "miles": 23.62,
    "minutes": 46,
    "temp_c_sum": 47.9,
+   "temp_max_c": 16.8,
+   "temp_min_c": 15.0,
    "temp_n": 3
   },
   "2026-06-19": {
@@ -3594,6 +4308,8 @@
    "miles": 92.53,
    "minutes": 151,
    "temp_c_sum": 130.7,
+   "temp_max_c": 23.9,
+   "temp_min_c": 20.0,
    "temp_n": 6
   },
   "2026-06-20": {
@@ -3604,6 +4320,8 @@
    "miles": 63.73,
    "minutes": 106,
    "temp_c_sum": 101.0,
+   "temp_max_c": 22.1,
+   "temp_min_c": 18.6,
    "temp_n": 5
   },
   "2026-06-22": {
@@ -3614,6 +4332,8 @@
    "miles": 40.92,
    "minutes": 69,
    "temp_c_sum": 61.9,
+   "temp_max_c": 27.0,
+   "temp_min_c": 17.4,
    "temp_n": 3
   },
   "2026-06-23": {
@@ -3624,6 +4344,8 @@
    "miles": 83.61,
    "minutes": 115,
    "temp_c_sum": 106.2,
+   "temp_max_c": 26.2,
+   "temp_min_c": 15.2,
    "temp_n": 5
   },
   "2026-06-24": {
@@ -3634,6 +4356,8 @@
    "miles": 58.95,
    "minutes": 96,
    "temp_c_sum": 89.0,
+   "temp_max_c": 19.2,
+   "temp_min_c": 16.2,
    "temp_n": 5
   },
   "2026-06-25": {
@@ -3644,6 +4368,8 @@
    "miles": 99.36,
    "minutes": 162,
    "temp_c_sum": 176.8,
+   "temp_max_c": 24.8,
+   "temp_min_c": 19.0,
    "temp_n": 8
   },
   "2026-06-26": {
@@ -3654,6 +4380,8 @@
    "miles": 191.22,
    "minutes": 257,
    "temp_c_sum": 212.1,
+   "temp_max_c": 23.6,
+   "temp_min_c": 16.0,
    "temp_n": 11
   },
   "2026-06-27": {
@@ -3664,6 +4392,8 @@
    "miles": 172.91,
    "minutes": 192,
    "temp_c_sum": 112.1,
+   "temp_max_c": 24.6,
+   "temp_min_c": 20.3,
    "temp_n": 5
   },
   "2026-06-28": {
@@ -3674,6 +4404,8 @@
    "miles": 179.36,
    "minutes": 232,
    "temp_c_sum": 252.6,
+   "temp_max_c": 30.1,
+   "temp_min_c": 19.3,
    "temp_n": 9
   },
   "2026-06-29": {
@@ -3684,6 +4416,8 @@
    "miles": 41.9,
    "minutes": 65,
    "temp_c_sum": 83.5,
+   "temp_max_c": 34.4,
+   "temp_min_c": 24.0,
    "temp_n": 3
   },
   "2026-06-30": {
@@ -3694,6 +4428,8 @@
    "miles": 101.78,
    "minutes": 156,
    "temp_c_sum": 286.6,
+   "temp_max_c": 35.4,
+   "temp_min_c": 27.3,
    "temp_n": 9
   },
   "2026-07-01": {
@@ -3704,6 +4440,8 @@
    "miles": 50.52,
    "minutes": 90,
    "temp_c_sum": 165.8,
+   "temp_max_c": 36.4,
+   "temp_min_c": 28.1,
    "temp_n": 5
   },
   "2026-07-02": {
@@ -3714,6 +4452,8 @@
    "miles": 189.85,
    "minutes": 245,
    "temp_c_sum": 293.9,
+   "temp_max_c": 36.2,
+   "temp_min_c": 27.9,
    "temp_n": 9
   },
   "2026-07-03": {
@@ -3724,6 +4464,8 @@
    "miles": 739.69,
    "minutes": 744,
    "temp_c_sum": 254.4,
+   "temp_max_c": 30.5,
+   "temp_min_c": 22.3,
    "temp_n": 10
   },
   "2026-07-04": {
@@ -3734,6 +4476,8 @@
    "miles": 565.37,
    "minutes": 591,
    "temp_c_sum": 176.8,
+   "temp_max_c": 28.1,
+   "temp_min_c": 16.0,
    "temp_n": 8
   },
   "2026-07-05": {
@@ -3744,6 +4488,8 @@
    "miles": 661.56,
    "minutes": 569,
    "temp_c_sum": 143.8,
+   "temp_max_c": 25.8,
+   "temp_min_c": 13.0,
    "temp_n": 7
   },
   "2026-07-06": {
@@ -3754,6 +4500,8 @@
    "miles": 102.98,
    "minutes": 186,
    "temp_c_sum": 179.6,
+   "temp_max_c": 24.5,
+   "temp_min_c": 13.7,
    "temp_n": 9
   },
   "2026-07-07": {
@@ -3764,6 +4512,8 @@
    "miles": 86.3,
    "minutes": 137,
    "temp_c_sum": 235.7,
+   "temp_max_c": 26.5,
+   "temp_min_c": 13.6,
    "temp_n": 11
   },
   "2026-07-08": {
@@ -3774,6 +4524,8 @@
    "miles": 210.19,
    "minutes": 316,
    "temp_c_sum": 186.8,
+   "temp_max_c": 26.1,
+   "temp_min_c": 17.0,
    "temp_n": 9
   },
   "2026-07-09": {
@@ -3784,6 +4536,8 @@
    "miles": 67.01,
    "minutes": 154,
    "temp_c_sum": 188.0,
+   "temp_max_c": 22.8,
+   "temp_min_c": 18.0,
    "temp_n": 9
   },
   "2026-07-10": {
@@ -3794,6 +4548,8 @@
    "miles": 252.9,
    "minutes": 320,
    "temp_c_sum": 255.5,
+   "temp_max_c": 24.7,
+   "temp_min_c": 18.2,
    "temp_n": 12
   },
   "2026-07-11": {
@@ -3804,6 +4560,8 @@
    "miles": 132.09,
    "minutes": 183,
    "temp_c_sum": 143.9,
+   "temp_max_c": 20.0,
+   "temp_min_c": 15.7,
    "temp_n": 8
   },
   "2026-07-12": {
@@ -3814,6 +4572,8 @@
    "miles": 92.96,
    "minutes": 194,
    "temp_c_sum": 185.4,
+   "temp_max_c": 20.1,
+   "temp_min_c": 14.3,
    "temp_n": 11
   },
   "2026-07-13": {
@@ -3824,6 +4584,8 @@
    "miles": 196.35,
    "minutes": 318,
    "temp_c_sum": 333.5,
+   "temp_max_c": 23.8,
+   "temp_min_c": 11.8,
    "temp_n": 19
   },
   "2026-07-14": {
@@ -3834,6 +4596,8 @@
    "miles": 283.7,
    "minutes": 366,
    "temp_c_sum": 180.1,
+   "temp_max_c": 28.2,
+   "temp_min_c": 15.5,
    "temp_n": 8
   },
   "2026-07-15": {
@@ -3844,6 +4608,8 @@
    "miles": 228.8,
    "minutes": 297,
    "temp_c_sum": 249.5,
+   "temp_max_c": 26.9,
+   "temp_min_c": 15.9,
    "temp_n": 11
   },
   "2026-07-16": {
@@ -3854,6 +4620,8 @@
    "miles": 118.67,
    "minutes": 221,
    "temp_c_sum": 276.8,
+   "temp_max_c": 30.1,
+   "temp_min_c": 19.8,
    "temp_n": 11
   },
   "2026-07-17": {
@@ -3864,6 +4632,8 @@
    "miles": 552.31,
    "minutes": 651,
    "temp_c_sum": 220.4,
+   "temp_max_c": 29.4,
+   "temp_min_c": 11.6,
    "temp_n": 10
   },
   "2026-07-18": {
@@ -3874,6 +4644,8 @@
    "miles": 842.43,
    "minutes": 760,
    "temp_c_sum": 244.6,
+   "temp_max_c": 31.9,
+   "temp_min_c": 21.7,
    "temp_n": 9
   },
   "2026-07-19": {
@@ -3884,6 +4656,8 @@
    "miles": 654.71,
    "minutes": 587,
    "temp_c_sum": 157.9,
+   "temp_max_c": 27.2,
+   "temp_min_c": 17.1,
    "temp_n": 7
   },
   "2026-07-20": {
@@ -3894,6 +4668,8 @@
    "miles": 42.53,
    "minutes": 63,
    "temp_c_sum": 71.1,
+   "temp_max_c": 28.9,
+   "temp_min_c": 19.4,
    "temp_n": 3
   },
   "2026-07-21": {
@@ -3904,6 +4680,8 @@
    "miles": 101.96,
    "minutes": 161,
    "temp_c_sum": 309.3,
+   "temp_max_c": 31.6,
+   "temp_min_c": 25.2,
    "temp_n": 11
   },
   "2026-07-22": {
@@ -3914,6 +4692,8 @@
    "miles": 57.58,
    "minutes": 97,
    "temp_c_sum": 105.6,
+   "temp_max_c": 25.0,
+   "temp_min_c": 16.6,
    "temp_n": 5
   },
   "2026-07-23": {
@@ -3924,6 +4704,8 @@
    "miles": 388.96,
    "minutes": 389,
    "temp_c_sum": 177.6,
+   "temp_max_c": 25.7,
+   "temp_min_c": 14.5,
    "temp_n": 8
   },
   "2026-07-24": {
@@ -3934,6 +4716,8 @@
    "miles": 93.22,
    "minutes": 138,
    "temp_c_sum": 106.6,
+   "temp_max_c": 26.8,
+   "temp_min_c": 17.3,
    "temp_n": 5
   },
   "2026-07-25": {
@@ -3944,6 +4728,8 @@
    "miles": 105.17,
    "minutes": 130,
    "temp_c_sum": 133.1,
+   "temp_max_c": 29.1,
+   "temp_min_c": 23.9,
    "temp_n": 5
   },
   "2026-07-26": {
@@ -3954,6 +4740,8 @@
    "miles": 231.32,
    "minutes": 223,
    "temp_c_sum": 169.7,
+   "temp_max_c": 31.7,
+   "temp_min_c": 22.5,
    "temp_n": 6
   },
   "2026-07-27": {
@@ -3964,6 +4752,8 @@
    "miles": 42.05,
    "minutes": 68,
    "temp_c_sum": 75.6,
+   "temp_max_c": 25.5,
+   "temp_min_c": 24.8,
    "temp_n": 3
   },
   "2026-07-28": {
@@ -3974,6 +4764,8 @@
    "miles": 137.4,
    "minutes": 176,
    "temp_c_sum": 146.9,
+   "temp_max_c": 28.6,
+   "temp_min_c": 20.9,
    "temp_n": 6
   },
   "2026-07-29": {
@@ -3984,6 +4776,8 @@
    "miles": 124.48,
    "minutes": 166,
    "temp_c_sum": 186.0,
+   "temp_max_c": 30.1,
+   "temp_min_c": 19.6,
    "temp_n": 7
   },
   "2026-07-30": {
@@ -3994,6 +4788,8 @@
    "miles": 60.63,
    "minutes": 94,
    "temp_c_sum": 133.5,
+   "temp_max_c": 31.1,
+   "temp_min_c": 20.0,
    "temp_n": 5
   },
   "2026-07-31": {
@@ -4004,6 +4800,8 @@
    "miles": 54.52,
    "minutes": 71,
    "temp_c_sum": 56.1,
+   "temp_max_c": 28.4,
+   "temp_min_c": 27.7,
    "temp_n": 2
   },
   "2026-08-01": {
@@ -4014,6 +4812,8 @@
    "miles": 92.23,
    "minutes": 126,
    "temp_c_sum": 106.7,
+   "temp_max_c": 22.6,
+   "temp_min_c": 20.6,
    "temp_n": 5
   },
   "2026-08-02": {
@@ -4024,6 +4824,8 @@
    "miles": 284.24,
    "minutes": 291,
    "temp_c_sum": 199.1,
+   "temp_max_c": 27.9,
+   "temp_min_c": 22.5,
    "temp_n": 8
   },
   "2026-08-03": {
@@ -4034,6 +4836,8 @@
    "miles": 109.18,
    "minutes": 166,
    "temp_c_sum": 266.2,
+   "temp_max_c": 29.8,
+   "temp_min_c": 19.5,
    "temp_n": 10
   },
   "2026-08-04": {
@@ -4044,6 +4848,8 @@
    "miles": 42.09,
    "minutes": 62,
    "temp_c_sum": 92.9,
+   "temp_max_c": 31.5,
+   "temp_min_c": 30.5,
    "temp_n": 3
   },
   "2026-08-05": {
@@ -4054,6 +4860,8 @@
    "miles": 49.85,
    "minutes": 86,
    "temp_c_sum": 96.1,
+   "temp_max_c": 25.1,
+   "temp_min_c": 22.6,
    "temp_n": 4
   },
   "2026-08-06": {
@@ -4064,6 +4872,8 @@
    "miles": 45.69,
    "minutes": 76,
    "temp_c_sum": 114.7,
+   "temp_max_c": 27.7,
+   "temp_min_c": 21.5,
    "temp_n": 5
   },
   "2026-08-07": {
@@ -4074,6 +4884,8 @@
    "miles": 82.74,
    "minutes": 121,
    "temp_c_sum": 141.1,
+   "temp_max_c": 29.8,
+   "temp_min_c": 26.8,
    "temp_n": 5
   },
   "2026-08-08": {
@@ -4084,6 +4896,8 @@
    "miles": 229.75,
    "minutes": 248,
    "temp_c_sum": 157.6,
+   "temp_max_c": 29.5,
+   "temp_min_c": 20.8,
    "temp_n": 6
   },
   "2026-08-10": {
@@ -4094,6 +4908,8 @@
    "miles": 45.16,
    "minutes": 67,
    "temp_c_sum": 82.5,
+   "temp_max_c": 31.2,
+   "temp_min_c": 21.5,
    "temp_n": 3
   },
   "2026-08-11": {
@@ -4104,6 +4920,8 @@
    "miles": 47.01,
    "minutes": 60,
    "temp_c_sum": 71.8,
+   "temp_max_c": 26.4,
+   "temp_min_c": 20.9,
    "temp_n": 3
   },
   "2026-08-12": {
@@ -4114,6 +4932,8 @@
    "miles": 42.95,
    "minutes": 66,
    "temp_c_sum": 50.6,
+   "temp_max_c": 29.2,
+   "temp_min_c": 21.4,
    "temp_n": 2
   },
   "2026-08-13": {
@@ -4124,6 +4944,8 @@
    "miles": 91.76,
    "minutes": 127,
    "temp_c_sum": 151.5,
+   "temp_max_c": 26.9,
+   "temp_min_c": 22.7,
    "temp_n": 6
   },
   "2026-08-14": {
@@ -4134,6 +4956,8 @@
    "miles": 117.19,
    "minutes": 168,
    "temp_c_sum": 197.4,
+   "temp_max_c": 29.3,
+   "temp_min_c": 21.5,
    "temp_n": 8
   },
   "2026-08-15": {
@@ -4144,6 +4968,8 @@
    "miles": 219.37,
    "minutes": 226,
    "temp_c_sum": 146.3,
+   "temp_max_c": 26.5,
+   "temp_min_c": 22.2,
    "temp_n": 6
   },
   "2026-08-17": {
@@ -4154,6 +4980,8 @@
    "miles": 41.57,
    "minutes": 72,
    "temp_c_sum": 68.2,
+   "temp_max_c": 28.2,
+   "temp_min_c": 19.9,
    "temp_n": 3
   },
   "2026-08-18": {
@@ -4164,6 +4992,8 @@
    "miles": 98.33,
    "minutes": 130,
    "temp_c_sum": 125.6,
+   "temp_max_c": 27.5,
+   "temp_min_c": 18.5,
    "temp_n": 5
   },
   "2026-08-19": {
@@ -4174,6 +5004,8 @@
    "miles": 52.87,
    "minutes": 81,
    "temp_c_sum": 68.6,
+   "temp_max_c": 27.8,
+   "temp_min_c": 20.1,
    "temp_n": 3
   },
   "2026-08-20": {
@@ -4184,6 +5016,8 @@
    "miles": 43.68,
    "minutes": 70,
    "temp_c_sum": 64.8,
+   "temp_max_c": 28.2,
+   "temp_min_c": 17.4,
    "temp_n": 3
   },
   "2026-08-21": {
@@ -4194,6 +5028,8 @@
    "miles": 61.12,
    "minutes": 97,
    "temp_c_sum": 158.6,
+   "temp_max_c": 28.1,
+   "temp_min_c": 25.5,
    "temp_n": 6
   },
   "2026-08-23": {
@@ -4204,6 +5040,8 @@
    "miles": 47.4,
    "minutes": 64,
    "temp_c_sum": 69.2,
+   "temp_max_c": 23.4,
+   "temp_min_c": 22.8,
    "temp_n": 3
   },
   "2026-08-24": {
@@ -4214,6 +5052,8 @@
    "miles": 34.5,
    "minutes": 56,
    "temp_c_sum": 58.6,
+   "temp_max_c": 25.1,
+   "temp_min_c": 16.0,
    "temp_n": 3
   },
   "2026-08-25": {
@@ -4224,6 +5064,8 @@
    "miles": 59.66,
    "minutes": 90,
    "temp_c_sum": 81.9,
+   "temp_max_c": 24.2,
+   "temp_min_c": 14.9,
    "temp_n": 4
   },
   "2026-08-26": {
@@ -4234,6 +5076,8 @@
    "miles": 358.04,
    "minutes": 394,
    "temp_c_sum": 176.6,
+   "temp_max_c": 26.0,
+   "temp_min_c": 18.4,
    "temp_n": 8
   },
   "2026-08-27": {
@@ -4244,6 +5088,8 @@
    "miles": 49.58,
    "minutes": 95,
    "temp_c_sum": 119.2,
+   "temp_max_c": 27.2,
+   "temp_min_c": 20.2,
    "temp_n": 5
   },
   "2026-08-28": {
@@ -4254,6 +5100,8 @@
    "miles": 25.56,
    "minutes": 50,
    "temp_c_sum": 88.5,
+   "temp_max_c": 19.5,
+   "temp_min_c": 15.5,
    "temp_n": 5
   },
   "2026-08-29": {
@@ -4264,6 +5112,8 @@
    "miles": 339.63,
    "minutes": 375,
    "temp_c_sum": 133.3,
+   "temp_max_c": 25.7,
+   "temp_min_c": 17.9,
    "temp_n": 6
   },
   "2026-08-30": {
@@ -4274,6 +5124,8 @@
    "miles": 117.45,
    "minutes": 103,
    "temp_c_sum": 19.1,
+   "temp_max_c": 19.1,
+   "temp_min_c": 19.1,
    "temp_n": 1
   },
   "2026-08-31": {
@@ -4284,6 +5136,8 @@
    "miles": 38.3,
    "minutes": 81,
    "temp_c_sum": 100.9,
+   "temp_max_c": 26.6,
+   "temp_min_c": 23.4,
    "temp_n": 4
   },
   "2026-09-01": {
@@ -4294,6 +5148,8 @@
    "miles": 61.13,
    "minutes": 115,
    "temp_c_sum": 296.2,
+   "temp_max_c": 33.5,
+   "temp_min_c": 23.3,
    "temp_n": 10
   },
   "2026-09-02": {
@@ -4304,6 +5160,8 @@
    "miles": 84.06,
    "minutes": 128,
    "temp_c_sum": 182.0,
+   "temp_max_c": 33.1,
+   "temp_min_c": 26.2,
    "temp_n": 6
   },
   "2026-09-03": {
@@ -4314,6 +5172,8 @@
    "miles": 42.72,
    "minutes": 75,
    "temp_c_sum": 77.2,
+   "temp_max_c": 26.2,
+   "temp_min_c": 25.0,
    "temp_n": 3
   },
   "2026-09-04": {
@@ -4324,6 +5184,8 @@
    "miles": 102.05,
    "minutes": 138,
    "temp_c_sum": 114.0,
+   "temp_max_c": 25.2,
+   "temp_min_c": 21.2,
    "temp_n": 5
   },
   "2026-09-05": {
@@ -4334,6 +5196,8 @@
    "miles": 44.71,
    "minutes": 61,
    "temp_c_sum": 42.0,
+   "temp_max_c": 21.5,
+   "temp_min_c": 20.5,
    "temp_n": 2
   },
   "2026-09-06": {
@@ -4344,6 +5208,8 @@
    "miles": 4.34,
    "minutes": 14,
    "temp_c_sum": 45.0,
+   "temp_max_c": 23.5,
+   "temp_min_c": 21.5,
    "temp_n": 2
   },
   "2026-09-07": {
@@ -4354,6 +5220,8 @@
    "miles": 44.99,
    "minutes": 63,
    "temp_c_sum": 47.8,
+   "temp_max_c": 24.5,
+   "temp_min_c": 23.3,
    "temp_n": 2
   },
   "2026-09-08": {
@@ -4364,6 +5232,8 @@
    "miles": 53.43,
    "minutes": 95,
    "temp_c_sum": 93.1,
+   "temp_max_c": 28.9,
+   "temp_min_c": 16.0,
    "temp_n": 4
   },
   "2026-09-09": {
@@ -4374,6 +5244,8 @@
    "miles": 56.05,
    "minutes": 105,
    "temp_c_sum": 123.5,
+   "temp_max_c": 26.8,
+   "temp_min_c": 22.0,
    "temp_n": 5
   },
   "2026-09-10": {
@@ -4384,6 +5256,8 @@
    "miles": 168.17,
    "minutes": 224,
    "temp_c_sum": 205.7,
+   "temp_max_c": 24.5,
+   "temp_min_c": 19.5,
    "temp_n": 9
   },
   "2026-09-11": {
@@ -4394,6 +5268,8 @@
    "miles": 21.18,
    "minutes": 36,
    "temp_c_sum": 26.8,
+   "temp_max_c": 14.1,
+   "temp_min_c": 12.7,
    "temp_n": 2
   },
   "2026-09-12": {
@@ -4404,6 +5280,8 @@
    "miles": 127.94,
    "minutes": 139,
    "temp_c_sum": 75.9,
+   "temp_max_c": 26.9,
+   "temp_min_c": 23.2,
    "temp_n": 3
   },
   "2026-09-14": {
@@ -4414,6 +5292,8 @@
    "miles": 41.51,
    "minutes": 77,
    "temp_c_sum": 46.4,
+   "temp_max_c": 22.8,
+   "temp_min_c": 10.1,
    "temp_n": 3
   },
   "2026-09-15": {
@@ -4424,6 +5304,8 @@
    "miles": 85.73,
    "minutes": 129,
    "temp_c_sum": 144.9,
+   "temp_max_c": 25.2,
+   "temp_min_c": 15.9,
    "temp_n": 7
   },
   "2026-09-16": {
@@ -4434,6 +5316,8 @@
    "miles": 86.1,
    "minutes": 133,
    "temp_c_sum": 108.5,
+   "temp_max_c": 24.5,
+   "temp_min_c": 19.5,
    "temp_n": 5
   },
   "2026-09-17": {
@@ -4444,6 +5328,8 @@
    "miles": 59.49,
    "minutes": 94,
    "temp_c_sum": 89.1,
+   "temp_max_c": 18.7,
+   "temp_min_c": 17.1,
    "temp_n": 5
   },
   "2026-09-18": {
@@ -4454,6 +5340,8 @@
    "miles": 112.66,
    "minutes": 167,
    "temp_c_sum": 126.8,
+   "temp_max_c": 21.2,
+   "temp_min_c": 15.0,
    "temp_n": 7
   },
   "2026-09-19": {
@@ -4464,6 +5352,8 @@
    "miles": 111.13,
    "minutes": 160,
    "temp_c_sum": 115.9,
+   "temp_max_c": 17.9,
+   "temp_min_c": 14.7,
    "temp_n": 7
   },
   "2026-09-21": {
@@ -4474,6 +5364,8 @@
    "miles": 61.09,
    "minutes": 99,
    "temp_c_sum": 73.2,
+   "temp_max_c": 17.6,
+   "temp_min_c": 13.1,
    "temp_n": 5
   },
   "2026-09-22": {
@@ -4484,6 +5376,8 @@
    "miles": 82.73,
    "minutes": 115,
    "temp_c_sum": 107.4,
+   "temp_max_c": 22.6,
+   "temp_min_c": 11.1,
    "temp_n": 6
   },
   "2026-09-23": {
@@ -4494,6 +5388,8 @@
    "miles": 216.35,
    "minutes": 235,
    "temp_c_sum": 148.7,
+   "temp_max_c": 22.5,
+   "temp_min_c": 10.8,
    "temp_n": 8
   },
   "2026-09-24": {
@@ -4504,6 +5400,8 @@
    "miles": 28.97,
    "minutes": 64,
    "temp_c_sum": 75.0,
+   "temp_max_c": 20.0,
+   "temp_min_c": 17.2,
    "temp_n": 4
   },
   "2026-09-25": {
@@ -4514,6 +5412,8 @@
    "miles": 221.77,
    "minutes": 244,
    "temp_c_sum": 96.7,
+   "temp_max_c": 20.1,
+   "temp_min_c": 18.1,
    "temp_n": 5
   },
   "2026-09-26": {
@@ -4524,6 +5424,8 @@
    "miles": 126.94,
    "minutes": 128,
    "temp_c_sum": 76.6,
+   "temp_max_c": 18.3,
+   "temp_min_c": 13.2,
    "temp_n": 5
   },
   "2026-09-28": {
@@ -4534,6 +5436,8 @@
    "miles": 42.02,
    "minutes": 72,
    "temp_c_sum": 48.3,
+   "temp_max_c": 24.5,
+   "temp_min_c": 10.9,
    "temp_n": 3
   },
   "2026-09-29": {
@@ -4544,6 +5448,8 @@
    "miles": 45.97,
    "minutes": 73,
    "temp_c_sum": 62.9,
+   "temp_max_c": 20.5,
+   "temp_min_c": 10.1,
    "temp_n": 4
   },
   "2026-09-30": {
@@ -4554,6 +5460,8 @@
    "miles": 55.37,
    "minutes": 99,
    "temp_c_sum": 71.2,
+   "temp_max_c": 18.2,
+   "temp_min_c": 17.2,
    "temp_n": 4
   },
   "2026-10-01": {
@@ -4564,6 +5472,8 @@
    "miles": 310.22,
    "minutes": 342,
    "temp_c_sum": 154.2,
+   "temp_max_c": 26.5,
+   "temp_min_c": 18.1,
    "temp_n": 7
   },
   "2026-10-03": {
@@ -4574,6 +5484,8 @@
    "miles": 43.96,
    "minutes": 80,
    "temp_c_sum": 77.8,
+   "temp_max_c": 18.1,
+   "temp_min_c": 12.7,
    "temp_n": 5
   },
   "2026-10-05": {
@@ -4584,6 +5496,8 @@
    "miles": 42.06,
    "minutes": 70,
    "temp_c_sum": 37.9,
+   "temp_max_c": 18.6,
+   "temp_min_c": 9.1,
    "temp_n": 3
   },
   "2026-10-06": {
@@ -4594,6 +5508,8 @@
    "miles": 86.92,
    "minutes": 117,
    "temp_c_sum": 67.7,
+   "temp_max_c": 22.6,
+   "temp_min_c": 8.9,
    "temp_n": 4
   },
   "2026-10-07": {
@@ -4604,6 +5520,8 @@
    "miles": 55.64,
    "minutes": 105,
    "temp_c_sum": 122.0,
+   "temp_max_c": 24.0,
+   "temp_min_c": 15.1,
    "temp_n": 6
   },
   "2026-10-08": {
@@ -4614,6 +5532,8 @@
    "miles": 21.26,
    "minutes": 39,
    "temp_c_sum": 22.5,
+   "temp_max_c": 11.9,
+   "temp_min_c": 10.6,
    "temp_n": 2
   },
   "2026-10-09": {
@@ -4624,6 +5544,8 @@
    "miles": 109.85,
    "minutes": 170,
    "temp_c_sum": 119.3,
+   "temp_max_c": 21.8,
+   "temp_min_c": 8.2,
    "temp_n": 8
   },
   "2026-10-10": {
@@ -4634,6 +5556,8 @@
    "miles": 234.7,
    "minutes": 231,
    "temp_c_sum": 65.3,
+   "temp_max_c": 26.5,
+   "temp_min_c": 18.6,
    "temp_n": 3
   },
   "2026-10-12": {
@@ -4644,6 +5568,8 @@
    "miles": 54.77,
    "minutes": 95,
    "temp_c_sum": 111.8,
+   "temp_max_c": 29.8,
+   "temp_min_c": 15.8,
    "temp_n": 5
   },
   "2026-10-13": {
@@ -4654,6 +5580,8 @@
    "miles": 693.63,
    "minutes": 646,
    "temp_c_sum": 245.6,
+   "temp_max_c": 33.6,
+   "temp_min_c": 21.4,
    "temp_n": 9
   },
   "2026-10-14": {
@@ -4664,6 +5592,8 @@
    "miles": 34.54,
    "minutes": 48,
    "temp_c_sum": 79.2,
+   "temp_max_c": 20.3,
+   "temp_min_c": 19.4,
    "temp_n": 4
   },
   "2026-10-15": {
@@ -4674,6 +5604,8 @@
    "miles": 666.97,
    "minutes": 640,
    "temp_c_sum": 112.6,
+   "temp_max_c": 22.4,
+   "temp_min_c": 13.9,
    "temp_n": 6
   },
   "2026-10-16": {
@@ -4684,6 +5616,8 @@
    "miles": 24.76,
    "minutes": 43,
    "temp_c_sum": 35.3,
+   "temp_max_c": 12.0,
+   "temp_min_c": 11.4,
    "temp_n": 3
   },
   "2026-10-17": {
@@ -4694,6 +5628,8 @@
    "miles": 309.17,
    "minutes": 302,
    "temp_c_sum": 65.1,
+   "temp_max_c": 15.1,
+   "temp_min_c": 4.3,
    "temp_n": 7
   },
   "2026-10-19": {
@@ -4704,6 +5640,8 @@
    "miles": 48.27,
    "minutes": 85,
    "temp_c_sum": 45.5,
+   "temp_max_c": 20.7,
+   "temp_min_c": 5.5,
    "temp_n": 4
   },
   "2026-10-20": {
@@ -4714,6 +5652,8 @@
    "miles": 60.9,
    "minutes": 104,
    "temp_c_sum": 61.9,
+   "temp_max_c": 22.4,
+   "temp_min_c": 5.3,
    "temp_n": 5
   },
   "2026-10-21": {
@@ -4724,6 +5664,8 @@
    "miles": 49.98,
    "minutes": 83,
    "temp_c_sum": 35.6,
+   "temp_max_c": 21.3,
+   "temp_min_c": 6.8,
    "temp_n": 3
   },
   "2026-10-22": {
@@ -4734,6 +5676,8 @@
    "miles": 42.07,
    "minutes": 73,
    "temp_c_sum": 36.0,
+   "temp_max_c": 22.3,
+   "temp_min_c": 5.9,
    "temp_n": 3
   },
   "2026-10-23": {
@@ -4744,6 +5688,8 @@
    "miles": 97.94,
    "minutes": 165,
    "temp_c_sum": 134.8,
+   "temp_max_c": 21.2,
+   "temp_min_c": 8.5,
    "temp_n": 8
   },
   "2026-10-24": {
@@ -4754,6 +5700,8 @@
    "miles": 111.51,
    "minutes": 140,
    "temp_c_sum": 29.4,
+   "temp_max_c": 11.8,
+   "temp_min_c": 7.9,
    "temp_n": 3
   },
   "2026-10-26": {
@@ -4764,6 +5712,8 @@
    "miles": 51.41,
    "minutes": 83,
    "temp_c_sum": 58.7,
+   "temp_max_c": 19.0,
+   "temp_min_c": 10.5,
    "temp_n": 4
   },
   "2026-10-27": {
@@ -4774,6 +5724,8 @@
    "miles": 105.71,
    "minutes": 158,
    "temp_c_sum": 111.3,
+   "temp_max_c": 18.9,
+   "temp_min_c": 9.0,
    "temp_n": 8
   },
   "2026-10-28": {
@@ -4784,6 +5736,8 @@
    "miles": 48.37,
    "minutes": 86,
    "temp_c_sum": 71.2,
+   "temp_max_c": 23.8,
+   "temp_min_c": 12.3,
    "temp_n": 4
   },
   "2026-10-29": {
@@ -4794,6 +5748,8 @@
    "miles": 41.5,
    "minutes": 73,
    "temp_c_sum": 70.8,
+   "temp_max_c": 19.6,
+   "temp_min_c": 16.5,
    "temp_n": 4
   },
   "2026-10-30": {
@@ -4804,6 +5760,8 @@
    "miles": 64.04,
    "minutes": 95,
    "temp_c_sum": 34.8,
+   "temp_max_c": 13.4,
+   "temp_min_c": 5.1,
    "temp_n": 4
   },
   "2026-10-31": {
@@ -4814,6 +5772,8 @@
    "miles": 40.81,
    "minutes": 54,
    "temp_c_sum": 47.5,
+   "temp_max_c": 13,
+   "temp_min_c": 11,
    "temp_n": 4
   }
  },
@@ -4833,6 +5793,8 @@
     "miles": 85.46,
     "minutes": 131,
     "temp_c_sum": 131.5,
+    "temp_max_c": 24.0,
+    "temp_min_c": 18.8,
     "temp_n": 6
    },
    "2024-06-28": {
@@ -4843,6 +5805,8 @@
     "miles": 71.23,
     "minutes": 138,
     "temp_c_sum": 266.0,
+    "temp_max_c": 25.5,
+    "temp_min_c": 17.6,
     "temp_n": 12
    },
    "2024-06-29": {
@@ -4853,6 +5817,8 @@
     "miles": 174.88,
     "minutes": 207,
     "temp_c_sum": 193.4,
+    "temp_max_c": 29.2,
+    "temp_min_c": 20.1,
     "temp_n": 8
    },
    "2024-06-30": {
@@ -4863,6 +5829,8 @@
     "miles": 99.39,
     "minutes": 142,
     "temp_c_sum": 121.4,
+    "temp_max_c": 22.6,
+    "temp_min_c": 15.8,
     "temp_n": 6
    },
    "2024-07-01": {
@@ -4873,6 +5841,8 @@
     "miles": 53.39,
     "minutes": 100,
     "temp_c_sum": 170.4,
+    "temp_max_c": 27.3,
+    "temp_min_c": 10.2,
     "temp_n": 9
    },
    "2024-07-02": {
@@ -4883,6 +5853,8 @@
     "miles": 110.24,
     "minutes": 168,
     "temp_c_sum": 249.8,
+    "temp_max_c": 25.1,
+    "temp_min_c": 16.3,
     "temp_n": 12
    },
    "2024-07-03": {
@@ -4893,6 +5865,8 @@
     "miles": 113.37,
     "minutes": 162,
     "temp_c_sum": 242.4,
+    "temp_max_c": 30.0,
+    "temp_min_c": 22.4,
     "temp_n": 9
    },
    "2024-07-04": {
@@ -4903,6 +5877,8 @@
     "miles": 83.49,
     "minutes": 162,
     "temp_c_sum": 155.1,
+    "temp_max_c": 27.9,
+    "temp_min_c": 22.9,
     "temp_n": 6
    },
    "2024-07-05": {
@@ -4913,6 +5889,8 @@
     "miles": 34.23,
     "minutes": 63,
     "temp_c_sum": 157.6,
+    "temp_max_c": 27.8,
+    "temp_min_c": 20.9,
     "temp_n": 6
    },
    "2024-07-06": {
@@ -4923,6 +5901,8 @@
     "miles": 16.25,
     "minutes": 49,
     "temp_c_sum": 45.4,
+    "temp_max_c": 23.4,
+    "temp_min_c": 22.0,
     "temp_n": 2
    },
    "2024-07-07": {
@@ -4933,6 +5913,8 @@
     "miles": 12.46,
     "minutes": 35,
     "temp_c_sum": 78.4,
+    "temp_max_c": 26.5,
+    "temp_min_c": 25.7,
     "temp_n": 3
    },
    "2024-07-08": {
@@ -4943,6 +5925,8 @@
     "miles": 55.11,
     "minutes": 135,
     "temp_c_sum": 318.1,
+    "temp_max_c": 30.1,
+    "temp_min_c": 21.2,
     "temp_n": 12
    },
    "2024-07-09": {
@@ -4953,6 +5937,8 @@
     "miles": 92.16,
     "minutes": 155,
     "temp_c_sum": 241.8,
+    "temp_max_c": 26.3,
+    "temp_min_c": 22.2,
     "temp_n": 10
    },
    "2024-07-10": {
@@ -4963,6 +5949,8 @@
     "miles": 219.92,
     "minutes": 279,
     "temp_c_sum": 219.8,
+    "temp_max_c": 24.2,
+    "temp_min_c": 20.2,
     "temp_n": 10
    },
    "2024-07-11": {
@@ -4973,6 +5961,8 @@
     "miles": 92.66,
     "minutes": 195,
     "temp_c_sum": 333.1,
+    "temp_max_c": 28.8,
+    "temp_min_c": 21.1,
     "temp_n": 13
    },
    "2024-07-12": {
@@ -4983,6 +5973,8 @@
     "miles": 135.72,
     "minutes": 204,
     "temp_c_sum": 160.5,
+    "temp_max_c": 29.6,
+    "temp_min_c": 24.0,
     "temp_n": 6
    },
    "2024-07-13": {
@@ -4993,6 +5985,8 @@
     "miles": 185.25,
     "minutes": 278,
     "temp_c_sum": 393.1,
+    "temp_max_c": 36.0,
+    "temp_min_c": 23.7,
     "temp_n": 13
    },
    "2024-07-14": {
@@ -5003,6 +5997,8 @@
     "miles": 96.87,
     "minutes": 142,
     "temp_c_sum": 251.3,
+    "temp_max_c": 30.0,
+    "temp_min_c": 21.4,
     "temp_n": 10
    },
    "2024-07-15": {
@@ -5013,6 +6009,8 @@
     "miles": 186.31,
     "minutes": 241,
     "temp_c_sum": 339.0,
+    "temp_max_c": 31.2,
+    "temp_min_c": 23.0,
     "temp_n": 12
    },
    "2024-07-16": {
@@ -5023,6 +6021,8 @@
     "miles": 30.8,
     "minutes": 72,
     "temp_c_sum": 122.1,
+    "temp_max_c": 26.9,
+    "temp_min_c": 21.6,
     "temp_n": 5
    },
    "2024-07-17": {
@@ -5033,6 +6033,8 @@
     "miles": 8.16,
     "minutes": 25,
     "temp_c_sum": 45.8,
+    "temp_max_c": 25.5,
+    "temp_min_c": 20.3,
     "temp_n": 2
    },
    "2024-07-18": {
@@ -5043,6 +6045,8 @@
     "miles": 327.83,
     "minutes": 398,
     "temp_c_sum": 298.5,
+    "temp_max_c": 24.8,
+    "temp_min_c": 14.3,
     "temp_n": 14
    },
    "2024-07-19": {
@@ -5053,6 +6057,8 @@
     "miles": 74.39,
     "minutes": 139,
     "temp_c_sum": 117.8,
+    "temp_max_c": 28.2,
+    "temp_min_c": 17.0,
     "temp_n": 5
    },
    "2024-07-20": {
@@ -5063,6 +6069,8 @@
     "miles": 186.31,
     "minutes": 276,
     "temp_c_sum": 283.3,
+    "temp_max_c": 28.8,
+    "temp_min_c": 22.2,
     "temp_n": 11
    },
    "2024-07-21": {
@@ -5073,6 +6081,8 @@
     "miles": 214.43,
     "minutes": 322,
     "temp_c_sum": 362.7,
+    "temp_max_c": 29.4,
+    "temp_min_c": 21.4,
     "temp_n": 15
    },
    "2024-07-22": {
@@ -5083,6 +6093,8 @@
     "miles": 43.23,
     "minutes": 79,
     "temp_c_sum": 133.6,
+    "temp_max_c": 29.8,
+    "temp_min_c": 22.0,
     "temp_n": 5
    },
    "2024-07-23": {
@@ -5093,6 +6105,8 @@
     "miles": 38.49,
     "minutes": 94,
     "temp_c_sum": 256.0,
+    "temp_max_c": 29.1,
+    "temp_min_c": 18.2,
     "temp_n": 10
    },
    "2024-07-24": {
@@ -5103,6 +6117,8 @@
     "miles": 22.56,
     "minutes": 58,
     "temp_c_sum": 117.4,
+    "temp_max_c": 27.9,
+    "temp_min_c": 20.1,
     "temp_n": 5
    },
    "2024-07-25": {
@@ -5113,6 +6129,8 @@
     "miles": 162.02,
     "minutes": 231,
     "temp_c_sum": 213.8,
+    "temp_max_c": 25.9,
+    "temp_min_c": 16.8,
     "temp_n": 9
    },
    "2024-07-26": {
@@ -5123,6 +6141,8 @@
     "miles": 83.45,
     "minutes": 110,
     "temp_c_sum": 193.3,
+    "temp_max_c": 28.4,
+    "temp_min_c": 15.1,
     "temp_n": 8
    },
    "2024-07-27": {
@@ -5133,6 +6153,8 @@
     "miles": 15.28,
     "minutes": 39,
     "temp_c_sum": 130.7,
+    "temp_max_c": 28.2,
+    "temp_min_c": 23.2,
     "temp_n": 5
    },
    "2024-07-29": {
@@ -5143,6 +6165,8 @@
     "miles": 4.18,
     "minutes": 15,
     "temp_c_sum": 24.0,
+    "temp_max_c": 24.0,
+    "temp_min_c": 24.0,
     "temp_n": 1
    },
    "2024-07-30": {
@@ -5153,6 +6177,8 @@
     "miles": 244.33,
     "minutes": 278,
     "temp_c_sum": 159.3,
+    "temp_max_c": 30.9,
+    "temp_min_c": 22.6,
     "temp_n": 6
    },
    "2024-07-31": {
@@ -5163,6 +6189,8 @@
     "miles": 254.93,
     "minutes": 287,
     "temp_c_sum": 108.0,
+    "temp_max_c": 29.0,
+    "temp_min_c": 22.7,
     "temp_n": 4
    },
    "2024-08-01": {
@@ -5173,6 +6201,8 @@
     "miles": 244.61,
     "minutes": 423,
     "temp_c_sum": 457.2,
+    "temp_max_c": 29.7,
+    "temp_min_c": 22.4,
     "temp_n": 17
    },
    "2024-08-02": {
@@ -5183,6 +6213,8 @@
     "miles": 66.02,
     "minutes": 187,
     "temp_c_sum": 343.2,
+    "temp_max_c": 28.4,
+    "temp_min_c": 22.1,
     "temp_n": 14
    },
    "2024-08-03": {
@@ -5193,6 +6225,8 @@
     "miles": 33.82,
     "minutes": 110,
     "temp_c_sum": 455.7,
+    "temp_max_c": 33.7,
+    "temp_min_c": 21.0,
     "temp_n": 17
    },
    "2024-08-04": {
@@ -5203,6 +6237,8 @@
     "miles": 88.2,
     "minutes": 135,
     "temp_c_sum": 227.5,
+    "temp_max_c": 31.9,
+    "temp_min_c": 21.5,
     "temp_n": 8
    },
    "2024-08-05": {
@@ -5213,6 +6249,8 @@
     "miles": 29.41,
     "minutes": 54,
     "temp_c_sum": 99.9,
+    "temp_max_c": 26.7,
+    "temp_min_c": 23.8,
     "temp_n": 4
    },
    "2024-08-06": {
@@ -5223,6 +6261,8 @@
     "miles": 46.3,
     "minutes": 93,
     "temp_c_sum": 150.0,
+    "temp_max_c": 23.8,
+    "temp_min_c": 16.8,
     "temp_n": 7
    },
    "2024-08-07": {
@@ -5233,6 +6273,8 @@
     "miles": 48.06,
     "minutes": 97,
     "temp_c_sum": 229.9,
+    "temp_max_c": 28.3,
+    "temp_min_c": 15.9,
     "temp_n": 10
    },
    "2024-08-08": {
@@ -5243,6 +6285,8 @@
     "miles": 230.47,
     "minutes": 300,
     "temp_c_sum": 296.9,
+    "temp_max_c": 28.0,
+    "temp_min_c": 17.4,
     "temp_n": 12
    },
    "2024-08-09": {
@@ -5253,6 +6297,8 @@
     "miles": 84.12,
     "minutes": 101,
     "temp_c_sum": 105.2,
+    "temp_max_c": 25.7,
+    "temp_min_c": 19.4,
     "temp_n": 5
    },
    "2024-08-10": {
@@ -5263,6 +6309,8 @@
     "miles": 41.4,
     "minutes": 91,
     "temp_c_sum": 161.3,
+    "temp_max_c": 20.3,
+    "temp_min_c": 16.5,
     "temp_n": 9
    },
    "2024-08-11": {
@@ -5273,6 +6321,8 @@
     "miles": 123.45,
     "minutes": 247,
     "temp_c_sum": 452.4,
+    "temp_max_c": 24.7,
+    "temp_min_c": 20.5,
     "temp_n": 20
    },
    "2024-08-12": {
@@ -5283,6 +6333,8 @@
     "miles": 59.36,
     "minutes": 90,
     "temp_c_sum": 124.7,
+    "temp_max_c": 27.8,
+    "temp_min_c": 20.8,
     "temp_n": 5
    },
    "2024-08-13": {
@@ -5293,6 +6345,8 @@
     "miles": 62.5,
     "minutes": 148,
     "temp_c_sum": 227.5,
+    "temp_max_c": 30.8,
+    "temp_min_c": 18.3,
     "temp_n": 9
    },
    "2024-08-14": {
@@ -5303,6 +6357,8 @@
     "miles": 33.81,
     "minutes": 69,
     "temp_c_sum": 113.0,
+    "temp_max_c": 30.4,
+    "temp_min_c": 20.0,
     "temp_n": 5
    },
    "2024-08-15": {
@@ -5313,6 +6369,8 @@
     "miles": 12.74,
     "minutes": 30,
     "temp_c_sum": 91.1,
+    "temp_max_c": 26.0,
+    "temp_min_c": 21.2,
     "temp_n": 4
    },
    "2024-08-16": {
@@ -5323,6 +6381,8 @@
     "miles": 33.69,
     "minutes": 80,
     "temp_c_sum": 145.2,
+    "temp_max_c": 29.8,
+    "temp_min_c": 28.2,
     "temp_n": 5
    },
    "2024-08-17": {
@@ -5333,6 +6393,8 @@
     "miles": 196.28,
     "minutes": 213,
     "temp_c_sum": 218.5,
+    "temp_max_c": 28.2,
+    "temp_min_c": 21.5,
     "temp_n": 9
    },
    "2024-08-18": {
@@ -5343,6 +6405,8 @@
     "miles": 140.77,
     "minutes": 140,
     "temp_c_sum": 48.4,
+    "temp_max_c": 25.4,
+    "temp_min_c": 23.0,
     "temp_n": 2
    },
    "2024-08-19": {
@@ -5353,6 +6417,8 @@
     "miles": 161.94,
     "minutes": 179,
     "temp_c_sum": 87.8,
+    "temp_max_c": 20.7,
+    "temp_min_c": 13.8,
     "temp_n": 5
    },
    "2024-08-20": {
@@ -5363,6 +6429,8 @@
     "miles": 34.94,
     "minutes": 80,
     "temp_c_sum": 148.2,
+    "temp_max_c": 25.8,
+    "temp_min_c": 15.3,
     "temp_n": 7
    },
    "2024-08-21": {
@@ -5373,6 +6441,8 @@
     "miles": 23.18,
     "minutes": 56,
     "temp_c_sum": 84.9,
+    "temp_max_c": 24.9,
+    "temp_min_c": 16.6,
     "temp_n": 4
    },
    "2024-08-22": {
@@ -5383,6 +6453,8 @@
     "miles": 54.88,
     "minutes": 120,
     "temp_c_sum": 186.7,
+    "temp_max_c": 26.2,
+    "temp_min_c": 15.5,
     "temp_n": 8
    },
    "2024-08-23": {
@@ -5393,6 +6465,8 @@
     "miles": 125.71,
     "minutes": 138,
     "temp_c_sum": 181.5,
+    "temp_max_c": 31.2,
+    "temp_min_c": 24.2,
     "temp_n": 7
    },
    "2024-08-24": {
@@ -5403,6 +6477,8 @@
     "miles": 113.9,
     "minutes": 201,
     "temp_c_sum": 181.3,
+    "temp_max_c": 30.6,
+    "temp_min_c": 17.5,
     "temp_n": 8
    },
    "2024-08-25": {
@@ -5413,6 +6489,8 @@
     "miles": 133.5,
     "minutes": 141,
     "temp_c_sum": 83.8,
+    "temp_max_c": 31.2,
+    "temp_min_c": 25.1,
     "temp_n": 3
    },
    "2024-08-26": {
@@ -5423,6 +6501,8 @@
     "miles": 15.65,
     "minutes": 42,
     "temp_c_sum": 88.8,
+    "temp_max_c": 31.8,
+    "temp_min_c": 25.6,
     "temp_n": 3
    },
    "2024-08-27": {
@@ -5433,6 +6513,8 @@
     "miles": 13.7,
     "minutes": 37,
     "temp_c_sum": 52.9,
+    "temp_max_c": 27.1,
+    "temp_min_c": 25.8,
     "temp_n": 2
    },
    "2024-08-28": {
@@ -5443,6 +6525,8 @@
     "miles": 39.88,
     "minutes": 74,
     "temp_c_sum": 133.4,
+    "temp_max_c": 28.7,
+    "temp_min_c": 25.4,
     "temp_n": 5
    },
    "2024-08-29": {
@@ -5453,6 +6537,8 @@
     "miles": 34.47,
     "minutes": 66,
     "temp_c_sum": 139.2,
+    "temp_max_c": 28.7,
+    "temp_min_c": 20.2,
     "temp_n": 6
    },
    "2024-09-02": {
@@ -5463,6 +6549,8 @@
     "miles": 41.51,
     "minutes": 89,
     "temp_c_sum": 167.1,
+    "temp_max_c": 25.6,
+    "temp_min_c": 21.7,
     "temp_n": 7
    },
    "2024-09-03": {
@@ -5473,6 +6561,8 @@
     "miles": 37.4,
     "minutes": 66,
     "temp_c_sum": 84.6,
+    "temp_max_c": 26.8,
+    "temp_min_c": 13.0,
     "temp_n": 5
    },
    "2024-09-04": {
@@ -5483,6 +6573,8 @@
     "miles": 40.72,
     "minutes": 87,
     "temp_c_sum": 171.8,
+    "temp_max_c": 28.3,
+    "temp_min_c": 17.5,
     "temp_n": 7
    },
    "2024-09-05": {
@@ -5493,6 +6585,8 @@
     "miles": 29.36,
     "minutes": 48,
     "temp_c_sum": 51.8,
+    "temp_max_c": 26.4,
+    "temp_min_c": 25.3,
     "temp_n": 2
    },
    "2024-09-06": {
@@ -5503,6 +6597,8 @@
     "miles": 21.59,
     "minutes": 38,
     "temp_c_sum": 50.4,
+    "temp_max_c": 17.7,
+    "temp_min_c": 15.2,
     "temp_n": 3
    },
    "2024-09-07": {
@@ -5513,6 +6609,8 @@
     "miles": 236.23,
     "minutes": 265,
     "temp_c_sum": 130.7,
+    "temp_max_c": 17.2,
+    "temp_min_c": 9.1,
     "temp_n": 10
    },
    "2024-09-08": {
@@ -5523,6 +6621,8 @@
     "miles": 934.66,
     "minutes": 874,
     "temp_c_sum": 137.0,
+    "temp_max_c": 26.9,
+    "temp_min_c": 8.6,
     "temp_n": 7
    },
    "2024-09-09": {
@@ -5533,6 +6633,8 @@
     "miles": 763.8,
     "minutes": 611,
     "temp_c_sum": 202.9,
+    "temp_max_c": 31.8,
+    "temp_min_c": 14.5,
     "temp_n": 8
    },
    "2024-09-10": {
@@ -5543,6 +6645,8 @@
     "miles": 178.14,
     "minutes": 251,
     "temp_c_sum": 146.5,
+    "temp_max_c": 26.4,
+    "temp_min_c": 13.9,
     "temp_n": 7
    },
    "2024-09-11": {
@@ -5553,6 +6657,8 @@
     "miles": 89.38,
     "minutes": 143,
     "temp_c_sum": 189.2,
+    "temp_max_c": 21.0,
+    "temp_min_c": 9.1,
     "temp_n": 11
    },
    "2024-09-12": {
@@ -5563,6 +6669,8 @@
     "miles": 90.47,
     "minutes": 203,
     "temp_c_sum": 246.3,
+    "temp_max_c": 14.1,
+    "temp_min_c": 8.2,
     "temp_n": 22
    },
    "2024-09-13": {
@@ -5573,6 +6681,8 @@
     "miles": 123.7,
     "minutes": 171,
     "temp_c_sum": 122.1,
+    "temp_max_c": 20.9,
+    "temp_min_c": 6.6,
     "temp_n": 8
    },
    "2024-09-14": {
@@ -5583,6 +6693,8 @@
     "miles": 922.62,
     "minutes": 781,
     "temp_c_sum": 194.2,
+    "temp_max_c": 27.9,
+    "temp_min_c": 8.4,
     "temp_n": 10
    },
    "2024-09-15": {
@@ -5593,6 +6705,8 @@
     "miles": 913.52,
     "minutes": 791,
     "temp_c_sum": 215.7,
+    "temp_max_c": 31.4,
+    "temp_min_c": 17.8,
     "temp_n": 9
    },
    "2024-09-16": {
@@ -5603,6 +6717,8 @@
     "miles": 20.27,
     "minutes": 36,
     "temp_c_sum": 53.2,
+    "temp_max_c": 31.7,
+    "temp_min_c": 21.5,
     "temp_n": 2
    },
    "2024-09-17": {
@@ -5613,6 +6729,8 @@
     "miles": 25.87,
     "minutes": 65,
     "temp_c_sum": 88.5,
+    "temp_max_c": 29.9,
+    "temp_min_c": 16.5,
     "temp_n": 4
    },
    "2024-09-18": {
@@ -5623,6 +6741,8 @@
     "miles": 14.06,
     "minutes": 34,
     "temp_c_sum": 38.2,
+    "temp_max_c": 22.4,
+    "temp_min_c": 15.8,
     "temp_n": 2
    },
    "2024-09-19": {
@@ -5633,6 +6753,8 @@
     "miles": 7.63,
     "minutes": 37,
     "temp_c_sum": 118.6,
+    "temp_max_c": 31.7,
+    "temp_min_c": 26.9,
     "temp_n": 4
    },
    "2024-09-20": {
@@ -5643,6 +6765,8 @@
     "miles": 4.13,
     "minutes": 20,
     "temp_c_sum": 106.7,
+    "temp_max_c": 30.2,
+    "temp_min_c": 21.7,
     "temp_n": 4
    },
    "2024-09-21": {
@@ -5653,6 +6777,8 @@
     "miles": 252.99,
     "minutes": 239,
     "temp_c_sum": 64.9,
+    "temp_max_c": 25.2,
+    "temp_min_c": 19.6,
     "temp_n": 3
    },
    "2024-09-22": {
@@ -5663,6 +6789,8 @@
     "miles": 65.7,
     "minutes": 98,
     "temp_c_sum": 75.1,
+    "temp_max_c": 18.9,
+    "temp_min_c": 18.5,
     "temp_n": 4
    },
    "2024-09-23": {
@@ -5673,6 +6801,8 @@
     "miles": 18.72,
     "minutes": 36,
     "temp_c_sum": 34.3,
+    "temp_max_c": 19.8,
+    "temp_min_c": 14.5,
     "temp_n": 2
    },
    "2024-09-24": {
@@ -5683,6 +6813,8 @@
     "miles": 28.5,
     "minutes": 71,
     "temp_c_sum": 91.0,
+    "temp_max_c": 21.2,
+    "temp_min_c": 15.6,
     "temp_n": 5
    },
    "2024-09-25": {
@@ -5693,6 +6825,8 @@
     "miles": 37.67,
     "minutes": 87,
     "temp_c_sum": 88.3,
+    "temp_max_c": 24.7,
+    "temp_min_c": 18.0,
     "temp_n": 4
    },
    "2024-09-26": {
@@ -5703,6 +6837,8 @@
     "miles": 39.06,
     "minutes": 55,
     "temp_c_sum": 89.4,
+    "temp_max_c": 23.6,
+    "temp_min_c": 20.1,
     "temp_n": 4
    },
    "2024-09-27": {
@@ -5713,6 +6849,8 @@
     "miles": 134.66,
     "minutes": 176,
     "temp_c_sum": 176.1,
+    "temp_max_c": 24.6,
+    "temp_min_c": 14.6,
     "temp_n": 9
    },
    "2024-09-28": {
@@ -5723,6 +6861,8 @@
     "miles": 222.86,
     "minutes": 216,
     "temp_c_sum": 105.5,
+    "temp_max_c": 22.6,
+    "temp_min_c": 18.9,
     "temp_n": 5
    },
    "2024-09-29": {
@@ -5733,6 +6873,8 @@
     "miles": 3.39,
     "minutes": 15,
     "temp_c_sum": 51.5,
+    "temp_max_c": 27.2,
+    "temp_min_c": 24.3,
     "temp_n": 2
    },
    "2024-09-30": {
@@ -5743,6 +6885,8 @@
     "miles": 48.87,
     "minutes": 84,
     "temp_c_sum": 167.9,
+    "temp_max_c": 27.7,
+    "temp_min_c": 18.4,
     "temp_n": 7
    },
    "2024-10-01": {
@@ -5753,6 +6897,8 @@
     "miles": 38.17,
     "minutes": 88,
     "temp_c_sum": 81.1,
+    "temp_max_c": 21.0,
+    "temp_min_c": 19.1,
     "temp_n": 4
    },
    "2024-10-02": {
@@ -5763,6 +6909,8 @@
     "miles": 334.8,
     "minutes": 357,
     "temp_c_sum": 125.1,
+    "temp_max_c": 23.5,
+    "temp_min_c": 9.1,
     "temp_n": 7
    },
    "2024-10-03": {
@@ -5773,6 +6921,8 @@
     "miles": 316.26,
     "minutes": 304,
     "temp_c_sum": 64.8,
+    "temp_max_c": 25.0,
+    "temp_min_c": 16.9,
     "temp_n": 3
    },
    "2024-10-04": {
@@ -5783,6 +6933,8 @@
     "miles": 130.1,
     "minutes": 151,
     "temp_c_sum": 96.5,
+    "temp_max_c": 21.9,
+    "temp_min_c": 9.5,
     "temp_n": 6
    },
    "2024-10-05": {
@@ -5793,6 +6945,8 @@
     "miles": 50.47,
     "minutes": 142,
     "temp_c_sum": 302.7,
+    "temp_max_c": 25.5,
+    "temp_min_c": 15.2,
     "temp_n": 14
    },
    "2024-10-06": {
@@ -5803,6 +6957,8 @@
     "miles": 115.43,
     "minutes": 215,
     "temp_c_sum": 238.5,
+    "temp_max_c": 19.3,
+    "temp_min_c": 17.6,
     "temp_n": 13
    },
    "2024-10-07": {
@@ -5813,6 +6969,8 @@
     "miles": 20.35,
     "minutes": 34,
     "temp_c_sum": 31.0,
+    "temp_max_c": 18.2,
+    "temp_min_c": 12.8,
     "temp_n": 2
    },
    "2024-10-08": {
@@ -5823,6 +6981,8 @@
     "miles": 24.04,
     "minutes": 57,
     "temp_c_sum": 40.3,
+    "temp_max_c": 19.5,
+    "temp_min_c": 9.0,
     "temp_n": 3
    },
    "2024-10-09": {
@@ -5833,6 +6993,8 @@
     "miles": 20.35,
     "minutes": 40,
     "temp_c_sum": 27.1,
+    "temp_max_c": 19.4,
+    "temp_min_c": 7.7,
     "temp_n": 2
    },
    "2024-10-10": {
@@ -5843,6 +7005,8 @@
     "miles": 6.58,
     "minutes": 35,
     "temp_c_sum": 70.9,
+    "temp_max_c": 19.3,
+    "temp_min_c": 16.4,
     "temp_n": 4
    },
    "2024-10-11": {
@@ -5853,6 +7017,8 @@
     "miles": 3.49,
     "minutes": 17,
     "temp_c_sum": 34.4,
+    "temp_max_c": 24.0,
+    "temp_min_c": 10.4,
     "temp_n": 2
    },
    "2024-10-12": {
@@ -5863,6 +7029,8 @@
     "miles": 63.55,
     "minutes": 83,
     "temp_c_sum": 29.3,
+    "temp_max_c": 17.7,
+    "temp_min_c": 11.6,
     "temp_n": 2
    },
    "2024-10-13": {
@@ -5873,6 +7041,8 @@
     "miles": 45.0,
     "minutes": 67,
     "temp_c_sum": 37.5,
+    "temp_max_c": 13.0,
+    "temp_min_c": 12.1,
     "temp_n": 3
    },
    "2024-10-14": {
@@ -5883,6 +7053,8 @@
     "miles": 48.63,
     "minutes": 92,
     "temp_c_sum": 63.2,
+    "temp_max_c": 12.5,
+    "temp_min_c": 5.3,
     "temp_n": 7
    },
    "2024-10-15": {
@@ -5893,6 +7065,8 @@
     "miles": 46.76,
     "minutes": 119,
     "temp_c_sum": 87.5,
+    "temp_max_c": 12.1,
+    "temp_min_c": 5.0,
     "temp_n": 10
    },
    "2024-10-16": {
@@ -5903,6 +7077,8 @@
     "miles": 70.87,
     "minutes": 117,
     "temp_c_sum": 60.3,
+    "temp_max_c": 15.0,
+    "temp_min_c": 6.1,
     "temp_n": 5
    },
    "2024-10-17": {
@@ -5913,6 +7089,8 @@
     "miles": 424.91,
     "minutes": 408,
     "temp_c_sum": 65.0,
+    "temp_max_c": 16.8,
+    "temp_min_c": 6.6,
     "temp_n": 5
    },
    "2024-10-18": {
@@ -5923,6 +7101,8 @@
     "miles": 316.27,
     "minutes": 295,
     "temp_c_sum": 36.3,
+    "temp_max_c": 19.2,
+    "temp_min_c": 3.3,
     "temp_n": 3
    },
    "2024-10-20": {
@@ -5933,6 +7113,8 @@
     "miles": 751.46,
     "minutes": 681,
     "temp_c_sum": 161.9,
+    "temp_max_c": 24.5,
+    "temp_min_c": 6.0,
     "temp_n": 9
    },
    "2024-10-21": {
@@ -5943,6 +7125,8 @@
     "miles": 11.1,
     "minutes": 27,
     "temp_c_sum": 39.4,
+    "temp_max_c": 25.3,
+    "temp_min_c": 14.1,
     "temp_n": 2
    },
    "2024-10-22": {
@@ -5953,6 +7137,8 @@
     "miles": 12.75,
     "minutes": 39,
     "temp_c_sum": 81.5,
+    "temp_max_c": 23.6,
+    "temp_min_c": 11.4,
     "temp_n": 4
    },
    "2024-10-23": {
@@ -5963,6 +7149,8 @@
     "miles": 47.39,
     "minutes": 96,
     "temp_c_sum": 113.6,
+    "temp_max_c": 17.9,
+    "temp_min_c": 13.0,
     "temp_n": 7
    },
    "2024-10-24": {
@@ -5973,6 +7161,8 @@
     "miles": 11.28,
     "minutes": 30,
     "temp_c_sum": 22.2,
+    "temp_max_c": 17.6,
+    "temp_min_c": 4.6,
     "temp_n": 2
    },
    "2024-10-25": {
@@ -5983,6 +7173,8 @@
     "miles": 29.23,
     "minutes": 81,
     "temp_c_sum": 80.7,
+    "temp_max_c": 15.6,
+    "temp_min_c": 7.4,
     "temp_n": 7
    },
    "2024-10-26": {
@@ -5993,6 +7185,8 @@
     "miles": 46.07,
     "minutes": 108,
     "temp_c_sum": 91.1,
+    "temp_max_c": 14.1,
+    "temp_min_c": 8.9,
     "temp_n": 8
    },
    "2024-10-27": {
@@ -6003,6 +7197,8 @@
     "miles": 11.86,
     "minutes": 27,
     "temp_c_sum": 22.9,
+    "temp_max_c": 13.2,
+    "temp_min_c": 9.7,
     "temp_n": 2
    },
    "2024-10-28": {
@@ -6013,6 +7209,8 @@
     "miles": 32.89,
     "minutes": 65,
     "temp_c_sum": 69.0,
+    "temp_max_c": 18.2,
+    "temp_min_c": 5.9,
     "temp_n": 5
    },
    "2024-10-29": {
@@ -6023,6 +7221,8 @@
     "miles": 67.02,
     "minutes": 92,
     "temp_c_sum": 46.3,
+    "temp_max_c": 26.7,
+    "temp_min_c": 19.6,
     "temp_n": 2
    },
    "2024-10-30": {
@@ -6033,6 +7233,8 @@
     "miles": 44.11,
     "minutes": 88,
     "temp_c_sum": 147.3,
+    "temp_max_c": 26.6,
+    "temp_min_c": 20.5,
     "temp_n": 6
    },
    "2024-10-31": {
@@ -6043,6 +7245,8 @@
     "miles": 116.17,
     "minutes": 159,
     "temp_c_sum": 137.9,
+    "temp_max_c": 22.5,
+    "temp_min_c": 15.2,
     "temp_n": 7
    },
    "2024-11-01": {
@@ -6053,6 +7257,8 @@
     "miles": 18.32,
     "minutes": 64,
     "temp_c_sum": 36.4,
+    "temp_max_c": 10.5,
+    "temp_min_c": 7.8,
     "temp_n": 4
    },
    "2024-11-02": {
@@ -6063,6 +7269,8 @@
     "miles": 101.23,
     "minutes": 143,
     "temp_c_sum": 32.7,
+    "temp_max_c": 12.4,
+    "temp_min_c": 2.3,
     "temp_n": 4
    },
    "2024-11-03": {
@@ -6073,6 +7281,8 @@
     "miles": 10.84,
     "minutes": 24,
     "temp_c_sum": 24.8,
+    "temp_max_c": 12.8,
+    "temp_min_c": 12.0,
     "temp_n": 2
    },
    "2024-11-04": {
@@ -6083,6 +7293,8 @@
     "miles": 18.75,
     "minutes": 39,
     "temp_c_sum": 35.3,
+    "temp_max_c": 18.7,
+    "temp_min_c": 16.6,
     "temp_n": 2
    },
    "2024-11-05": {
@@ -6093,6 +7305,8 @@
     "miles": 28.41,
     "minutes": 66,
     "temp_c_sum": 91.2,
+    "temp_max_c": 20.0,
+    "temp_min_c": 17.5,
     "temp_n": 5
    },
    "2024-11-06": {
@@ -6103,6 +7317,8 @@
     "miles": 29.22,
     "minutes": 58,
     "temp_c_sum": 49.6,
+    "temp_max_c": 13.8,
+    "temp_min_c": 11.4,
     "temp_n": 4
    },
    "2024-11-07": {
@@ -6113,6 +7329,8 @@
     "miles": 41.41,
     "minutes": 82,
     "temp_c_sum": 65.6,
+    "temp_max_c": 14.0,
+    "temp_min_c": 10.1,
     "temp_n": 6
    },
    "2024-11-08": {
@@ -6123,6 +7341,8 @@
     "miles": 22.98,
     "minutes": 47,
     "temp_c_sum": 40.0,
+    "temp_max_c": 14.3,
+    "temp_min_c": 7.9,
     "temp_n": 4
    },
    "2024-11-09": {
@@ -6133,6 +7353,8 @@
     "miles": 54.95,
     "minutes": 121,
     "temp_c_sum": 130.4,
+    "temp_max_c": 13.9,
+    "temp_min_c": 11.2,
     "temp_n": 10
    },
    "2024-11-10": {
@@ -6143,6 +7365,8 @@
     "miles": 44.05,
     "minutes": 84,
     "temp_c_sum": 73.0,
+    "temp_max_c": 15.7,
+    "temp_min_c": 8.1,
     "temp_n": 6
    },
    "2024-11-11": {
@@ -6153,6 +7377,8 @@
     "miles": 25.06,
     "minutes": 82,
     "temp_c_sum": 74.6,
+    "temp_max_c": 12.5,
+    "temp_min_c": 8.9,
     "temp_n": 7
    },
    "2024-11-12": {
@@ -6163,6 +7389,8 @@
     "miles": 26.8,
     "minutes": 58,
     "temp_c_sum": 22.0,
+    "temp_max_c": 11.5,
+    "temp_min_c": 0.7,
     "temp_n": 4
    },
    "2024-11-13": {
@@ -6173,6 +7401,8 @@
     "miles": 52.55,
     "minutes": 115,
     "temp_c_sum": 52.2,
+    "temp_max_c": 11.5,
+    "temp_min_c": 1.1,
     "temp_n": 10
    },
    "2024-11-14": {
@@ -6183,6 +7413,8 @@
     "miles": 49.4,
     "minutes": 91,
     "temp_c_sum": 46.0,
+    "temp_max_c": 10.0,
+    "temp_min_c": 7.2,
     "temp_n": 5
    },
    "2024-11-15": {
@@ -6193,6 +7425,8 @@
     "miles": 15.22,
     "minutes": 40,
     "temp_c_sum": 36.2,
+    "temp_max_c": 11.3,
+    "temp_min_c": 8.2,
     "temp_n": 4
    },
    "2024-11-16": {
@@ -6203,6 +7437,8 @@
     "miles": 32.14,
     "minutes": 49,
     "temp_c_sum": 45.0,
+    "temp_max_c": 11.5,
+    "temp_min_c": 10.5,
     "temp_n": 4
    },
    "2024-11-17": {
@@ -6213,6 +7449,8 @@
     "miles": 37.9,
     "minutes": 75,
     "temp_c_sum": 60.8,
+    "temp_max_c": 11.9,
+    "temp_min_c": 8.4,
     "temp_n": 6
    },
    "2024-11-18": {
@@ -6223,6 +7461,8 @@
     "miles": 20.35,
     "minutes": 40,
     "temp_c_sum": 20.0,
+    "temp_max_c": 11.5,
+    "temp_min_c": 8.5,
     "temp_n": 2
    },
    "2024-11-19": {
@@ -6233,6 +7473,8 @@
     "miles": 37.52,
     "minutes": 66,
     "temp_c_sum": 63.0,
+    "temp_max_c": 14.8,
+    "temp_min_c": 10.9,
     "temp_n": 5
    },
    "2024-11-20": {
@@ -6243,6 +7485,8 @@
     "miles": 58.35,
     "minutes": 92,
     "temp_c_sum": 31.9,
+    "temp_max_c": 9.7,
+    "temp_min_c": 4.9,
     "temp_n": 5
    },
    "2024-11-21": {
@@ -6253,6 +7497,8 @@
     "miles": 37.78,
     "minutes": 89,
     "temp_c_sum": 13.3,
+    "temp_max_c": 3.3,
+    "temp_min_c": 1.1,
     "temp_n": 6
    },
    "2024-11-22": {
@@ -6263,6 +7509,8 @@
     "miles": 48.41,
     "minutes": 81,
     "temp_c_sum": 28.7,
+    "temp_max_c": 8.0,
+    "temp_min_c": 5.8,
     "temp_n": 4
    },
    "2024-11-23": {
@@ -6273,6 +7521,8 @@
     "miles": 71.99,
     "minutes": 85,
     "temp_c_sum": 28.1,
+    "temp_max_c": 7.9,
+    "temp_min_c": 6.5,
     "temp_n": 4
    },
    "2024-11-24": {
@@ -6283,6 +7533,8 @@
     "miles": 25.32,
     "minutes": 40,
     "temp_c_sum": 23.1,
+    "temp_max_c": 8.2,
+    "temp_min_c": 7.4,
     "temp_n": 3
    },
    "2024-11-25": {
@@ -6293,6 +7545,8 @@
     "miles": 23.87,
     "minutes": 54,
     "temp_c_sum": 29.9,
+    "temp_max_c": 8.3,
+    "temp_min_c": 6.4,
     "temp_n": 4
    },
    "2024-11-26": {
@@ -6303,6 +7557,8 @@
     "miles": 47.96,
     "minutes": 89,
     "temp_c_sum": 12.6,
+    "temp_max_c": 3.4,
+    "temp_min_c": 2.1,
     "temp_n": 5
    },
    "2024-11-27": {
@@ -6313,6 +7569,8 @@
     "miles": 28.79,
     "minutes": 57,
     "temp_c_sum": 13.8,
+    "temp_max_c": 4.5,
+    "temp_min_c": 0.6,
     "temp_n": 4
    },
    "2024-11-28": {
@@ -6323,6 +7581,8 @@
     "miles": 26.32,
     "minutes": 50,
     "temp_c_sum": 9.7,
+    "temp_max_c": 2.1,
+    "temp_min_c": 1.7,
     "temp_n": 5
    },
    "2024-11-29": {
@@ -6333,6 +7593,8 @@
     "miles": 4.67,
     "minutes": 26,
     "temp_c_sum": -5.4,
+    "temp_max_c": -2.4,
+    "temp_min_c": -3.0,
     "temp_n": 2
    },
    "2024-11-30": {
@@ -6343,6 +7605,8 @@
     "miles": 3.29,
     "minutes": 17,
     "temp_c_sum": -6.2,
+    "temp_max_c": -2.7,
+    "temp_min_c": -3.5,
     "temp_n": 2
    },
    "2024-12-01": {
@@ -6353,6 +7617,8 @@
     "miles": 37.06,
     "minutes": 73,
     "temp_c_sum": -17.9,
+    "temp_max_c": -1.5,
+    "temp_min_c": -3.7,
     "temp_n": 7
    },
    "2024-12-02": {
@@ -6363,6 +7629,8 @@
     "miles": 20.4,
     "minutes": 41,
     "temp_c_sum": -2.9,
+    "temp_max_c": 0.1,
+    "temp_min_c": -3.0,
     "temp_n": 2
    },
    "2024-12-03": {
@@ -6373,6 +7641,8 @@
     "miles": 56.77,
     "minutes": 103,
     "temp_c_sum": -5.9,
+    "temp_max_c": 0.6,
+    "temp_min_c": -2.7,
     "temp_n": 6
    },
    "2024-12-04": {
@@ -6383,6 +7653,8 @@
     "miles": 28.36,
     "minutes": 74,
     "temp_c_sum": 1.3,
+    "temp_max_c": 1.4,
+    "temp_min_c": -2.3,
     "temp_n": 4
    },
    "2024-12-05": {
@@ -6393,6 +7665,8 @@
     "miles": 14.55,
     "minutes": 44,
     "temp_c_sum": -11.2,
+    "temp_max_c": -1.1,
+    "temp_min_c": -5.1,
     "temp_n": 3
    },
    "2024-12-06": {
@@ -6403,6 +7677,8 @@
     "miles": 104.74,
     "minutes": 172,
     "temp_c_sum": -9.1,
+    "temp_max_c": 1.4,
+    "temp_min_c": -3.4,
     "temp_n": 11
    },
    "2024-12-07": {
@@ -6413,6 +7689,8 @@
     "miles": 70.19,
     "minutes": 141,
     "temp_c_sum": 11.3,
+    "temp_max_c": 5.1,
+    "temp_min_c": -0.2,
     "temp_n": 6
    },
    "2024-12-08": {
@@ -6423,6 +7701,8 @@
     "miles": 7.25,
     "minutes": 18,
     "temp_c_sum": 17.1,
+    "temp_max_c": 6.4,
+    "temp_min_c": 4.7,
     "temp_n": 3
    },
    "2024-12-09": {
@@ -6433,6 +7713,8 @@
     "miles": 34.51,
     "minutes": 76,
     "temp_c_sum": 36.6,
+    "temp_max_c": 8.7,
+    "temp_min_c": 5.9,
     "temp_n": 5
    },
    "2024-12-10": {
@@ -6443,6 +7725,8 @@
     "miles": 54.39,
     "minutes": 133,
     "temp_c_sum": 33.1,
+    "temp_max_c": 5.3,
+    "temp_min_c": 2.6,
     "temp_n": 9
    },
    "2024-12-11": {
@@ -6453,6 +7737,8 @@
     "miles": 38.31,
     "minutes": 70,
     "temp_c_sum": -5.7,
+    "temp_max_c": 0.4,
+    "temp_min_c": -5.5,
     "temp_n": 5
    },
    "2024-12-12": {
@@ -6463,6 +7749,8 @@
     "miles": 29.68,
     "minutes": 81,
     "temp_c_sum": -30.8,
+    "temp_max_c": -7.4,
+    "temp_min_c": -8.3,
     "temp_n": 4
    },
    "2024-12-13": {
@@ -6473,6 +7761,8 @@
     "miles": 26.22,
     "minutes": 42,
     "temp_c_sum": -13.7,
+    "temp_max_c": -5.8,
+    "temp_min_c": -7.9,
     "temp_n": 2
    },
    "2024-12-14": {
@@ -6483,6 +7773,8 @@
     "miles": 119.41,
     "minutes": 123,
     "temp_c_sum": -8.5,
+    "temp_max_c": 0.5,
+    "temp_min_c": -5.8,
     "temp_n": 3
    },
    "2024-12-15": {
@@ -6493,6 +7785,8 @@
     "miles": 37.38,
     "minutes": 76,
     "temp_c_sum": 17.2,
+    "temp_max_c": 5.2,
+    "temp_min_c": 3.4,
     "temp_n": 4
    },
    "2024-12-16": {
@@ -6503,6 +7797,8 @@
     "miles": 6.99,
     "minutes": 16,
     "temp_c_sum": 7.2,
+    "temp_max_c": 7.2,
+    "temp_min_c": 7.2,
     "temp_n": 1
    },
    "2024-12-17": {
@@ -6513,6 +7809,8 @@
     "miles": 14.27,
     "minutes": 39,
     "temp_c_sum": 11.2,
+    "temp_max_c": 4.5,
+    "temp_min_c": 3.1,
     "temp_n": 3
    },
    "2024-12-18": {
@@ -6523,6 +7821,8 @@
     "miles": 20.8,
     "minutes": 54,
     "temp_c_sum": 9.2,
+    "temp_max_c": 2.5,
+    "temp_min_c": 1.3,
     "temp_n": 5
    },
    "2024-12-19": {
@@ -6533,6 +7833,8 @@
     "miles": 23.92,
     "minutes": 99,
     "temp_c_sum": -6.1,
+    "temp_max_c": -0.3,
+    "temp_min_c": -1.5,
     "temp_n": 6
    },
    "2024-12-20": {
@@ -6543,6 +7845,8 @@
     "miles": 25.85,
     "minutes": 73,
     "temp_c_sum": -10.7,
+    "temp_max_c": -0.5,
+    "temp_min_c": -2.5,
     "temp_n": 6
    },
    "2024-12-21": {
@@ -6553,6 +7857,8 @@
     "miles": 877.63,
     "minutes": 810,
     "temp_c_sum": -24.8,
+    "temp_max_c": 3.0,
+    "temp_min_c": -8.8,
     "temp_n": 10
    },
    "2024-12-22": {
@@ -6563,6 +7869,8 @@
     "miles": 25.34,
     "minutes": 37,
     "temp_c_sum": 25.6,
+    "temp_max_c": 12.3,
+    "temp_min_c": -1.8,
     "temp_n": 5
    },
    "2024-12-23": {
@@ -6573,6 +7881,8 @@
     "miles": 14.83,
     "minutes": 27,
     "temp_c_sum": 22.9,
+    "temp_max_c": 9.7,
+    "temp_min_c": 3.3,
     "temp_n": 4
    },
    "2024-12-24": {
@@ -6583,6 +7893,8 @@
     "miles": 29.74,
     "minutes": 45,
     "temp_c_sum": 56.4,
+    "temp_max_c": 11.6,
+    "temp_min_c": 4.2,
     "temp_n": 7
    },
    "2024-12-26": {
@@ -6593,6 +7905,8 @@
     "miles": 59.06,
     "minutes": 70,
     "temp_c_sum": 15.0,
+    "temp_max_c": 5.5,
+    "temp_min_c": 4.5,
     "temp_n": 3
    },
    "2024-12-27": {
@@ -6603,6 +7917,8 @@
     "miles": 20.98,
     "minutes": 39,
     "temp_c_sum": 49.5,
+    "temp_max_c": 11.6,
+    "temp_min_c": 8.8,
     "temp_n": 5
    },
    "2024-12-28": {
@@ -6613,6 +7929,8 @@
     "miles": 876.93,
     "minutes": 765,
     "temp_c_sum": 35.4,
+    "temp_max_c": 11.2,
+    "temp_min_c": -2.9,
     "temp_n": 8
    },
    "2024-12-29": {
@@ -6623,6 +7941,8 @@
     "miles": 46.76,
     "minutes": 87,
     "temp_c_sum": 32.4,
+    "temp_max_c": 6.8,
+    "temp_min_c": 3.5,
     "temp_n": 7
    },
    "2024-12-30": {
@@ -6633,6 +7953,8 @@
     "miles": 6.53,
     "minutes": 20,
     "temp_c_sum": 15.0,
+    "temp_max_c": 11.5,
+    "temp_min_c": 3.5,
     "temp_n": 2
    },
    "2024-12-31": {
@@ -6643,6 +7965,8 @@
     "miles": 23.85,
     "minutes": 39,
     "temp_c_sum": 6.1,
+    "temp_max_c": 3.3,
+    "temp_min_c": 2.8,
     "temp_n": 2
    },
    "2025-01-01": {
@@ -6653,6 +7977,8 @@
     "miles": 30.82,
     "minutes": 53,
     "temp_c_sum": -1.0,
+    "temp_max_c": -0.1,
+    "temp_min_c": -0.7,
     "temp_n": 3
    },
    "2025-01-02": {
@@ -6663,6 +7989,8 @@
     "miles": 5.98,
     "minutes": 23,
     "temp_c_sum": -3.9,
+    "temp_max_c": -1.7,
+    "temp_min_c": -2.2,
     "temp_n": 2
    },
    "2025-01-03": {
@@ -6673,6 +8001,8 @@
     "miles": 36.36,
     "minutes": 91,
     "temp_c_sum": -29.5,
+    "temp_max_c": -3.1,
+    "temp_min_c": -5.5,
     "temp_n": 7
    },
    "2025-01-06": {
@@ -6683,6 +8013,8 @@
     "miles": 20.8,
     "minutes": 30,
     "temp_c_sum": -10.2,
+    "temp_max_c": -4.9,
+    "temp_min_c": -5.3,
     "temp_n": 2
    },
    "2025-01-07": {
@@ -6693,6 +8025,8 @@
     "miles": 33.22,
     "minutes": 72,
     "temp_c_sum": -11.1,
+    "temp_max_c": -1.5,
+    "temp_min_c": -3.0,
     "temp_n": 5
    },
    "2025-01-08": {
@@ -6703,6 +8037,8 @@
     "miles": 22.37,
     "minutes": 42,
     "temp_c_sum": -18.0,
+    "temp_max_c": -4.1,
+    "temp_min_c": -5.0,
     "temp_n": 4
    },
    "2025-01-09": {
@@ -6713,6 +8049,8 @@
     "miles": 36.62,
     "minutes": 64,
     "temp_c_sum": -15.7,
+    "temp_max_c": -3.1,
+    "temp_min_c": -4.5,
     "temp_n": 4
    },
    "2025-01-10": {
@@ -6723,6 +8061,8 @@
     "miles": 21.83,
     "minutes": 59,
     "temp_c_sum": -14.7,
+    "temp_max_c": -2.8,
+    "temp_min_c": -4.3,
     "temp_n": 4
    },
    "2025-01-11": {
@@ -6733,6 +8073,8 @@
     "miles": 299.29,
     "minutes": 294,
     "temp_c_sum": -10.8,
+    "temp_max_c": -0.3,
+    "temp_min_c": -2.7,
     "temp_n": 6
    },
    "2025-01-12": {
@@ -6743,6 +8085,8 @@
     "miles": 44.82,
     "minutes": 106,
     "temp_c_sum": -4.1,
+    "temp_max_c": 0.7,
+    "temp_min_c": -2.9,
     "temp_n": 9
    },
    "2025-01-13": {
@@ -6753,6 +8097,8 @@
     "miles": 46.27,
     "minutes": 97,
     "temp_c_sum": -35.3,
+    "temp_max_c": -3.0,
+    "temp_min_c": -7.1,
     "temp_n": 7
    },
    "2025-01-14": {
@@ -6763,6 +8109,8 @@
     "miles": 20.03,
     "minutes": 47,
     "temp_c_sum": -17.3,
+    "temp_max_c": -8.2,
+    "temp_min_c": -9.1,
     "temp_n": 2
    },
    "2025-01-15": {
@@ -6773,6 +8121,8 @@
     "miles": 19.63,
     "minutes": 36,
     "temp_c_sum": -10.6,
+    "temp_max_c": -4.2,
+    "temp_min_c": -6.4,
     "temp_n": 2
    },
    "2025-01-17": {
@@ -6783,6 +8133,8 @@
     "miles": 21.9,
     "minutes": 54,
     "temp_c_sum": 13.1,
+    "temp_max_c": 5.0,
+    "temp_min_c": 3.9,
     "temp_n": 3
    },
    "2025-01-18": {
@@ -6793,6 +8145,8 @@
     "miles": 41.1,
     "minutes": 81,
     "temp_c_sum": -9.3,
+    "temp_max_c": -1.2,
+    "temp_min_c": -1.9,
     "temp_n": 6
    },
    "2025-01-20": {
@@ -6803,6 +8157,8 @@
     "miles": 14.51,
     "minutes": 54,
     "temp_c_sum": -38.1,
+    "temp_max_c": -12.7,
+    "temp_min_c": -12.7,
     "temp_n": 3
    },
    "2025-01-24": {
@@ -6813,6 +8169,8 @@
     "miles": 5.67,
     "minutes": 19,
     "temp_c_sum": -7.0,
+    "temp_max_c": -7.0,
+    "temp_min_c": -7.0,
     "temp_n": 1
    },
    "2025-01-25": {
@@ -6823,6 +8181,8 @@
     "miles": 132.5,
     "minutes": 188,
     "temp_c_sum": -13.6,
+    "temp_max_c": 2.1,
+    "temp_min_c": -6.0,
     "temp_n": 8
    },
    "2025-01-26": {
@@ -6833,6 +8193,8 @@
     "miles": 12.08,
     "minutes": 24,
     "temp_c_sum": -3.1,
+    "temp_max_c": -0.7,
+    "temp_min_c": -2.4,
     "temp_n": 2
    },
    "2025-01-27": {
@@ -6843,6 +8205,8 @@
     "miles": 20.74,
     "minutes": 31,
     "temp_c_sum": 0.3,
+    "temp_max_c": 2.6,
+    "temp_min_c": -2.3,
     "temp_n": 2
    },
    "2025-01-28": {
@@ -6853,6 +8217,8 @@
     "miles": 26.1,
     "minutes": 64,
     "temp_c_sum": 4.5,
+    "temp_max_c": 5.4,
+    "temp_min_c": -2.9,
     "temp_n": 4
    },
    "2025-01-29": {
@@ -6863,6 +8229,8 @@
     "miles": 20.7,
     "minutes": 35,
     "temp_c_sum": 4.3,
+    "temp_max_c": 2.5,
+    "temp_min_c": 1.8,
     "temp_n": 2
    },
    "2025-01-30": {
@@ -6873,6 +8241,8 @@
     "miles": 4.52,
     "minutes": 19,
     "temp_c_sum": 13.0,
+    "temp_max_c": 6.5,
+    "temp_min_c": 6.5,
     "temp_n": 2
    },
    "2025-01-31": {
@@ -6883,6 +8253,8 @@
     "miles": 11.28,
     "minutes": 26,
     "temp_c_sum": 7.0,
+    "temp_max_c": 4.0,
+    "temp_min_c": 3.0,
     "temp_n": 2
    },
    "2025-02-01": {
@@ -6893,6 +8265,8 @@
     "miles": 11.06,
     "minutes": 22,
     "temp_c_sum": -5.8,
+    "temp_max_c": -2.8,
+    "temp_min_c": -3.0,
     "temp_n": 2
    },
    "2025-02-02": {
@@ -6903,6 +8277,8 @@
     "miles": 56.22,
     "minutes": 113,
     "temp_c_sum": 6.3,
+    "temp_max_c": 1.5,
+    "temp_min_c": -0.5,
     "temp_n": 7
    },
    "2025-02-03": {
@@ -6913,6 +8289,8 @@
     "miles": 20.7,
     "minutes": 31,
     "temp_c_sum": 4.5,
+    "temp_max_c": 3.0,
+    "temp_min_c": 1.5,
     "temp_n": 2
    },
    "2025-02-04": {
@@ -6923,6 +8301,8 @@
     "miles": 26.1,
     "minutes": 43,
     "temp_c_sum": -9.5,
+    "temp_max_c": -2.0,
+    "temp_min_c": -4.5,
     "temp_n": 3
    },
    "2025-02-05": {
@@ -6933,6 +8313,8 @@
     "miles": 47.07,
     "minutes": 82,
     "temp_c_sum": -31.5,
+    "temp_max_c": -3.4,
+    "temp_min_c": -7.1,
     "temp_n": 6
    },
    "2025-02-06": {
@@ -6943,6 +8325,8 @@
     "miles": 128.62,
     "minutes": 160,
     "temp_c_sum": 4.8,
+    "temp_max_c": 1.6,
+    "temp_min_c": -1.1,
     "temp_n": 6
    },
    "2025-02-07": {
@@ -6953,6 +8337,8 @@
     "miles": 1.63,
     "minutes": 6,
     "temp_c_sum": -9.4,
+    "temp_max_c": -4.4,
+    "temp_min_c": -5.0,
     "temp_n": 2
    },
    "2025-02-08": {
@@ -6963,6 +8349,8 @@
     "miles": 61.55,
     "minutes": 93,
     "temp_c_sum": -28.8,
+    "temp_max_c": -3.5,
+    "temp_min_c": -7.0,
     "temp_n": 5
    },
    "2025-02-09": {
@@ -6973,6 +8361,8 @@
     "miles": 139.59,
     "minutes": 160,
     "temp_c_sum": -17.3,
+    "temp_max_c": -4.2,
+    "temp_min_c": -7.4,
     "temp_n": 3
    },
    "2025-02-10": {
@@ -6983,6 +8373,8 @@
     "miles": 20.73,
     "minutes": 29,
     "temp_c_sum": -6.1,
+    "temp_max_c": -0.8,
+    "temp_min_c": -5.3,
     "temp_n": 2
    },
    "2025-02-11": {
@@ -6993,6 +8385,8 @@
     "miles": 33.98,
     "minutes": 54,
     "temp_c_sum": -16.0,
+    "temp_max_c": -2.6,
+    "temp_min_c": -5.5,
     "temp_n": 4
    },
    "2025-02-12": {
@@ -7003,6 +8397,8 @@
     "miles": 3.9,
     "minutes": 22,
     "temp_c_sum": -9.0,
+    "temp_max_c": -4.5,
+    "temp_min_c": -4.5,
     "temp_n": 2
    },
    "2025-02-13": {
@@ -7013,6 +8409,8 @@
     "miles": 350.05,
     "minutes": 452,
     "temp_c_sum": -60.3,
+    "temp_max_c": -3.4,
+    "temp_min_c": -11.4,
     "temp_n": 10
    },
    "2025-02-16": {
@@ -7023,6 +8421,8 @@
     "miles": 311.2,
     "minutes": 360,
     "temp_c_sum": -32.2,
+    "temp_max_c": -3.8,
+    "temp_min_c": -8.6,
     "temp_n": 5
    },
    "2025-02-17": {
@@ -7033,6 +8433,8 @@
     "miles": 10.62,
     "minutes": 25,
     "temp_c_sum": -14.1,
+    "temp_max_c": -5.1,
+    "temp_min_c": -9.0,
     "temp_n": 2
    },
    "2025-02-18": {
@@ -7043,6 +8445,8 @@
     "miles": 6.75,
     "minutes": 19,
     "temp_c_sum": -9.5,
+    "temp_max_c": -9.5,
+    "temp_min_c": -9.5,
     "temp_n": 1
    },
    "2025-02-19": {
@@ -7053,6 +8457,8 @@
     "miles": 14.4,
     "minutes": 26,
     "temp_c_sum": -15.0,
+    "temp_max_c": -6.5,
+    "temp_min_c": -8.5,
     "temp_n": 2
    },
    "2025-02-24": {
@@ -7063,6 +8469,8 @@
     "miles": 7.55,
     "minutes": 25,
     "temp_c_sum": 15.2,
+    "temp_max_c": 7.7,
+    "temp_min_c": 7.5,
     "temp_n": 2
    },
    "2025-02-25": {
@@ -7073,6 +8481,8 @@
     "miles": 31.15,
     "minutes": 74,
     "temp_c_sum": 46.2,
+    "temp_max_c": 10.4,
+    "temp_min_c": 4.1,
     "temp_n": 6
    },
    "2025-02-26": {
@@ -7083,6 +8493,8 @@
     "miles": 39.67,
     "minutes": 84,
     "temp_c_sum": 19.2,
+    "temp_max_c": 4.5,
+    "temp_min_c": 2.0,
     "temp_n": 5
    },
    "2025-02-27": {
@@ -7093,6 +8505,8 @@
     "miles": 15.78,
     "minutes": 45,
     "temp_c_sum": 23.0,
+    "temp_max_c": 4.5,
+    "temp_min_c": 3.0,
     "temp_n": 6
    },
    "2025-02-28": {
@@ -7103,6 +8517,8 @@
     "miles": 81.73,
     "minutes": 107,
     "temp_c_sum": 30.8,
+    "temp_max_c": 9.4,
+    "temp_min_c": 5.2,
     "temp_n": 4
    },
    "2025-03-01": {
@@ -7113,6 +8529,8 @@
     "miles": 70.55,
     "minutes": 126,
     "temp_c_sum": -49.7,
+    "temp_max_c": -3.8,
+    "temp_min_c": -6.0,
     "temp_n": 10
    },
    "2025-03-02": {
@@ -7123,6 +8541,8 @@
     "miles": 37.04,
     "minutes": 49,
     "temp_c_sum": -1.9,
+    "temp_max_c": 0.8,
+    "temp_min_c": -2.3,
     "temp_n": 3
    },
    "2025-03-03": {
@@ -7133,6 +8553,8 @@
     "miles": 27.88,
     "minutes": 60,
     "temp_c_sum": 11.3,
+    "temp_max_c": 4.5,
+    "temp_min_c": -1.2,
     "temp_n": 4
    },
    "2025-03-04": {
@@ -7143,6 +8565,8 @@
     "miles": 118.82,
     "minutes": 178,
     "temp_c_sum": 77.1,
+    "temp_max_c": 11.0,
+    "temp_min_c": 4.1,
     "temp_n": 10
    },
    "2025-03-05": {
@@ -7153,6 +8577,8 @@
     "miles": 45.26,
     "minutes": 78,
     "temp_c_sum": 24.7,
+    "temp_max_c": 10.5,
+    "temp_min_c": -0.4,
     "temp_n": 5
    },
    "2025-03-07": {
@@ -7163,6 +8589,8 @@
     "miles": 141.1,
     "minutes": 162,
     "temp_c_sum": 16.5,
+    "temp_max_c": 4.0,
+    "temp_min_c": 1.0,
     "temp_n": 7
    },
    "2025-03-08": {
@@ -7173,6 +8601,8 @@
     "miles": 9.46,
     "minutes": 33,
     "temp_c_sum": 3.8,
+    "temp_max_c": 4.3,
+    "temp_min_c": -5.0,
     "temp_n": 6
    },
    "2025-03-09": {
@@ -7183,6 +8613,8 @@
     "miles": 143.33,
     "minutes": 143,
     "temp_c_sum": 28.2,
+    "temp_max_c": 9.5,
+    "temp_min_c": 4.0,
     "temp_n": 4
    },
    "2025-03-10": {
@@ -7193,6 +8625,8 @@
     "miles": 52.86,
     "minutes": 83,
     "temp_c_sum": 71.7,
+    "temp_max_c": 18.0,
+    "temp_min_c": 6.0,
     "temp_n": 5
    },
    "2025-03-11": {
@@ -7203,6 +8637,8 @@
     "miles": 30.87,
     "minutes": 72,
     "temp_c_sum": 62.6,
+    "temp_max_c": 13.3,
+    "temp_min_c": 8.0,
     "temp_n": 6
    },
    "2025-03-12": {
@@ -7213,6 +8649,8 @@
     "miles": 25.03,
     "minutes": 62,
     "temp_c_sum": 47.9,
+    "temp_max_c": 13.3,
+    "temp_min_c": 2.4,
     "temp_n": 5
    },
    "2025-03-13": {
@@ -7223,6 +8661,8 @@
     "miles": 23.85,
     "minutes": 42,
     "temp_c_sum": 54.4,
+    "temp_max_c": 17.7,
+    "temp_min_c": 4.1,
     "temp_n": 4
    },
    "2025-03-14": {
@@ -7233,6 +8673,8 @@
     "miles": 12.1,
     "minutes": 40,
     "temp_c_sum": 77.8,
+    "temp_max_c": 26.3,
+    "temp_min_c": 25.5,
     "temp_n": 3
    },
    "2025-03-15": {
@@ -7243,6 +8685,8 @@
     "miles": 54.27,
     "minutes": 91,
     "temp_c_sum": 116.9,
+    "temp_max_c": 22.0,
+    "temp_min_c": 16.4,
     "temp_n": 6
    },
    "2025-03-16": {
@@ -7253,6 +8697,8 @@
     "miles": 26.94,
     "minutes": 36,
     "temp_c_sum": 0.2,
+    "temp_max_c": 0.2,
+    "temp_min_c": 0.0,
     "temp_n": 2
    },
    "2025-03-17": {
@@ -7263,6 +8709,8 @@
     "miles": 30.46,
     "minutes": 50,
     "temp_c_sum": 2.1,
+    "temp_max_c": 10.5,
+    "temp_min_c": -3.5,
     "temp_n": 5
    },
    "2025-03-18": {
@@ -7273,6 +8721,8 @@
     "miles": 29.13,
     "minutes": 53,
     "temp_c_sum": 68.3,
+    "temp_max_c": 20.4,
+    "temp_min_c": 5.5,
     "temp_n": 5
    },
    "2025-03-19": {
@@ -7283,6 +8733,8 @@
     "miles": 20.59,
     "minutes": 32,
     "temp_c_sum": 35.5,
+    "temp_max_c": 20.5,
+    "temp_min_c": 15.0,
     "temp_n": 2
    },
    "2025-03-20": {
@@ -7293,6 +8745,8 @@
     "miles": 20.72,
     "minutes": 32,
     "temp_c_sum": 6.6,
+    "temp_max_c": 4.5,
+    "temp_min_c": 2.1,
     "temp_n": 2
    },
    "2025-03-21": {
@@ -7303,6 +8757,8 @@
     "miles": 23.75,
     "minutes": 39,
     "temp_c_sum": 27.1,
+    "temp_max_c": 14.5,
+    "temp_min_c": 12.6,
     "temp_n": 2
    },
    "2025-03-22": {
@@ -7313,6 +8769,8 @@
     "miles": 21.56,
     "minutes": 57,
     "temp_c_sum": 12.6,
+    "temp_max_c": 4.1,
+    "temp_min_c": 0.9,
     "temp_n": 5
    },
    "2025-03-23": {
@@ -7323,6 +8781,8 @@
     "miles": 14.5,
     "minutes": 29,
     "temp_c_sum": 9.4,
+    "temp_max_c": 5.0,
+    "temp_min_c": 4.4,
     "temp_n": 2
    },
    "2025-03-24": {
@@ -7333,6 +8793,8 @@
     "miles": 20.69,
     "minutes": 32,
     "temp_c_sum": 2.8,
+    "temp_max_c": 1.8,
+    "temp_min_c": 1.0,
     "temp_n": 2
    },
    "2025-03-25": {
@@ -7343,6 +8805,8 @@
     "miles": 26.06,
     "minutes": 43,
     "temp_c_sum": 8.9,
+    "temp_max_c": 4.9,
+    "temp_min_c": -0.5,
     "temp_n": 3
    },
    "2025-03-26": {
@@ -7353,6 +8817,8 @@
     "miles": 23.85,
     "minutes": 51,
     "temp_c_sum": 6.7,
+    "temp_max_c": 9.5,
+    "temp_min_c": -2.3,
     "temp_n": 4
    },
    "2025-03-27": {
@@ -7363,6 +8829,8 @@
     "miles": 8.77,
     "minutes": 33,
     "temp_c_sum": 35.2,
+    "temp_max_c": 10.1,
+    "temp_min_c": 7.4,
     "temp_n": 4
    },
    "2025-03-28": {
@@ -7373,6 +8841,8 @@
     "miles": 22.71,
     "minutes": 45,
     "temp_c_sum": 44.1,
+    "temp_max_c": 19.8,
+    "temp_min_c": 10.0,
     "temp_n": 3
    },
    "2025-03-29": {
@@ -7383,6 +8853,8 @@
     "miles": 12.75,
     "minutes": 28,
     "temp_c_sum": 54.0,
+    "temp_max_c": 19.5,
+    "temp_min_c": 17.0,
     "temp_n": 3
    },
    "2025-03-31": {
@@ -7393,6 +8865,8 @@
     "miles": 45.82,
     "minutes": 79,
     "temp_c_sum": 13.2,
+    "temp_max_c": 4.0,
+    "temp_min_c": 1.0,
     "temp_n": 5
    },
    "2025-04-01": {
@@ -7403,6 +8877,8 @@
     "miles": 48.79,
     "minutes": 98,
     "temp_c_sum": 18.1,
+    "temp_max_c": 7.3,
+    "temp_min_c": -3.3,
     "temp_n": 6
    },
    "2025-04-02": {
@@ -7413,6 +8889,8 @@
     "miles": 48.46,
     "minutes": 82,
     "temp_c_sum": 34.7,
+    "temp_max_c": 8.0,
+    "temp_min_c": 2.0,
     "temp_n": 6
    },
    "2025-04-03": {
@@ -7423,6 +8901,8 @@
     "miles": 11.28,
     "minutes": 26,
     "temp_c_sum": 26.9,
+    "temp_max_c": 9.9,
+    "temp_min_c": 8.5,
     "temp_n": 3
    },
    "2025-04-04": {
@@ -7433,6 +8913,8 @@
     "miles": 11.93,
     "minutes": 30,
     "temp_c_sum": 23.7,
+    "temp_max_c": 12.0,
+    "temp_min_c": 11.7,
     "temp_n": 2
    },
    "2025-04-10": {
@@ -7443,6 +8925,8 @@
     "miles": 0.32,
     "minutes": 3,
     "temp_c_sum": 19.3,
+    "temp_max_c": 19.3,
+    "temp_min_c": 19.3,
     "temp_n": 1
    },
    "2025-04-11": {
@@ -7453,6 +8937,8 @@
     "miles": 5.62,
     "minutes": 11,
     "temp_c_sum": 1.3,
+    "temp_max_c": 1.3,
+    "temp_min_c": 1.3,
     "temp_n": 1
    },
    "2025-04-15": {
@@ -7463,6 +8949,8 @@
     "miles": 4.0,
     "minutes": 11,
     "temp_c_sum": 14.2,
+    "temp_max_c": 8.2,
+    "temp_min_c": 6.0,
     "temp_n": 2
    },
    "2025-04-16": {
@@ -7473,6 +8961,8 @@
     "miles": 55.71,
     "minutes": 116,
     "temp_c_sum": 72.2,
+    "temp_max_c": 12.2,
+    "temp_min_c": 2.5,
     "temp_n": 8
    },
    "2025-04-17": {
@@ -7483,6 +8973,8 @@
     "miles": 29.4,
     "minutes": 51,
     "temp_c_sum": 37.9,
+    "temp_max_c": 19.7,
+    "temp_min_c": 18.2,
     "temp_n": 2
    },
    "2025-04-18": {
@@ -7493,6 +8985,8 @@
     "miles": 19.98,
     "minutes": 38,
     "temp_c_sum": 85.8,
+    "temp_max_c": 22.0,
+    "temp_min_c": 20.4,
     "temp_n": 4
    },
    "2025-04-19": {
@@ -7503,6 +8997,8 @@
     "miles": 68.42,
     "minutes": 118,
     "temp_c_sum": 121.0,
+    "temp_max_c": 12.9,
+    "temp_min_c": 8.0,
     "temp_n": 13
    },
    "2025-04-20": {
@@ -7513,6 +9009,8 @@
     "miles": 22.12,
     "minutes": 41,
     "temp_c_sum": 38.0,
+    "temp_max_c": 15.9,
+    "temp_min_c": 8.7,
     "temp_n": 3
    },
    "2025-04-21": {
@@ -7523,6 +9021,8 @@
     "miles": 20.69,
     "minutes": 36,
     "temp_c_sum": 25.2,
+    "temp_max_c": 15.1,
+    "temp_min_c": 10.1,
     "temp_n": 2
    },
    "2025-04-22": {
@@ -7533,6 +9033,8 @@
     "miles": 25.83,
     "minutes": 57,
     "temp_c_sum": 32.3,
+    "temp_max_c": 18.3,
+    "temp_min_c": 4.6,
     "temp_n": 3
    },
    "2025-04-23": {
@@ -7543,6 +9045,8 @@
     "miles": 44.6,
     "minutes": 79,
     "temp_c_sum": 118.8,
+    "temp_max_c": 23.8,
+    "temp_min_c": 12.0,
     "temp_n": 6
    },
    "2025-04-24": {
@@ -7553,6 +9057,8 @@
     "miles": 17.71,
     "minutes": 34,
     "temp_c_sum": 54.1,
+    "temp_max_c": 27.3,
+    "temp_min_c": 26.8,
     "temp_n": 2
    },
    "2025-04-25": {
@@ -7563,6 +9069,8 @@
     "miles": 22.09,
     "minutes": 45,
     "temp_c_sum": 43.6,
+    "temp_max_c": 25.9,
+    "temp_min_c": 17.7,
     "temp_n": 2
    },
    "2025-04-26": {
@@ -7573,6 +9081,8 @@
     "miles": 74.02,
     "minutes": 104,
     "temp_c_sum": 36.5,
+    "temp_max_c": 14.3,
+    "temp_min_c": 10.0,
     "temp_n": 3
    },
    "2025-04-28": {
@@ -7583,6 +9093,8 @@
     "miles": 22.75,
     "minutes": 48,
     "temp_c_sum": 113.6,
+    "temp_max_c": 28.4,
+    "temp_min_c": 14.7,
     "temp_n": 5
    },
    "2025-04-29": {
@@ -7593,6 +9105,8 @@
     "miles": 511.98,
     "minutes": 463,
     "temp_c_sum": 91.2,
+    "temp_max_c": 25.9,
+    "temp_min_c": 11.0,
     "temp_n": 5
    },
    "2025-04-30": {
@@ -7603,6 +9117,8 @@
     "miles": 871.32,
     "minutes": 783,
     "temp_c_sum": 142.6,
+    "temp_max_c": 22.7,
+    "temp_min_c": 6.5,
     "temp_n": 10
    },
    "2025-05-01": {
@@ -7613,6 +9129,8 @@
     "miles": 215.59,
     "minutes": 429,
     "temp_c_sum": 474.1,
+    "temp_max_c": 23.6,
+    "temp_min_c": 10.5,
     "temp_n": 25
    },
    "2025-05-02": {
@@ -7623,6 +9141,8 @@
     "miles": 725.22,
     "minutes": 660,
     "temp_c_sum": 229.6,
+    "temp_max_c": 26.2,
+    "temp_min_c": 11.5,
     "temp_n": 11
    },
    "2025-05-03": {
@@ -7633,6 +9153,8 @@
     "miles": 336.95,
     "minutes": 464,
     "temp_c_sum": 146.1,
+    "temp_max_c": 19.6,
+    "temp_min_c": 12.9,
     "temp_n": 9
    },
    "2025-05-04": {
@@ -7643,6 +9165,8 @@
     "miles": 106.84,
     "minutes": 169,
     "temp_c_sum": 154.8,
+    "temp_max_c": 22.2,
+    "temp_min_c": 13.6,
     "temp_n": 9
    },
    "2025-05-05": {
@@ -7653,6 +9177,8 @@
     "miles": 119.25,
     "minutes": 199,
     "temp_c_sum": 174.3,
+    "temp_max_c": 22.5,
+    "temp_min_c": 16.1,
     "temp_n": 9
    },
    "2025-05-06": {
@@ -7663,6 +9189,8 @@
     "miles": 47.46,
     "minutes": 176,
     "temp_c_sum": 285.6,
+    "temp_max_c": 19.9,
+    "temp_min_c": 14.5,
     "temp_n": 17
    },
    "2025-05-07": {
@@ -7673,6 +9201,8 @@
     "miles": 235.0,
     "minutes": 419,
     "temp_c_sum": 392.8,
+    "temp_max_c": 25.6,
+    "temp_min_c": 14.5,
     "temp_n": 24
    },
    "2025-05-08": {
@@ -7683,6 +9213,8 @@
     "miles": 267.4,
     "minutes": 336,
     "temp_c_sum": 318.2,
+    "temp_max_c": 29.9,
+    "temp_min_c": 12.8,
     "temp_n": 15
    },
    "2025-05-09": {
@@ -7693,6 +9225,8 @@
     "miles": 94.13,
     "minutes": 300,
     "temp_c_sum": 140.2,
+    "temp_max_c": 35.3,
+    "temp_min_c": 21.2,
     "temp_n": 5
    },
    "2025-05-10": {
@@ -7703,6 +9237,8 @@
     "miles": 740.32,
     "minutes": 714,
     "temp_c_sum": 526.1,
+    "temp_max_c": 39.4,
+    "temp_min_c": 18.0,
     "temp_n": 18
    },
    "2025-05-11": {
@@ -7713,6 +9249,8 @@
     "miles": 694.08,
     "minutes": 599,
     "temp_c_sum": 166.0,
+    "temp_max_c": 26.5,
+    "temp_min_c": 13.3,
     "temp_n": 8
    },
    "2025-05-12": {
@@ -7723,6 +9261,8 @@
     "miles": 850.2,
     "minutes": 769,
     "temp_c_sum": 149.5,
+    "temp_max_c": 25.1,
+    "temp_min_c": 15.3,
     "temp_n": 7
    },
    "2025-05-13": {
@@ -7733,6 +9273,8 @@
     "miles": 94.54,
     "minutes": 106,
     "temp_c_sum": 63.1,
+    "temp_max_c": 22.6,
+    "temp_min_c": 18.5,
     "temp_n": 3
    },
    "2025-05-14": {
@@ -7743,6 +9285,8 @@
     "miles": 17.76,
     "minutes": 36,
     "temp_c_sum": 47.4,
+    "temp_max_c": 27.7,
+    "temp_min_c": 19.7,
     "temp_n": 2
    },
    "2025-05-15": {
@@ -7753,6 +9297,8 @@
     "miles": 19.14,
     "minutes": 32,
     "temp_c_sum": 60.5,
+    "temp_max_c": 31.4,
+    "temp_min_c": 29.1,
     "temp_n": 2
    },
    "2025-05-16": {
@@ -7763,6 +9309,8 @@
     "miles": 18.6,
     "minutes": 37,
     "temp_c_sum": 113.4,
+    "temp_max_c": 30.5,
+    "temp_min_c": 25.0,
     "temp_n": 4
    },
    "2025-05-17": {
@@ -7773,6 +9321,8 @@
     "miles": 32.43,
     "minutes": 69,
     "temp_c_sum": 119.5,
+    "temp_max_c": 15.5,
+    "temp_min_c": 12.6,
     "temp_n": 8
    },
    "2025-05-18": {
@@ -7783,6 +9333,8 @@
     "miles": 80.77,
     "minutes": 112,
     "temp_c_sum": 80.9,
+    "temp_max_c": 17.9,
+    "temp_min_c": 12.9,
     "temp_n": 5
    },
    "2025-05-19": {
@@ -7793,6 +9345,8 @@
     "miles": 40.85,
     "minutes": 63,
     "temp_c_sum": 51.6,
+    "temp_max_c": 14.8,
+    "temp_min_c": 9.3,
     "temp_n": 4
    },
    "2025-05-20": {
@@ -7803,6 +9357,8 @@
     "miles": 34.56,
     "minutes": 62,
     "temp_c_sum": 45.2,
+    "temp_max_c": 10.0,
+    "temp_min_c": 8.5,
     "temp_n": 5
    },
    "2025-05-21": {
@@ -7813,6 +9369,8 @@
     "miles": 34.02,
     "minutes": 98,
     "temp_c_sum": 41.0,
+    "temp_max_c": 10.5,
+    "temp_min_c": 9.9,
     "temp_n": 4
    },
    "2025-05-22": {
@@ -7823,6 +9381,8 @@
     "miles": 117.57,
     "minutes": 153,
     "temp_c_sum": 35.0,
+    "temp_max_c": 13.3,
+    "temp_min_c": 10.5,
     "temp_n": 3
    },
    "2025-05-23": {
@@ -7833,6 +9393,8 @@
     "miles": 154.97,
     "minutes": 279,
     "temp_c_sum": 471.8,
+    "temp_max_c": 13.5,
+    "temp_min_c": 5.0,
     "temp_n": 44
    },
    "2025-05-24": {
@@ -7843,6 +9405,8 @@
     "miles": 69.69,
     "minutes": 83,
     "temp_c_sum": 27.3,
+    "temp_max_c": 14.9,
+    "temp_min_c": 12.4,
     "temp_n": 2
    },
    "2025-05-25": {
@@ -7853,6 +9417,8 @@
     "miles": 78.39,
     "minutes": 145,
     "temp_c_sum": 443.8,
+    "temp_max_c": 23.0,
+    "temp_min_c": 16.2,
     "temp_n": 23
    },
    "2025-05-26": {
@@ -7863,6 +9429,8 @@
     "miles": 56.65,
     "minutes": 80,
     "temp_c_sum": 107.1,
+    "temp_max_c": 25.3,
+    "temp_min_c": 19.0,
     "temp_n": 5
    },
    "2025-05-27": {
@@ -7873,6 +9441,8 @@
     "miles": 147.71,
     "minutes": 157,
     "temp_c_sum": 102.9,
+    "temp_max_c": 24.5,
+    "temp_min_c": 16.4,
     "temp_n": 5
    },
    "2025-05-28": {
@@ -7883,6 +9453,8 @@
     "miles": 32.5,
     "minutes": 68,
     "temp_c_sum": 65.2,
+    "temp_max_c": 17.2,
+    "temp_min_c": 15.2,
     "temp_n": 4
    },
    "2025-05-29": {
@@ -7893,6 +9465,8 @@
     "miles": 228.01,
     "minutes": 290,
     "temp_c_sum": 460.0,
+    "temp_max_c": 19.9,
+    "temp_min_c": 13.5,
     "temp_n": 28
    },
    "2025-05-30": {
@@ -7903,6 +9477,8 @@
     "miles": 243.65,
     "minutes": 402,
     "temp_c_sum": 630.3,
+    "temp_max_c": 18.5,
+    "temp_min_c": 11.4,
     "temp_n": 43
    },
    "2025-05-31": {
@@ -7913,6 +9489,8 @@
     "miles": 192.23,
     "minutes": 191,
     "temp_c_sum": 72.2,
+    "temp_max_c": 18.5,
+    "temp_min_c": 11.6,
     "temp_n": 5
    },
    "2025-06-01": {
@@ -7923,6 +9501,8 @@
     "miles": 61.14,
     "minutes": 75,
     "temp_c_sum": 62.1,
+    "temp_max_c": 21.8,
+    "temp_min_c": 19.6,
     "temp_n": 3
    },
    "2025-06-02": {
@@ -7933,6 +9513,8 @@
     "miles": 143.06,
     "minutes": 147,
     "temp_c_sum": 88.7,
+    "temp_max_c": 29.7,
+    "temp_min_c": 14.2,
     "temp_n": 4
    },
    "2025-06-03": {
@@ -7943,6 +9525,8 @@
     "miles": 24.43,
     "minutes": 45,
     "temp_c_sum": 68.8,
+    "temp_max_c": 27.0,
+    "temp_min_c": 20.8,
     "temp_n": 3
    }
   },
@@ -11939,6 +13523,6 @@
   }
  },
  "tracking_since": "2025-06-03",
- "updated": "2026-10-31T18:05:51+00:00",
+ "updated": "2026-10-31T18:14:23+00:00",
  "vehicle": "TARS2"
 }

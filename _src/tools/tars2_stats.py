@@ -25,6 +25,8 @@ DATA = os.path.join(ROOT, "cybertruck", "stats", "data.json")
 PAGE = os.path.join(ROOT, "cybertruck", "stats", "index.html")
 TZ = ZoneInfo("America/Detroit")
 START = "<!-- tars2:start -->"
+MSTART, MEND = "<!-- tars2-mini:start -->", "<!-- tars2-mini:end -->"
+MINI_PAGES = ["cybertruck/index.html", "adventure/index.html"]
 END = "<!-- tars2:end -->"
 
 
@@ -108,6 +110,8 @@ def ingest(args):
             if dr.get("outside_temp_c") is not None:
                 row["temp_c_sum"] = round(row["temp_c_sum"] + dr["outside_temp_c"], 1)
                 row["temp_n"] += 1
+                row["temp_min_c"] = min(row.get("temp_min_c", 99), dr["outside_temp_c"])
+                row["temp_max_c"] = max(row.get("temp_max_c", -99), dr["outside_temp_c"])
         d["drive_ids"] = d["drive_ids"][-400:]
         if d["days"] and not d["tracking_since"]:
             d["tracking_since"] = min(d["days"])
@@ -204,7 +208,10 @@ def import_history(args):
                 row["kwh"] = round(row["kwh"] + kwh, 2); row["measured_miles"] = round(row["measured_miles"] + miles, 2)
             t = f(r, "Average Outside Temperature (°F)")
             if t is not None:
-                row["temp_c_sum"] = round(row["temp_c_sum"] + (t - 32) * 5 / 9, 1); row["temp_n"] += 1
+                c = (t - 32) * 5 / 9
+                row["temp_c_sum"] = round(row["temp_c_sum"] + c, 1); row["temp_n"] += 1
+                row["temp_min_c"] = round(min(row.get("temp_min_c", 99), c), 1)
+                row["temp_max_c"] = round(max(row.get("temp_max_c", -99), c), 1)
             odo = f(r, "Ending Odometer (mi)")
             if odo and odo > (hist["odometer_miles"] or 0):
                 hist["odometer_miles"] = round(odo, 1)
@@ -240,11 +247,17 @@ def week_bounds(day):
 
 
 def summarize(days, start, end):
-    out = {"miles": 0, "drives": 0, "kwh": 0, "measured_miles": 0, "longest": 0, "temp_sum": 0, "temp_n": 0, "minutes": 0, "days_driven": 0}
+    out = {"miles": 0, "drives": 0, "kwh": 0, "measured_miles": 0, "longest": 0, "temp_sum": 0, "temp_n": 0, "minutes": 0, "days_driven": 0, "temp_min_c": None, "temp_max_c": None, "best_day": (None, 0)}
     cur = start
     while cur <= end:
         r = days.get(cur.isoformat())
         if r:
+            if r.get("temp_min_c") is not None:
+                out["temp_min_c"] = r["temp_min_c"] if out["temp_min_c"] is None else min(out["temp_min_c"], r["temp_min_c"])
+            if r.get("temp_max_c") is not None:
+                out["temp_max_c"] = r["temp_max_c"] if out["temp_max_c"] is None else max(out["temp_max_c"], r["temp_max_c"])
+            if r["miles"] > out["best_day"][1]:
+                out["best_day"] = (cur.isoformat(), r["miles"])
             out["miles"] += r["miles"]; out["drives"] += r["drives"]; out["kwh"] += r["kwh"]
             out["measured_miles"] += r["measured_miles"]; out["minutes"] += r["minutes"]
             out["longest"] = max(out["longest"], r["longest"])
@@ -253,6 +266,8 @@ def summarize(days, start, end):
         cur += timedelta(days=1)
     out["wh_per_mile"] = round(out["kwh"] * 1000 / out["measured_miles"]) if out["measured_miles"] else None
     out["avg_temp_f"] = round((out["temp_sum"] / out["temp_n"]) * 9 / 5 + 32) if out["temp_n"] else None
+    out["min_temp_f"] = round(out["temp_min_c"] * 9 / 5 + 32) if out["temp_min_c"] is not None else None
+    out["max_temp_f"] = round(out["temp_max_c"] * 9 / 5 + 32) if out["temp_max_c"] is not None else None
     out["start"], out["end"] = start, end
     return out
 
@@ -387,6 +402,8 @@ def both(fn, *a, **k):
 
 
 # ---------------------------------------------------------------- render
+MAP = ('<div class="map" id="tars2-map" role="img" aria-label="Map of every logged drive, drawn start to end on a 5 km grid"><span>Loading the drive map…</span></div>'
+       '<p class="mnote">Every logged drive since June 2024, drawn as a straight line from where it started to where it ended, on a 5 km grid; the busiest routes are amber. Scroll with two fingers or use the MI / All buttons.</p>')
 POWERED = '<a class="powered" href="https://www.autonimator.com" rel="noopener"><span class="pw-dot" aria-hidden="true"></span>Powered by <b>Autonimator</b></a>'
 
 
@@ -485,11 +502,17 @@ def render(args):
     h.append(stat(f'{len(sc)}', 'Supercharger sessions'))
     h.append(stat(f'{len(sites)}', f'Supercharger sites in {len(regions)} states and provinces, {len(countries)} countries'))
     h.append(stat(fmt_n(biggest["kwh"]) if biggest else "—", f'Biggest single session, kWh ({esc(biggest["site"])})' if biggest else 'Biggest single session'))
+    h.append('</div><div class="stats" role="list">')
+    h.append(stat(f'{lifetime["min_temp_f"]}°F' if lifetime and lifetime["min_temp_f"] is not None else "—", 'Coldest ever measured by the truck while driving'))
+    h.append(stat(f'{lifetime["max_temp_f"]}°F' if lifetime and lifetime["max_temp_f"] is not None else "—", 'Hottest ever measured by the truck while driving'))
+    h.append(stat(fmt_n(lifetime["longest"]) if lifetime else "—", 'Longest single drive, miles'))
+    h.append(stat(fmt_n(lifetime["best_day"][1]) if lifetime else "—", f'Biggest day, miles ({mdy(date.fromisoformat(lifetime["best_day"][0]))})' if lifetime and lifetime["best_day"][0] else 'Biggest day, miles'))
     h.append('</div>')
     h.append('<div class="grid2 charts">')
     h.append(f'<figure class="card"><figcaption><p class="tag">By month</p><h3>Supercharged kWh</h3></figcaption>{both(svg_bars, month_bars, "Supercharged kWh by month", " kWh")}</figure>')
     h.append(f'<figure class="card"><figcaption><p class="tag">Top sites</p><h3>Where the kWh came from</h3></figcaption>{both(svg_hbars, site_bars, "Top Supercharger sites by kWh", " kWh")}</figure>')
     h.append('</div>')
+    h.append('<figure class="map-fig"><figcaption class="sec-head" style="margin:28px 0 16px"><div><p class="tag">Every drive</p><h3>On the map</h3></div></figcaption>' + MAP + '</figure>')
     h.append('<p class="chips" aria-label="States and provinces with a Supercharger stop">' + "".join(f'<span>{esc(r)}</span>' for r in regions) + '</p>')
     def mrow(m):
         return f'<tr><td>{datetime.strptime(m, "%Y-%m").strftime("%B %Y")}</td><td>{by_month[m][0]}</td><td>{fmt_n(by_month[m][1])}</td><td>{len(by_month[m][2])}</td></tr>'
@@ -513,7 +536,7 @@ def render(args):
     h.append(stat(fmt_n(this_week["kwh"]), 'kWh used on measured drives'))
     h.append(stat(fmt_n(sum(s["kwh"] for s in sc_week)), f'kWh Supercharged across {len(sc_week)} stop{"s" if len(sc_week) != 1 else ""}'))
     h.append(stat(fmt_n(home_week), 'kWh added at home'))
-    h.append(stat(f'{this_week["avg_temp_f"]}°F' if this_week["avg_temp_f"] is not None else "—", 'Average outside temp while driving'))
+    h.append(stat(f'{this_week["min_temp_f"]}°F' if this_week["min_temp_f"] is not None else "—", 'Coldest drive this week, outside temp'))
     h.append('</div>')
     h.append('<div class="grid2 charts">')
     h.append(f'<figure class="card"><figcaption><p class="tag">Daily miles</p><h3>Last two weeks</h3></figcaption>{both(svg_bars, daily_miles, "Miles driven per day, last two weeks", " mi")}</figure>')
@@ -533,6 +556,33 @@ def render(args):
         h.append(stat(f'{cur.get("outside_temp_f", "—")}°F', 'Outside temperature'))
         h.append(stat(cur.get("software") or "—", 'Tesla software', word=True))
         h.append('</div></div></section>')
+
+    # --- compact strip for other pages (between tars2-mini markers)
+    mini = []
+    mini.append('<section class="sec tars2-mini" id="live-stats" aria-labelledby="live-h"><div class="sec-head"><div><p class="label">Live from the truck</p><h2 id="live-h">Every mile, <em>on the record.</em></h2></div><a class="more" href="/cybertruck/stats/">The full dashboard →</a></div>')
+    mini.append('<div class="stats" role="list">')
+    mini.append(stat(fmt_n(life_miles), 'Cybertruck miles, lifetime'))
+    mini.append(stat(fmt_n(sc_kwh + sc_before), f'kWh Supercharged over {len(sc)} sessions'))
+    mini.append(stat(f'{len(sites)}', f'Supercharger sites in {len(regions)} states and provinces'))
+    mini.append(stat(fmt_n(this_week["miles"]), f'Miles this week at {fmt_n(this_week["wh_per_mile"])} Wh/mi'))
+    mini.append('</div>')
+    mini.append(MAP)
+    mini.append(f'<p class="mnote">Updated {asof.strftime("%b %-d, %Y")} straight from the truck through <a href="https://www.autonimator.com" rel="noopener">Autonimator</a>. <a href="/cybertruck/stats/">Weekly numbers, charts, and the Supercharger log →</a></p>')
+    mini.append('</section>')
+    mini_html = "\n".join(mini)
+    for rel in MINI_PAGES:
+        mp = os.path.join(ROOT, rel)
+        if not os.path.exists(mp):
+            continue
+        mpage = open(mp, encoding="utf-8").read()
+        if MSTART not in mpage or MEND not in mpage:
+            continue
+        a, b = mpage.split(MSTART, 1)
+        _, c = b.split(MEND, 1)
+        mnew = a + MSTART + "\n" + mini_html + "\n" + MEND + c
+        if mnew != mpage:
+            open(mp, "w", encoding="utf-8").write(mnew)
+            print("updated strip in", rel)
 
     html = "\n".join(h)
     page = open(PAGE, encoding="utf-8").read()
