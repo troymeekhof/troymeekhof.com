@@ -18,3 +18,4 @@
 - 2026-10-31: Stats page: "Right now" section removed (the page updates weekly, not live); new FSD section with miles, share, by-month charts, and the current Tesla/FSD versions; weekly energy tiles reworded; privacy card dropped. Why: Troy.
 - 2026-10-31: Drive map: route glow, Supercharger stops as tappable amber dots, zoom capped at state level (maxZoom 7) for privacy; chart cards no longer inset on phones. Why: Troy said the map showed too little and asked for limited zoom.
 - 2026-10-31: Drive map: routes drawn as soft arcs with a glow, Supercharger stops as small beads, zoom clamped to level 6 (state scale) and script cache-busted. Why: Troy could still zoom in and wanted the map elegant.
+- 2026-10-31: Stats page: h1 now "Cybertruck stats: miles, charging, FSD"; Supercharger log table and the state chips sit in side-by-side cards (stacked on phones). Why: spacing looked off on tablets and Troy wanted a header that says what the page is.

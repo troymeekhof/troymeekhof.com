@@ -525,16 +525,21 @@ def render(args):
     h.append(f'<figure class="card"><figcaption><p class="tag">Top sites</p><h3>Where the kWh came from</h3></figcaption>{both(svg_hbars, site_bars, "Top Supercharger sites by kWh", " kWh")}</figure>')
     h.append('</div>')
     h.append('<figure class="map-fig"><figcaption class="sec-head" style="margin:28px 0 16px"><div><p class="tag">Every drive</p><h3>On the map</h3></div></figcaption>' + MAP + '</figure>')
-    h.append('<p class="chips" aria-label="States and provinces with a Supercharger stop">' + "".join(f'<span>{esc(r)}</span>' for r in regions) + '</p>')
     def mrow(m):
-        return f'<tr><td>{datetime.strptime(m, "%Y-%m").strftime("%B %Y")}</td><td>{by_month[m][0]}</td><td>{fmt_n(by_month[m][1])}</td><td>{len(by_month[m][2])}</td></tr>'
+        return f'<tr><td>{datetime.strptime(m, "%Y-%m").strftime("%b %Y")}</td><td>{by_month[m][0]}</td><td>{fmt_n(by_month[m][1])}</td><td>{len(by_month[m][2])}</td></tr>'
     used = [m for m in reversed(months) if by_month[m][0]]
-    h.append('<div class="tablewrap"><table id="months-t"><thead><tr><th>Month</th><th>Sessions</th><th>kWh</th><th>Sites</th></tr></thead><tbody>')
+    h.append('<div class="grid2 charts">')
+    h.append('<figure class="card"><figcaption><p class="tag">By month</p><h3>Supercharger log</h3></figcaption>')
+    h.append('<div class="tablewrap"><table id="months-t"><colgroup><col class="m"><col><col><col></colgroup><thead><tr><th>Month</th><th>Stops</th><th>kWh</th><th>Sites</th></tr></thead><tbody>')
     h.extend(mrow(m) for m in used[:12])
     h.append('</tbody></table></div>')
     if len(used) > 12:
-        h.append('<details class="mnote"><summary>Earlier months</summary><div class="tablewrap"><table id="months-t2" class="months"><tbody>' + "".join(mrow(m) for m in used[12:]) + '</tbody></table></div></details>')
-    h.append(f'<details class="mnote"><summary>All {len(sites)} Supercharger sites</summary><p>{esc(", ".join(sites))}.</p></details>')
+        h.append('<details class="mnote"><summary>Earlier months</summary><div class="tablewrap"><table id="months-t2" class="months"><colgroup><col class="m"><col><col><col></colgroup><tbody>' + "".join(mrow(m) for m in used[12:]) + '</tbody></table></div></details>')
+    h.append('</figure>')
+    h.append('<div class="card"><p class="tag">Where I\'ve plugged in</p><h3>' + f'{len(regions)} states and provinces' + '</h3>')
+    h.append('<p class="chips" aria-label="States and provinces with a Supercharger stop">' + "".join(f'<span>{esc(r)}</span>' for r in regions) + '</p>')
+    h.append(f'<details class="mnote"><summary>All {len(sites)} Supercharger sites</summary><p>{esc(", ".join(sites))}</p></details>')
+    h.append('</div></div>')
     h.append('</section>')
 
     # --- this week
@@ -632,7 +637,7 @@ def render(args):
     _, post = rest.split(END, 1)
     new = pre + START + "\n" + html + "\n" + END + post
 
-    desc = (f"Cybertruck life, by the numbers: {fmt_n(this_week['miles'])} miles this week at {fmt_n(this_week['wh_per_mile'])} Wh/mi, "
+    desc = (f"Cybertruck stats: {fmt_n(this_week['miles'])} miles this week at {fmt_n(this_week['wh_per_mile'])} Wh/mi, "
             f"{fmt_n(sc_kwh + sc_before)} kWh of free Supercharging across {len(sites)} sites. Updated weekly from the truck's own data via Autonimator.")
     for pat in (r'(<meta name="description" content=")[^"]*(")', r'(<meta property="og:description" content=")[^"]*(")', r'(<meta name="twitter:description" content=")[^"]*(")'):
         new = re.sub(pat, lambda m: m.group(1) + desc.replace('"', "&quot;") + m.group(2), new, count=1)
