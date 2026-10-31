@@ -511,6 +511,14 @@ a.lb{display:block;cursor:zoom-in;border-radius:var(--radius)}
 .tars2-tip{background:var(--surface);color:var(--ink);border:1px solid var(--line);border-radius:10px;padding:8px 12px;font-size:13px;line-height:1.45;box-shadow:0 6px 24px rgba(0,0,0,.35)}
 .tars2-tip b{font-weight:600}
 .tars2-tip::before{display:none}
+.tars2-popup .leaflet-popup-content-wrapper{background:var(--surface);color:var(--ink);border:1px solid var(--line);border-radius:12px;box-shadow:0 10px 30px rgba(0,0,0,.4)}
+.tars2-popup .leaflet-popup-tip{background:var(--surface)}
+.tars2-popup .leaflet-popup-content{margin:14px 16px;font-size:14px;line-height:1.5;font-family:var(--sans)}
+.tars2-pop b{font-weight:600;font-size:15px}
+.tars2-pop .links{margin-top:8px;display:grid;gap:4px}
+.tars2-pop .links a{color:var(--primary);text-decoration:none;font-weight:600}
+.tars2-pop .links a:hover{text-decoration:underline}
+.tars2-popup .leaflet-popup-close-button{color:var(--muted)!important}
 .trips{list-style:none;margin:18px 0 0;padding:0;display:grid;grid-template-columns:repeat(auto-fill,minmax(230px,1fr));gap:8px}
 .trips li{padding:10px 14px;border:1px solid var(--line);border-radius:10px;cursor:pointer;transition:border-color .15s,background .15s}
 .trips li{padding-left:24px;position:relative}

@@ -66,10 +66,12 @@
         var hit = L.polyline(t.path, { color: col, weight: 16, opacity: 0, lineJoin: 'round', bubblingMouseEvents: false });
         var tip = '<b>' + t.name + '</b><br>' + dates(t.start, t.end) + ' · ' + fmt(t.miles) + ' mi · ' + t.days + ' day' + (t.days === 1 ? '' : 's') + '<br>Farthest stop: ' + t.farthest;
         hit.bindTooltip(tip, { sticky: true, direction: 'top', opacity: .96, className: 'tars2-tip' });
+        var links = (t.links || []).map(function (l) { return '<a href="' + l.url + '"' + (l.url.charAt(0) === '/' ? '' : ' rel="noopener" target="_blank"') + '>' + l.label + ' →</a>'; }).join('');
+        hit.bindPopup('<div class="tars2-pop">' + tip + (links ? '<div class="links">' + links + '</div>' : '') + '</div>', { className: 'tars2-popup', maxWidth: 300, closeButton: true, autoPanPadding: [20, 20] });
         function on() { line.setStyle({ weight: 4, opacity: 1 }); halo.setStyle({ opacity: .35 }); line.bringToFront(); hit.bringToFront(); if (row) row.classList.add('is-on'); }
         function off() { line.setStyle({ weight: 2.2, opacity: .8 }); halo.setStyle({ opacity: .10 }); if (row) row.classList.remove('is-on'); }
         function zoom() { map.fitBounds(line.getBounds(), { padding: [30, 30], maxZoom: MAXZ }); }
-        hit.on('mouseover', on).on('mouseout', off).on('click', zoom);
+        hit.on('mouseover', on).on('mouseout', off);
         if (t.far_pt) all.push(L.circleMarker(t.far_pt, { radius: 4, color: col, weight: 2, fillColor: '#101316', fillOpacity: 1, interactive: false }));
         all.push(halo, line, hit);
         if (list) {
