@@ -411,8 +411,8 @@ def both(fn, *a, **k):
 
 # ---------------------------------------------------------------- render
 MAP = ('<div class="map" id="tars2-map" role="img" aria-label="Map of everyday driving and every road trip since June 2024"><span>Loading the drive map…</span></div>'
-       '<p class="mnote">Faint lines are everyday driving, drawn start to end on a 5 km grid. Amber routes are road trips: hover or tap one for the name, dates and miles. Zoom stays at state level on purpose.</p>'
-       '<ol class="trips" id="tars2-trips" aria-label="Road trips, biggest first"></ol>')
+       '<p class="mnote">Faint lines are everyday driving, drawn start to end on a 5 km grid. Colored routes are road trips (hover or tap one for the name, dates and miles; the ring marks the farthest stop) and the red dots are Supercharger stops. Zoom stays at state level on purpose.</p>'
+       '')
 POWERED = '<a class="powered" href="https://www.autonimator.com" rel="noopener"><span class="pw-dot" aria-hidden="true"></span>Powered by <b>Autonimator</b></a>'
 
 

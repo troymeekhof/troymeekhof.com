@@ -41,6 +41,8 @@
       var css = getComputedStyle(document.documentElement);
       var blue = css.getPropertyValue('--primary').trim() || '#9fd0e3';
       var amber = css.getPropertyValue('--amber').trim() || '#e0a857';
+      var red = '#e5484d';
+      var palette = [amber, '#f2b880', '#ffd166', '#e9a06b', '#f4c95d', '#d9a066', '#f6b26b', '#e8b86d'];
 
       // Everyday driving: a quiet web.
       var web = [];
@@ -48,23 +50,31 @@
         web.push(L.polyline([[s[0], s[1]], [s[2], s[3]]], { color: blue, weight: 1, opacity: Math.min(.35, .08 + .04 * s[4]), interactive: false, lineCap: 'round' }));
       });
       L.featureGroup(web).addTo(map);
+      var dots = [];
+      (local.sites || []).forEach(function (p) {
+        dots.push(L.circleMarker([p[0], p[1]], { radius: 2.6, color: red, weight: 1, fillColor: red, fillOpacity: .85, opacity: .9 })
+          .bindTooltip(p[4] + ' Supercharger: ' + p[2] + ' stop' + (p[2] === 1 ? '' : 's') + ', ' + p[3].toLocaleString() + ' kWh', { direction: 'top', opacity: .96, className: 'tars2-tip' }));
+      });
+      L.featureGroup(dots).addTo(map);
 
       // Road trips: chained stops, hoverable.
       var all = [], list = document.getElementById('tars2-trips');
-      trips.forEach(function (t) {
-        var row = null;
-        var halo = L.polyline(t.path, { color: amber, weight: 9, opacity: .10, interactive: false, lineJoin: 'round', lineCap: 'round', smoothFactor: 1.2 });
-        var line = L.polyline(t.path, { color: amber, weight: 2.2, opacity: .8, interactive: false, lineJoin: 'round', lineCap: 'round', smoothFactor: 1.2 });
-        var hit = L.polyline(t.path, { color: amber, weight: 16, opacity: 0, lineJoin: 'round', bubblingMouseEvents: false });
+      trips.forEach(function (t, i) {
+        var row = null, col = palette[i % palette.length];
+        var halo = L.polyline(t.path, { color: col, weight: 9, opacity: .10, interactive: false, lineJoin: 'round', lineCap: 'round', smoothFactor: 1.2 });
+        var line = L.polyline(t.path, { color: col, weight: 2.2, opacity: .8, interactive: false, lineJoin: 'round', lineCap: 'round', smoothFactor: 1.2 });
+        var hit = L.polyline(t.path, { color: col, weight: 16, opacity: 0, lineJoin: 'round', bubblingMouseEvents: false });
         var tip = '<b>' + t.name + '</b><br>' + dates(t.start, t.end) + ' · ' + fmt(t.miles) + ' mi · ' + t.days + ' day' + (t.days === 1 ? '' : 's') + '<br>Farthest stop: ' + t.farthest;
         hit.bindTooltip(tip, { sticky: true, direction: 'top', opacity: .96, className: 'tars2-tip' });
         function on() { line.setStyle({ weight: 4, opacity: 1 }); halo.setStyle({ opacity: .35 }); line.bringToFront(); hit.bringToFront(); if (row) row.classList.add('is-on'); }
         function off() { line.setStyle({ weight: 2.2, opacity: .8 }); halo.setStyle({ opacity: .10 }); if (row) row.classList.remove('is-on'); }
         function zoom() { map.fitBounds(line.getBounds(), { padding: [30, 30], maxZoom: MAXZ }); }
         hit.on('mouseover', on).on('mouseout', off).on('click', zoom);
+        if (t.far_pt) all.push(L.circleMarker(t.far_pt, { radius: 4, color: col, weight: 2, fillColor: '#101316', fillOpacity: 1, interactive: false }));
         all.push(halo, line, hit);
         if (list) {
           row = document.createElement('li');
+          row.style.setProperty('--trip', col);
           row.innerHTML = '<b>' + t.name + '</b><span>' + dates(t.start, t.end) + ' · ' + fmt(t.miles) + ' mi</span>';
           row.tabIndex = 0;
           row.addEventListener('mouseenter', on); row.addEventListener('mouseleave', off);
