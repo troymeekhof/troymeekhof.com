@@ -1,0 +1,783 @@
+{
+ "config": {
+  "odometer_baseline_date": null,
+  "odometer_baseline_miles": null
+ },
+ "current": {
+  "as_of": "2026-10-31T17:13:29.06994+00:00",
+  "battery_percent": 82,
+  "charging_state": "Stopped",
+  "outside_temp_f": 48,
+  "plugged_in": true,
+  "range_miles": 251,
+  "software": "2026.38.5.11"
+ },
+ "days": {
+  "2026-10-27": {
+   "drives": 7,
+   "kwh": 33.38,
+   "longest": 18.87,
+   "measured_miles": 82.27,
+   "miles": 82.27,
+   "minutes": 137,
+   "temp_c_sum": 100.5,
+   "temp_n": 7
+  },
+  "2026-10-28": {
+   "drives": 4,
+   "kwh": 16.77,
+   "longest": 18.69,
+   "measured_miles": 33.07,
+   "miles": 33.07,
+   "minutes": 67,
+   "temp_c_sum": 71.0,
+   "temp_n": 4
+  },
+  "2026-10-29": {
+   "drives": 4,
+   "kwh": 22.94,
+   "longest": 11.95,
+   "measured_miles": 41.33,
+   "miles": 41.33,
+   "minutes": 78,
+   "temp_c_sum": 68.5,
+   "temp_n": 4
+  },
+  "2026-10-30": {
+   "drives": 4,
+   "kwh": 26.57,
+   "longest": 21.74,
+   "measured_miles": 63.87,
+   "miles": 63.87,
+   "minutes": 96,
+   "temp_c_sum": 34,
+   "temp_n": 4
+  },
+  "2026-10-31": {
+   "drives": 4,
+   "kwh": 15.89,
+   "longest": 18.7,
+   "measured_miles": 40.81,
+   "miles": 40.81,
+   "minutes": 54,
+   "temp_c_sum": 47.5,
+   "temp_n": 4
+  }
+ },
+ "drive_ids": [
+  "7G2CEHED7RA038598:1793459179",
+  "7G2CEHED7RA038598:1793458623",
+  "7G2CEHED7RA038598:1793455245",
+  "7G2CEHED7RA038598:1793452313",
+  "7G2CEHED7RA038598:1793393963",
+  "7G2CEHED7RA038598:1793374877",
+  "7G2CEHED7RA038598:1793362523-2",
+  "7G2CEHED7RA038598:1793362523",
+  "7G2CEHED7RA038598:1793309245",
+  "7G2CEHED7RA038598:1793306697",
+  "7G2CEHED7RA038598:1793277938",
+  "7G2CEHED7RA038598:1793276214",
+  "7G2CEHED7RA038598:1793221400-2",
+  "7G2CEHED7RA038598:1793221400",
+  "7G2CEHED7RA038598:1793192194",
+  "7G2CEHED7RA038598:1793190000",
+  "7G2CEHED7RA038598:1793136088",
+  "7G2CEHED7RA038598:1793134103",
+  "7G2CEHED7RA038598:1793130961",
+  "7G2CEHED7RA038598:1793116963",
+  "7G2CEHED7RA038598:1793114678",
+  "7G2CEHED7RA038598:1793110533",
+  "7G2CEHED7RA038598:1793107172"
+ ],
+ "home_charging": {
+  "kwh_by_day": {
+   "2026-10-01": {
+    "2026-10-01T09:22": 2.73
+   },
+   "2026-10-02": {
+    "2026-10-02T09:25": 2.73
+   },
+   "2026-10-03": {
+    "2026-10-03T07:26": 30.07,
+    "2026-10-04T03:03": 4.1
+   },
+   "2026-10-05": {
+    "2026-10-05T09:24": 2.73
+   },
+   "2026-10-06": {
+    "2026-10-06T11:24": 3.52
+   },
+   "2026-10-07": {
+    "2026-10-07T09:40": 3.5
+   },
+   "2026-10-08": {
+    "2026-10-08T06:22": 45.5
+   },
+   "2026-10-09": {
+    "2026-10-09T13:37": 2.06
+   },
+   "2026-10-10": {
+    "2026-10-10T13:44": 20
+   },
+   "2026-10-11": {
+    "2026-10-11T09:47": 2.73
+   },
+   "2026-10-12": {
+    "2026-10-12T09:38": 2.73
+   },
+   "2026-10-13": {
+    "2026-10-13T04:06": 56
+   },
+   "2026-10-16": {
+    "2026-10-16T08:02": 2.73
+   },
+   "2026-10-17": {
+    "2026-10-17T09:57": 1.37
+   },
+   "2026-10-18": {
+    "2026-10-18T07:50": 24.5
+   },
+   "2026-10-19": {
+    "2026-10-20T02:30": 2.73
+   },
+   "2026-10-20": {
+    "2026-10-20T09:37": 2.73,
+    "2026-10-20T22:39": 2.73
+   },
+   "2026-10-21": {
+    "2026-10-21T09:38": 2.73
+   },
+   "2026-10-22": {
+    "2026-10-22T11:53": 2.74
+   },
+   "2026-10-23": {
+    "2026-10-23T09:41": 2.73
+   },
+   "2026-10-24": {
+    "2026-10-24T09:36": 2.73,
+    "2026-10-25T03:35": 35
+   },
+   "2026-10-26": {
+    "2026-10-26T07:55": 12.3
+   },
+   "2026-10-27": {
+    "2026-10-28T03:02": 39.5
+   },
+   "2026-10-30": {
+    "2026-10-30T09:42": 2.73,
+    "2026-10-30T21:26": 4.1,
+    "2026-10-31T01:50": 68.33
+   },
+   "2026-10-31": {
+    "2026-10-31T10:52": 1.37
+   }
+  }
+ },
+ "supercharging": {
+  "sessions": {
+   "708128823": {
+    "currency": "CAD",
+    "date": "2026-07-05",
+    "kwh": 71.62,
+    "site": "Whitewood, SK"
+   },
+   "708227674": {
+    "currency": "CAD",
+    "date": "2026-07-05",
+    "kwh": 63.62,
+    "site": "Regina, SK"
+   },
+   "708237474": {
+    "currency": "CAD",
+    "date": "2026-07-05",
+    "kwh": 11.71,
+    "site": "Regina, SK"
+   },
+   "708405904": {
+    "currency": "CAD",
+    "date": "2026-07-05",
+    "kwh": 103.58,
+    "site": "Swift Current, SK"
+   },
+   "708563034": {
+    "currency": "CAD",
+    "date": "2026-07-05",
+    "kwh": 91.74,
+    "site": "Medicine Hat, AB"
+   },
+   "708675921": {
+    "currency": "CAD",
+    "date": "2026-07-05",
+    "kwh": 69.76,
+    "site": "Strathmore, AB"
+   },
+   "709043038": {
+    "currency": "CAD",
+    "date": "2026-07-06",
+    "kwh": 56.94,
+    "site": "Strathmore, AB"
+   },
+   "709683002": {
+    "currency": "CAD",
+    "date": "2026-07-07",
+    "kwh": 48.74,
+    "site": "Kananaskis, AB"
+   },
+   "709762722": {
+    "currency": "CAD",
+    "date": "2026-07-07",
+    "kwh": 50.32,
+    "site": "Canmore, AB - 702 Bow Valley Trail"
+   },
+   "710694786": {
+    "currency": "CAD",
+    "date": "2026-07-08",
+    "kwh": 111.32,
+    "site": "Canmore, AB - Bow Valley Trail"
+   },
+   "712144218": {
+    "currency": "CAD",
+    "date": "2026-07-10",
+    "kwh": 111.13,
+    "site": "Canmore, AB - 702 Bow Valley Trail"
+   },
+   "712396551": {
+    "currency": "CAD",
+    "date": "2026-07-10",
+    "kwh": 64.66,
+    "site": "Jasper, AB"
+   },
+   "714047736": {
+    "currency": "CAD",
+    "date": "2026-07-12",
+    "kwh": 38.01,
+    "site": "Jasper, AB"
+   },
+   "714782299": {
+    "currency": "CAD",
+    "date": "2026-07-13",
+    "kwh": 78.69,
+    "site": "Jasper, AB"
+   },
+   "715382847": {
+    "currency": "CAD",
+    "date": "2026-07-14",
+    "kwh": 81.71,
+    "site": "Canmore, AB - Bow Valley Trail"
+   },
+   "715417417": {
+    "currency": "CAD",
+    "date": "2026-07-14",
+    "kwh": 33.2,
+    "site": "Kananaskis, AB"
+   },
+   "715961053": {
+    "currency": "CAD",
+    "date": "2026-07-15",
+    "kwh": 87.9,
+    "site": "Golden, BC - Highway 1"
+   },
+   "716748043": {
+    "currency": "CAD",
+    "date": "2026-07-16",
+    "kwh": 45.99,
+    "site": "Golden, BC - Highway 1"
+   },
+   "717467432": {
+    "currency": "CAD",
+    "date": "2026-07-17",
+    "kwh": 72.26,
+    "site": "Invermere, BC"
+   },
+   "717769376": {
+    "currency": "CAD",
+    "date": "2026-07-17",
+    "kwh": 34.61,
+    "site": "Fernie, BC"
+   },
+   "717875925": {
+    "currency": "CAD",
+    "date": "2026-07-17",
+    "kwh": 71.14,
+    "site": "Lethbridge, AB"
+   },
+   "717954687": {
+    "currency": "CAD",
+    "date": "2026-07-17",
+    "kwh": 62.22,
+    "site": "Medicine Hat, AB"
+   },
+   "718028723": {
+    "currency": "CAD",
+    "date": "2026-07-18",
+    "kwh": 83.05,
+    "site": "Swift Current, SK"
+   },
+   "718301675": {
+    "currency": "CAD",
+    "date": "2026-07-18",
+    "kwh": 91.86,
+    "site": "Moose Jaw, SK"
+   },
+   "718443918": {
+    "currency": "CAD",
+    "date": "2026-07-18",
+    "kwh": 93.89,
+    "site": "Estevan, SK"
+   },
+   "718583287": {
+    "currency": "USD",
+    "date": "2026-07-18",
+    "kwh": 93.37,
+    "site": "Minot, ND"
+   },
+   "718719756": {
+    "currency": "USD",
+    "date": "2026-07-18",
+    "kwh": 63.97,
+    "site": "Jamestown, ND"
+   },
+   "718788536": {
+    "currency": "USD",
+    "date": "2026-07-18",
+    "kwh": 83.78,
+    "site": "Fargo, ND"
+   },
+   "718849112": {
+    "currency": "USD",
+    "date": "2026-07-18",
+    "kwh": 42.11,
+    "site": "Alexandria, MN"
+   },
+   "718897680": {
+    "currency": "USD",
+    "date": "2026-07-19",
+    "kwh": 60.63,
+    "site": "Monticello, MN"
+   },
+   "718948400": {
+    "currency": "USD",
+    "date": "2026-07-19",
+    "kwh": 64.05,
+    "site": "Menomonie, WI"
+   },
+   "719100336": {
+    "currency": "USD",
+    "date": "2026-07-19",
+    "kwh": 96.43,
+    "site": "Black River Falls, WI - Commerce Drive"
+   },
+   "719211285": {
+    "currency": "USD",
+    "date": "2026-07-19",
+    "kwh": 82.52,
+    "site": "South Beloit, IL"
+   },
+   "719309504": {
+    "currency": "USD",
+    "date": "2026-07-19",
+    "kwh": 50.43,
+    "site": "Munster, IN"
+   },
+   "719411822": {
+    "currency": "USD",
+    "date": "2026-07-19",
+    "kwh": 85.46,
+    "site": "Benton Harbor, MI"
+   },
+   "719980456": {
+    "currency": "USD",
+    "date": "2026-07-20",
+    "kwh": 28.58,
+    "site": "Caledonia, MI"
+   },
+   "720702563": {
+    "currency": "USD",
+    "date": "2026-07-21",
+    "kwh": 29.95,
+    "site": "Caledonia, MI"
+   },
+   "720972986": {
+    "currency": "USD",
+    "date": "2026-07-21",
+    "kwh": 22.82,
+    "site": "Caledonia, MI"
+   },
+   "721610369": {
+    "currency": "USD",
+    "date": "2026-07-22",
+    "kwh": 96.57,
+    "site": "Grand Rapids, MI - Lake Michigan Drive Northwest"
+   },
+   "722209642": {
+    "currency": "USD",
+    "date": "2026-07-23",
+    "kwh": 23.82,
+    "site": "Cadillac, MI"
+   },
+   "722373798": {
+    "currency": "USD",
+    "date": "2026-07-23",
+    "kwh": 55.65,
+    "site": "Cadillac, MI"
+   },
+   "722444586": {
+    "currency": "USD",
+    "date": "2026-07-23",
+    "kwh": 60.24,
+    "site": "Grand Rapids, MI - Lake Michigan Drive Northwest"
+   },
+   "722579538": {
+    "currency": "USD",
+    "date": "2026-07-23",
+    "kwh": 52.15,
+    "site": "Caledonia, MI"
+   },
+   "723053204": {
+    "currency": "USD",
+    "date": "2026-07-24",
+    "kwh": 56.69,
+    "site": "Caledonia, MI"
+   },
+   "724039516": {
+    "currency": "USD",
+    "date": "2026-07-25",
+    "kwh": 71.14,
+    "site": "Holland, MI"
+   },
+   "725200828": {
+    "currency": "USD",
+    "date": "2026-07-26",
+    "kwh": 20.9,
+    "site": "Swartz Creek, MI"
+   },
+   "725281715": {
+    "currency": "USD",
+    "date": "2026-07-26",
+    "kwh": 51.14,
+    "site": "Caledonia, MI"
+   },
+   "726378990": {
+    "currency": "USD",
+    "date": "2026-07-28",
+    "kwh": 69.77,
+    "site": "Caledonia, MI"
+   },
+   "726384500": {
+    "currency": "USD",
+    "date": "2026-07-28",
+    "kwh": 12.11,
+    "site": "Caledonia, MI"
+   },
+   "727307673": {
+    "currency": "USD",
+    "date": "2026-07-29",
+    "kwh": 43.48,
+    "site": "Grand Rapids, MI - Lake Michigan Drive Northwest"
+   },
+   "727428378": {
+    "currency": "USD",
+    "date": "2026-07-29",
+    "kwh": 92.59,
+    "site": "Caledonia, MI"
+   },
+   "728245481": {
+    "currency": "USD",
+    "date": "2026-07-30",
+    "kwh": 24.3,
+    "site": "Caledonia, MI"
+   },
+   "730927931": {
+    "currency": "USD",
+    "date": "2026-08-02",
+    "kwh": 72.91,
+    "site": "Caledonia, MI"
+   },
+   "731034499": {
+    "currency": "USD",
+    "date": "2026-08-02",
+    "kwh": 77.25,
+    "site": "Brighton, MI"
+   },
+   "731107764": {
+    "currency": "USD",
+    "date": "2026-08-02",
+    "kwh": 48.64,
+    "site": "Caledonia, MI"
+   },
+   "731699817": {
+    "currency": "USD",
+    "date": "2026-08-03",
+    "kwh": 69.73,
+    "site": "Caledonia, MI"
+   },
+   "733163022": {
+    "currency": "USD",
+    "date": "2026-08-05",
+    "kwh": 74.48,
+    "site": "Caledonia, MI"
+   },
+   "733533774": {
+    "currency": "USD",
+    "date": "2026-08-06",
+    "kwh": 17.87,
+    "site": "Caledonia, MI"
+   },
+   "735402088": {
+    "currency": "USD",
+    "date": "2026-08-08",
+    "kwh": 14.51,
+    "site": "Lansing, MI - South Pennsylvania Avenue"
+   },
+   "735851745": {
+    "currency": "USD",
+    "date": "2026-08-08",
+    "kwh": 55.55,
+    "site": "Lansing, MI - South Pennsylvania Avenue"
+   },
+   "739620215": {
+    "currency": "USD",
+    "date": "2026-08-13",
+    "kwh": 66.19,
+    "site": "Caledonia, MI"
+   },
+   "740442865": {
+    "currency": "USD",
+    "date": "2026-08-14",
+    "kwh": 34.17,
+    "site": "Caledonia, MI"
+   },
+   "741051802": {
+    "currency": "USD",
+    "date": "2026-08-15",
+    "kwh": 43.4,
+    "site": "St. Joseph, MI"
+   },
+   "741381010": {
+    "currency": "USD",
+    "date": "2026-08-15",
+    "kwh": 21.55,
+    "site": "St. Joseph, MI"
+   },
+   "748706110": {
+    "currency": "USD",
+    "date": "2026-08-25",
+    "kwh": 47.75,
+    "site": "Grand Rapids, MI"
+   },
+   "749354153": {
+    "currency": "USD",
+    "date": "2026-08-26",
+    "kwh": 75.93,
+    "site": "Traverse City, MI"
+   },
+   "751526798": {
+    "currency": "USD",
+    "date": "2026-08-29",
+    "kwh": 14.6,
+    "site": "Gaylord, MI"
+   },
+   "751551753": {
+    "currency": "USD",
+    "date": "2026-08-29",
+    "kwh": 43.0,
+    "site": "Gaylord, MI"
+   },
+   "752087428": {
+    "currency": "USD",
+    "date": "2026-08-29",
+    "kwh": 75.87,
+    "site": "Cadillac, MI"
+   },
+   "754584561": {
+    "currency": "USD",
+    "date": "2026-09-02",
+    "kwh": 62.12,
+    "site": "Grand Rapids, MI - Lake Michigan Drive Northwest"
+   },
+   "756232482": {
+    "currency": "USD",
+    "date": "2026-09-04",
+    "kwh": 59.41,
+    "site": "Caledonia, MI"
+   },
+   "759795823": {
+    "currency": "USD",
+    "date": "2026-09-09",
+    "kwh": 62.98,
+    "site": "Caledonia, MI"
+   },
+   "764013080": {
+    "currency": "USD",
+    "date": "2026-09-15",
+    "kwh": 35.68,
+    "site": "Caledonia, MI"
+   },
+   "764998394": {
+    "currency": "USD",
+    "date": "2026-09-17",
+    "kwh": 46.36,
+    "site": "Caledonia, MI"
+   },
+   "765694433": {
+    "currency": "USD",
+    "date": "2026-09-18",
+    "kwh": 56.81,
+    "site": "Caledonia, MI"
+   },
+   "765790971": {
+    "currency": "USD",
+    "date": "2026-09-18",
+    "kwh": 4.78,
+    "site": "Walker, MI"
+   },
+   "768372795": {
+    "currency": "USD",
+    "date": "2026-09-21",
+    "kwh": 48.09,
+    "site": "Caledonia, MI"
+   },
+   "768862653": {
+    "currency": "USD",
+    "date": "2026-09-22",
+    "kwh": 50.91,
+    "site": "Grand Rapids, MI - Lake Michigan Drive Northwest"
+   },
+   "769357060": {
+    "currency": "USD",
+    "date": "2026-09-23",
+    "kwh": 68.14,
+    "site": "Oak Brook, IL"
+   },
+   "769686531": {
+    "currency": "USD",
+    "date": "2026-09-23",
+    "kwh": 39.78,
+    "site": "Lombard, IL"
+   },
+   "770651330": {
+    "currency": "USD",
+    "date": "2026-09-25",
+    "kwh": 59.07,
+    "site": "Lombard, IL"
+   },
+   "770867686": {
+    "currency": "USD",
+    "date": "2026-09-25",
+    "kwh": 65.48,
+    "site": "Caledonia, MI"
+   },
+   "771901928": {
+    "currency": "USD",
+    "date": "2026-09-26",
+    "kwh": 77.5,
+    "site": "Caledonia, MI"
+   },
+   "775084143": {
+    "currency": "USD",
+    "date": "2026-10-01",
+    "kwh": 87.46,
+    "site": "Brighton, MI"
+   },
+   "781022111": {
+    "currency": "USD",
+    "date": "2026-10-09",
+    "kwh": 60.03,
+    "site": "Caledonia, MI"
+   },
+   "781876009": {
+    "currency": "USD",
+    "date": "2026-10-10",
+    "kwh": 99.93,
+    "site": "Stevensville, MI"
+   },
+   "783628340": {
+    "currency": "USD",
+    "date": "2026-10-13",
+    "kwh": 84.84,
+    "site": "Munster, IN"
+   },
+   "783837475": {
+    "currency": "USD",
+    "date": "2026-10-13",
+    "kwh": 97.58,
+    "site": "Hannibal, MO"
+   },
+   "783946964": {
+    "currency": "USD",
+    "date": "2026-10-13",
+    "kwh": 95.24,
+    "site": "Concordia, MO"
+   },
+   "784606159": {
+    "currency": "USD",
+    "date": "2026-10-14",
+    "kwh": 77.3,
+    "site": "Independence, MO"
+   },
+   "784884127": {
+    "currency": "USD",
+    "date": "2026-10-15",
+    "kwh": 86.12,
+    "site": "Columbia, MO - West Broadway"
+   },
+   "785013746": {
+    "currency": "USD",
+    "date": "2026-10-15",
+    "kwh": 78.67,
+    "site": "Springfield, IL - South Dirksen Parkway"
+   },
+   "785099224": {
+    "currency": "USD",
+    "date": "2026-10-15",
+    "kwh": 86.27,
+    "site": "Dwight, IL"
+   },
+   "785198637": {
+    "currency": "USD",
+    "date": "2026-10-15",
+    "kwh": 64.57,
+    "site": "Stevensville, MI"
+   },
+   "785849775": {
+    "currency": "USD",
+    "date": "2026-10-16",
+    "kwh": 39.02,
+    "site": "Grand Rapids, MI"
+   },
+   "786446989": {
+    "currency": "USD",
+    "date": "2026-10-17",
+    "kwh": 61.15,
+    "site": "Northville, MI"
+   },
+   "786922403": {
+    "currency": "USD",
+    "date": "2026-10-17",
+    "kwh": 93.33,
+    "site": "Lansing, MI - South Pennsylvania Avenue"
+   },
+   "791916342": {
+    "currency": "USD",
+    "date": "2026-10-24",
+    "kwh": 44.03,
+    "site": "Marshall, MI - W Michigan Ave"
+   },
+   "793633425": {
+    "currency": "USD",
+    "date": "2026-10-27",
+    "kwh": 72.67,
+    "site": "Caledonia, MI"
+   },
+   "795163533": {
+    "currency": "USD",
+    "date": "2026-10-29",
+    "kwh": 48.37,
+    "site": "Caledonia, MI"
+   }
+  }
+ },
+ "tracking_since": "2026-10-27",
+ "updated": "2026-10-31T17:18:53+00:00",
+ "vehicle": "TARS2"
+}

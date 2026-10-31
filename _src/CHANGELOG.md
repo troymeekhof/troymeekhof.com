@@ -9,3 +9,5 @@
 - 2026-10-05 · Removed the cheap-breakfast persona everywhere (Local "Breakfast" section + meta/OG/JSON-LD descriptions + closing line, Adventure bullet, Now page line) · why: Troy: "whatever the breakfast line/section is has got to go"
 - 2026-10-18 · dateModified in JSON-LD on all 24 pages changed from date-only "2026-09-22" to full ISO 8601 datetime "2026-09-22T12:00:00-04:00" · why: Google Search Console flagged ProfilePage "Invalid datetime value for dateModified"; Troy: "Fix it"
 - 2026-10-18 · _src/site.py git() helper decodes with errors="replace" so guard no longer crashes on image (binary) diffs · why: the 2026-10-05 homepage band-photo commit (ac674ec) failed Guard and deploy with UnicodeDecodeError and never published until today's deploy
+
+- 2026-10-31: Added /cybertruck/stats/ (TARS2 weekly and lifetime numbers, rendered by _src/tools/tars2_stats.py from data.json, which a nightly scheduled task refreshes from the truck). Linked it from the Cybertruck home "by the numbers" section, the footer, the sitemap, and llms.txt. Why: Troy wants the truck's real stats published weekly.
