@@ -1,7 +1,8 @@
 {
  "config": {
   "odometer_baseline_date": null,
-  "odometer_baseline_miles": null
+  "odometer_baseline_miles": null,
+  "supercharging_before_ledger_kwh": null
  },
  "current": {
   "as_of": "2026-10-31T17:13:29.06994+00:00",
@@ -89,6 +90,4137 @@
   "7G2CEHED7RA038598:1793110533",
   "7G2CEHED7RA038598:1793107172"
  ],
+ "history": {
+  "days": {
+   "2024-06-27": {
+    "drives": 6,
+    "kwh": 36.12,
+    "longest": 37.57,
+    "measured_miles": 85.46,
+    "miles": 85.46,
+    "minutes": 131,
+    "temp_c_sum": 131.5,
+    "temp_n": 6
+   },
+   "2024-06-28": {
+    "drives": 12,
+    "kwh": 33.03,
+    "longest": 10.01,
+    "measured_miles": 71.23,
+    "miles": 71.23,
+    "minutes": 138,
+    "temp_c_sum": 266.0,
+    "temp_n": 12
+   },
+   "2024-06-29": {
+    "drives": 8,
+    "kwh": 78.54,
+    "longest": 58.05,
+    "measured_miles": 174.88,
+    "miles": 174.88,
+    "minutes": 207,
+    "temp_c_sum": 193.4,
+    "temp_n": 8
+   },
+   "2024-06-30": {
+    "drives": 6,
+    "kwh": 39.66,
+    "longest": 39.6,
+    "measured_miles": 99.39,
+    "miles": 99.39,
+    "minutes": 142,
+    "temp_c_sum": 121.4,
+    "temp_n": 6
+   },
+   "2024-07-01": {
+    "drives": 9,
+    "kwh": 23.57,
+    "longest": 10.32,
+    "measured_miles": 53.39,
+    "miles": 53.39,
+    "minutes": 100,
+    "temp_c_sum": 170.4,
+    "temp_n": 9
+   },
+   "2024-07-02": {
+    "drives": 12,
+    "kwh": 48.33,
+    "longest": 19.77,
+    "measured_miles": 110.24,
+    "miles": 110.24,
+    "minutes": 168,
+    "temp_c_sum": 249.8,
+    "temp_n": 12
+   },
+   "2024-07-03": {
+    "drives": 9,
+    "kwh": 49.65,
+    "longest": 39.65,
+    "measured_miles": 113.37,
+    "miles": 113.37,
+    "minutes": 162,
+    "temp_c_sum": 242.4,
+    "temp_n": 9
+   },
+   "2024-07-04": {
+    "drives": 6,
+    "kwh": 34.21,
+    "longest": 31.98,
+    "measured_miles": 83.49,
+    "miles": 83.49,
+    "minutes": 162,
+    "temp_c_sum": 155.1,
+    "temp_n": 6
+   },
+   "2024-07-05": {
+    "drives": 6,
+    "kwh": 13.29,
+    "longest": 15.55,
+    "measured_miles": 34.23,
+    "miles": 34.23,
+    "minutes": 63,
+    "temp_c_sum": 157.6,
+    "temp_n": 6
+   },
+   "2024-07-06": {
+    "drives": 2,
+    "kwh": 9.95,
+    "longest": 14.09,
+    "measured_miles": 16.25,
+    "miles": 16.25,
+    "minutes": 49,
+    "temp_c_sum": 45.4,
+    "temp_n": 2
+   },
+   "2024-07-07": {
+    "drives": 3,
+    "kwh": 6.94,
+    "longest": 8.31,
+    "measured_miles": 12.46,
+    "miles": 12.46,
+    "minutes": 35,
+    "temp_c_sum": 78.4,
+    "temp_n": 3
+   },
+   "2024-07-08": {
+    "drives": 12,
+    "kwh": 22.91,
+    "longest": 10.68,
+    "measured_miles": 55.11,
+    "miles": 55.11,
+    "minutes": 135,
+    "temp_c_sum": 318.1,
+    "temp_n": 12
+   },
+   "2024-07-09": {
+    "drives": 10,
+    "kwh": 37.94,
+    "longest": 22.74,
+    "measured_miles": 92.16,
+    "miles": 92.16,
+    "minutes": 155,
+    "temp_c_sum": 241.8,
+    "temp_n": 10
+   },
+   "2024-07-10": {
+    "drives": 10,
+    "kwh": 104.5,
+    "longest": 139.43,
+    "measured_miles": 219.92,
+    "miles": 219.92,
+    "minutes": 279,
+    "temp_c_sum": 219.8,
+    "temp_n": 10
+   },
+   "2024-07-11": {
+    "drives": 13,
+    "kwh": 51.12,
+    "longest": 13.0,
+    "measured_miles": 92.66,
+    "miles": 92.66,
+    "minutes": 195,
+    "temp_c_sum": 333.1,
+    "temp_n": 13
+   },
+   "2024-07-12": {
+    "drives": 6,
+    "kwh": 55.94,
+    "longest": 68.42,
+    "measured_miles": 133.32,
+    "miles": 135.72,
+    "minutes": 204,
+    "temp_c_sum": 160.5,
+    "temp_n": 6
+   },
+   "2024-07-13": {
+    "drives": 13,
+    "kwh": 82.78,
+    "longest": 52.25,
+    "measured_miles": 185.25,
+    "miles": 185.25,
+    "minutes": 278,
+    "temp_c_sum": 393.1,
+    "temp_n": 13
+   },
+   "2024-07-14": {
+    "drives": 10,
+    "kwh": 44.25,
+    "longest": 20.98,
+    "measured_miles": 96.87,
+    "miles": 96.87,
+    "minutes": 142,
+    "temp_c_sum": 251.3,
+    "temp_n": 10
+   },
+   "2024-07-15": {
+    "drives": 12,
+    "kwh": 85.69,
+    "longest": 86.51,
+    "measured_miles": 186.31,
+    "miles": 186.31,
+    "minutes": 241,
+    "temp_c_sum": 339.0,
+    "temp_n": 12
+   },
+   "2024-07-16": {
+    "drives": 5,
+    "kwh": 11.79,
+    "longest": 9.31,
+    "measured_miles": 30.8,
+    "miles": 30.8,
+    "minutes": 72,
+    "temp_c_sum": 122.1,
+    "temp_n": 5
+   },
+   "2024-07-17": {
+    "drives": 2,
+    "kwh": 3.36,
+    "longest": 7.7,
+    "measured_miles": 8.16,
+    "miles": 8.16,
+    "minutes": 25,
+    "temp_c_sum": 45.8,
+    "temp_n": 2
+   },
+   "2024-07-18": {
+    "drives": 14,
+    "kwh": 130.22,
+    "longest": 128.56,
+    "measured_miles": 327.83,
+    "miles": 327.83,
+    "minutes": 398,
+    "temp_c_sum": 298.5,
+    "temp_n": 14
+   },
+   "2024-07-19": {
+    "drives": 5,
+    "kwh": 28.64,
+    "longest": 20.03,
+    "measured_miles": 74.39,
+    "miles": 74.39,
+    "minutes": 139,
+    "temp_c_sum": 117.8,
+    "temp_n": 5
+   },
+   "2024-07-20": {
+    "drives": 11,
+    "kwh": 81.53,
+    "longest": 103.38,
+    "measured_miles": 186.31,
+    "miles": 186.31,
+    "minutes": 276,
+    "temp_c_sum": 283.3,
+    "temp_n": 11
+   },
+   "2024-07-21": {
+    "drives": 15,
+    "kwh": 98.04,
+    "longest": 83.87,
+    "measured_miles": 214.43,
+    "miles": 214.43,
+    "minutes": 322,
+    "temp_c_sum": 362.7,
+    "temp_n": 15
+   },
+   "2024-07-22": {
+    "drives": 5,
+    "kwh": 20.4,
+    "longest": 12.53,
+    "measured_miles": 43.23,
+    "miles": 43.23,
+    "minutes": 79,
+    "temp_c_sum": 133.6,
+    "temp_n": 5
+   },
+   "2024-07-23": {
+    "drives": 10,
+    "kwh": 15.64,
+    "longest": 9.96,
+    "measured_miles": 38.49,
+    "miles": 38.49,
+    "minutes": 94,
+    "temp_c_sum": 256.0,
+    "temp_n": 10
+   },
+   "2024-07-24": {
+    "drives": 5,
+    "kwh": 9.81,
+    "longest": 7.6,
+    "measured_miles": 22.56,
+    "miles": 22.56,
+    "minutes": 58,
+    "temp_c_sum": 117.4,
+    "temp_n": 5
+   },
+   "2024-07-25": {
+    "drives": 9,
+    "kwh": 67.29,
+    "longest": 69.25,
+    "measured_miles": 162.02,
+    "miles": 162.02,
+    "minutes": 231,
+    "temp_c_sum": 213.8,
+    "temp_n": 9
+   },
+   "2024-07-26": {
+    "drives": 8,
+    "kwh": 36.09,
+    "longest": 59.79,
+    "measured_miles": 83.45,
+    "miles": 83.45,
+    "minutes": 110,
+    "temp_c_sum": 193.3,
+    "temp_n": 8
+   },
+   "2024-07-27": {
+    "drives": 5,
+    "kwh": 7.78,
+    "longest": 6.97,
+    "measured_miles": 15.28,
+    "miles": 15.28,
+    "minutes": 39,
+    "temp_c_sum": 130.7,
+    "temp_n": 5
+   },
+   "2024-07-29": {
+    "drives": 1,
+    "kwh": 1.84,
+    "longest": 4.18,
+    "measured_miles": 4.18,
+    "miles": 4.18,
+    "minutes": 15,
+    "temp_c_sum": 24.0,
+    "temp_n": 1
+   },
+   "2024-07-30": {
+    "drives": 6,
+    "kwh": 106.0,
+    "longest": 131.62,
+    "measured_miles": 244.33,
+    "miles": 244.33,
+    "minutes": 278,
+    "temp_c_sum": 159.3,
+    "temp_n": 6
+   },
+   "2024-07-31": {
+    "drives": 4,
+    "kwh": 103.86,
+    "longest": 168.34,
+    "measured_miles": 254.93,
+    "miles": 254.93,
+    "minutes": 287,
+    "temp_c_sum": 108.0,
+    "temp_n": 4
+   },
+   "2024-08-01": {
+    "drives": 17,
+    "kwh": 109.31,
+    "longest": 88.15,
+    "measured_miles": 244.61,
+    "miles": 244.61,
+    "minutes": 423,
+    "temp_c_sum": 457.2,
+    "temp_n": 17
+   },
+   "2024-08-02": {
+    "drives": 14,
+    "kwh": 29.1,
+    "longest": 8.59,
+    "measured_miles": 66.02,
+    "miles": 66.02,
+    "minutes": 187,
+    "temp_c_sum": 343.2,
+    "temp_n": 14
+   },
+   "2024-08-03": {
+    "drives": 17,
+    "kwh": 18.05,
+    "longest": 5.67,
+    "measured_miles": 33.82,
+    "miles": 33.82,
+    "minutes": 110,
+    "temp_c_sum": 455.7,
+    "temp_n": 17
+   },
+   "2024-08-04": {
+    "drives": 8,
+    "kwh": 46.29,
+    "longest": 53.65,
+    "measured_miles": 88.2,
+    "miles": 88.2,
+    "minutes": 135,
+    "temp_c_sum": 227.5,
+    "temp_n": 8
+   },
+   "2024-08-05": {
+    "drives": 4,
+    "kwh": 11.4,
+    "longest": 9.15,
+    "measured_miles": 29.41,
+    "miles": 29.41,
+    "minutes": 54,
+    "temp_c_sum": 99.9,
+    "temp_n": 4
+   },
+   "2024-08-06": {
+    "drives": 7,
+    "kwh": 19.53,
+    "longest": 12.66,
+    "measured_miles": 46.3,
+    "miles": 46.3,
+    "minutes": 93,
+    "temp_c_sum": 150.0,
+    "temp_n": 7
+   },
+   "2024-08-07": {
+    "drives": 10,
+    "kwh": 20.54,
+    "longest": 9.16,
+    "measured_miles": 48.06,
+    "miles": 48.06,
+    "minutes": 97,
+    "temp_c_sum": 229.9,
+    "temp_n": 10
+   },
+   "2024-08-08": {
+    "drives": 12,
+    "kwh": 99.25,
+    "longest": 53.67,
+    "measured_miles": 230.47,
+    "miles": 230.47,
+    "minutes": 300,
+    "temp_c_sum": 296.9,
+    "temp_n": 12
+   },
+   "2024-08-09": {
+    "drives": 5,
+    "kwh": 38.8,
+    "longest": 76.48,
+    "measured_miles": 84.12,
+    "miles": 84.12,
+    "minutes": 101,
+    "temp_c_sum": 105.2,
+    "temp_n": 5
+   },
+   "2024-08-10": {
+    "drives": 9,
+    "kwh": 19.53,
+    "longest": 11.18,
+    "measured_miles": 41.4,
+    "miles": 41.4,
+    "minutes": 91,
+    "temp_c_sum": 161.3,
+    "temp_n": 9
+   },
+   "2024-08-11": {
+    "drives": 20,
+    "kwh": 81.1,
+    "longest": 65.05,
+    "measured_miles": 122.83,
+    "miles": 123.45,
+    "minutes": 247,
+    "temp_c_sum": 452.4,
+    "temp_n": 20
+   },
+   "2024-08-12": {
+    "drives": 5,
+    "kwh": 24.16,
+    "longest": 20.21,
+    "measured_miles": 59.36,
+    "miles": 59.36,
+    "minutes": 90,
+    "temp_c_sum": 124.7,
+    "temp_n": 5
+   },
+   "2024-08-13": {
+    "drives": 9,
+    "kwh": 25.44,
+    "longest": 12.61,
+    "measured_miles": 62.5,
+    "miles": 62.5,
+    "minutes": 148,
+    "temp_c_sum": 227.5,
+    "temp_n": 9
+   },
+   "2024-08-14": {
+    "drives": 5,
+    "kwh": 17.0,
+    "longest": 10.01,
+    "measured_miles": 33.81,
+    "miles": 33.81,
+    "minutes": 69,
+    "temp_c_sum": 113.0,
+    "temp_n": 5
+   },
+   "2024-08-15": {
+    "drives": 4,
+    "kwh": 4.62,
+    "longest": 9.95,
+    "measured_miles": 12.74,
+    "miles": 12.74,
+    "minutes": 30,
+    "temp_c_sum": 91.1,
+    "temp_n": 4
+   },
+   "2024-08-16": {
+    "drives": 5,
+    "kwh": 13.34,
+    "longest": 12.61,
+    "measured_miles": 33.69,
+    "miles": 33.69,
+    "minutes": 80,
+    "temp_c_sum": 145.2,
+    "temp_n": 5
+   },
+   "2024-08-17": {
+    "drives": 9,
+    "kwh": 95.43,
+    "longest": 91.51,
+    "measured_miles": 196.28,
+    "miles": 196.28,
+    "minutes": 213,
+    "temp_c_sum": 218.5,
+    "temp_n": 9
+   },
+   "2024-08-18": {
+    "drives": 2,
+    "kwh": 71.86,
+    "longest": 85.1,
+    "measured_miles": 140.77,
+    "miles": 140.77,
+    "minutes": 140,
+    "temp_c_sum": 48.4,
+    "temp_n": 2
+   },
+   "2024-08-19": {
+    "drives": 5,
+    "kwh": 83.99,
+    "longest": 90.15,
+    "measured_miles": 161.94,
+    "miles": 161.94,
+    "minutes": 179,
+    "temp_c_sum": 87.8,
+    "temp_n": 5
+   },
+   "2024-08-20": {
+    "drives": 7,
+    "kwh": 15.35,
+    "longest": 5.99,
+    "measured_miles": 34.94,
+    "miles": 34.94,
+    "minutes": 80,
+    "temp_c_sum": 148.2,
+    "temp_n": 7
+   },
+   "2024-08-21": {
+    "drives": 4,
+    "kwh": 9.34,
+    "longest": 10.3,
+    "measured_miles": 23.18,
+    "miles": 23.18,
+    "minutes": 56,
+    "temp_c_sum": 84.9,
+    "temp_n": 4
+   },
+   "2024-08-22": {
+    "drives": 8,
+    "kwh": 21.07,
+    "longest": 14.11,
+    "measured_miles": 54.88,
+    "miles": 54.88,
+    "minutes": 120,
+    "temp_c_sum": 186.7,
+    "temp_n": 8
+   },
+   "2024-08-23": {
+    "drives": 7,
+    "kwh": 55.64,
+    "longest": 75.74,
+    "measured_miles": 125.71,
+    "miles": 125.71,
+    "minutes": 138,
+    "temp_c_sum": 181.5,
+    "temp_n": 7
+   },
+   "2024-08-24": {
+    "drives": 8,
+    "kwh": 44.17,
+    "longest": 24.52,
+    "measured_miles": 113.9,
+    "miles": 113.9,
+    "minutes": 201,
+    "temp_c_sum": 181.3,
+    "temp_n": 8
+   },
+   "2024-08-25": {
+    "drives": 3,
+    "kwh": 63.31,
+    "longest": 68.39,
+    "measured_miles": 133.5,
+    "miles": 133.5,
+    "minutes": 141,
+    "temp_c_sum": 83.8,
+    "temp_n": 3
+   },
+   "2024-08-26": {
+    "drives": 3,
+    "kwh": 5.53,
+    "longest": 8.22,
+    "measured_miles": 15.65,
+    "miles": 15.65,
+    "minutes": 42,
+    "temp_c_sum": 88.8,
+    "temp_n": 3
+   },
+   "2024-08-27": {
+    "drives": 2,
+    "kwh": 6.46,
+    "longest": 8.76,
+    "measured_miles": 13.7,
+    "miles": 13.7,
+    "minutes": 37,
+    "temp_c_sum": 52.9,
+    "temp_n": 2
+   },
+   "2024-08-28": {
+    "drives": 5,
+    "kwh": 15.62,
+    "longest": 10.7,
+    "measured_miles": 39.88,
+    "miles": 39.88,
+    "minutes": 74,
+    "temp_c_sum": 133.4,
+    "temp_n": 5
+   },
+   "2024-08-29": {
+    "drives": 6,
+    "kwh": 16.19,
+    "longest": 10.63,
+    "measured_miles": 34.47,
+    "miles": 34.47,
+    "minutes": 66,
+    "temp_c_sum": 139.2,
+    "temp_n": 6
+   },
+   "2024-09-02": {
+    "drives": 7,
+    "kwh": 16.26,
+    "longest": 11.5,
+    "measured_miles": 41.51,
+    "miles": 41.51,
+    "minutes": 89,
+    "temp_c_sum": 167.1,
+    "temp_n": 7
+   },
+   "2024-09-03": {
+    "drives": 5,
+    "kwh": 16.99,
+    "longest": 12.61,
+    "measured_miles": 37.4,
+    "miles": 37.4,
+    "minutes": 66,
+    "temp_c_sum": 84.6,
+    "temp_n": 5
+   },
+   "2024-09-04": {
+    "drives": 7,
+    "kwh": 17.11,
+    "longest": 11.27,
+    "measured_miles": 40.72,
+    "miles": 40.72,
+    "minutes": 87,
+    "temp_c_sum": 171.8,
+    "temp_n": 7
+   },
+   "2024-09-05": {
+    "drives": 2,
+    "kwh": 11.02,
+    "longest": 14.77,
+    "measured_miles": 29.36,
+    "miles": 29.36,
+    "minutes": 48,
+    "temp_c_sum": 51.8,
+    "temp_n": 2
+   },
+   "2024-09-06": {
+    "drives": 3,
+    "kwh": 9.43,
+    "longest": 10.35,
+    "measured_miles": 21.59,
+    "miles": 21.59,
+    "minutes": 38,
+    "temp_c_sum": 50.4,
+    "temp_n": 3
+   },
+   "2024-09-07": {
+    "drives": 10,
+    "kwh": 138.5,
+    "longest": 100.7,
+    "measured_miles": 236.23,
+    "miles": 236.23,
+    "minutes": 265,
+    "temp_c_sum": 130.7,
+    "temp_n": 10
+   },
+   "2024-09-08": {
+    "drives": 7,
+    "kwh": 550.74,
+    "longest": 183.78,
+    "measured_miles": 934.66,
+    "miles": 934.66,
+    "minutes": 874,
+    "temp_c_sum": 137.0,
+    "temp_n": 7
+   },
+   "2024-09-09": {
+    "drives": 8,
+    "kwh": 511.21,
+    "longest": 158.81,
+    "measured_miles": 763.8,
+    "miles": 763.8,
+    "minutes": 611,
+    "temp_c_sum": 202.9,
+    "temp_n": 8
+   },
+   "2024-09-10": {
+    "drives": 7,
+    "kwh": 72.52,
+    "longest": 89.22,
+    "measured_miles": 178.14,
+    "miles": 178.14,
+    "minutes": 251,
+    "temp_c_sum": 146.5,
+    "temp_n": 7
+   },
+   "2024-09-11": {
+    "drives": 11,
+    "kwh": 36.72,
+    "longest": 25.36,
+    "measured_miles": 89.38,
+    "miles": 89.38,
+    "minutes": 143,
+    "temp_c_sum": 189.2,
+    "temp_n": 11
+   },
+   "2024-09-12": {
+    "drives": 22,
+    "kwh": 40.1,
+    "longest": 25.37,
+    "measured_miles": 89.45,
+    "miles": 90.47,
+    "minutes": 203,
+    "temp_c_sum": 246.3,
+    "temp_n": 22
+   },
+   "2024-09-13": {
+    "drives": 8,
+    "kwh": 54.26,
+    "longest": 40.3,
+    "measured_miles": 123.7,
+    "miles": 123.7,
+    "minutes": 171,
+    "temp_c_sum": 122.1,
+    "temp_n": 8
+   },
+   "2024-09-14": {
+    "drives": 10,
+    "kwh": 595.37,
+    "longest": 172.46,
+    "measured_miles": 922.62,
+    "miles": 922.62,
+    "minutes": 781,
+    "temp_c_sum": 194.2,
+    "temp_n": 10
+   },
+   "2024-09-15": {
+    "drives": 9,
+    "kwh": 495.19,
+    "longest": 179.02,
+    "measured_miles": 913.52,
+    "miles": 913.52,
+    "minutes": 791,
+    "temp_c_sum": 215.7,
+    "temp_n": 9
+   },
+   "2024-09-16": {
+    "drives": 2,
+    "kwh": 10.19,
+    "longest": 10.28,
+    "measured_miles": 20.27,
+    "miles": 20.27,
+    "minutes": 36,
+    "temp_c_sum": 53.2,
+    "temp_n": 2
+   },
+   "2024-09-17": {
+    "drives": 4,
+    "kwh": 11.97,
+    "longest": 12.6,
+    "measured_miles": 25.87,
+    "miles": 25.87,
+    "minutes": 65,
+    "temp_c_sum": 88.5,
+    "temp_n": 4
+   },
+   "2024-09-18": {
+    "drives": 2,
+    "kwh": 5.28,
+    "longest": 7.1,
+    "measured_miles": 14.06,
+    "miles": 14.06,
+    "minutes": 34,
+    "temp_c_sum": 38.2,
+    "temp_n": 2
+   },
+   "2024-09-19": {
+    "drives": 4,
+    "kwh": 3.34,
+    "longest": 2.42,
+    "measured_miles": 7.63,
+    "miles": 7.63,
+    "minutes": 37,
+    "temp_c_sum": 118.6,
+    "temp_n": 4
+   },
+   "2024-09-20": {
+    "drives": 4,
+    "kwh": 1.88,
+    "longest": 1.39,
+    "measured_miles": 4.13,
+    "miles": 4.13,
+    "minutes": 20,
+    "temp_c_sum": 106.7,
+    "temp_n": 4
+   },
+   "2024-09-21": {
+    "drives": 3,
+    "kwh": 127.82,
+    "longest": 121.46,
+    "measured_miles": 252.99,
+    "miles": 252.99,
+    "minutes": 239,
+    "temp_c_sum": 64.9,
+    "temp_n": 3
+   },
+   "2024-09-22": {
+    "drives": 4,
+    "kwh": 28.7,
+    "longest": 27.63,
+    "measured_miles": 65.7,
+    "miles": 65.7,
+    "minutes": 98,
+    "temp_c_sum": 75.1,
+    "temp_n": 4
+   },
+   "2024-09-23": {
+    "drives": 2,
+    "kwh": 9.21,
+    "longest": 10.31,
+    "measured_miles": 18.72,
+    "miles": 18.72,
+    "minutes": 36,
+    "temp_c_sum": 34.3,
+    "temp_n": 2
+   },
+   "2024-09-24": {
+    "drives": 5,
+    "kwh": 13.67,
+    "longest": 12.64,
+    "measured_miles": 28.5,
+    "miles": 28.5,
+    "minutes": 71,
+    "temp_c_sum": 91.0,
+    "temp_n": 5
+   },
+   "2024-09-25": {
+    "drives": 4,
+    "kwh": 16.19,
+    "longest": 10.31,
+    "measured_miles": 37.67,
+    "miles": 37.67,
+    "minutes": 87,
+    "temp_c_sum": 88.3,
+    "temp_n": 4
+   },
+   "2024-09-26": {
+    "drives": 4,
+    "kwh": 17.7,
+    "longest": 19.03,
+    "measured_miles": 39.06,
+    "miles": 39.06,
+    "minutes": 55,
+    "temp_c_sum": 89.4,
+    "temp_n": 4
+   },
+   "2024-09-27": {
+    "drives": 9,
+    "kwh": 65.76,
+    "longest": 31.83,
+    "measured_miles": 134.66,
+    "miles": 134.66,
+    "minutes": 176,
+    "temp_c_sum": 176.1,
+    "temp_n": 9
+   },
+   "2024-09-28": {
+    "drives": 5,
+    "kwh": 128.06,
+    "longest": 106.12,
+    "measured_miles": 222.86,
+    "miles": 222.86,
+    "minutes": 216,
+    "temp_c_sum": 105.5,
+    "temp_n": 5
+   },
+   "2024-09-29": {
+    "drives": 2,
+    "kwh": 1.3,
+    "longest": 1.71,
+    "measured_miles": 3.39,
+    "miles": 3.39,
+    "minutes": 15,
+    "temp_c_sum": 51.5,
+    "temp_n": 2
+   },
+   "2024-09-30": {
+    "drives": 7,
+    "kwh": 21.2,
+    "longest": 10.02,
+    "measured_miles": 48.87,
+    "miles": 48.87,
+    "minutes": 84,
+    "temp_c_sum": 167.9,
+    "temp_n": 7
+   },
+   "2024-10-01": {
+    "drives": 4,
+    "kwh": 15.23,
+    "longest": 14.56,
+    "measured_miles": 38.17,
+    "miles": 38.17,
+    "minutes": 88,
+    "temp_c_sum": 81.1,
+    "temp_n": 4
+   },
+   "2024-10-02": {
+    "drives": 7,
+    "kwh": 151.78,
+    "longest": 120.08,
+    "measured_miles": 334.8,
+    "miles": 334.8,
+    "minutes": 357,
+    "temp_c_sum": 125.1,
+    "temp_n": 7
+   },
+   "2024-10-03": {
+    "drives": 3,
+    "kwh": 143.49,
+    "longest": 182.59,
+    "measured_miles": 316.26,
+    "miles": 316.26,
+    "minutes": 304,
+    "temp_c_sum": 64.8,
+    "temp_n": 3
+   },
+   "2024-10-04": {
+    "drives": 6,
+    "kwh": 68.45,
+    "longest": 43.97,
+    "measured_miles": 130.1,
+    "miles": 130.1,
+    "minutes": 151,
+    "temp_c_sum": 96.5,
+    "temp_n": 6
+   },
+   "2024-10-05": {
+    "drives": 14,
+    "kwh": 41.55,
+    "longest": 14.08,
+    "measured_miles": 49.92,
+    "miles": 50.47,
+    "minutes": 142,
+    "temp_c_sum": 302.7,
+    "temp_n": 14
+   },
+   "2024-10-06": {
+    "drives": 13,
+    "kwh": 111.08,
+    "longest": 48.26,
+    "measured_miles": 115.43,
+    "miles": 115.43,
+    "minutes": 215,
+    "temp_c_sum": 238.5,
+    "temp_n": 13
+   },
+   "2024-10-07": {
+    "drives": 2,
+    "kwh": 9.36,
+    "longest": 10.32,
+    "measured_miles": 20.35,
+    "miles": 20.35,
+    "minutes": 34,
+    "temp_c_sum": 31.0,
+    "temp_n": 2
+   },
+   "2024-10-08": {
+    "drives": 3,
+    "kwh": 10.7,
+    "longest": 12.64,
+    "measured_miles": 24.04,
+    "miles": 24.04,
+    "minutes": 57,
+    "temp_c_sum": 40.3,
+    "temp_n": 3
+   },
+   "2024-10-09": {
+    "drives": 2,
+    "kwh": 9.95,
+    "longest": 10.33,
+    "measured_miles": 20.35,
+    "miles": 20.35,
+    "minutes": 40,
+    "temp_c_sum": 27.1,
+    "temp_n": 2
+   },
+   "2024-10-10": {
+    "drives": 4,
+    "kwh": 2.58,
+    "longest": 1.74,
+    "measured_miles": 6.58,
+    "miles": 6.58,
+    "minutes": 35,
+    "temp_c_sum": 70.9,
+    "temp_n": 4
+   },
+   "2024-10-11": {
+    "drives": 2,
+    "kwh": 1.5,
+    "longest": 1.92,
+    "measured_miles": 3.49,
+    "miles": 3.49,
+    "minutes": 17,
+    "temp_c_sum": 34.4,
+    "temp_n": 2
+   },
+   "2024-10-12": {
+    "drives": 2,
+    "kwh": 29.64,
+    "longest": 31.82,
+    "measured_miles": 63.55,
+    "miles": 63.55,
+    "minutes": 83,
+    "temp_c_sum": 29.3,
+    "temp_n": 2
+   },
+   "2024-10-13": {
+    "drives": 3,
+    "kwh": 19.41,
+    "longest": 20.84,
+    "measured_miles": 45.0,
+    "miles": 45.0,
+    "minutes": 67,
+    "temp_c_sum": 37.5,
+    "temp_n": 3
+   },
+   "2024-10-14": {
+    "drives": 7,
+    "kwh": 21.97,
+    "longest": 12.49,
+    "measured_miles": 48.63,
+    "miles": 48.63,
+    "minutes": 92,
+    "temp_c_sum": 63.2,
+    "temp_n": 7
+   },
+   "2024-10-15": {
+    "drives": 10,
+    "kwh": 22.75,
+    "longest": 12.64,
+    "measured_miles": 46.14,
+    "miles": 46.76,
+    "minutes": 119,
+    "temp_c_sum": 87.5,
+    "temp_n": 10
+   },
+   "2024-10-16": {
+    "drives": 5,
+    "kwh": 26.83,
+    "longest": 31.26,
+    "measured_miles": 70.87,
+    "miles": 70.87,
+    "minutes": 117,
+    "temp_c_sum": 60.3,
+    "temp_n": 5
+   },
+   "2024-10-17": {
+    "drives": 5,
+    "kwh": 208.39,
+    "longest": 166.74,
+    "measured_miles": 424.91,
+    "miles": 424.91,
+    "minutes": 408,
+    "temp_c_sum": 65.0,
+    "temp_n": 5
+   },
+   "2024-10-18": {
+    "drives": 3,
+    "kwh": 153.76,
+    "longest": 169.53,
+    "measured_miles": 316.27,
+    "miles": 316.27,
+    "minutes": 295,
+    "temp_c_sum": 36.3,
+    "temp_n": 3
+   },
+   "2024-10-20": {
+    "drives": 9,
+    "kwh": 384.97,
+    "longest": 162.33,
+    "measured_miles": 751.46,
+    "miles": 751.46,
+    "minutes": 681,
+    "temp_c_sum": 161.9,
+    "temp_n": 9
+   },
+   "2024-10-21": {
+    "drives": 2,
+    "kwh": 3.57,
+    "longest": 5.55,
+    "measured_miles": 11.1,
+    "miles": 11.1,
+    "minutes": 27,
+    "temp_c_sum": 39.4,
+    "temp_n": 2
+   },
+   "2024-10-22": {
+    "drives": 4,
+    "kwh": 4.38,
+    "longest": 5.55,
+    "measured_miles": 12.75,
+    "miles": 12.75,
+    "minutes": 39,
+    "temp_c_sum": 81.5,
+    "temp_n": 4
+   },
+   "2024-10-23": {
+    "drives": 7,
+    "kwh": 19.94,
+    "longest": 13.22,
+    "measured_miles": 47.39,
+    "miles": 47.39,
+    "minutes": 96,
+    "temp_c_sum": 113.6,
+    "temp_n": 7
+   },
+   "2024-10-24": {
+    "drives": 2,
+    "kwh": 4.52,
+    "longest": 5.72,
+    "measured_miles": 11.28,
+    "miles": 11.28,
+    "minutes": 30,
+    "temp_c_sum": 22.2,
+    "temp_n": 2
+   },
+   "2024-10-25": {
+    "drives": 7,
+    "kwh": 12.73,
+    "longest": 5.99,
+    "measured_miles": 29.23,
+    "miles": 29.23,
+    "minutes": 81,
+    "temp_c_sum": 80.7,
+    "temp_n": 7
+   },
+   "2024-10-26": {
+    "drives": 8,
+    "kwh": 17.04,
+    "longest": 15.3,
+    "measured_miles": 46.07,
+    "miles": 46.07,
+    "minutes": 108,
+    "temp_c_sum": 91.1,
+    "temp_n": 8
+   },
+   "2024-10-27": {
+    "drives": 2,
+    "kwh": 4.41,
+    "longest": 5.99,
+    "measured_miles": 11.86,
+    "miles": 11.86,
+    "minutes": 27,
+    "temp_c_sum": 22.9,
+    "temp_n": 2
+   },
+   "2024-10-28": {
+    "drives": 5,
+    "kwh": 13.82,
+    "longest": 10.33,
+    "measured_miles": 32.89,
+    "miles": 32.89,
+    "minutes": 65,
+    "temp_c_sum": 69.0,
+    "temp_n": 5
+   },
+   "2024-10-29": {
+    "drives": 2,
+    "kwh": 28.82,
+    "longest": 34.66,
+    "measured_miles": 67.02,
+    "miles": 67.02,
+    "minutes": 92,
+    "temp_c_sum": 46.3,
+    "temp_n": 2
+   },
+   "2024-10-30": {
+    "drives": 6,
+    "kwh": 19.02,
+    "longest": 11.61,
+    "measured_miles": 44.11,
+    "miles": 44.11,
+    "minutes": 88,
+    "temp_c_sum": 147.3,
+    "temp_n": 6
+   },
+   "2024-10-31": {
+    "drives": 7,
+    "kwh": 58.71,
+    "longest": 50.91,
+    "measured_miles": 116.17,
+    "miles": 116.17,
+    "minutes": 159,
+    "temp_c_sum": 137.9,
+    "temp_n": 7
+   },
+   "2024-11-01": {
+    "drives": 4,
+    "kwh": 8.72,
+    "longest": 7.04,
+    "measured_miles": 18.32,
+    "miles": 18.32,
+    "minutes": 64,
+    "temp_c_sum": 36.4,
+    "temp_n": 4
+   },
+   "2024-11-02": {
+    "drives": 4,
+    "kwh": 49.58,
+    "longest": 41.78,
+    "measured_miles": 101.23,
+    "miles": 101.23,
+    "minutes": 143,
+    "temp_c_sum": 32.7,
+    "temp_n": 4
+   },
+   "2024-11-03": {
+    "drives": 2,
+    "kwh": 4.71,
+    "longest": 5.51,
+    "measured_miles": 10.84,
+    "miles": 10.84,
+    "minutes": 24,
+    "temp_c_sum": 24.8,
+    "temp_n": 2
+   },
+   "2024-11-04": {
+    "drives": 2,
+    "kwh": 7.08,
+    "longest": 10.32,
+    "measured_miles": 18.75,
+    "miles": 18.75,
+    "minutes": 39,
+    "temp_c_sum": 35.3,
+    "temp_n": 2
+   },
+   "2024-11-05": {
+    "drives": 5,
+    "kwh": 12.36,
+    "longest": 12.63,
+    "measured_miles": 28.41,
+    "miles": 28.41,
+    "minutes": 66,
+    "temp_c_sum": 91.2,
+    "temp_n": 5
+   },
+   "2024-11-06": {
+    "drives": 4,
+    "kwh": 12.3,
+    "longest": 10.32,
+    "measured_miles": 29.22,
+    "miles": 29.22,
+    "minutes": 58,
+    "temp_c_sum": 49.6,
+    "temp_n": 4
+   },
+   "2024-11-07": {
+    "drives": 6,
+    "kwh": 18.51,
+    "longest": 10.32,
+    "measured_miles": 41.41,
+    "miles": 41.41,
+    "minutes": 82,
+    "temp_c_sum": 65.6,
+    "temp_n": 6
+   },
+   "2024-11-08": {
+    "drives": 4,
+    "kwh": 8.96,
+    "longest": 5.99,
+    "measured_miles": 22.98,
+    "miles": 22.98,
+    "minutes": 47,
+    "temp_c_sum": 40.0,
+    "temp_n": 4
+   },
+   "2024-11-09": {
+    "drives": 10,
+    "kwh": 21.82,
+    "longest": 14.79,
+    "measured_miles": 54.95,
+    "miles": 54.95,
+    "minutes": 121,
+    "temp_c_sum": 130.4,
+    "temp_n": 10
+   },
+   "2024-11-10": {
+    "drives": 6,
+    "kwh": 20.94,
+    "longest": 14.12,
+    "measured_miles": 44.05,
+    "miles": 44.05,
+    "minutes": 84,
+    "temp_c_sum": 73.0,
+    "temp_n": 6
+   },
+   "2024-11-11": {
+    "drives": 7,
+    "kwh": 9.61,
+    "longest": 6.96,
+    "measured_miles": 25.06,
+    "miles": 25.06,
+    "minutes": 82,
+    "temp_c_sum": 74.6,
+    "temp_n": 7
+   },
+   "2024-11-12": {
+    "drives": 4,
+    "kwh": 12.15,
+    "longest": 10.04,
+    "measured_miles": 26.8,
+    "miles": 26.8,
+    "minutes": 58,
+    "temp_c_sum": 22.0,
+    "temp_n": 4
+   },
+   "2024-11-13": {
+    "drives": 10,
+    "kwh": 25.95,
+    "longest": 11.75,
+    "measured_miles": 52.55,
+    "miles": 52.55,
+    "minutes": 115,
+    "temp_c_sum": 52.2,
+    "temp_n": 10
+   },
+   "2024-11-14": {
+    "drives": 5,
+    "kwh": 22.79,
+    "longest": 22.3,
+    "measured_miles": 49.4,
+    "miles": 49.4,
+    "minutes": 91,
+    "temp_c_sum": 46.0,
+    "temp_n": 5
+   },
+   "2024-11-15": {
+    "drives": 4,
+    "kwh": 7.37,
+    "longest": 5.88,
+    "measured_miles": 15.22,
+    "miles": 15.22,
+    "minutes": 40,
+    "temp_c_sum": 36.2,
+    "temp_n": 4
+   },
+   "2024-11-16": {
+    "drives": 4,
+    "kwh": 15.4,
+    "longest": 16.14,
+    "measured_miles": 31.06,
+    "miles": 32.14,
+    "minutes": 49,
+    "temp_c_sum": 45.0,
+    "temp_n": 4
+   },
+   "2024-11-17": {
+    "drives": 6,
+    "kwh": 15.95,
+    "longest": 12.92,
+    "measured_miles": 37.9,
+    "miles": 37.9,
+    "minutes": 75,
+    "temp_c_sum": 60.8,
+    "temp_n": 6
+   },
+   "2024-11-18": {
+    "drives": 2,
+    "kwh": 8.77,
+    "longest": 10.32,
+    "measured_miles": 20.35,
+    "miles": 20.35,
+    "minutes": 40,
+    "temp_c_sum": 20.0,
+    "temp_n": 2
+   },
+   "2024-11-19": {
+    "drives": 5,
+    "kwh": 18.71,
+    "longest": 12.64,
+    "measured_miles": 37.52,
+    "miles": 37.52,
+    "minutes": 66,
+    "temp_c_sum": 63.0,
+    "temp_n": 5
+   },
+   "2024-11-20": {
+    "drives": 5,
+    "kwh": 29.87,
+    "longest": 21.4,
+    "measured_miles": 58.35,
+    "miles": 58.35,
+    "minutes": 92,
+    "temp_c_sum": 31.9,
+    "temp_n": 5
+   },
+   "2024-11-21": {
+    "drives": 6,
+    "kwh": 19.61,
+    "longest": 8.21,
+    "measured_miles": 37.78,
+    "miles": 37.78,
+    "minutes": 89,
+    "temp_c_sum": 13.3,
+    "temp_n": 6
+   },
+   "2024-11-22": {
+    "drives": 4,
+    "kwh": 23.16,
+    "longest": 13.3,
+    "measured_miles": 48.41,
+    "miles": 48.41,
+    "minutes": 81,
+    "temp_c_sum": 28.7,
+    "temp_n": 4
+   },
+   "2024-11-23": {
+    "drives": 4,
+    "kwh": 40.27,
+    "longest": 22.17,
+    "measured_miles": 71.99,
+    "miles": 71.99,
+    "minutes": 85,
+    "temp_c_sum": 28.1,
+    "temp_n": 4
+   },
+   "2024-11-24": {
+    "drives": 3,
+    "kwh": 12.5,
+    "longest": 11.63,
+    "measured_miles": 25.32,
+    "miles": 25.32,
+    "minutes": 40,
+    "temp_c_sum": 23.1,
+    "temp_n": 3
+   },
+   "2024-11-25": {
+    "drives": 4,
+    "kwh": 11.14,
+    "longest": 10.32,
+    "measured_miles": 23.87,
+    "miles": 23.87,
+    "minutes": 54,
+    "temp_c_sum": 29.9,
+    "temp_n": 4
+   },
+   "2024-11-26": {
+    "drives": 5,
+    "kwh": 22.8,
+    "longest": 12.63,
+    "measured_miles": 47.96,
+    "miles": 47.96,
+    "minutes": 89,
+    "temp_c_sum": 12.6,
+    "temp_n": 5
+   },
+   "2024-11-27": {
+    "drives": 4,
+    "kwh": 12.06,
+    "longest": 10.33,
+    "measured_miles": 28.79,
+    "miles": 28.79,
+    "minutes": 57,
+    "temp_c_sum": 13.8,
+    "temp_n": 4
+   },
+   "2024-11-28": {
+    "drives": 5,
+    "kwh": 11.88,
+    "longest": 11.63,
+    "measured_miles": 26.32,
+    "miles": 26.32,
+    "minutes": 50,
+    "temp_c_sum": 9.7,
+    "temp_n": 5
+   },
+   "2024-11-29": {
+    "drives": 2,
+    "kwh": 4.1,
+    "longest": 2.38,
+    "measured_miles": 4.67,
+    "miles": 4.67,
+    "minutes": 26,
+    "temp_c_sum": -5.4,
+    "temp_n": 2
+   },
+   "2024-11-30": {
+    "drives": 2,
+    "kwh": 2.19,
+    "longest": 1.75,
+    "measured_miles": 3.29,
+    "miles": 3.29,
+    "minutes": 17,
+    "temp_c_sum": -6.2,
+    "temp_n": 2
+   },
+   "2024-12-01": {
+    "drives": 7,
+    "kwh": 20.89,
+    "longest": 11.76,
+    "measured_miles": 37.06,
+    "miles": 37.06,
+    "minutes": 73,
+    "temp_c_sum": -17.9,
+    "temp_n": 7
+   },
+   "2024-12-02": {
+    "drives": 2,
+    "kwh": 9.28,
+    "longest": 10.34,
+    "measured_miles": 20.4,
+    "miles": 20.4,
+    "minutes": 41,
+    "temp_c_sum": -2.9,
+    "temp_n": 2
+   },
+   "2024-12-03": {
+    "drives": 6,
+    "kwh": 28.23,
+    "longest": 13.4,
+    "measured_miles": 56.77,
+    "miles": 56.77,
+    "minutes": 103,
+    "temp_c_sum": -5.9,
+    "temp_n": 6
+   },
+   "2024-12-04": {
+    "drives": 4,
+    "kwh": 11.65,
+    "longest": 10.34,
+    "measured_miles": 28.36,
+    "miles": 28.36,
+    "minutes": 74,
+    "temp_c_sum": 1.3,
+    "temp_n": 4
+   },
+   "2024-12-05": {
+    "drives": 3,
+    "kwh": 6.55,
+    "longest": 5.63,
+    "measured_miles": 14.55,
+    "miles": 14.55,
+    "minutes": 44,
+    "temp_c_sum": -11.2,
+    "temp_n": 3
+   },
+   "2024-12-06": {
+    "drives": 11,
+    "kwh": 54.59,
+    "longest": 32.48,
+    "measured_miles": 104.74,
+    "miles": 104.74,
+    "minutes": 172,
+    "temp_c_sum": -9.1,
+    "temp_n": 11
+   },
+   "2024-12-07": {
+    "drives": 6,
+    "kwh": 33.29,
+    "longest": 15.87,
+    "measured_miles": 70.19,
+    "miles": 70.19,
+    "minutes": 141,
+    "temp_c_sum": 11.3,
+    "temp_n": 6
+   },
+   "2024-12-08": {
+    "drives": 3,
+    "kwh": 4.62,
+    "longest": 6.0,
+    "measured_miles": 7.25,
+    "miles": 7.25,
+    "minutes": 18,
+    "temp_c_sum": 17.1,
+    "temp_n": 3
+   },
+   "2024-12-09": {
+    "drives": 5,
+    "kwh": 13.78,
+    "longest": 9.74,
+    "measured_miles": 34.51,
+    "miles": 34.51,
+    "minutes": 76,
+    "temp_c_sum": 36.6,
+    "temp_n": 5
+   },
+   "2024-12-10": {
+    "drives": 9,
+    "kwh": 22.7,
+    "longest": 12.64,
+    "measured_miles": 54.39,
+    "miles": 54.39,
+    "minutes": 133,
+    "temp_c_sum": 33.1,
+    "temp_n": 9
+   },
+   "2024-12-11": {
+    "drives": 5,
+    "kwh": 23.55,
+    "longest": 10.33,
+    "measured_miles": 38.31,
+    "miles": 38.31,
+    "minutes": 70,
+    "temp_c_sum": -5.7,
+    "temp_n": 5
+   },
+   "2024-12-12": {
+    "drives": 4,
+    "kwh": 16.52,
+    "longest": 11.66,
+    "measured_miles": 29.68,
+    "miles": 29.68,
+    "minutes": 81,
+    "temp_c_sum": -30.8,
+    "temp_n": 4
+   },
+   "2024-12-13": {
+    "drives": 2,
+    "kwh": 14.83,
+    "longest": 13.12,
+    "measured_miles": 26.22,
+    "miles": 26.22,
+    "minutes": 42,
+    "temp_c_sum": -13.7,
+    "temp_n": 2
+   },
+   "2024-12-14": {
+    "drives": 3,
+    "kwh": 73.77,
+    "longest": 59.6,
+    "measured_miles": 119.41,
+    "miles": 119.41,
+    "minutes": 123,
+    "temp_c_sum": -8.5,
+    "temp_n": 3
+   },
+   "2024-12-15": {
+    "drives": 4,
+    "kwh": 18.62,
+    "longest": 13.2,
+    "measured_miles": 37.38,
+    "miles": 37.38,
+    "minutes": 76,
+    "temp_c_sum": 17.2,
+    "temp_n": 4
+   },
+   "2024-12-16": {
+    "drives": 1,
+    "kwh": 2.7,
+    "longest": 6.99,
+    "measured_miles": 6.99,
+    "miles": 6.99,
+    "minutes": 16,
+    "temp_c_sum": 7.2,
+    "temp_n": 1
+   },
+   "2024-12-17": {
+    "drives": 3,
+    "kwh": 5.26,
+    "longest": 7.92,
+    "measured_miles": 14.27,
+    "miles": 14.27,
+    "minutes": 39,
+    "temp_c_sum": 11.2,
+    "temp_n": 3
+   },
+   "2024-12-18": {
+    "drives": 5,
+    "kwh": 8.89,
+    "longest": 6.41,
+    "measured_miles": 20.8,
+    "miles": 20.8,
+    "minutes": 54,
+    "temp_c_sum": 9.2,
+    "temp_n": 5
+   },
+   "2024-12-19": {
+    "drives": 6,
+    "kwh": 11.28,
+    "longest": 10.65,
+    "measured_miles": 23.92,
+    "miles": 23.92,
+    "minutes": 99,
+    "temp_c_sum": -6.1,
+    "temp_n": 6
+   },
+   "2024-12-20": {
+    "drives": 6,
+    "kwh": 15.41,
+    "longest": 6.79,
+    "measured_miles": 25.85,
+    "miles": 25.85,
+    "minutes": 73,
+    "temp_c_sum": -10.7,
+    "temp_n": 6
+   },
+   "2024-12-21": {
+    "drives": 10,
+    "kwh": 566.81,
+    "longest": 157.15,
+    "measured_miles": 877.63,
+    "miles": 877.63,
+    "minutes": 810,
+    "temp_c_sum": -24.8,
+    "temp_n": 10
+   },
+   "2024-12-22": {
+    "drives": 5,
+    "kwh": 14.01,
+    "longest": 8.83,
+    "measured_miles": 25.34,
+    "miles": 25.34,
+    "minutes": 37,
+    "temp_c_sum": 25.6,
+    "temp_n": 5
+   },
+   "2024-12-23": {
+    "drives": 4,
+    "kwh": 7.33,
+    "longest": 3.71,
+    "measured_miles": 14.83,
+    "miles": 14.83,
+    "minutes": 27,
+    "temp_c_sum": 22.9,
+    "temp_n": 4
+   },
+   "2024-12-24": {
+    "drives": 7,
+    "kwh": 14.6,
+    "longest": 8.88,
+    "measured_miles": 29.74,
+    "miles": 29.74,
+    "minutes": 45,
+    "temp_c_sum": 56.4,
+    "temp_n": 7
+   },
+   "2024-12-26": {
+    "drives": 3,
+    "kwh": 32.89,
+    "longest": 29.11,
+    "measured_miles": 59.06,
+    "miles": 59.06,
+    "minutes": 70,
+    "temp_c_sum": 15.0,
+    "temp_n": 3
+   },
+   "2024-12-27": {
+    "drives": 5,
+    "kwh": 12.08,
+    "longest": 9.66,
+    "measured_miles": 20.98,
+    "miles": 20.98,
+    "minutes": 39,
+    "temp_c_sum": 49.5,
+    "temp_n": 5
+   },
+   "2024-12-28": {
+    "drives": 8,
+    "kwh": 482.58,
+    "longest": 185.77,
+    "measured_miles": 876.93,
+    "miles": 876.93,
+    "minutes": 765,
+    "temp_c_sum": 35.4,
+    "temp_n": 8
+   },
+   "2024-12-29": {
+    "drives": 7,
+    "kwh": 22.42,
+    "longest": 12.03,
+    "measured_miles": 46.76,
+    "miles": 46.76,
+    "minutes": 87,
+    "temp_c_sum": 32.4,
+    "temp_n": 7
+   },
+   "2024-12-30": {
+    "drives": 2,
+    "kwh": 3.3,
+    "longest": 5.65,
+    "measured_miles": 6.53,
+    "miles": 6.53,
+    "minutes": 20,
+    "temp_c_sum": 15.0,
+    "temp_n": 2
+   },
+   "2024-12-31": {
+    "drives": 2,
+    "kwh": 13.14,
+    "longest": 12.0,
+    "measured_miles": 23.85,
+    "miles": 23.85,
+    "minutes": 39,
+    "temp_c_sum": 6.1,
+    "temp_n": 2
+   },
+   "2025-01-01": {
+    "drives": 3,
+    "kwh": 16.94,
+    "longest": 13.66,
+    "measured_miles": 30.82,
+    "miles": 30.82,
+    "minutes": 53,
+    "temp_c_sum": -1.0,
+    "temp_n": 3
+   },
+   "2025-01-02": {
+    "drives": 2,
+    "kwh": 2.62,
+    "longest": 3.04,
+    "measured_miles": 5.98,
+    "miles": 5.98,
+    "minutes": 23,
+    "temp_c_sum": -3.9,
+    "temp_n": 2
+   },
+   "2025-01-03": {
+    "drives": 7,
+    "kwh": 17.94,
+    "longest": 10.94,
+    "measured_miles": 36.36,
+    "miles": 36.36,
+    "minutes": 91,
+    "temp_c_sum": -29.5,
+    "temp_n": 7
+   },
+   "2025-01-06": {
+    "drives": 2,
+    "kwh": 12.71,
+    "longest": 10.54,
+    "measured_miles": 20.8,
+    "miles": 20.8,
+    "minutes": 30,
+    "temp_c_sum": -10.2,
+    "temp_n": 2
+   },
+   "2025-01-07": {
+    "drives": 5,
+    "kwh": 18.21,
+    "longest": 12.89,
+    "measured_miles": 33.22,
+    "miles": 33.22,
+    "minutes": 72,
+    "temp_c_sum": -11.1,
+    "temp_n": 5
+   },
+   "2025-01-08": {
+    "drives": 4,
+    "kwh": 11.87,
+    "longest": 10.53,
+    "measured_miles": 22.37,
+    "miles": 22.37,
+    "minutes": 42,
+    "temp_c_sum": -18.0,
+    "temp_n": 4
+   },
+   "2025-01-09": {
+    "drives": 4,
+    "kwh": 21.29,
+    "longest": 11.9,
+    "measured_miles": 36.62,
+    "miles": 36.62,
+    "minutes": 64,
+    "temp_c_sum": -15.7,
+    "temp_n": 4
+   },
+   "2025-01-10": {
+    "drives": 4,
+    "kwh": 12.57,
+    "longest": 10.56,
+    "measured_miles": 21.83,
+    "miles": 21.83,
+    "minutes": 59,
+    "temp_c_sum": -14.7,
+    "temp_n": 4
+   },
+   "2025-01-11": {
+    "drives": 6,
+    "kwh": 209.81,
+    "longest": 101.31,
+    "measured_miles": 299.29,
+    "miles": 299.29,
+    "minutes": 294,
+    "temp_c_sum": -10.8,
+    "temp_n": 6
+   },
+   "2025-01-12": {
+    "drives": 9,
+    "kwh": 23.9,
+    "longest": 7.62,
+    "measured_miles": 44.82,
+    "miles": 44.82,
+    "minutes": 106,
+    "temp_c_sum": -4.1,
+    "temp_n": 9
+   },
+   "2025-01-13": {
+    "drives": 7,
+    "kwh": 25.01,
+    "longest": 11.88,
+    "measured_miles": 46.27,
+    "miles": 46.27,
+    "minutes": 97,
+    "temp_c_sum": -35.3,
+    "temp_n": 7
+   },
+   "2025-01-14": {
+    "drives": 2,
+    "kwh": 10.84,
+    "longest": 10.27,
+    "measured_miles": 20.03,
+    "miles": 20.03,
+    "minutes": 47,
+    "temp_c_sum": -17.3,
+    "temp_n": 2
+   },
+   "2025-01-15": {
+    "drives": 2,
+    "kwh": 12.39,
+    "longest": 10.26,
+    "measured_miles": 19.63,
+    "miles": 19.63,
+    "minutes": 36,
+    "temp_c_sum": -10.6,
+    "temp_n": 2
+   },
+   "2025-01-17": {
+    "drives": 3,
+    "kwh": 11.06,
+    "longest": 10.16,
+    "measured_miles": 21.9,
+    "miles": 21.9,
+    "minutes": 54,
+    "temp_c_sum": 13.1,
+    "temp_n": 3
+   },
+   "2025-01-18": {
+    "drives": 6,
+    "kwh": 24.81,
+    "longest": 15.08,
+    "measured_miles": 41.1,
+    "miles": 41.1,
+    "minutes": 81,
+    "temp_c_sum": -9.3,
+    "temp_n": 6
+   },
+   "2025-01-20": {
+    "drives": 3,
+    "kwh": 9.19,
+    "longest": 5.58,
+    "measured_miles": 14.51,
+    "miles": 14.51,
+    "minutes": 54,
+    "temp_c_sum": -38.1,
+    "temp_n": 3
+   },
+   "2025-01-24": {
+    "drives": 1,
+    "kwh": 2.98,
+    "longest": 5.67,
+    "measured_miles": 5.67,
+    "miles": 5.67,
+    "minutes": 19,
+    "temp_c_sum": -7.0,
+    "temp_n": 1
+   },
+   "2025-01-25": {
+    "drives": 8,
+    "kwh": 80.62,
+    "longest": 36.81,
+    "measured_miles": 132.5,
+    "miles": 132.5,
+    "minutes": 188,
+    "temp_c_sum": -13.6,
+    "temp_n": 8
+   },
+   "2025-01-26": {
+    "drives": 2,
+    "kwh": 7.24,
+    "longest": 6.15,
+    "measured_miles": 12.08,
+    "miles": 12.08,
+    "minutes": 24,
+    "temp_c_sum": -3.1,
+    "temp_n": 2
+   },
+   "2025-01-27": {
+    "drives": 2,
+    "kwh": 13.14,
+    "longest": 10.51,
+    "measured_miles": 20.74,
+    "miles": 20.74,
+    "minutes": 31,
+    "temp_c_sum": 0.3,
+    "temp_n": 2
+   },
+   "2025-01-28": {
+    "drives": 4,
+    "kwh": 13.92,
+    "longest": 12.89,
+    "measured_miles": 26.1,
+    "miles": 26.1,
+    "minutes": 64,
+    "temp_c_sum": 4.5,
+    "temp_n": 4
+   },
+   "2025-01-29": {
+    "drives": 2,
+    "kwh": 11.3,
+    "longest": 10.51,
+    "measured_miles": 20.7,
+    "miles": 20.7,
+    "minutes": 35,
+    "temp_c_sum": 4.3,
+    "temp_n": 2
+   },
+   "2025-01-30": {
+    "drives": 2,
+    "kwh": 1.96,
+    "longest": 2.34,
+    "measured_miles": 4.52,
+    "miles": 4.52,
+    "minutes": 19,
+    "temp_c_sum": 13.0,
+    "temp_n": 2
+   },
+   "2025-01-31": {
+    "drives": 2,
+    "kwh": 5.24,
+    "longest": 5.65,
+    "measured_miles": 11.28,
+    "miles": 11.28,
+    "minutes": 26,
+    "temp_c_sum": 7.0,
+    "temp_n": 2
+   },
+   "2025-02-01": {
+    "drives": 2,
+    "kwh": 6.44,
+    "longest": 5.64,
+    "measured_miles": 11.06,
+    "miles": 11.06,
+    "minutes": 22,
+    "temp_c_sum": -5.8,
+    "temp_n": 2
+   },
+   "2025-02-02": {
+    "drives": 7,
+    "kwh": 26.5,
+    "longest": 15.06,
+    "measured_miles": 56.22,
+    "miles": 56.22,
+    "minutes": 113,
+    "temp_c_sum": 6.3,
+    "temp_n": 7
+   },
+   "2025-02-03": {
+    "drives": 2,
+    "kwh": 12.32,
+    "longest": 10.5,
+    "measured_miles": 20.7,
+    "miles": 20.7,
+    "minutes": 31,
+    "temp_c_sum": 4.5,
+    "temp_n": 2
+   },
+   "2025-02-04": {
+    "drives": 3,
+    "kwh": 14.98,
+    "longest": 12.87,
+    "measured_miles": 26.1,
+    "miles": 26.1,
+    "minutes": 43,
+    "temp_c_sum": -9.5,
+    "temp_n": 3
+   },
+   "2025-02-05": {
+    "drives": 6,
+    "kwh": 27.92,
+    "longest": 10.49,
+    "measured_miles": 47.07,
+    "miles": 47.07,
+    "minutes": 82,
+    "temp_c_sum": -31.5,
+    "temp_n": 6
+   },
+   "2025-02-06": {
+    "drives": 6,
+    "kwh": 83.32,
+    "longest": 55.93,
+    "measured_miles": 128.62,
+    "miles": 128.62,
+    "minutes": 160,
+    "temp_c_sum": 4.8,
+    "temp_n": 6
+   },
+   "2025-02-07": {
+    "drives": 2,
+    "kwh": 1.18,
+    "longest": 0.85,
+    "measured_miles": 1.63,
+    "miles": 1.63,
+    "minutes": 6,
+    "temp_c_sum": -9.4,
+    "temp_n": 2
+   },
+   "2025-02-08": {
+    "drives": 5,
+    "kwh": 40.38,
+    "longest": 30.82,
+    "measured_miles": 61.55,
+    "miles": 61.55,
+    "minutes": 93,
+    "temp_c_sum": -28.8,
+    "temp_n": 5
+   },
+   "2025-02-09": {
+    "drives": 3,
+    "kwh": 84.42,
+    "longest": 109.61,
+    "measured_miles": 139.59,
+    "miles": 139.59,
+    "minutes": 160,
+    "temp_c_sum": -17.3,
+    "temp_n": 3
+   },
+   "2025-02-10": {
+    "drives": 2,
+    "kwh": 12.74,
+    "longest": 10.52,
+    "measured_miles": 20.73,
+    "miles": 20.73,
+    "minutes": 29,
+    "temp_c_sum": -6.1,
+    "temp_n": 2
+   },
+   "2025-02-11": {
+    "drives": 4,
+    "kwh": 21.06,
+    "longest": 10.52,
+    "measured_miles": 33.98,
+    "miles": 33.98,
+    "minutes": 54,
+    "temp_c_sum": -16.0,
+    "temp_n": 4
+   },
+   "2025-02-12": {
+    "drives": 2,
+    "kwh": 2.72,
+    "longest": 2.43,
+    "measured_miles": 3.9,
+    "miles": 3.9,
+    "minutes": 22,
+    "temp_c_sum": -9.0,
+    "temp_n": 2
+   },
+   "2025-02-13": {
+    "drives": 10,
+    "kwh": 216.08,
+    "longest": 173.17,
+    "measured_miles": 350.05,
+    "miles": 350.05,
+    "minutes": 452,
+    "temp_c_sum": -60.3,
+    "temp_n": 10
+   },
+   "2025-02-16": {
+    "drives": 5,
+    "kwh": 185.18,
+    "longest": 129.88,
+    "measured_miles": 311.2,
+    "miles": 311.2,
+    "minutes": 360,
+    "temp_c_sum": -32.2,
+    "temp_n": 5
+   },
+   "2025-02-17": {
+    "drives": 2,
+    "kwh": 6.34,
+    "longest": 7.12,
+    "measured_miles": 10.62,
+    "miles": 10.62,
+    "minutes": 25,
+    "temp_c_sum": -14.1,
+    "temp_n": 2
+   },
+   "2025-02-18": {
+    "drives": 1,
+    "kwh": 3.26,
+    "longest": 6.75,
+    "measured_miles": 6.75,
+    "miles": 6.75,
+    "minutes": 19,
+    "temp_c_sum": -9.5,
+    "temp_n": 1
+   },
+   "2025-02-19": {
+    "drives": 2,
+    "kwh": 9.24,
+    "longest": 9.35,
+    "measured_miles": 14.4,
+    "miles": 14.4,
+    "minutes": 26,
+    "temp_c_sum": -15.0,
+    "temp_n": 2
+   },
+   "2025-02-24": {
+    "drives": 2,
+    "kwh": 3.04,
+    "longest": 5.54,
+    "measured_miles": 7.55,
+    "miles": 7.55,
+    "minutes": 25,
+    "temp_c_sum": 15.2,
+    "temp_n": 2
+   },
+   "2025-02-25": {
+    "drives": 6,
+    "kwh": 15.4,
+    "longest": 12.87,
+    "measured_miles": 31.15,
+    "miles": 31.15,
+    "minutes": 74,
+    "temp_c_sum": 46.2,
+    "temp_n": 6
+   },
+   "2025-02-26": {
+    "drives": 5,
+    "kwh": 20.86,
+    "longest": 10.49,
+    "measured_miles": 39.67,
+    "miles": 39.67,
+    "minutes": 84,
+    "temp_c_sum": 19.2,
+    "temp_n": 5
+   },
+   "2025-02-27": {
+    "drives": 6,
+    "kwh": 8.74,
+    "longest": 5.63,
+    "measured_miles": 15.78,
+    "miles": 15.78,
+    "minutes": 45,
+    "temp_c_sum": 23.0,
+    "temp_n": 6
+   },
+   "2025-02-28": {
+    "drives": 4,
+    "kwh": 40.76,
+    "longest": 35.2,
+    "measured_miles": 81.73,
+    "miles": 81.73,
+    "minutes": 107,
+    "temp_c_sum": 30.8,
+    "temp_n": 4
+   },
+   "2025-03-01": {
+    "drives": 10,
+    "kwh": 43.8,
+    "longest": 17.44,
+    "measured_miles": 70.55,
+    "miles": 70.55,
+    "minutes": 126,
+    "temp_c_sum": -49.7,
+    "temp_n": 10
+   },
+   "2025-03-02": {
+    "drives": 3,
+    "kwh": 22.48,
+    "longest": 13.61,
+    "measured_miles": 37.04,
+    "miles": 37.04,
+    "minutes": 49,
+    "temp_c_sum": -1.9,
+    "temp_n": 3
+   },
+   "2025-03-03": {
+    "drives": 4,
+    "kwh": 16.38,
+    "longest": 10.46,
+    "measured_miles": 27.88,
+    "miles": 27.88,
+    "minutes": 60,
+    "temp_c_sum": 11.3,
+    "temp_n": 4
+   },
+   "2025-03-04": {
+    "drives": 10,
+    "kwh": 62.88,
+    "longest": 45.35,
+    "measured_miles": 118.82,
+    "miles": 118.82,
+    "minutes": 178,
+    "temp_c_sum": 77.1,
+    "temp_n": 10
+   },
+   "2025-03-05": {
+    "drives": 5,
+    "kwh": 23.48,
+    "longest": 15.76,
+    "measured_miles": 45.26,
+    "miles": 45.26,
+    "minutes": 78,
+    "temp_c_sum": 24.7,
+    "temp_n": 5
+   },
+   "2025-03-07": {
+    "drives": 7,
+    "kwh": 79.96,
+    "longest": 134.31,
+    "measured_miles": 141.1,
+    "miles": 141.1,
+    "minutes": 162,
+    "temp_c_sum": 16.5,
+    "temp_n": 7
+   },
+   "2025-03-08": {
+    "drives": 6,
+    "kwh": 4.58,
+    "longest": 3.72,
+    "measured_miles": 9.46,
+    "miles": 9.46,
+    "minutes": 33,
+    "temp_c_sum": 3.8,
+    "temp_n": 6
+   },
+   "2025-03-09": {
+    "drives": 4,
+    "kwh": 94.22,
+    "longest": 61.15,
+    "measured_miles": 143.33,
+    "miles": 143.33,
+    "minutes": 143,
+    "temp_c_sum": 28.2,
+    "temp_n": 4
+   },
+   "2025-03-10": {
+    "drives": 5,
+    "kwh": 23.78,
+    "longest": 16.37,
+    "measured_miles": 52.86,
+    "miles": 52.86,
+    "minutes": 83,
+    "temp_c_sum": 71.7,
+    "temp_n": 5
+   },
+   "2025-03-11": {
+    "drives": 6,
+    "kwh": 14.36,
+    "longest": 10.48,
+    "measured_miles": 30.87,
+    "miles": 30.87,
+    "minutes": 72,
+    "temp_c_sum": 62.6,
+    "temp_n": 6
+   },
+   "2025-03-12": {
+    "drives": 5,
+    "kwh": 14.72,
+    "longest": 10.8,
+    "measured_miles": 25.03,
+    "miles": 25.03,
+    "minutes": 62,
+    "temp_c_sum": 47.9,
+    "temp_n": 5
+   },
+   "2025-03-13": {
+    "drives": 4,
+    "kwh": 12.9,
+    "longest": 10.48,
+    "measured_miles": 23.85,
+    "miles": 23.85,
+    "minutes": 42,
+    "temp_c_sum": 54.4,
+    "temp_n": 4
+   },
+   "2025-03-14": {
+    "drives": 3,
+    "kwh": 5.18,
+    "longest": 6.35,
+    "measured_miles": 12.1,
+    "miles": 12.1,
+    "minutes": 40,
+    "temp_c_sum": 77.8,
+    "temp_n": 3
+   },
+   "2025-03-15": {
+    "drives": 6,
+    "kwh": 26.18,
+    "longest": 11.93,
+    "measured_miles": 54.27,
+    "miles": 54.27,
+    "minutes": 91,
+    "temp_c_sum": 116.9,
+    "temp_n": 6
+   },
+   "2025-03-16": {
+    "drives": 2,
+    "kwh": 17.1,
+    "longest": 13.51,
+    "measured_miles": 26.94,
+    "miles": 26.94,
+    "minutes": 36,
+    "temp_c_sum": 0.2,
+    "temp_n": 2
+   },
+   "2025-03-17": {
+    "drives": 5,
+    "kwh": 17.46,
+    "longest": 10.49,
+    "measured_miles": 30.46,
+    "miles": 30.46,
+    "minutes": 50,
+    "temp_c_sum": 2.1,
+    "temp_n": 5
+   },
+   "2025-03-18": {
+    "drives": 5,
+    "kwh": 13.58,
+    "longest": 12.83,
+    "measured_miles": 29.13,
+    "miles": 29.13,
+    "minutes": 53,
+    "temp_c_sum": 68.3,
+    "temp_n": 5
+   },
+   "2025-03-19": {
+    "drives": 2,
+    "kwh": 9.62,
+    "longest": 10.43,
+    "measured_miles": 20.59,
+    "miles": 20.59,
+    "minutes": 32,
+    "temp_c_sum": 35.5,
+    "temp_n": 2
+   },
+   "2025-03-20": {
+    "drives": 2,
+    "kwh": 11.6,
+    "longest": 10.52,
+    "measured_miles": 20.72,
+    "miles": 20.72,
+    "minutes": 32,
+    "temp_c_sum": 6.6,
+    "temp_n": 2
+   },
+   "2025-03-21": {
+    "drives": 2,
+    "kwh": 12.2,
+    "longest": 11.94,
+    "measured_miles": 23.75,
+    "miles": 23.75,
+    "minutes": 39,
+    "temp_c_sum": 27.1,
+    "temp_n": 2
+   },
+   "2025-03-22": {
+    "drives": 5,
+    "kwh": 10.22,
+    "longest": 8.47,
+    "measured_miles": 21.56,
+    "miles": 21.56,
+    "minutes": 57,
+    "temp_c_sum": 12.6,
+    "temp_n": 5
+   },
+   "2025-03-23": {
+    "drives": 2,
+    "kwh": 7.68,
+    "longest": 7.49,
+    "measured_miles": 14.5,
+    "miles": 14.5,
+    "minutes": 29,
+    "temp_c_sum": 9.4,
+    "temp_n": 2
+   },
+   "2025-03-24": {
+    "drives": 2,
+    "kwh": 12.48,
+    "longest": 10.51,
+    "measured_miles": 20.69,
+    "miles": 20.69,
+    "minutes": 32,
+    "temp_c_sum": 2.8,
+    "temp_n": 2
+   },
+   "2025-03-25": {
+    "drives": 3,
+    "kwh": 14.92,
+    "longest": 12.84,
+    "measured_miles": 26.06,
+    "miles": 26.06,
+    "minutes": 43,
+    "temp_c_sum": 8.9,
+    "temp_n": 3
+   },
+   "2025-03-26": {
+    "drives": 4,
+    "kwh": 11.14,
+    "longest": 8.81,
+    "measured_miles": 23.85,
+    "miles": 23.85,
+    "minutes": 51,
+    "temp_c_sum": 6.7,
+    "temp_n": 4
+   },
+   "2025-03-27": {
+    "drives": 4,
+    "kwh": 3.84,
+    "longest": 2.3,
+    "measured_miles": 8.77,
+    "miles": 8.77,
+    "minutes": 33,
+    "temp_c_sum": 35.2,
+    "temp_n": 4
+   },
+   "2025-03-28": {
+    "drives": 3,
+    "kwh": 10.16,
+    "longest": 11.94,
+    "measured_miles": 22.71,
+    "miles": 22.71,
+    "minutes": 45,
+    "temp_c_sum": 44.1,
+    "temp_n": 3
+   },
+   "2025-03-29": {
+    "drives": 3,
+    "kwh": 4.84,
+    "longest": 6.89,
+    "measured_miles": 12.75,
+    "miles": 12.75,
+    "minutes": 28,
+    "temp_c_sum": 54.0,
+    "temp_n": 3
+   },
+   "2025-03-31": {
+    "drives": 5,
+    "kwh": 23.1,
+    "longest": 12.86,
+    "measured_miles": 45.82,
+    "miles": 45.82,
+    "minutes": 79,
+    "temp_c_sum": 13.2,
+    "temp_n": 5
+   },
+   "2025-04-01": {
+    "drives": 6,
+    "kwh": 24.42,
+    "longest": 10.21,
+    "measured_miles": 48.79,
+    "miles": 48.79,
+    "minutes": 98,
+    "temp_c_sum": 18.1,
+    "temp_n": 6
+   },
+   "2025-04-02": {
+    "drives": 6,
+    "kwh": 25.14,
+    "longest": 10.51,
+    "measured_miles": 48.46,
+    "miles": 48.46,
+    "minutes": 82,
+    "temp_c_sum": 34.7,
+    "temp_n": 6
+   },
+   "2025-04-03": {
+    "drives": 3,
+    "kwh": 4.5,
+    "longest": 5.64,
+    "measured_miles": 11.28,
+    "miles": 11.28,
+    "minutes": 26,
+    "temp_c_sum": 26.9,
+    "temp_n": 3
+   },
+   "2025-04-04": {
+    "drives": 2,
+    "kwh": 4.82,
+    "longest": 7.09,
+    "measured_miles": 11.93,
+    "miles": 11.93,
+    "minutes": 30,
+    "temp_c_sum": 23.7,
+    "temp_n": 2
+   },
+   "2025-04-10": {
+    "drives": 1,
+    "kwh": 0.26,
+    "longest": 0.32,
+    "measured_miles": 0.32,
+    "miles": 0.32,
+    "minutes": 3,
+    "temp_c_sum": 19.3,
+    "temp_n": 1
+   },
+   "2025-04-11": {
+    "drives": 1,
+    "kwh": 2.64,
+    "longest": 5.62,
+    "measured_miles": 5.62,
+    "miles": 5.62,
+    "minutes": 11,
+    "temp_c_sum": 1.3,
+    "temp_n": 1
+   },
+   "2025-04-15": {
+    "drives": 2,
+    "kwh": 2.04,
+    "longest": 2.01,
+    "measured_miles": 4.0,
+    "miles": 4.0,
+    "minutes": 11,
+    "temp_c_sum": 14.2,
+    "temp_n": 2
+   },
+   "2025-04-16": {
+    "drives": 8,
+    "kwh": 25.54,
+    "longest": 14.58,
+    "measured_miles": 55.71,
+    "miles": 55.71,
+    "minutes": 116,
+    "temp_c_sum": 72.2,
+    "temp_n": 8
+   },
+   "2025-04-17": {
+    "drives": 2,
+    "kwh": 13.9,
+    "longest": 14.96,
+    "measured_miles": 29.4,
+    "miles": 29.4,
+    "minutes": 51,
+    "temp_c_sum": 37.9,
+    "temp_n": 2
+   },
+   "2025-04-18": {
+    "drives": 4,
+    "kwh": 9.02,
+    "longest": 9.58,
+    "measured_miles": 19.98,
+    "miles": 19.98,
+    "minutes": 38,
+    "temp_c_sum": 85.8,
+    "temp_n": 4
+   },
+   "2025-04-19": {
+    "drives": 13,
+    "kwh": 34.28,
+    "longest": 16.79,
+    "measured_miles": 68.42,
+    "miles": 68.42,
+    "minutes": 118,
+    "temp_c_sum": 121.0,
+    "temp_n": 13
+   },
+   "2025-04-20": {
+    "drives": 3,
+    "kwh": 10.76,
+    "longest": 11.81,
+    "measured_miles": 22.12,
+    "miles": 22.12,
+    "minutes": 41,
+    "temp_c_sum": 38.0,
+    "temp_n": 3
+   },
+   "2025-04-21": {
+    "drives": 2,
+    "kwh": 10.56,
+    "longest": 10.5,
+    "measured_miles": 20.69,
+    "miles": 20.69,
+    "minutes": 36,
+    "temp_c_sum": 25.2,
+    "temp_n": 2
+   },
+   "2025-04-22": {
+    "drives": 3,
+    "kwh": 12.04,
+    "longest": 13.26,
+    "measured_miles": 25.83,
+    "miles": 25.83,
+    "minutes": 57,
+    "temp_c_sum": 32.3,
+    "temp_n": 3
+   },
+   "2025-04-23": {
+    "drives": 6,
+    "kwh": 21.74,
+    "longest": 11.91,
+    "measured_miles": 44.6,
+    "miles": 44.6,
+    "minutes": 79,
+    "temp_c_sum": 118.8,
+    "temp_n": 6
+   },
+   "2025-04-24": {
+    "drives": 2,
+    "kwh": 8.14,
+    "longest": 9.78,
+    "measured_miles": 17.71,
+    "miles": 17.71,
+    "minutes": 34,
+    "temp_c_sum": 54.1,
+    "temp_n": 2
+   },
+   "2025-04-25": {
+    "drives": 2,
+    "kwh": 10.66,
+    "longest": 11.6,
+    "measured_miles": 22.09,
+    "miles": 22.09,
+    "minutes": 45,
+    "temp_c_sum": 43.6,
+    "temp_n": 2
+   },
+   "2025-04-26": {
+    "drives": 3,
+    "kwh": 35.58,
+    "longest": 37.03,
+    "measured_miles": 74.02,
+    "miles": 74.02,
+    "minutes": 104,
+    "temp_c_sum": 36.5,
+    "temp_n": 3
+   },
+   "2025-04-28": {
+    "drives": 5,
+    "kwh": 9.74,
+    "longest": 10.01,
+    "measured_miles": 22.75,
+    "miles": 22.75,
+    "minutes": 48,
+    "temp_c_sum": 113.6,
+    "temp_n": 5
+   },
+   "2025-04-29": {
+    "drives": 5,
+    "kwh": 285.58,
+    "longest": 164.69,
+    "measured_miles": 511.98,
+    "miles": 511.98,
+    "minutes": 463,
+    "temp_c_sum": 91.2,
+    "temp_n": 5
+   },
+   "2025-04-30": {
+    "drives": 10,
+    "kwh": 492.54,
+    "longest": 136.72,
+    "measured_miles": 871.32,
+    "miles": 871.32,
+    "minutes": 783,
+    "temp_c_sum": 142.6,
+    "temp_n": 10
+   },
+   "2025-05-01": {
+    "drives": 25,
+    "kwh": 105.58,
+    "longest": 107.49,
+    "measured_miles": 215.59,
+    "miles": 215.59,
+    "minutes": 429,
+    "temp_c_sum": 474.1,
+    "temp_n": 25
+   },
+   "2025-05-02": {
+    "drives": 11,
+    "kwh": 400.36,
+    "longest": 149.07,
+    "measured_miles": 725.22,
+    "miles": 725.22,
+    "minutes": 660,
+    "temp_c_sum": 229.6,
+    "temp_n": 11
+   },
+   "2025-05-03": {
+    "drives": 9,
+    "kwh": 146.44,
+    "longest": 202.04,
+    "measured_miles": 336.95,
+    "miles": 336.95,
+    "minutes": 464,
+    "temp_c_sum": 146.1,
+    "temp_n": 9
+   },
+   "2025-05-04": {
+    "drives": 9,
+    "kwh": 46.4,
+    "longest": 21.94,
+    "measured_miles": 106.84,
+    "miles": 106.84,
+    "minutes": 169,
+    "temp_c_sum": 154.8,
+    "temp_n": 9
+   },
+   "2025-05-05": {
+    "drives": 9,
+    "kwh": 52.24,
+    "longest": 30.49,
+    "measured_miles": 119.25,
+    "miles": 119.25,
+    "minutes": 199,
+    "temp_c_sum": 174.3,
+    "temp_n": 9
+   },
+   "2025-05-06": {
+    "drives": 17,
+    "kwh": 19.82,
+    "longest": 8.64,
+    "measured_miles": 47.46,
+    "miles": 47.46,
+    "minutes": 176,
+    "temp_c_sum": 285.6,
+    "temp_n": 17
+   },
+   "2025-05-07": {
+    "drives": 24,
+    "kwh": 92.46,
+    "longest": 63.56,
+    "measured_miles": 235.0,
+    "miles": 235.0,
+    "minutes": 419,
+    "temp_c_sum": 392.8,
+    "temp_n": 24
+   },
+   "2025-05-08": {
+    "drives": 15,
+    "kwh": 131.4,
+    "longest": 60.79,
+    "measured_miles": 267.4,
+    "miles": 267.4,
+    "minutes": 336,
+    "temp_c_sum": 318.2,
+    "temp_n": 15
+   },
+   "2025-05-09": {
+    "drives": 5,
+    "kwh": 32.82,
+    "longest": 43.65,
+    "measured_miles": 94.13,
+    "miles": 94.13,
+    "minutes": 300,
+    "temp_c_sum": 140.2,
+    "temp_n": 5
+   },
+   "2025-05-10": {
+    "drives": 18,
+    "kwh": 415.24,
+    "longest": 138.3,
+    "measured_miles": 740.32,
+    "miles": 740.32,
+    "minutes": 714,
+    "temp_c_sum": 526.1,
+    "temp_n": 18
+   },
+   "2025-05-11": {
+    "drives": 8,
+    "kwh": 383.16,
+    "longest": 183.92,
+    "measured_miles": 694.08,
+    "miles": 694.08,
+    "minutes": 599,
+    "temp_c_sum": 166.0,
+    "temp_n": 8
+   },
+   "2025-05-12": {
+    "drives": 7,
+    "kwh": 464.8,
+    "longest": 189.64,
+    "measured_miles": 850.2,
+    "miles": 850.2,
+    "minutes": 769,
+    "temp_c_sum": 149.5,
+    "temp_n": 7
+   },
+   "2025-05-13": {
+    "drives": 3,
+    "kwh": 57.26,
+    "longest": 89.17,
+    "measured_miles": 94.54,
+    "miles": 94.54,
+    "minutes": 106,
+    "temp_c_sum": 63.1,
+    "temp_n": 3
+   },
+   "2025-05-14": {
+    "drives": 2,
+    "kwh": 6.86,
+    "longest": 9.15,
+    "measured_miles": 17.76,
+    "miles": 17.76,
+    "minutes": 36,
+    "temp_c_sum": 47.4,
+    "temp_n": 2
+   },
+   "2025-05-15": {
+    "drives": 2,
+    "kwh": 8.34,
+    "longest": 10.05,
+    "measured_miles": 19.14,
+    "miles": 19.14,
+    "minutes": 32,
+    "temp_c_sum": 60.5,
+    "temp_n": 2
+   },
+   "2025-05-16": {
+    "drives": 4,
+    "kwh": 8.96,
+    "longest": 10.13,
+    "measured_miles": 18.6,
+    "miles": 18.6,
+    "minutes": 37,
+    "temp_c_sum": 113.4,
+    "temp_n": 4
+   },
+   "2025-05-17": {
+    "drives": 8,
+    "kwh": 15.04,
+    "longest": 12.06,
+    "measured_miles": 32.43,
+    "miles": 32.43,
+    "minutes": 69,
+    "temp_c_sum": 119.5,
+    "temp_n": 8
+   },
+   "2025-05-18": {
+    "drives": 5,
+    "kwh": 37.04,
+    "longest": 37.02,
+    "measured_miles": 80.77,
+    "miles": 80.77,
+    "minutes": 112,
+    "temp_c_sum": 80.9,
+    "temp_n": 5
+   },
+   "2025-05-19": {
+    "drives": 4,
+    "kwh": 19.06,
+    "longest": 11.46,
+    "measured_miles": 40.85,
+    "miles": 40.85,
+    "minutes": 63,
+    "temp_c_sum": 51.6,
+    "temp_n": 4
+   },
+   "2025-05-20": {
+    "drives": 5,
+    "kwh": 16.96,
+    "longest": 13.09,
+    "measured_miles": 34.56,
+    "miles": 34.56,
+    "minutes": 62,
+    "temp_c_sum": 45.2,
+    "temp_n": 5
+   },
+   "2025-05-21": {
+    "drives": 4,
+    "kwh": 15.5,
+    "longest": 9.07,
+    "measured_miles": 34.02,
+    "miles": 34.02,
+    "minutes": 98,
+    "temp_c_sum": 41.0,
+    "temp_n": 4
+   },
+   "2025-05-22": {
+    "drives": 3,
+    "kwh": 70.12,
+    "longest": 93.99,
+    "measured_miles": 117.57,
+    "miles": 117.57,
+    "minutes": 153,
+    "temp_c_sum": 35.0,
+    "temp_n": 3
+   },
+   "2025-05-23": {
+    "drives": 44,
+    "kwh": 86.4,
+    "longest": 56.99,
+    "measured_miles": 154.97,
+    "miles": 154.97,
+    "minutes": 279,
+    "temp_c_sum": 471.8,
+    "temp_n": 44
+   },
+   "2025-05-24": {
+    "drives": 2,
+    "kwh": 34.3,
+    "longest": 34.88,
+    "measured_miles": 69.69,
+    "miles": 69.69,
+    "minutes": 83,
+    "temp_c_sum": 27.3,
+    "temp_n": 2
+   },
+   "2025-05-25": {
+    "drives": 23,
+    "kwh": 36.82,
+    "longest": 29.53,
+    "measured_miles": 78.39,
+    "miles": 78.39,
+    "minutes": 145,
+    "temp_c_sum": 443.8,
+    "temp_n": 23
+   },
+   "2025-05-26": {
+    "drives": 5,
+    "kwh": 25.4,
+    "longest": 24.03,
+    "measured_miles": 56.65,
+    "miles": 56.65,
+    "minutes": 80,
+    "temp_c_sum": 107.1,
+    "temp_n": 5
+   },
+   "2025-05-27": {
+    "drives": 5,
+    "kwh": 79.68,
+    "longest": 69.31,
+    "measured_miles": 147.71,
+    "miles": 147.71,
+    "minutes": 157,
+    "temp_c_sum": 102.9,
+    "temp_n": 5
+   },
+   "2025-05-28": {
+    "drives": 4,
+    "kwh": 13.92,
+    "longest": 10.34,
+    "measured_miles": 32.5,
+    "miles": 32.5,
+    "minutes": 68,
+    "temp_c_sum": 65.2,
+    "temp_n": 4
+   },
+   "2025-05-29": {
+    "drives": 28,
+    "kwh": 129.3,
+    "longest": 92.06,
+    "measured_miles": 228.01,
+    "miles": 228.01,
+    "minutes": 290,
+    "temp_c_sum": 460.0,
+    "temp_n": 28
+   },
+   "2025-05-30": {
+    "drives": 43,
+    "kwh": 143.62,
+    "longest": 120.08,
+    "measured_miles": 243.65,
+    "miles": 243.65,
+    "minutes": 402,
+    "temp_c_sum": 630.3,
+    "temp_n": 43
+   },
+   "2025-05-31": {
+    "drives": 5,
+    "kwh": 115.72,
+    "longest": 70.43,
+    "measured_miles": 192.23,
+    "miles": 192.23,
+    "minutes": 191,
+    "temp_c_sum": 72.2,
+    "temp_n": 5
+   },
+   "2025-06-01": {
+    "drives": 3,
+    "kwh": 27.3,
+    "longest": 20.39,
+    "measured_miles": 61.14,
+    "miles": 61.14,
+    "minutes": 75,
+    "temp_c_sum": 62.1,
+    "temp_n": 3
+   },
+   "2025-06-02": {
+    "drives": 4,
+    "kwh": 62.84,
+    "longest": 69.3,
+    "measured_miles": 143.06,
+    "miles": 143.06,
+    "minutes": 147,
+    "temp_c_sum": 88.7,
+    "temp_n": 4
+   },
+   "2025-06-03": {
+    "drives": 3,
+    "kwh": 8.8,
+    "longest": 13.74,
+    "measured_miles": 24.43,
+    "miles": 24.43,
+    "minutes": 45,
+    "temp_c_sum": 68.8,
+    "temp_n": 3
+   }
+  },
+  "odometer_miles": 30517.7,
+  "since": "2024-06-27",
+  "supercharging": {
+   "h-2024-07-10T18:54": {
+    "currency": "USD",
+    "date": "2024-07-10",
+    "kwh": 70.69,
+    "site": "Elkhart, IN"
+   },
+   "h-2024-07-13T11:55": {
+    "currency": "USD",
+    "date": "2024-07-13",
+    "kwh": 14.07,
+    "site": "Elkhart, IN"
+   },
+   "h-2024-07-13T13:02": {
+    "currency": "USD",
+    "date": "2024-07-13",
+    "kwh": 23.79,
+    "site": "Michigan City, IN"
+   },
+   "h-2024-07-14T10:07": {
+    "currency": "USD",
+    "date": "2024-07-14",
+    "kwh": 29.46,
+    "site": "Michigan City, IN"
+   },
+   "h-2024-07-15T11:14": {
+    "currency": "USD",
+    "date": "2024-07-15",
+    "kwh": 63.61,
+    "site": "Stevensville, MI"
+   },
+   "h-2024-07-15T17:33": {
+    "currency": "USD",
+    "date": "2024-07-15",
+    "kwh": 12.62,
+    "site": "Stevensville, MI"
+   },
+   "h-2024-07-17T09:34": {
+    "currency": "USD",
+    "date": "2024-07-17",
+    "kwh": 22.66,
+    "site": "Kentwood, MI"
+   },
+   "h-2024-07-17T10:48": {
+    "currency": "USD",
+    "date": "2024-07-17",
+    "kwh": 37.52,
+    "site": "Kentwood, MI"
+   },
+   "h-2024-07-18T18:05": {
+    "currency": "USD",
+    "date": "2024-07-18",
+    "kwh": 92.96,
+    "site": "Grand Rapids, MI"
+   },
+   "h-2024-07-20T13:42": {
+    "currency": "USD",
+    "date": "2024-07-20",
+    "kwh": 58.11,
+    "site": "Cadillac, MI"
+   },
+   "h-2024-07-21T16:01": {
+    "currency": "USD",
+    "date": "2024-07-21",
+    "kwh": 57.4,
+    "site": "Grand Rapids, MI"
+   },
+   "h-2024-07-21T16:31": {
+    "currency": "USD",
+    "date": "2024-07-21",
+    "kwh": 8.61,
+    "site": "Grand Rapids, MI"
+   },
+   "h-2024-07-30T19:47": {
+    "currency": "USD",
+    "date": "2024-07-30",
+    "kwh": 93.67,
+    "site": "Gaylord, MI"
+   },
+   "h-2024-07-31T14:25": {
+    "currency": "USD",
+    "date": "2024-07-31",
+    "kwh": 61.08,
+    "site": "Mackinaw City, MI"
+   },
+   "h-2024-07-31T17:42": {
+    "currency": "USD",
+    "date": "2024-07-31",
+    "kwh": 71.14,
+    "site": "Cadillac, MI"
+   },
+   "h-2024-08-01T09:15": {
+    "currency": "USD",
+    "date": "2024-08-01",
+    "kwh": 88.72,
+    "site": "Grand Rapids, MI"
+   },
+   "h-2024-08-01T11:22": {
+    "currency": "USD",
+    "date": "2024-08-01",
+    "kwh": 11.57,
+    "site": "Grand Rapids, MI"
+   },
+   "h-2024-08-01T21:55": {
+    "currency": "USD",
+    "date": "2024-08-01",
+    "kwh": 55.81,
+    "site": "Portage, MI"
+   },
+   "h-2024-08-02T23:33": {
+    "currency": "USD",
+    "date": "2024-08-02",
+    "kwh": 29.78,
+    "site": "Portage, MI"
+   },
+   "h-2024-08-04T13:30": {
+    "currency": "USD",
+    "date": "2024-08-04",
+    "kwh": 37.92,
+    "site": "Portage, MI"
+   },
+   "h-2024-08-08T20:50": {
+    "currency": "USD",
+    "date": "2024-08-08",
+    "kwh": 2.5,
+    "site": "Grand Rapids, MI"
+   },
+   "h-2024-08-08T21:19": {
+    "currency": "USD",
+    "date": "2024-08-08",
+    "kwh": 97.29,
+    "site": "Grand Rapids, MI"
+   },
+   "h-2024-08-11T18:33": {
+    "currency": "USD",
+    "date": "2024-08-11",
+    "kwh": 54.65,
+    "site": "Grand Rapids, MI"
+   },
+   "h-2024-08-14T08:40": {
+    "currency": "USD",
+    "date": "2024-08-14",
+    "kwh": 34.22,
+    "site": "Grand Rapids, MI"
+   },
+   "h-2024-08-14T23:37": {
+    "currency": "USD",
+    "date": "2024-08-14",
+    "kwh": 32.52,
+    "site": "Grand Rapids, MI"
+   },
+   "h-2024-08-17T10:44": {
+    "currency": "USD",
+    "date": "2024-08-17",
+    "kwh": 67.41,
+    "site": "Benton Harbor, MI"
+   },
+   "h-2024-08-17T22:54": {
+    "currency": "USD",
+    "date": "2024-08-17",
+    "kwh": 64.39,
+    "site": "Hudsonville, MI"
+   },
+   "h-2024-08-18T15:12": {
+    "currency": "USD",
+    "date": "2024-08-18",
+    "kwh": 46.79,
+    "site": "Big Rapids, MI"
+   },
+   "h-2024-08-19T23:18": {
+    "currency": "USD",
+    "date": "2024-08-19",
+    "kwh": 41.36,
+    "site": "Big Rapids, MI"
+   },
+   "h-2024-08-24T07:41": {
+    "currency": "USD",
+    "date": "2024-08-24",
+    "kwh": 14.38,
+    "site": "Traverse City, MI"
+   },
+   "h-2024-08-24T07:49": {
+    "currency": "USD",
+    "date": "2024-08-24",
+    "kwh": 39.25,
+    "site": "Traverse City, MI"
+   },
+   "h-2024-08-24T22:59": {
+    "currency": "USD",
+    "date": "2024-08-24",
+    "kwh": 12.74,
+    "site": "Traverse City, MI"
+   },
+   "h-2024-08-25T12:27": {
+    "currency": "USD",
+    "date": "2024-08-25",
+    "kwh": 54.89,
+    "site": "Big Rapids, MI"
+   },
+   "h-2024-08-29T12:46": {
+    "currency": "USD",
+    "date": "2024-08-29",
+    "kwh": 61.42,
+    "site": "Grand Rapids, MI"
+   },
+   "h-2024-09-07T09:20": {
+    "currency": "USD",
+    "date": "2024-09-07",
+    "kwh": 55.57,
+    "site": "Cadillac, MI"
+   },
+   "h-2024-09-07T22:18": {
+    "currency": "USD",
+    "date": "2024-09-07",
+    "kwh": 62.89,
+    "site": "Mackinaw City, MI"
+   },
+   "h-2024-09-08T08:02": {
+    "currency": "USD",
+    "date": "2024-09-08",
+    "kwh": 100.42,
+    "site": "Escanaba, MI"
+   },
+   "h-2024-09-08T12:07": {
+    "currency": "USD",
+    "date": "2024-09-08",
+    "kwh": 69.02,
+    "site": "Wausau, WI"
+   },
+   "h-2024-09-08T14:27": {
+    "currency": "USD",
+    "date": "2024-09-08",
+    "kwh": 69.36,
+    "site": "Menomonie, WI"
+   },
+   "h-2024-09-08T16:26": {
+    "currency": "USD",
+    "date": "2024-09-08",
+    "kwh": 90.24,
+    "site": "Monticello, MN"
+   },
+   "h-2024-09-08T19:07": {
+    "currency": "USD",
+    "date": "2024-09-08",
+    "kwh": 91.09,
+    "site": "Fergus Falls, MN"
+   },
+   "h-2024-09-08T22:37": {
+    "currency": "USD",
+    "date": "2024-09-08",
+    "kwh": 39.45,
+    "site": "Jamestown, ND"
+   },
+   "h-2024-09-09T09:47": {
+    "currency": "USD",
+    "date": "2024-09-09",
+    "kwh": 56.59,
+    "site": "Dickinson, ND"
+   },
+   "h-2024-09-09T11:21": {
+    "currency": "USD",
+    "date": "2024-09-09",
+    "kwh": 54.4,
+    "site": "Glendive, MT"
+   },
+   "h-2024-09-09T12:34": {
+    "currency": "USD",
+    "date": "2024-09-09",
+    "kwh": 112.77,
+    "site": "Miles City, MT"
+   },
+   "h-2024-09-09T15:37": {
+    "currency": "USD",
+    "date": "2024-09-09",
+    "kwh": 90.32,
+    "site": "Laurel, MT"
+   },
+   "h-2024-09-09T18:11": {
+    "currency": "USD",
+    "date": "2024-09-09",
+    "kwh": 52.07,
+    "site": "Belgrade, MT"
+   },
+   "h-2024-09-09T19:35": {
+    "currency": "USD",
+    "date": "2024-09-09",
+    "kwh": 77.9,
+    "site": "Butte, MT"
+   },
+   "h-2024-09-09T21:46": {
+    "currency": "USD",
+    "date": "2024-09-09",
+    "kwh": 75.88,
+    "site": "Missoula, MT"
+   },
+   "h-2024-09-10T08:28": {
+    "currency": "USD",
+    "date": "2024-09-10",
+    "kwh": 29.16,
+    "site": "Missoula, MT"
+   },
+   "h-2024-09-11T22:53": {
+    "currency": "USD",
+    "date": "2024-09-11",
+    "kwh": 26.42,
+    "site": "Kalispell, MT"
+   },
+   "h-2024-09-12T22:38": {
+    "currency": "USD",
+    "date": "2024-09-12",
+    "kwh": 28.25,
+    "site": "Kalispell, MT"
+   },
+   "h-2024-09-13T19:22": {
+    "currency": "USD",
+    "date": "2024-09-13",
+    "kwh": 71.43,
+    "site": "Kalispell, MT"
+   },
+   "h-2024-09-14T11:04": {
+    "currency": "USD",
+    "date": "2024-09-14",
+    "kwh": 107.9,
+    "site": "Great Falls, MT"
+   },
+   "h-2024-09-14T14:36": {
+    "currency": "USD",
+    "date": "2024-09-14",
+    "kwh": 58.32,
+    "site": "Big Timber, MT"
+   },
+   "h-2024-09-14T16:13": {
+    "currency": "USD",
+    "date": "2024-09-14",
+    "kwh": 80.75,
+    "site": "Billings, MT"
+   },
+   "h-2024-09-14T18:38": {
+    "currency": "USD",
+    "date": "2024-09-14",
+    "kwh": 53.21,
+    "site": "Miles City, MT"
+   },
+   "h-2024-09-14T19:52": {
+    "currency": "USD",
+    "date": "2024-09-14",
+    "kwh": 71.68,
+    "site": "Glendive, MT"
+   },
+   "h-2024-09-14T21:31": {
+    "currency": "USD",
+    "date": "2024-09-14",
+    "kwh": 70.2,
+    "site": "Dickinson, ND"
+   },
+   "h-2024-09-14T23:16": {
+    "currency": "USD",
+    "date": "2024-09-14",
+    "kwh": 66.78,
+    "site": "Bismarck, ND"
+   },
+   "h-2024-09-15T01:14": {
+    "currency": "USD",
+    "date": "2024-09-15",
+    "kwh": 72.51,
+    "site": "Jamestown, ND"
+   },
+   "h-2024-09-15T09:18": {
+    "currency": "USD",
+    "date": "2024-09-15",
+    "kwh": 89.99,
+    "site": "Fargo, ND"
+   },
+   "h-2024-09-15T11:25": {
+    "currency": "USD",
+    "date": "2024-09-15",
+    "kwh": 54.75,
+    "site": "Alexandria, MN"
+   },
+   "h-2024-09-15T13:07": {
+    "currency": "USD",
+    "date": "2024-09-15",
+    "kwh": 70.12,
+    "site": "Monticello, MN"
+   },
+   "h-2024-09-15T16:13": {
+    "currency": "USD",
+    "date": "2024-09-15",
+    "kwh": 79.01,
+    "site": "Black River Falls, WI"
+   },
+   "h-2024-09-15T18:56": {
+    "currency": "USD",
+    "date": "2024-09-15",
+    "kwh": 63.03,
+    "site": "Janesville, WI"
+   },
+   "h-2024-09-15T21:44": {
+    "currency": "USD",
+    "date": "2024-09-15",
+    "kwh": 68.94,
+    "site": "Chesterton, IN"
+   },
+   "h-2024-10-02T14:33": {
+    "currency": "USD",
+    "date": "2024-10-02",
+    "kwh": 39.73,
+    "site": "Findlay, OH"
+   },
+   "h-2024-10-02T16:23": {
+    "currency": "USD",
+    "date": "2024-10-02",
+    "kwh": 39.24,
+    "site": "Columbus, OH"
+   },
+   "h-2024-10-03T10:44": {
+    "currency": "USD",
+    "date": "2024-10-03",
+    "kwh": 7.58,
+    "site": "Upper Sandusky, OH"
+   },
+   "h-2024-10-03T13:31": {
+    "currency": "USD",
+    "date": "2024-10-03",
+    "kwh": 58.57,
+    "site": "Lansing, MI"
+   },
+   "h-2024-10-06T17:11": {
+    "currency": "USD",
+    "date": "2024-10-06",
+    "kwh": 72.92,
+    "site": "Muskegon, MI"
+   },
+   "h-2024-10-17T19:05": {
+    "currency": "USD",
+    "date": "2024-10-17",
+    "kwh": 55.8,
+    "site": "Genoa, OH"
+   },
+   "h-2024-10-17T21:32": {
+    "currency": "USD",
+    "date": "2024-10-17",
+    "kwh": 60.62,
+    "site": "Girard, OH"
+   },
+   "h-2024-10-18T09:39": {
+    "currency": "USD",
+    "date": "2024-10-18",
+    "kwh": 18.05,
+    "site": "Bloomsburg, PA"
+   },
+   "h-2024-10-18T09:49": {
+    "currency": "USD",
+    "date": "2024-10-18",
+    "kwh": 42.26,
+    "site": "Bloomsburg, PA"
+   },
+   "h-2024-10-18T12:06": {
+    "currency": "USD",
+    "date": "2024-10-18",
+    "kwh": 62.16,
+    "site": "Parsippany, NJ"
+   },
+   "h-2024-10-20T08:30": {
+    "currency": "USD",
+    "date": "2024-10-20",
+    "kwh": 73.54,
+    "site": "Bartonsville, PA"
+   },
+   "h-2024-10-20T10:47": {
+    "currency": "USD",
+    "date": "2024-10-20",
+    "kwh": 48.73,
+    "site": "Mill Hall, PA"
+   },
+   "h-2024-10-20T12:10": {
+    "currency": "USD",
+    "date": "2024-10-20",
+    "kwh": 74.88,
+    "site": "DuBois, PA"
+   },
+   "h-2024-10-20T15:09": {
+    "currency": "USD",
+    "date": "2024-10-20",
+    "kwh": 75.46,
+    "site": "Brecksville, OH"
+   },
+   "h-2024-10-20T16:57": {
+    "currency": "USD",
+    "date": "2024-10-20",
+    "kwh": 11.31,
+    "site": "Genoa, OH"
+   },
+   "h-2024-10-20T18:16": {
+    "currency": "USD",
+    "date": "2024-10-20",
+    "kwh": 89.72,
+    "site": "Ypsilanti, MI"
+   },
+   "h-2024-12-16T22:36": {
+    "currency": "USD",
+    "date": "2024-12-16",
+    "kwh": 34.69,
+    "site": "Kentwood, MI"
+   },
+   "h-2024-12-17T07:07": {
+    "currency": "USD",
+    "date": "2024-12-17",
+    "kwh": 5.15,
+    "site": "Kentwood, MI"
+   },
+   "h-2024-12-21T07:23": {
+    "currency": "USD",
+    "date": "2024-12-21",
+    "kwh": 63.8,
+    "site": "Munster, IN"
+   },
+   "h-2024-12-21T09:18": {
+    "currency": "USD",
+    "date": "2024-12-21",
+    "kwh": 71.06,
+    "site": "Peru, IL"
+   },
+   "h-2024-12-21T11:13": {
+    "currency": "USD",
+    "date": "2024-12-21",
+    "kwh": 74.74,
+    "site": "Walcott, IA"
+   },
+   "h-2024-12-21T13:55": {
+    "currency": "USD",
+    "date": "2024-12-21",
+    "kwh": 92.01,
+    "site": "Des Moines, IA"
+   },
+   "h-2024-12-21T17:01": {
+    "currency": "USD",
+    "date": "2024-12-21",
+    "kwh": 18.59,
+    "site": "Omaha, NE"
+   },
+   "h-2024-12-21T17:10": {
+    "currency": "USD",
+    "date": "2024-12-21",
+    "kwh": 32.19,
+    "site": "Omaha, NE"
+   },
+   "h-2024-12-21T18:15": {
+    "currency": "USD",
+    "date": "2024-12-21",
+    "kwh": 56.04,
+    "site": "Lincoln, NE"
+   },
+   "h-2024-12-21T19:50": {
+    "currency": "USD",
+    "date": "2024-12-21",
+    "kwh": 56.04,
+    "site": "Grand Island, NE"
+   },
+   "h-2024-12-28T08:24": {
+    "currency": "USD",
+    "date": "2024-12-28",
+    "kwh": 71.88,
+    "site": "Lincoln, NE"
+   },
+   "h-2024-12-28T10:10": {
+    "currency": "USD",
+    "date": "2024-12-28",
+    "kwh": 47.46,
+    "site": "Shelby, IA"
+   },
+   "h-2024-12-28T11:58": {
+    "currency": "USD",
+    "date": "2024-12-28",
+    "kwh": 58.85,
+    "site": "Des Moines, IA"
+   },
+   "h-2024-12-28T13:59": {
+    "currency": "USD",
+    "date": "2024-12-28",
+    "kwh": 68.78,
+    "site": "Iowa City, IA"
+   },
+   "h-2024-12-28T16:20": {
+    "currency": "USD",
+    "date": "2024-12-28",
+    "kwh": 66.95,
+    "site": "Peru, IL"
+   },
+   "h-2024-12-28T19:05": {
+    "currency": "USD",
+    "date": "2024-12-28",
+    "kwh": 53.13,
+    "site": "Stevensville, MI"
+   },
+   "h-2024-12-30T10:53": {
+    "currency": "USD",
+    "date": "2024-12-30",
+    "kwh": 48.87,
+    "site": "Kentwood, MI"
+   },
+   "h-2025-01-11T12:30": {
+    "currency": "USD",
+    "date": "2025-01-11",
+    "kwh": 19.44,
+    "site": "Cadillac, MI"
+   },
+   "h-2025-01-11T12:41": {
+    "currency": "USD",
+    "date": "2025-01-11",
+    "kwh": 23.62,
+    "site": "Cadillac, MI"
+   },
+   "h-2025-01-11T18:47": {
+    "currency": "USD",
+    "date": "2025-01-11",
+    "kwh": 64.34,
+    "site": "Cadillac, MI"
+   },
+   "h-2025-02-06T17:02": {
+    "currency": "USD",
+    "date": "2025-02-06",
+    "kwh": 35.66,
+    "site": "Big Rapids, MI"
+   },
+   "h-2025-02-13T13:05": {
+    "currency": "USD",
+    "date": "2025-02-13",
+    "kwh": 25.66,
+    "site": "Grand Rapids, MI"
+   },
+   "h-2025-02-13T18:56": {
+    "currency": "USD",
+    "date": "2025-02-13",
+    "kwh": 49.84,
+    "site": "Gaylord, MI"
+   },
+   "h-2025-02-13T20:42": {
+    "currency": "USD",
+    "date": "2025-02-13",
+    "kwh": 95.66,
+    "site": "Mackinaw City, MI"
+   },
+   "h-2025-02-16T11:55": {
+    "currency": "USD",
+    "date": "2025-02-16",
+    "kwh": 16.87,
+    "site": "Gaylord, MI"
+   },
+   "h-2025-02-16T14:23": {
+    "currency": "USD",
+    "date": "2025-02-16",
+    "kwh": 36.37,
+    "site": "Cadillac, MI"
+   },
+   "h-2025-02-16T15:04": {
+    "currency": "USD",
+    "date": "2025-02-16",
+    "kwh": 2.62,
+    "site": "Cadillac, MI"
+   },
+   "h-2025-02-16T15:59": {
+    "currency": "USD",
+    "date": "2025-02-16",
+    "kwh": 31.56,
+    "site": "Big Rapids, MI"
+   },
+   "h-2025-02-18T15:43": {
+    "currency": "USD",
+    "date": "2025-02-18",
+    "kwh": 19.65,
+    "site": "Kentwood, MI"
+   },
+   "h-2025-03-09T09:57": {
+    "currency": "USD",
+    "date": "2025-03-09",
+    "kwh": 67.34,
+    "site": "Jackson, MI"
+   },
+   "h-2025-04-15T16:20": {
+    "currency": "USD",
+    "date": "2025-04-15",
+    "kwh": 12.43,
+    "site": "Kentwood, MI"
+   },
+   "h-2025-04-29T18:04": {
+    "currency": "USD",
+    "date": "2025-04-29",
+    "kwh": 51.27,
+    "site": "Munster, IN"
+   },
+   "h-2025-04-29T19:49": {
+    "currency": "USD",
+    "date": "2025-04-29",
+    "kwh": 62.63,
+    "site": "Peru, IL"
+   },
+   "h-2025-04-29T21:49": {
+    "currency": "USD",
+    "date": "2025-04-29",
+    "kwh": 78.93,
+    "site": "Walcott, IA"
+   },
+   "h-2025-04-30T00:29": {
+    "currency": "USD",
+    "date": "2025-04-30",
+    "kwh": 101.28,
+    "site": "Des Moines, IA"
+   },
+   "h-2025-04-30T09:03": {
+    "currency": "USD",
+    "date": "2025-04-30",
+    "kwh": 73.69,
+    "site": "Omaha, NE"
+   },
+   "h-2025-04-30T11:37": {
+    "currency": "USD",
+    "date": "2025-04-30",
+    "kwh": 26.63,
+    "site": "Grand Island, NE"
+   },
+   "h-2025-04-30T12:29": {
+    "currency": "USD",
+    "date": "2025-04-30",
+    "kwh": 47.84,
+    "site": "Kearney, NE"
+   },
+   "h-2025-04-30T14:07": {
+    "currency": "USD",
+    "date": "2025-04-30",
+    "kwh": 29.26,
+    "site": "North Platte, NE"
+   },
+   "h-2025-04-30T15:03": {
+    "currency": "USD",
+    "date": "2025-04-30",
+    "kwh": 102.08,
+    "site": "Ogallala, NE"
+   },
+   "h-2025-04-30T17:58": {
+    "currency": "USD",
+    "date": "2025-04-30",
+    "kwh": 36.53,
+    "site": "Brush, CO"
+   },
+   "h-2025-04-30T19:44": {
+    "currency": "USD",
+    "date": "2025-04-30",
+    "kwh": 42.01,
+    "site": "Lakewood, CO"
+   },
+   "h-2025-04-30T21:08": {
+    "currency": "USD",
+    "date": "2025-04-30",
+    "kwh": 51.0,
+    "site": "Breckenridge, CO"
+   },
+   "h-2025-04-30T23:38": {
+    "currency": "USD",
+    "date": "2025-04-30",
+    "kwh": 62.61,
+    "site": "Parachute, CO"
+   },
+   "h-2025-05-01T14:25": {
+    "currency": "USD",
+    "date": "2025-05-01",
+    "kwh": 92.92,
+    "site": "Moab, UT"
+   },
+   "h-2025-05-02T14:12": {
+    "currency": "USD",
+    "date": "2025-05-02",
+    "kwh": 76.88,
+    "site": "Salt Lake City, UT"
+   },
+   "h-2025-05-02T17:38": {
+    "currency": "USD",
+    "date": "2025-05-02",
+    "kwh": 24.5,
+    "site": "West Wendover, NV"
+   },
+   "h-2025-05-02T17:56": {
+    "currency": "USD",
+    "date": "2025-05-02",
+    "kwh": 50.37,
+    "site": "West Wendover, NV"
+   },
+   "h-2025-05-02T20:06": {
+    "currency": "USD",
+    "date": "2025-05-02",
+    "kwh": 68.74,
+    "site": "Elko, NV"
+   },
+   "h-2025-05-02T22:28": {
+    "currency": "USD",
+    "date": "2025-05-02",
+    "kwh": 81.48,
+    "site": "Winnemucca, NV"
+   },
+   "h-2025-05-03T00:55": {
+    "currency": "USD",
+    "date": "2025-05-03",
+    "kwh": 41.44,
+    "site": "Fernley, NV"
+   },
+   "h-2025-05-03T14:14": {
+    "currency": "USD",
+    "date": "2025-05-03",
+    "kwh": 57.89,
+    "site": "Pinole, CA"
+   },
+   "h-2025-05-06T22:02": {
+    "currency": "USD",
+    "date": "2025-05-06",
+    "kwh": 80.0,
+    "site": "Pacific Grove, CA"
+   },
+   "h-2025-05-07T18:09": {
+    "currency": "USD",
+    "date": "2025-05-07",
+    "kwh": 51.85,
+    "site": "Greenfield, CA"
+   },
+   "h-2025-05-08T12:20": {
+    "currency": "USD",
+    "date": "2025-05-08",
+    "kwh": 69.87,
+    "site": "Pismo Beach, CA"
+   },
+   "h-2025-05-08T16:46": {
+    "currency": "USD",
+    "date": "2025-05-08",
+    "kwh": 32.38,
+    "site": "Ventura, CA"
+   },
+   "h-2025-05-09T22:55": {
+    "currency": "USD",
+    "date": "2025-05-09",
+    "kwh": 80.45,
+    "site": "Hawthorne, CA"
+   },
+   "h-2025-05-10T06:57": {
+    "currency": "USD",
+    "date": "2025-05-10",
+    "kwh": 18.14,
+    "site": "Hawthorne, CA"
+   },
+   "h-2025-05-10T10:05": {
+    "currency": "USD",
+    "date": "2025-05-10",
+    "kwh": 78.95,
+    "site": "Yucca Valley, CA"
+   },
+   "h-2025-05-10T17:06": {
+    "currency": "USD",
+    "date": "2025-05-10",
+    "kwh": 52.77,
+    "site": "Needles, CA"
+   },
+   "h-2025-05-10T18:21": {
+    "currency": "USD",
+    "date": "2025-05-10",
+    "kwh": 67.31,
+    "site": "Kingman, AZ"
+   },
+   "h-2025-05-10T20:26": {
+    "currency": "USD",
+    "date": "2025-05-10",
+    "kwh": 75.33,
+    "site": "Williams, AZ"
+   },
+   "h-2025-05-11T00:29": {
+    "currency": "USD",
+    "date": "2025-05-11",
+    "kwh": 0.64,
+    "site": "Gallup, NM"
+   },
+   "h-2025-05-11T00:31": {
+    "currency": "USD",
+    "date": "2025-05-11",
+    "kwh": 3.06,
+    "site": "Gallup, NM"
+   },
+   "h-2025-05-11T00:34": {
+    "currency": "USD",
+    "date": "2025-05-11",
+    "kwh": 70.27,
+    "site": "Gallup, NM"
+   },
+   "h-2025-05-11T12:33": {
+    "currency": "USD",
+    "date": "2025-05-11",
+    "kwh": 28.27,
+    "site": "Milan, NM"
+   },
+   "h-2025-05-11T13:54": {
+    "currency": "USD",
+    "date": "2025-05-11",
+    "kwh": 85.61,
+    "site": "Albuquerque, NM"
+   },
+   "h-2025-05-11T16:53": {
+    "currency": "USD",
+    "date": "2025-05-11",
+    "kwh": 6.7,
+    "site": "Tucumcari, NM"
+   },
+   "h-2025-05-11T17:02": {
+    "currency": "USD",
+    "date": "2025-05-11",
+    "kwh": 69.38,
+    "site": "Tucumcari, NM"
+   },
+   "h-2025-05-11T19:21": {
+    "currency": "USD",
+    "date": "2025-05-11",
+    "kwh": 91.81,
+    "site": "Amarillo, TX"
+   },
+   "h-2025-05-11T22:41": {
+    "currency": "USD",
+    "date": "2025-05-11",
+    "kwh": 53.87,
+    "site": "Weatherford, OK"
+   },
+   "h-2025-05-12T00:08": {
+    "currency": "USD",
+    "date": "2025-05-12",
+    "kwh": 69.27,
+    "site": "Oklahoma City, OK"
+   },
+   "h-2025-05-12T12:30": {
+    "currency": "USD",
+    "date": "2025-05-12",
+    "kwh": 7.15,
+    "site": "Joplin, MO"
+   },
+   "h-2025-05-12T13:46": {
+    "currency": "USD",
+    "date": "2025-05-12",
+    "kwh": 109.26,
+    "site": "Strafford, MO"
+   },
+   "h-2025-05-12T17:31": {
+    "currency": "USD",
+    "date": "2025-05-12",
+    "kwh": 71.65,
+    "site": "Fenton, MO"
+   },
+   "h-2025-05-12T19:51": {
+    "currency": "USD",
+    "date": "2025-05-12",
+    "kwh": 46.02,
+    "site": "Springfield, IL"
+   },
+   "h-2025-05-12T21:02": {
+    "currency": "USD",
+    "date": "2025-05-12",
+    "kwh": 110.68,
+    "site": "Normal, IL"
+   },
+   "h-2025-05-13T01:00": {
+    "currency": "USD",
+    "date": "2025-05-13",
+    "kwh": 57.95,
+    "site": "Stevensville, MI"
+   },
+   "h-2025-05-22T20:48": {
+    "currency": "USD",
+    "date": "2025-05-22",
+    "kwh": 36.64,
+    "site": "Stevensville, MI"
+   },
+   "h-2025-05-29T13:19": {
+    "currency": "USD",
+    "date": "2025-05-29",
+    "kwh": 41.17,
+    "site": "Cadillac, MI"
+   },
+   "h-2025-05-30T17:13": {
+    "currency": "USD",
+    "date": "2025-05-30",
+    "kwh": 49.61,
+    "site": "Mackinaw City, MI"
+   },
+   "h-2025-05-30T22:24": {
+    "currency": "USD",
+    "date": "2025-05-30",
+    "kwh": 45.58,
+    "site": "Gaylord, MI"
+   },
+   "h-2025-05-31T10:04": {
+    "currency": "USD",
+    "date": "2025-05-31",
+    "kwh": 31.75,
+    "site": "Swartz Creek, MI"
+   },
+   "h-2025-05-31T18:03": {
+    "currency": "USD",
+    "date": "2025-05-31",
+    "kwh": 52.66,
+    "site": "Lansing, MI"
+   }
+  },
+  "through": "2025-06-03"
+ },
  "home_charging": {
   "kwh_by_day": {
    "2026-10-01": {
@@ -778,6 +4910,6 @@
   }
  },
  "tracking_since": "2026-10-27",
- "updated": "2026-10-31T17:18:53+00:00",
+ "updated": "2026-10-31T17:38:29+00:00",
  "vehicle": "TARS2"
 }
