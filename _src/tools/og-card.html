@@ -1,38 +1,93 @@
-<!doctype html><html lang="en" data-persona="tcg"><head><meta charset="utf-8">
+<!doctype html>
+<html lang="en" data-persona="tcg">
+<head>
+<meta charset="utf-8">
+<!-- Share card for /cybertruck/stats/ (1200x630 design, exported at 2x by og-card.js).
+     Composition follows the Stageshow "corner chip" layout: one browser window
+     inset top-left and off the bottom, a chip centered on its top-right corner
+     over chrome only. Numbers are copied from the live page; update them here. -->
 <link rel="preload" href="/assets/fonts/advercase-regular.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@400;500;600&display=swap">
 <link rel="stylesheet" href="/assets/style.css">
 <style>
-html,body{margin:0;background:var(--ground)}
-.card{width:1200px;height:630px;box-sizing:border-box;display:grid;grid-template-columns:600px 600px;background:var(--ground);color:var(--ink);font-family:var(--sans);position:relative;overflow:hidden}
-.l{padding:48px 40px 40px 56px;display:flex;flex-direction:column}
-.l .label{font-size:16px;margin:0 0 14px}
-.l h1{font-family:var(--display);font-weight:400;font-size:58px;line-height:1.02;margin:0;letter-spacing:-.01em}
-.l h1 em{font-style:normal;color:var(--em)}
-.st{display:grid;grid-template-columns:1fr 1fr;margin-top:auto;border-top:1px solid var(--line)}
-.st div{padding:16px 14px 14px 0;border-bottom:1px solid var(--line)}
-.st div:nth-child(2n){padding-left:18px;border-left:1px solid var(--line)}
-.st b{display:block;font-family:var(--display);font-weight:400;font-size:40px;line-height:1}
-.st span{display:block;margin-top:6px;font-size:14px;color:var(--muted)}
-.url{margin-top:18px;font-size:16px;color:var(--muted);font-weight:500}
-.url b{color:var(--ink);font-weight:600}
-.r{position:relative;padding:40px 40px 40px 0}
-.r img{width:560px;height:550px;object-fit:cover;border-radius:14px;border:1px solid var(--line);display:block}
-.pin{position:absolute;right:58px;top:58px;display:inline-flex;align-items:center;gap:10px;padding:11px 16px;border-radius:999px;background:rgba(16,19,22,.88);border:1px solid rgba(255,255,255,.22);color:#c9d1d7;font-size:15px;font-weight:500;backdrop-filter:blur(6px)}
-.pin b{color:#fff;font-weight:600}
-.pin i{width:10px;height:10px;border-radius:50%;background:var(--primary);box-shadow:0 0 0 4px var(--glow)}
-</style></head><body>
-<div class="card">
- <div class="l">
-  <p class="label">The Cybertruck Guy</p>
-  <h1>Cybertruck stats: <em>miles, charging, FSD.</em></h1>
-  <div class="st">
-   <div><b>71,983</b><span>Cybertruck miles</span></div>
-   <div><b>23,832</b><span>kWh Supercharged</span></div>
-   <div><b>143</b><span>Supercharger sites</span></div>
-   <div><b>75%</b><span>Miles on FSD</span></div>
+html,body{margin:0;background:#0b0d0f}
+.x-og{position:relative;width:1200px;height:630px;overflow:hidden;background:#0b0d0f;font-family:var(--sans);color:#e8ecef}
+
+/* The window: inset 64 top and left, 12% off the bottom */
+.x-win{position:absolute;left:64px;top:64px;width:984px;height:640px;border-radius:12px;overflow:hidden;background:#101316;
+  box-shadow:0 0 0 1px rgba(255,255,255,.08),0 30px 60px -12px rgba(0,0,0,.6)}
+.x-bar{display:flex;align-items:center;height:38px;padding:0 14.5px;background:#171b1f;border-bottom:1px solid rgba(255,255,255,.08)}
+.x-lights{display:flex;gap:6px;flex:none}
+.x-lights i{width:9px;height:9px;border-radius:50%;box-shadow:inset 0 0 0 .5px rgba(0,0,0,.12)}
+.x-lights i:nth-child(1){background:#ff5f57}.x-lights i:nth-child(2){background:#febc2e}.x-lights i:nth-child(3){background:#28c840}
+.x-url{margin:0 auto;transform:translateX(-24px);display:flex;align-items:center;gap:6px;padding:4px 14px;border-radius:999px;background:rgba(255,255,255,.06);color:#8a959d;font-size:11px;line-height:1.4;white-space:nowrap}
+.x-url svg{flex:none}
+.x-url b{color:#c3cbd1;font-weight:500}
+
+/* The page */
+.x-page{padding:30px 40px 0}
+.x-kick{display:flex;align-items:center;gap:10px;margin:0 0 12px;font-size:13px;font-weight:600;color:#9aa5ad}
+.x-kick::before{content:"";width:18px;height:2px;background:#e0a857}
+.x-h1{font-family:var(--display);font-weight:400;font-size:44px;line-height:1.04;letter-spacing:-.01em;color:#e8ecef}
+.x-h1 em{font-style:normal;color:#9fd0e3}
+.x-grid{display:grid;grid-template-columns:292px minmax(0,1fr);gap:28px;margin-top:28px}
+.x-big{font-family:var(--display);font-size:64px;line-height:.95;letter-spacing:-.01em}
+.x-lab{margin-top:8px;font-size:14px;line-height:1.3;color:#9aa5ad}
+.x-pair{display:grid;grid-template-columns:1fr 1fr;margin-top:22px;border-top:1px solid #262c32;border-bottom:1px solid #262c32}
+.x-pair div{padding:14px 0 14px}
+.x-pair div+div{padding-left:16px;border-left:1px solid #262c32}
+.x-pair b{display:block;font-family:var(--display);font-weight:400;font-size:30px;line-height:1}
+.x-pair span{display:block;margin-top:6px;font-size:13px;line-height:1.3;color:#9aa5ad}
+
+/* Filler: the month chart, real shape, no words, off the bottom */
+.x-chart{margin-top:22px;height:220px;border-radius:12px;background:#171b1f;box-shadow:0 0 0 1px #262c32;padding:18px 16px 0;display:flex;flex-direction:column;gap:14px}
+.x-chart .x-t{display:flex;gap:8px}
+.x-chart .x-t i{display:block;height:7px;border-radius:3.5px;background:rgba(255,255,255,.13)}
+.x-bars{display:flex;align-items:flex-end;gap:4px;height:110px;border-bottom:1px solid #262c32}
+.x-bars i{flex:1;border-radius:3px 3px 0 0;background:#9fd0e3}
+
+/* The map: signature content, off the bottom */
+.x-map{height:416px;border-radius:12px;overflow:hidden;box-shadow:0 0 0 1px #262c32;background:#101316}
+.x-map img{display:block;width:100%;height:100%;object-fit:cover;object-position:50% 56%}
+
+/* The chip: centered on the window's top-right corner (1048, 64), a level above */
+.x-chip{position:absolute;left:1048px;top:64px;translate:-50% -50%;display:inline-flex;align-items:center;gap:10px;padding:0 18px 0 14px;height:44px;border-radius:999px;
+  background:#262a2f;box-shadow:0 0 0 1px rgba(255,255,255,.1),0 14px 32px -8px rgba(0,0,0,.7),0 4px 10px -4px rgba(0,0,0,.5);
+  font-size:15px;font-weight:500;color:#aab4bb;white-space:nowrap}
+.x-chip i{width:9px;height:9px;border-radius:50%;background:#9fd0e3;box-shadow:0 0 0 4px rgba(159,208,227,.22);flex:none}
+.x-chip b{color:#fff;font-weight:600}
+</style>
+</head>
+<body>
+<div class="x-og">
+  <div class="x-win">
+    <div class="x-bar">
+      <div class="x-lights"><i></i><i></i><i></i></div>
+      <div class="x-url"><svg width="10" height="10" viewBox="0 0 24 24" aria-hidden="true"><path fill="#8a959d" d="M17 9V7a5 5 0 0 0-10 0v2H5v13h14V9h-2zM9 7a3 3 0 0 1 6 0v2H9V7z"/></svg><span><b>troymeekhof.com</b>/cybertruck/stats</span></div>
+    </div>
+    <div class="x-page">
+      <div class="x-kick">The Cybertruck Guy, by the numbers</div>
+      <div class="x-h1">Cybertruck stats: <em>miles, charging, FSD.</em></div>
+      <div class="x-grid">
+        <div>
+          <div class="x-big">71,983</div>
+          <div class="x-lab">Cybertruck miles, lifetime</div>
+          <div class="x-pair">
+            <div><b>23,832</b><span>kWh Supercharged</span></div>
+            <div><b>75%</b><span>Miles on FSD</span></div>
+          </div>
+          <div class="x-chart">
+            <div class="x-t"><i style="width:64px"></i><i style="width:96px;background:rgba(255,255,255,.08)"></i></div>
+            <div class="x-bars">
+              <i style="height:22%"></i><i style="height:26%"></i><i style="height:58%"></i><i style="height:22%"></i><i style="height:24%"></i><i style="height:6%"></i><i style="height:10%"></i><i style="height:4%"></i><i style="height:18%"></i><i style="height:57%"></i><i style="height:12%"></i><i style="height:13%"></i><i style="height:11%"></i><i style="height:52%"></i><i style="height:9%"></i><i style="height:15%"></i><i style="height:17%"></i><i style="height:8%"></i><i style="height:11%"></i><i style="height:16%"></i><i style="height:30%"></i><i style="height:100%"></i><i style="height:21%"></i><i style="height:18%"></i><i style="height:32%"></i>
+            </div>
+          </div>
+        </div>
+        <div class="x-map"><img src=".og-map.png" alt=""></div>
+      </div>
+    </div>
   </div>
-  <div class="url"><b>troymeekhof.com</b>/cybertruck/stats · updated weekly</div>
- </div>
- <div class="r"><img src=".og-map.png" alt=""><span class="pin"><i></i>Powered by <b>Autonimator</b></span></div>
-</div></body></html>
+  <div class="x-chip"><i></i>Powered by <b>Autonimator</b></div>
+</div>
+</body>
+</html>
