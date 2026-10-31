@@ -1,8 +1,8 @@
 {
  "config": {
-  "odometer_baseline_date": "2026-10-31",
-  "odometer_baseline_miles": 39482.3,
-  "odometer_note": "TARS2 odometer seeded 2026-10-31 so lifetime miles = 70,000 (Troy, approximate); grows with tracked drives after that date",
+  "odometer_baseline_date": "2026-11-01",
+  "odometer_baseline_miles": 41465,
+  "odometer_note": "TARS2 odometer read 41,465 on 2026-10-31 (includes that day); tracked drives from 2026-11-01 are added on top",
   "supercharging_before_ledger_kwh": null
  },
  "current": {
