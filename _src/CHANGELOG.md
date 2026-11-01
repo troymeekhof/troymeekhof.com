@@ -49,3 +49,4 @@
 - 2026-11-01: Local page lede: cut "Caledonia is where I plug in the truck, and where every road trip ends." Why: Troy called it a cringe line.
 - 2026-11-01: Local page lede: "a dog who has opinions about the mail carrier" → "our dog". Why: Troy agreed it was the same kind of cringe line.
 - 2026-11-01: Removed the kid's birth month from the Local page ("born August 2025"). Homepage About heading "West Michigan, born and stayed." → "Rooted in West Michigan." since Troy lived in NYC for over a year. Why: Troy: "I don’t need my kids birthday published."
+- 2026-11-01: Local page: "our dog" → "our golden retriever". Why: Troy asked.
