@@ -46,3 +46,4 @@
 - 2026-11-01: About timeline: Camp Roger Media Manager now has a description (lived on campus, daily photo packages, weekly video recaps, publishing for SEO and reach). Why: Troy described the role.
 - 2026-11-01: About bio Cybertruck paragraph: "started making content with it" (not writing), ambassador/club line simplified, last two sentences combined. Why: Troy asked; the old closer read like a /banned line.
 - 2026-11-01: Local page lede: replaced "never found a good reason to leave" with the 2021 NYC move (over a year) and coming back to plant deeper roots. Why: Troy: "Incorrect. I left for over a year for NYC in 2021."
+- 2026-11-01: Local page lede: cut "Caledonia is where I plug in the truck, and where every road trip ends." Why: Troy called it a cringe line.
