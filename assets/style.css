@@ -583,3 +583,11 @@ a.cap:hover,a.cap:focus-visible{box-shadow:var(--lift)}
   .totop{right:16px;bottom:16px}
 }
 @media (prefers-reduced-motion:reduce){.rv{opacity:1;transform:none}.btn:active,.chips a:active,.socials a:active,.jump a:active{transform:none}}
+/* miles bar (2026-11-01): real trips to scale from the trip log; the legend is the key, so no hover tooltips to cover it */
+.miles .trips-bar{padding-top:8px}
+.miles .trips-bar .mtrack{background:var(--line)}
+.miles .trips-bar .seg+.seg{box-shadow:inset 2px 0 0 var(--ground)}
+.miles .seg.t1,.miles .mlegend li.t1::before{background:var(--amber);border-color:var(--amber)}
+.miles .seg.t2,.miles .mlegend li.t2::before{background:var(--primary);border-color:var(--primary)}
+.miles .seg.t3,.miles .mlegend li.t3::before{background:color-mix(in srgb,var(--primary) 55%,var(--ground));border-color:color-mix(in srgb,var(--primary) 55%,var(--ground))}
+.miles .seg.t4,.miles .mlegend li.t4::before{background:color-mix(in srgb,var(--muted) 45%,var(--ground));border-color:color-mix(in srgb,var(--muted) 45%,var(--ground))}
