@@ -1,0 +1,74 @@
+<!doctype html>
+<html lang="en" data-persona="troy" data-theme="light">
+<head>
+<meta charset="utf-8">
+<!-- Share card for the homepage (1200x630 design, exported at 2x by og-home.js; ?x adds the 1200x675 X-post crop).
+     Corner-chip layout: light browser window on the brand green, off the bottom; chip on its top-right corner.
+     Words and numbers are copied from the live homepage; update them here when it changes. -->
+<link rel="preload" href="/assets/fonts/advercase-regular.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@400;500;600&display=swap">
+<link rel="stylesheet" href="/assets/style.css">
+<style>
+html,body{margin:0;background:#1f4f46}
+.x-og{position:relative;width:1200px;height:630px;overflow:hidden;background:#1f4f46;font-family:var(--sans);color:#1b2421}
+.is-x .x-og{height:675px}
+.x-og::before{content:"";position:absolute;inset:0;background:radial-gradient(900px 500px at 85% -10%,rgba(224,168,87,.22),transparent 60%)}
+.x-win{position:absolute;left:64px;top:64px;width:984px;height:720px;border-radius:12px;overflow:hidden;background:#f5f4f0;
+  box-shadow:0 0 0 1px rgba(0,0,0,.08),0 30px 60px -12px rgba(0,0,0,.45),0 18px 36px -18px rgba(0,0,0,.4)}
+.x-bar{display:flex;align-items:center;height:38px;padding:0 14.5px;background:#fff;border-bottom:1px solid rgba(0,0,0,.06)}
+.x-lights{display:flex;gap:6px;flex:none}
+.x-lights i{width:9px;height:9px;border-radius:50%;box-shadow:inset 0 0 0 .5px rgba(0,0,0,.12)}
+.x-lights i:nth-child(1){background:#ff5f57}.x-lights i:nth-child(2){background:#febc2e}.x-lights i:nth-child(3){background:#28c840}
+.x-url{margin:0 auto;transform:translateX(-24px);display:flex;align-items:center;gap:6px;padding:4px 14px;border-radius:999px;background:rgba(0,0,0,.04);color:#8a918d;font-size:11px;line-height:1.4;white-space:nowrap}
+.x-url b{color:#3b4440;font-weight:500}
+.x-page{display:grid;grid-template-columns:minmax(0,1fr) 352px;gap:44px;padding:40px 48px 0}
+.x-sw{display:inline-flex;gap:4px;padding:4px;border-radius:999px;background:#fff;box-shadow:0 0 0 1px #dfe2dc;margin-bottom:34px}
+.x-sw span{padding:6px 16px;border-radius:999px;font-family:var(--display);font-size:16px;line-height:1.2;color:#5d6863}
+.x-sw span:first-child{background:#1f4f46;color:#fff}
+.x-h1{font-family:var(--display);font-weight:400;font-size:66px;line-height:1;letter-spacing:-.015em;color:#1b2421}
+.x-h1 em{font-style:normal;color:#1f4f46}
+.x-lede{margin-top:22px;font-size:21px;line-height:1.45;color:#5d6863;max-width:470px}
+.x-act{display:flex;gap:12px;margin-top:26px}
+.x-act span{display:inline-flex;align-items:center;height:44px;padding:0 22px;border-radius:999px;font-size:15px;font-weight:600}
+.x-act span:first-child{background:#1f4f46;color:#fff}
+.x-act span+span{box-shadow:inset 0 0 0 1px #dfe2dc;background:#fff;color:#1b2421}
+.x-stats{display:grid;grid-template-columns:1fr 1fr;margin-top:36px;border-top:1px solid #dfe2dc}
+.x-stats div{padding:16px 0}
+.x-stats div+div{padding-left:20px;border-left:1px solid #dfe2dc}
+.x-stats b{display:block;font-family:var(--display);font-weight:400;font-size:44px;line-height:1}
+.x-stats span{display:block;margin-top:8px;font-size:14px;line-height:1.3;color:#5d6863}
+.x-ph{height:640px;border-radius:14px;overflow:hidden;margin-top:6px}
+.x-ph img{display:block;width:100%;height:100%;object-fit:cover;object-position:50% 30%}
+.x-logos{display:flex;gap:28px;align-items:center;margin-top:30px;padding-top:26px;border-top:1px solid #dfe2dc}
+.x-logos i{display:block;height:14px;border-radius:7px;background:rgba(0,0,0,.08)}
+.x-chip{position:absolute;left:1048px;top:64px;translate:-50% -50%;display:inline-flex;align-items:center;gap:9px;padding:0 18px 0 14px;height:44px;border-radius:999px;
+  background:#fff;box-shadow:0 0 0 1px rgba(0,0,0,.06),0 14px 32px -8px rgba(0,0,0,.35),0 4px 10px -4px rgba(0,0,0,.15);
+  font-size:15px;font-weight:500;color:#5d6863;white-space:nowrap}
+.x-chip svg{flex:none}
+.x-chip{color:#1b2421}
+</style>
+<script>if(location.search.indexOf('x')>-1)document.documentElement.classList.add('is-x')</script>
+</head>
+<body>
+<div class="x-og">
+  <div class="x-win">
+    <div class="x-bar">
+      <div class="x-lights"><i></i><i></i><i></i></div>
+      <div class="x-url"><svg width="10" height="10" viewBox="0 0 24 24" aria-hidden="true"><path fill="#8a918d" d="M17 9V7a5 5 0 0 0-10 0v2H5v13h14V9h-2zM9 7a3 3 0 0 1 6 0v2H9V7z"/></svg><span><b>troymeekhof.com</b></span></div>
+    </div>
+    <div class="x-page">
+      <div>
+        <div class="x-sw"><span>Troy Meekhof</span><span>The Cybertruck Guy</span></div>
+        <div class="x-h1">Half filmmaker,<br>half <em>marketer.</em></div>
+        <div class="x-lede">I shoot it, cut it, rank it, and post it.</div>
+        <div class="x-act"><span>Work with me</span><span>See the work</span></div>
+        <div class="x-stats"><div><b>200+</b><span>Weddings filmed since 2017</span></div><div><b>50M</b><span>Impressions on X in the last year</span></div></div>
+        <div class="x-logos"><i style="width:84px"></i><i style="width:60px"></i><i style="width:110px"></i><i style="width:72px"></i><i style="width:96px"></i></div>
+      </div>
+      <div class="x-ph"><img src="/assets/img/photos/headshot-studio-4x5-800.webp" alt=""></div>
+    </div>
+  </div>
+  <div class="x-chip"><svg width="16" height="16" viewBox="0 0 256 256" aria-hidden="true"><path fill="#1f4f46" d="M128 16a88.1 88.1 0 0 0-88 88c0 75.3 80 132.17 83.41 134.55a8 8 0 0 0 9.18 0C136 236.17 216 179.3 216 104a88.1 88.1 0 0 0-88-88Zm0 56a32 32 0 1 1-32 32 32 32 0 0 1 32-32Z"/></svg>Grand Rapids, Michigan</div>
+</div>
+</body>
+</html>
