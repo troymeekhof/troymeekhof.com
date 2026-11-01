@@ -36,3 +36,4 @@
 - 2026-11-01: "Brands I've worked with" heading is now "Where my work has ended up." (home, marketing, about, sponsorships). X follower count 26.8K → 27.3K site-wide. Why: Troy asked for the new heading and said he has 27.3K followers on X.
 - 2026-11-01: Logo-strip eyebrow "Clients and employers, 2017–present" is now "Since 2017" (home, marketing, about). Why: Troy said it no longer fit the new heading.
 - 2026-11-01: LMCU role corrected to "Senior Video Production Specialist" with Troy's duties (TV commercials, social media content, internal communications videos, live broadcasts); removed brand photography from LMCU everywhere (home, marketing, about, llms.txt). Why: Troy: "I did not do photography for LMCU."
+- 2026-11-01: Removed "best single day: 337" from the Treadstone organic-search line (home, marketing, about, llms.txt). Why: Troy asked to remove it.
