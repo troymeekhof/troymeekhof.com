@@ -34,3 +34,4 @@
 - 2026-11-01: Tax-credit article headline is now "Cybertruck $7,500 EV Tax Credit: What Happened" everywhere it's listed; the four articles edited today show Updated Nov 1, 2026; Starlink article keeps Sep 22 (head-only edit); Montana opener says "we" as the original did.
 - 2026-11-01: Homepage share card: new og-home.jpg (browser-window card in the stats-card style, light homepage on brand green, Grand Rapids pin), built by _src/tools/og-home.html/.js. Homepage only; other pages keep og.jpg. Why: Troy asked for a stats-style image for the homepage.
 - 2026-11-01: "Brands I've worked with" heading is now "Where my work has ended up." (home, marketing, about, sponsorships). X follower count 26.8K → 27.3K site-wide. Why: Troy asked for the new heading and said he has 27.3K followers on X.
+- 2026-11-01: Logo-strip eyebrow "Clients and employers, 2017–present" is now "Since 2017" (home, marketing, about). Why: Troy said it no longer fit the new heading.
