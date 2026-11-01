@@ -43,3 +43,4 @@
 - 2026-11-01: About bio: Cybertruck Guy paragraph rewritten around growth (27.3K on X, 50M impressions) and industry connections (Evotrex, Tesla Owners Club of Michigan); Newsweek removed from it. Why: Troy asked for that rewrite.
 - 2026-11-01: About career timeline: dropped LinkedIn quote marks and the "Role descriptions in quotes" note; each role now has a plain description built from the LinkedIn text ("brilliant" cut). Why: Troy: "I don’t need quotes from LinkedIn."
 - 2026-11-01: GVSU Lead Cinematographer role now described as video for GVSU’s in-house student marketing agency (student-facing marketing), on home, marketing, about, local, weddings, llms.txt. Why: Troy clarified the role.
+- 2026-11-01: About timeline: Camp Roger Media Manager now has a description (lived on campus, daily photo packages, weekly video recaps, publishing for SEO and reach). Why: Troy described the role.
