@@ -33,7 +33,7 @@ Brands worked with (clients and employers, 2017-present): LMCU (Lake Michigan Cr
 - He leads Mid-July Media and is each couple's point of contact; he regularly hires second shooters and associate videographers.
 
 ## Site structure
-The site has two sides. "Troy Meekhof" (home: https://troymeekhof.com/) covers weddings, marketing, portfolio, about, and press. "The Cybertruck Guy" (home: https://troymeekhof.com/cybertruck/) covers the Cybertruck, adventure, local life, referral links, and sponsorships. One blog serves both: https://troymeekhof.com/articles/ (categories: Cybertruck, Marketing & SEO, Video production, Weddings, Travel & adventure, West Michigan).
+The site has two sides. "Troy Meekhof" (home: https://troymeekhof.com/) covers weddings, marketing, portfolio, about, local life, and press. "The Cybertruck Guy" (home: https://troymeekhof.com/cybertruck/) covers the Cybertruck, adventure, local life, referral links, and sponsorships. One blog serves both: https://troymeekhof.com/articles/ (categories: Cybertruck, Marketing & SEO, Video production, Weddings, Travel & adventure, West Michigan).
 
 ## Pages
 - Home: Troy Meekhof, video production and digital marketing: https://troymeekhof.com/
@@ -47,7 +47,7 @@ The site has two sides. "Troy Meekhof" (home: https://troymeekhof.com/) covers w
 - The Cybertruck Guy (home of the Cybertruck side): https://troymeekhof.com/cybertruck/
 - Articles (the blog: video, marketing, weddings, Cybertruck, travel, West Michigan): https://troymeekhof.com/articles/
 - Adventure — road trips and overlanding: https://troymeekhof.com/adventure/
-- Local life in Caledonia, Michigan: https://troymeekhof.com/local/
+- Local life in Caledonia, Michigan: https://troymeekhof.com/life/ (personal side) and https://troymeekhof.com/local/ (The Cybertruck Guy side)
 - Referral links (Tesla, Starlink, accessories): https://troymeekhof.com/cybertruck/referral-links/
 - Sponsorships / advertise: https://troymeekhof.com/cybertruck/sponsorships/
 - TARS2 stats (weekly miles, efficiency, lifetime free Supercharging, updated from the truck): https://troymeekhof.com/cybertruck/stats/
