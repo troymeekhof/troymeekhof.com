@@ -48,3 +48,4 @@
 - 2026-11-01: Local page lede: replaced "never found a good reason to leave" with the 2021 NYC move (over a year) and coming back to plant deeper roots. Why: Troy: "Incorrect. I left for over a year for NYC in 2021."
 - 2026-11-01: Local page lede: cut "Caledonia is where I plug in the truck, and where every road trip ends." Why: Troy called it a cringe line.
 - 2026-11-01: Local page lede: "a dog who has opinions about the mail carrier" → "our dog". Why: Troy agreed it was the same kind of cringe line.
+- 2026-11-01: Removed the kid's birth month from the Local page ("born August 2025"). Homepage About heading "West Michigan, born and stayed." → "Rooted in West Michigan." since Troy lived in NYC for over a year. Why: Troy: "I don’t need my kids birthday published."
