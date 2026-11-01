@@ -39,3 +39,4 @@
 - 2026-11-01: Removed "best single day: 337" from the Treadstone organic-search line (home, marketing, about, llms.txt). Why: Troy asked to remove it.
 - 2026-11-01: Marketing page: merged the "Track record" and "Proof" sections into one "Track record" section; Treadstone now leads the list in the same format as LMCU and Northern Mortgage. Why: Troy said splitting them seemed unnecessary.
 - 2026-11-01: Bio (about + homepage): school videographer no longer reads as a paid job; first car now credited to summer jobs, weekend work, and mowing lawns. Why: Troy: "I was not making money by being a school videographer."
+- 2026-11-01: About bio: pet store shift supervisor line now reads "By 17" instead of "In 2016". Why: Troy asked for it.
