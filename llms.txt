@@ -51,7 +51,6 @@ The site has two sides. "Troy Meekhof" (home: https://troymeekhof.com/) covers w
 - Referral links (Tesla, Starlink, accessories): https://troymeekhof.com/cybertruck/referral-links/
 - Sponsorships / advertise: https://troymeekhof.com/cybertruck/sponsorships/
 - TARS2 stats (weekly miles, efficiency, lifetime free Supercharging, updated from the truck): https://troymeekhof.com/cybertruck/stats/
-- Cybertruck display locations: https://troymeekhof.com/cybertruck/display-locations/
 
 ## Work (case studies)
 - Split the Mitten — a feature documentary of a 400-mile run across Michigan: https://troymeekhof.com/work/split-the-mitten/

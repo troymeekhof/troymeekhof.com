@@ -50,3 +50,4 @@
 - 2026-11-01: Local page lede: "a dog who has opinions about the mail carrier" → "our dog". Why: Troy agreed it was the same kind of cringe line.
 - 2026-11-01: Removed the kid's birth month from the Local page ("born August 2025"). Homepage About heading "West Michigan, born and stayed." → "Rooted in West Michigan." since Troy lived in NYC for over a year. Why: Troy: "I don’t need my kids birthday published."
 - 2026-11-01: Local page: "our dog" → "our golden retriever". Why: Troy asked.
+- 2026-11-01: Retired /cybertruck/display-locations/ to a redirect stub (Troy: "Shouldn't exist"); removed its footer links and llms.txt entry. Rewrote Adventure camping copy and FAQ (Troy: tonneau/bed camping "Not true"): he partners with Mars Adventure Gear, who kitted the truck with the Aeroblade rooftop tent, roof rack, and lights. Added the Mars logo to the brands marquees.
