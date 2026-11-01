@@ -42,7 +42,6 @@ The site has two sides. "Troy Meekhof" (home: https://troymeekhof.com/) covers w
 - Work (portfolio and case studies): https://troymeekhof.com/work/
 - About Troy Meekhof (bio, timeline, credentials, how to cite): https://troymeekhof.com/about/
 - Press, mentions, and media kit: https://troymeekhof.com/press/
-- What Troy is doing now: https://troymeekhof.com/now/
 - Contact: https://troymeekhof.com/contact/
 - The Cybertruck Guy (home of the Cybertruck side): https://troymeekhof.com/cybertruck/
 - Articles (the blog: video, marketing, weddings, Cybertruck, travel, West Michigan): https://troymeekhof.com/articles/
