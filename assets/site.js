@@ -36,17 +36,33 @@
     if(n)n.textContent='Opening the availability form in a new tab'+(v?'. Choose '+new Date(v+'T12:00').toLocaleDateString('en-US',{month:'long',day:'numeric',year:'numeric'})+' there.':'.');
   });});
   // Stats count up when scrolled into view (final values are already in the HTML).
-  var nums=$$('[data-count]');
+  // A number already on screen at load keeps its value: data never rewinds in view. Only offscreen ones start at 0.
+  var nums=$$('[data-count]').filter(function(n){return n.getBoundingClientRect().top>window.innerHeight;});
   if(nums.length&&'IntersectionObserver' in window&&!reduce){
+    var fmtOf=function(el){var dec=+(el.getAttribute('data-dec')||0),suf=el.getAttribute('data-suffix')||'';
+      return function(v){return Number(v.toFixed(dec)).toLocaleString('en-US',{minimumFractionDigits:dec,maximumFractionDigits:dec})+suf;};};
+    nums.forEach(function(el){el.textContent=fmtOf(el)(0);});
     var io=new IntersectionObserver(function(es){es.forEach(function(en){
       if(!en.isIntersecting)return;io.unobserve(en.target);
-      var el=en.target,end=parseFloat(el.getAttribute('data-count')),dec=+(el.getAttribute('data-dec')||0),suf=el.getAttribute('data-suffix')||'',t0=null;
-      function fmt(v){return Number(v.toFixed(dec)).toLocaleString('en-US',{minimumFractionDigits:dec,maximumFractionDigits:dec})+suf;}
+      var el=en.target,end=parseFloat(el.getAttribute('data-count')),fmt=fmtOf(el),t0=null;
       function step(t){if(t0===null)t0=t;var k=Math.min(1,(t-t0)/1300);el.textContent=fmt(end*(1-Math.pow(1-k,3)));if(k<1)requestAnimationFrame(step);}
-      el.textContent=fmt(0);requestAnimationFrame(step);
+      requestAnimationFrame(step);
     });},{threshold:.5});
     nums.forEach(function(n){io.observe(n);});
   }
+  // Scroll-in: card grids below the fold arrive once, 80ms apart in reading order. Above-the-fold content is never hidden.
+  if('IntersectionObserver' in window&&!reduce){
+    var groups=$$('.caps,.grid4,.grid3,.work,.adv,.lcards,.vgrid,.auth-list').filter(function(g){return g.getBoundingClientRect().top>window.innerHeight;});
+    var gio=new IntersectionObserver(function(es){es.forEach(function(en){
+      if(!en.isIntersecting)return;gio.unobserve(en.target);
+      Array.prototype.slice.call(en.target.children).forEach(function(c,i){c.style.setProperty('--rv-d',Math.min(i,6)*80+'ms');c.classList.add('in');
+        setTimeout(function(){c.classList.remove('rv','in');c.style.removeProperty('--rv-d');},1400+Math.min(i,6)*80);});
+    });},{rootMargin:'0px 0px -12% 0px'});
+    groups.forEach(function(g){Array.prototype.slice.call(g.children).forEach(function(c){c.classList.add('rv');});gio.observe(g);});
+  }
+  // Phone nav is one swipeable row: keep the current page's link in view.
+  var cur=d.querySelector('.pnav a[aria-current]'),pn=d.querySelector('.pnav');
+  if(cur&&pn&&pn.scrollWidth>pn.clientWidth){var l=cur.offsetLeft-pn.offsetLeft;pn.scrollLeft=Math.max(0,l-(pn.clientWidth-cur.offsetWidth)/2);}
   // Miles tracker: tap a marker to toggle its caption.
   $$('.miles .pin').forEach(function(p){p.addEventListener('click',function(){
     var on=p.getAttribute('aria-expanded')==='true';
