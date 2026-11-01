@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="en" data-persona="troy" data-theme="light">
+<head>
+<meta charset="utf-8">
+<!-- Instagram story previews (540x960 design, exported at 4x = 2160x3840 by story.js).
+     ?p=home or ?p=stats. The phone card is a real screenshot of the live page at 390 wide (_src/tools/.mob-*.png, made by story.js).
+     Story UI covers the top ~125 and bottom ~170 design px: words stay between them. -->
+<link rel="preload" href="/assets/fonts/advercase-regular.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@400;500;600&display=swap">
+<link rel="stylesheet" href="/assets/style.css">
+<style>
+html,body{margin:0}
+.x-s{position:relative;width:540px;height:960px;overflow:hidden;font-family:var(--sans)}
+.x-s::before{content:"";position:absolute;inset:0}
+.x-home .x-s{background:#1f4f46}
+.x-home .x-s::before{background:radial-gradient(520px 420px at 90% 0%,rgba(224,168,87,.26),transparent 65%)}
+.x-stats .x-s{background:#0b0d0f}
+.x-stats .x-s::before{background:radial-gradient(520px 420px at 90% 0%,rgba(159,208,227,.16),transparent 65%)}
+.x-t{position:absolute;left:48px;right:48px;top:150px}
+.x-k{display:flex;align-items:center;gap:10px;font-size:17px;font-weight:600;line-height:1.3}
+.x-k::before{content:"";width:20px;height:2px;background:#e0a857}
+.x-h{margin-top:12px;font-family:var(--display);font-weight:400;font-size:64px;line-height:1;letter-spacing:-.015em}
+.x-home .x-k{color:rgba(255,255,255,.72)} .x-home .x-h{color:#fff}
+.x-stats .x-k{color:#9aa5ad} .x-stats .x-h{color:#e8ecef}
+.x-h em{font-style:normal}
+.x-home .x-h em{color:#f3d29b} .x-stats .x-h em{color:#9fd0e3}
+.x-card{position:absolute;left:70px;top:330px;width:400px;height:820px;border-radius:30px;overflow:hidden}
+.x-home .x-card{box-shadow:0 0 0 1px rgba(0,0,0,.1),0 30px 60px -12px rgba(0,0,0,.5)}
+.x-stats .x-card{box-shadow:0 0 0 1px rgba(255,255,255,.1),0 30px 60px -12px rgba(0,0,0,.7)}
+.x-card img{display:block;width:100%}
+.x-chip{position:absolute;left:270px;top:330px;translate:-50% -50%;display:inline-flex;align-items:center;gap:8px;height:42px;padding:0 16px 0 13px;border-radius:999px;font-size:15px;font-weight:600;white-space:nowrap}
+.x-home .x-chip{background:#fff;color:#1b2421;box-shadow:0 0 0 1px rgba(0,0,0,.06),0 14px 32px -8px rgba(0,0,0,.4)}
+.x-stats .x-chip{background:#262a2f;color:#fff;box-shadow:0 0 0 1px rgba(255,255,255,.1),0 14px 32px -8px rgba(0,0,0,.7)}
+.x-chip svg{flex:none}
+.only-home,.only-stats{display:none!important}
+.x-home .x-s .only-home,.x-stats .x-s .only-stats{display:block!important}
+.x-chip span.only-home,.x-chip span.only-stats{display:none!important}
+.x-home .x-chip span.only-home,.x-stats .x-chip span.only-stats{display:inline!important}
+</style>
+<script>document.documentElement.classList.add(/p=stats/.test(location.search)?'x-stats':'x-home')</script>
+</head>
+<body>
+<div class="x-s">
+  <div class="x-t">
+    <div class="x-h only-home" style="font-size:58px">Half filmmaker,<br>half <em>marketer.</em></div>
+    <div class="x-k only-stats">Lifetime, updated every Sunday</div>
+    <div class="x-h only-stats">71,983 <em>miles</em></div>
+  </div>
+  <div class="x-card"><img class="only-home" src=".mob-home.png" alt=""><img class="only-stats" src=".mob-stats.png" alt=""></div>
+  <div class="x-chip"><svg width="16" height="16" viewBox="0 0 256 256" aria-hidden="true"><path fill="currentColor" d="M137.54 186.36a8 8 0 0 1 0 11.31l-9.94 10a56 56 0 0 1-79.22-79.27l24.12-24.12a56 56 0 0 1 76.81-2.28 8 8 0 1 1-10.64 12 40 40 0 0 0-54.85 1.63L59.7 139.72a40 40 0 0 0 56.58 56.58l9.94-9.94a8 8 0 0 1 11.32 0Zm70.08-138a56.08 56.08 0 0 0-79.22 0l-9.94 9.95a8 8 0 0 0 11.32 11.31l9.94-9.94a40 40 0 0 1 56.58 56.58l-24.12 24.14a40 40 0 0 1-54.85 1.6 8 8 0 1 0-10.64 12 56 56 0 0 0 76.81-2.26l24.12-24.12a56.08 56.08 0 0 0 0-79.24Z"/></svg><span class="only-home">troymeekhof.com</span><span class="only-stats">troymeekhof.com/cybertruck/stats</span></div>
+</div>
+</body>
+</html>
