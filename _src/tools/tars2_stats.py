@@ -582,9 +582,11 @@ def render(args):
     recent = summarize(life_days, date.fromisoformat(fsd_last) - timedelta(days=89), date.fromisoformat(fsd_last)) if fsd_last else None
     best_fsd_month = max(fsd_all, key=lambda m: fsd_months[m][0], default=None)
     h.append('<section class="sec" id="fsd" aria-labelledby="fsd-h"><div class="sec-head"><div><p class="label">Full Self-Driving (Supervised)</p><h2 id="fsd-h">How much the truck <em>drives itself.</em></h2></div></div>')
-    h.append(lead(f'{lifetime["fsd_share"]}%' if lifetime and lifetime["fsd_share"] is not None else "—", 'Of logged miles driven on FSD', f'{fmt_n(lifetime["fsd_miles"])} miles on FSD since {mdy(date.fromisoformat(fsd_since))}' if lifetime and fsd_since else ''))
+    # Headline is the last 90 days only (Troy, 2026-11-01): older trip logs count plain Autopilot miles, and the truck didn't have FSD in 2024.
+    r_start = date.fromisoformat(fsd_last) - timedelta(days=89) if fsd_last else None
+    h.append(lead(f'{recent["fsd_share"]}%' if recent and recent["fsd_share"] is not None else "—", 'Of miles driven on FSD in the last 90 days', f'{fmt_n(recent["fsd_miles"])} of {fmt_n(recent["fsd_base_miles"])} miles, {mdy(r_start)} to {mdy(date.fromisoformat(fsd_last))}' if recent and r_start else ''))
     h.append('<div class="stats sm" role="list">')
-    h.append(stat(f'{recent["fsd_share"]}%' if recent and recent["fsd_share"] is not None else "—", 'On FSD, last 90 days'))
+    h.append(stat(fmt_n(recent["fsd_miles"]) if recent else "—", 'Miles on FSD, last 90 days'))
     h.append(stat(fmt_n(fsd_months[best_fsd_month][0]) if best_fsd_month else "—", f'FSD miles in {datetime.strptime(best_fsd_month, "%Y-%m").strftime("%B %Y")}, the most' if best_fsd_month else 'Biggest FSD month'))
     h.append(stat(esc(cfg.get("fsd_version") or "—"), 'FSD (Supervised) version', word=True))
     h.append(stat(esc(cur.get("software") or "—"), 'Tesla software', word=True))
