@@ -14,12 +14,12 @@
  },
  "csv_cutoff": "2026-10-30",
  "current": {
-  "as_of": "2026-10-31T17:13:29.06994+00:00",
-  "battery_percent": 82,
+  "as_of": "2026-11-02T04:41:34.857912+00:00",
+  "battery_percent": 67,
   "charging_state": "Stopped",
-  "outside_temp_f": 48,
+  "outside_temp_f": 62,
   "plugged_in": true,
-  "range_miles": 251,
+  "range_miles": 219,
   "software": "2026.38.5.11"
  },
  "days": {
@@ -6362,23 +6362,25 @@
    "temp_n": 4
   },
   "2026-10-31": {
-   "drives": 4,
-   "kwh": 15.89,
+   "drives": 6,
+   "kwh": 27.43,
    "longest": 18.7,
-   "measured_miles": 40.81,
-   "miles": 40.81,
-   "minutes": 54,
-   "temp_c_sum": 47.5,
-   "temp_max_c": 13,
+   "measured_miles": 67.17,
+   "miles": 67.17,
+   "minutes": 82,
+   "temp_c_sum": 82.5,
+   "temp_max_c": 17.5,
    "temp_min_c": 11,
-   "temp_n": 4
+   "temp_n": 6
   }
  },
  "drive_ids": [
   "7G2CEHED7RA038598:1793459179",
   "7G2CEHED7RA038598:1793458623",
   "7G2CEHED7RA038598:1793455245",
-  "7G2CEHED7RA038598:1793452313"
+  "7G2CEHED7RA038598:1793452313",
+  "7G2CEHED7RA038598:1793471326",
+  "7G2CEHED7RA038598:1793470116"
  ],
  "history": {
   "days": {
@@ -12605,7 +12607,11 @@
     "2026-10-30T21:50": 61.86
    },
    "2026-10-31": {
-    "2026-10-31T10:52": 1.37
+    "2026-10-31T10:52": 1.37,
+    "2026-10-31T10:56": 1.37
+   },
+   "2026-11-01": {
+    "2026-11-01T10:15": 24.5
    }
   }
  },
@@ -14216,6 +14222,6 @@
   }
  },
  "tracking_since": "2025-06-03",
- "updated": "2026-10-31T18:16:17+00:00",
+ "updated": "2026-11-02T04:43:32+00:00",
  "vehicle": "TARS2"
 }
