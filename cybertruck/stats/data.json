@@ -14,13 +14,13 @@
  },
  "csv_cutoff": "2026-10-30",
  "current": {
-  "as_of": "2026-11-02T04:41:34.857912+00:00",
+  "as_of": "2026-11-09T04:42:36.528957+00:00",
   "battery_percent": 67,
   "charging_state": "Stopped",
-  "outside_temp_f": 62,
+  "outside_temp_f": 46,
   "plugged_in": true,
-  "range_miles": 219,
-  "software": "2026.38.5.11"
+  "range_miles": 213,
+  "software": "2026.38.5.12"
  },
  "days": {
   "2025-06-03": {
@@ -6372,6 +6372,66 @@
    "temp_max_c": 17.5,
    "temp_min_c": 11,
    "temp_n": 6
+  },
+  "2026-11-02": {
+   "drives": 3,
+   "kwh": 20.53,
+   "longest": 21.76,
+   "measured_miles": 41.75,
+   "miles": 41.75,
+   "minutes": 68,
+   "temp_c_sum": 45.0,
+   "temp_max_c": 15.5,
+   "temp_min_c": 14.5,
+   "temp_n": 3
+  },
+  "2026-11-03": {
+   "drives": 7,
+   "kwh": 29.46,
+   "longest": 23.4,
+   "measured_miles": 72.44,
+   "miles": 72.44,
+   "minutes": 119,
+   "temp_c_sum": 163.0,
+   "temp_max_c": 25,
+   "temp_min_c": 19.5,
+   "temp_n": 7
+  },
+  "2026-11-04": {
+   "drives": 3,
+   "kwh": 18.12,
+   "longest": 21.69,
+   "measured_miles": 49.87,
+   "miles": 49.87,
+   "minutes": 82,
+   "temp_c_sum": 54.0,
+   "temp_max_c": 19,
+   "temp_min_c": 16.5,
+   "temp_n": 3
+  },
+  "2026-11-06": {
+   "drives": 2,
+   "kwh": 9.66,
+   "longest": 10.68,
+   "measured_miles": 21.16,
+   "miles": 21.16,
+   "minutes": 38,
+   "temp_c_sum": 10.5,
+   "temp_max_c": 5.5,
+   "temp_min_c": 5,
+   "temp_n": 2
+  },
+  "2026-11-07": {
+   "drives": 3,
+   "kwh": 39.87,
+   "longest": 41.46,
+   "measured_miles": 88.86,
+   "miles": 88.86,
+   "minutes": 112,
+   "temp_c_sum": 21.0,
+   "temp_max_c": 8.5,
+   "temp_min_c": 6,
+   "temp_n": 3
   }
  },
  "drive_ids": [
@@ -6380,7 +6440,25 @@
   "7G2CEHED7RA038598:1793455245",
   "7G2CEHED7RA038598:1793452313",
   "7G2CEHED7RA038598:1793471326",
-  "7G2CEHED7RA038598:1793470116"
+  "7G2CEHED7RA038598:1793470116",
+  "7G2CEHED7RA038598:1794075517",
+  "7G2CEHED7RA038598:1794063015",
+  "7G2CEHED7RA038598:1794060287",
+  "7G2CEHED7RA038598:1793970879-2",
+  "7G2CEHED7RA038598:1793970879",
+  "7G2CEHED7RA038598:1793828975",
+  "7G2CEHED7RA038598:1793799889",
+  "7G2CEHED7RA038598:1793797833",
+  "7G2CEHED7RA038598:1793743310",
+  "7G2CEHED7RA038598:1793740289",
+  "7G2CEHED7RA038598:1793737188",
+  "7G2CEHED7RA038598:1793726559",
+  "7G2CEHED7RA038598:1793724492",
+  "7G2CEHED7RA038598:1793717586",
+  "7G2CEHED7RA038598:1793709081",
+  "7G2CEHED7RA038598:1793656867",
+  "7G2CEHED7RA038598:1793625376-2",
+  "7G2CEHED7RA038598:1793625376"
  ],
  "history": {
   "days": {
@@ -12612,11 +12690,34 @@
    },
    "2026-11-01": {
     "2026-11-01T10:15": 24.5
+   },
+   "2026-11-02": {
+    "2026-11-02T11:46": 2.73
+   },
+   "2026-11-03": {
+    "2026-11-03T11:35": 3.52,
+    "2026-11-03T13:14": 4.1
+   },
+   "2026-11-04": {
+    "2026-11-04T11:15": 7.74
+   },
+   "2026-11-07": {
+    "2026-11-07T11:50": 2.73,
+    "2026-11-07T20:30": 2.73
+   },
+   "2026-11-08": {
+    "2026-11-08T05:05": 63.5
    }
   }
  },
  "supercharging": {
   "sessions": {
+   "798650046": {
+    "currency": "USD",
+    "date": "2026-11-03",
+    "kwh": 35.05,
+    "site": "Grand Rapids, MI - Lake Michigan Drive Northwest"
+   },
    "h-2025-06-06T16:29": {
     "currency": "USD",
     "date": "2025-06-06",
@@ -14222,6 +14323,6 @@
   }
  },
  "tracking_since": "2025-06-03",
- "updated": "2026-11-02T04:43:32+00:00",
+ "updated": "2026-11-09T04:44:06+00:00",
  "vehicle": "TARS2"
 }
