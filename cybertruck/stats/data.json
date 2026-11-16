@@ -14,12 +14,12 @@
  },
  "csv_cutoff": "2026-10-30",
  "current": {
-  "as_of": "2026-11-09T04:42:36.528957+00:00",
-  "battery_percent": 67,
-  "charging_state": "Stopped",
-  "outside_temp_f": 46,
-  "plugged_in": true,
-  "range_miles": 213,
+  "as_of": "2026-11-16T04:42:31.128512+00:00",
+  "battery_percent": 54,
+  "charging_state": "Disconnected",
+  "outside_temp_f": 40,
+  "plugged_in": false,
+  "range_miles": 166,
   "software": "2026.38.5.12"
  },
  "days": {
@@ -6432,6 +6432,78 @@
    "temp_max_c": 8.5,
    "temp_min_c": 6,
    "temp_n": 3
+  },
+  "2026-11-09": {
+   "drives": 3,
+   "kwh": 16.93,
+   "longest": 21.62,
+   "measured_miles": 41.91,
+   "miles": 41.91,
+   "minutes": 69,
+   "temp_c_sum": 25.5,
+   "temp_max_c": 11.5,
+   "temp_min_c": 6,
+   "temp_n": 3
+  },
+  "2026-11-10": {
+   "drives": 2,
+   "kwh": 6.05,
+   "longest": 10.39,
+   "measured_miles": 14.46,
+   "miles": 14.46,
+   "minutes": 28,
+   "temp_c_sum": 12.5,
+   "temp_max_c": 6.5,
+   "temp_min_c": 6,
+   "temp_n": 2
+  },
+  "2026-11-11": {
+   "drives": 1,
+   "kwh": 0,
+   "longest": 0.4,
+   "measured_miles": 0,
+   "miles": 0.4,
+   "minutes": 6,
+   "temp_c_sum": 14,
+   "temp_max_c": 14,
+   "temp_min_c": 14,
+   "temp_n": 1
+  },
+  "2026-11-12": {
+   "drives": 1,
+   "kwh": 0,
+   "longest": 10.35,
+   "measured_miles": 0,
+   "miles": 10.35,
+   "minutes": 121,
+   "temp_c_sum": 6.5,
+   "temp_max_c": 6.5,
+   "temp_min_c": 6.5,
+   "temp_n": 1
+  },
+  "2026-11-13": {
+   "drives": 2,
+   "kwh": 8.46,
+   "longest": 10.68,
+   "measured_miles": 21.12,
+   "miles": 21.12,
+   "minutes": 39,
+   "temp_c_sum": 3.0,
+   "temp_max_c": 1.5,
+   "temp_min_c": 1.5,
+   "temp_n": 2
+  },
+  "2026-11-15": {
+   "drives": 5,
+   "kwh": 15.61,
+   "longest": 18.92,
+   "measured_miles": 42.66,
+   "miles": 42.66,
+   "minutes": 72,
+   "temp_c_sum": 40.5,
+   "temp_max_c": 9.5,
+   "temp_min_c": 6.5,
+   "temp_n": 5
   }
  },
  "drive_ids": [
@@ -6458,7 +6530,21 @@
   "7G2CEHED7RA038598:1793709081",
   "7G2CEHED7RA038598:1793656867",
   "7G2CEHED7RA038598:1793625376-2",
-  "7G2CEHED7RA038598:1793625376"
+  "7G2CEHED7RA038598:1793625376",
+  "7G2CEHED7RA038598:1794778203",
+  "7G2CEHED7RA038598:1794775825",
+  "7G2CEHED7RA038598:1794773590",
+  "7G2CEHED7RA038598:1794770715",
+  "7G2CEHED7RA038598:1794766959",
+  "7G2CEHED7RA038598:1794575450-2",
+  "7G2CEHED7RA038598:1794575450",
+  "aws-7G2CEHED7RA038598-1794516699",
+  "7G2CEHED7RA038598:1794412675",
+  "7G2CEHED7RA038598:1794313499",
+  "7G2CEHED7RA038598:1794311875",
+  "7G2CEHED7RA038598:1794261353",
+  "7G2CEHED7RA038598:1794230497-2",
+  "7G2CEHED7RA038598:1794230497"
  ],
  "history": {
   "days": {
@@ -12707,6 +12793,22 @@
    },
    "2026-11-08": {
     "2026-11-08T05:05": 63.5
+   },
+   "2026-11-09": {
+    "2026-11-09T11:46": 2.73
+   },
+   "2026-11-10": {
+    "2026-11-10T07:45": 35,
+    "2026-11-10T13:00": 2.46
+   },
+   "2026-11-13": {
+    "2026-11-13T11:24": 3.5
+   },
+   "2026-11-14": {
+    "2026-11-14T11:28": 2.73
+   },
+   "2026-11-15": {
+    "2026-11-15T10:50": 12.5
    }
   }
  },
@@ -14323,6 +14425,6 @@
   }
  },
  "tracking_since": "2025-06-03",
- "updated": "2026-11-09T04:44:06+00:00",
+ "updated": "2026-11-16T04:44:10+00:00",
  "vehicle": "TARS2"
 }
