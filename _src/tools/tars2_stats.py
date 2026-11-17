@@ -340,7 +340,7 @@ def svg_bars(series, title, unit="", height=220, highlight=None, narrow=False):
 
 
 def svg_line(series, title, unit="", height=220, narrow=False):
-    """Single 2px line with 8px markers; series = [(label, value, tooltip)]; None = gap."""
+    """Single 2px smoothed line with 8px markers; series = [(label, value, tooltip)]; None = no point (line connects across it)."""
     n = len(series)
     if n < 2:
         return ""
@@ -354,12 +354,28 @@ def svg_line(series, title, unit="", height=220, narrow=False):
     def X(i): return pad_l + i * (W - pad_l - (20 if narrow else 28)) / (n - 1)
     def Y(v): return H - pad_b - (H - pad_b - pad_t) * (v - lo) / (hi - lo)
     out = [f'<svg class="chart {"narrow" if narrow else "wide"}" viewBox="0 0 {W} {H}" role="img" aria-label="{esc(title)}"><title>{esc(title)}</title>']
-    path, pen = [], False
-    for i, (_, v, _) in enumerate(series):
-        if v is None:
-            pen = False; continue
-        path.append(f'{"L" if pen else "M"}{X(i):.1f},{Y(v):.1f}'); pen = True
-    out.append(f'<path d="{" ".join(path)}" fill="none" stroke="var(--primary)" stroke-width="2" stroke-linejoin="round"/>')
+    # Smooth, connected line: days with no value are skipped (the line runs straight through),
+    # drawn as a monotone cubic so the curve never overshoots a real data point.
+    pts = [(X(i), Y(v)) for i, (_, v, _) in enumerate(series) if v is not None]
+    path = [f"M{pts[0][0]:.1f},{pts[0][1]:.1f}"]
+    if len(pts) > 1:
+        k = len(pts)
+        d = [(pts[j + 1][1] - pts[j][1]) / (pts[j + 1][0] - pts[j][0]) for j in range(k - 1)]
+        m = [d[0]] + [0.0 if d[j - 1] * d[j] <= 0 else (d[j - 1] + d[j]) / 2 for j in range(1, k - 1)] + [d[-1]]
+        for j in range(k - 1):
+            if d[j] == 0:
+                m[j] = m[j + 1] = 0.0
+            else:
+                a, b = m[j] / d[j], m[j + 1] / d[j]
+                t = a * a + b * b
+                if t > 9:
+                    t = 3 / t ** 0.5
+                    m[j], m[j + 1] = t * a * d[j], t * b * d[j]
+        for j in range(k - 1):
+            (x0, y0), (x1, y1) = pts[j], pts[j + 1]
+            h = (x1 - x0) / 3
+            path.append(f"C{x0 + h:.1f},{y0 + m[j] * h:.1f} {x1 - h:.1f},{y1 - m[j + 1] * h:.1f} {x1:.1f},{y1:.1f}")
+    out.append(f'<path d="{" ".join(path)}" fill="none" stroke="var(--primary)" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>')
     for i, (lab, v, tip) in enumerate(series):
         if v is not None:
             out.append(f'<circle cx="{X(i):.1f}" cy="{Y(v):.1f}" r="5" fill="var(--primary)" stroke="var(--surface)" stroke-width="2"><title>{esc(tip)}</title></circle>')
