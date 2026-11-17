@@ -591,3 +591,13 @@ a.cap:hover,a.cap:focus-visible{box-shadow:var(--lift)}
 .miles .seg.t2,.miles .mlegend li.t2::before{background:var(--primary);border-color:var(--primary)}
 .miles .seg.t3,.miles .mlegend li.t3::before{background:color-mix(in srgb,var(--primary) 55%,var(--ground));border-color:color-mix(in srgb,var(--primary) 55%,var(--ground))}
 .miles .seg.t4,.miles .mlegend li.t4::before{background:color-mix(in srgb,var(--muted) 45%,var(--ground));border-color:color-mix(in srgb,var(--muted) 45%,var(--ground))}
+/* Live stats emphasis (Nov 2026) */
+.live-dot{display:inline-block;width:8px;height:8px;border-radius:50%;background:#2fb36a;box-shadow:0 0 0 0 rgba(47,179,106,.55);animation:livepulse 2s ease-out infinite;flex:none}
+@keyframes livepulse{0%{box-shadow:0 0 0 0 rgba(47,179,106,.55)}70%{box-shadow:0 0 0 7px rgba(47,179,106,0)}100%{box-shadow:0 0 0 0 rgba(47,179,106,0)}}
+@media (prefers-reduced-motion:reduce){.live-dot{animation:none}}
+.pnav a.pnav-live{display:inline-flex;align-items:center;gap:7px;padding:5px 12px;border:1px solid var(--amber);border-radius:999px;color:var(--ink);font-weight:600}
+.pnav a.pnav-live:hover{background:color-mix(in srgb,var(--amber) 14%,transparent)}
+.pnav a.pnav-live[aria-current]{background:var(--amber);color:#1b2421;border-color:var(--amber)}
+.mini-cta{display:flex;flex-wrap:wrap;align-items:center;gap:10px 18px;margin:20px 0 0}
+.mini-cta span:not(.live-dot){color:var(--muted);font-size:15px}
+.btn-live .live-dot{background:#5fe39a}

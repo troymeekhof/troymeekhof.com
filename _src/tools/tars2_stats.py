@@ -608,7 +608,7 @@ def render(args):
     mini.append(stat(fmt_n(this_week["miles"]), f'Miles this week at {fmt_n(this_week["wh_per_mile"])} Wh/mi'))
     mini.append('</div>')
     mini.append(MAP)
-    mini.append(f'<p class="mnote">Updated {asof.strftime("%b %-d, %Y")} straight from the truck through <a href="https://www.autonimator.com" rel="noopener">Autonimator</a>. <a href="/cybertruck/stats/">Weekly numbers, charts, and the Supercharger log →</a></p>')
+    mini.append(f'<p class="mnote">Updated {asof.strftime("%b %-d, %Y")} straight from the truck through <a href="https://www.autonimator.com" rel="noopener">Autonimator</a>.</p><p class="mini-cta"><a class="btn btn-live" href="/cybertruck/stats/"><span class="live-dot" aria-hidden="true"></span>Open the full dashboard</a><span>Weekly numbers, charts, FSD miles, and the Supercharger log</span></p>')
     mini.append('</section>')
     mini_html = "\n".join(mini)
     for rel in MINI_PAGES:
